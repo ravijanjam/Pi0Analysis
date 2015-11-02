@@ -1,0 +1,31 @@
+140624_160320: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -create
+140624_160422: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -submit
+140624_160507: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140624_163916: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140624_163943: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -get
+140624_164101: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140624_164115: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -resubmit 8021
+140624_164124: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -resubmit 199
+140624_164133: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140624_164144: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -get
+140624_164153: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140624_170220: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140624_170313: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140624_170326: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -get
+140624_170351: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140624_170400: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -get
+140624_170902: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140624_170912: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -get
+140624_182910: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140624_182937: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -get
+140624_182946: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140625_001616: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -create
+140625_001714: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -submit
+140625_060140: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140625_060247: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -get
+140625_060841: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140625_060906: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -resubmit 21-22
+140625_065906: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140625_070418: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -resubmit 55,95,249
+140625_071308: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140625_075920: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status

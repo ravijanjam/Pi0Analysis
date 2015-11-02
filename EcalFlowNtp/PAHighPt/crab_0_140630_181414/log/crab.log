@@ -1,0 +1,1148 @@
+2014-06-30 18:14:15,048 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_6/python/crab.py -create -cfg crab.cfg
+
+2014-06-30 18:14:15,049 [INFO] 	Version 2.10.6_pre4 running on Mon Jun 30 18:14:15 2014 CST (23:14:15 UTC)
+
+crab. Working options:
+	scheduler           pbsv2
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140630_181414/
+
+2014-06-30 18:14:15,050 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/janjamrk/.cms_crab/allowed_releases.conf].
+2014-06-30 18:14:15,050 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/janjamrk/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/janjamrk/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x16770d40>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x16770f80>}, 'logger': <logging.Logger instance at 0x16770d40>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/janjamrk/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-06-30 18:14:15,166 [DEBUG] 	/home/janjamrk/.cms_crab/0_GET_allowed_releases.conf expired, refreshing cache
+2014-06-30 18:14:15,167 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/allowed_releases.conf
+	data: {}
+2014-06-30 18:14:16,100 [INFO] 	error detecting glite version 
+2014-06-30 18:14:16,104 [INFO] 	error detecting glite version 
+2014-06-30 18:14:16,160 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x16770d40>, 'conn': <httplib.HTTPSConnection instance at 0x167da1b8>}, 'logger': <logging.Logger instance at 0x16770d40>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/janjamrk/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-06-30 18:14:16,160 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x16770d40>, 'conn': <httplib.HTTPSConnection instance at 0x167da248>}, 'logger': <logging.Logger instance at 0x16770d40>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/janjamrk/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-06-30 18:14:16,160 [DEBUG] 	Input whitelist: T2_US_Vanderbilt
+2014-06-30 18:14:16,160 [DEBUG] 	Input blacklist: 
+2014-06-30 18:14:16,212 [DEBUG] 	/home/janjamrk/.cms_sitedbcache/0_GET_site-names.json expired, refreshing cache
+2014-06-30 18:14:16,212 [DEBUG] 	getData: 
+	url: /sitedb/data/prod/site-names
+	data: {}
+2014-06-30 18:14:19,560 [INFO] 	Problem connecting to SiteDB. White/blacklist may be incomplete.
+2014-06-30 18:14:19,561 [INFO] 	List is ['T2_US_Vanderbilt']
+2014-06-30 18:14:19,561 [DEBUG] 	Converted whitelist: T2_US_Vanderbilt
+2014-06-30 18:14:19,561 [DEBUG] 	Converted blacklist: 
+2014-06-30 18:14:19,562 [INFO] 	Your se_white_list is set to T2_US_Vanderbilt: only local dataset will be considered
+2014-06-30 18:14:19,562 [INFO] 	 The default queue of local PBS configuration will be used
+2014-06-30 18:14:19,562 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/janjamrk/.cms_crab/myproxy_server.conf].
+2014-06-30 18:14:19,563 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/janjamrk/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/janjamrk/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x16770d40>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x167da518>}, 'logger': <logging.Logger instance at 0x16770d40>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/janjamrk/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-06-30 18:14:19,575 [DEBUG] 	/home/janjamrk/.cms_crab/0_GET_myproxy_server.conf expired, refreshing cache
+2014-06-30 18:14:19,576 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/myproxy_server.conf
+	data: {}
+2014-06-30 18:14:19,895 [INFO] 	Using a proxy
+2014-06-30 18:14:25,701 [DEBUG] 	Linux vmps08.vampire 2.6.18-194.32.1.el5 #1 SMP Wed Jan 5 17:52:25 EST 2011 x86_64 x86_64 x86_64 GNU/Linux
+ 
+Used properties:
+Linux vmps08.vampire 2.6.18-194.32.1.el5 #1 SMP Wed Jan 5 17:52:25 EST 2011 x86_64 x86_64 x86_64 GNU/Linux
+ 
+Used properties:
+   CMSSW.datasetpath : /PAHighPt/HIRun2013-PromptReco-v1/RECO
+   CMSSW.lumi_mask : Cert_pPb_Pbpcombined_HI_PromptReco_Collisions13_JSON.txt
+   CMSSW.lumis_per_job : 25
+   CMSSW.output_file : pPb_14June2014_PAHighPt_True095_175.root
+   CMSSW.pset : ecalflowntpPAHightPt_True.py
+   CMSSW.total_number_of_lumis : -1
+   CRAB.cfg : crab.cfg
+   CRAB.create : 
+   CRAB.jobtype : cmssw
+   CRAB.scheduler : pbsv2
+   CRAB.use_server : 0
+   GRID.se_white_list : T2_US_Vanderbilt
+   PBSV2.grouplist : cms_stage3
+   PBSV2.hostname : vmps09.vampire
+   PBSV2.resources : walltime=18:00:00,pmem=2800mb,mem=2800mb
+   PBSV2.workernodebase : /tmp
+   USER.check_user_remote_dir : 0
+   USER.copy_data : 1
+   USER.email : charles.f.maguire@vanderbilt.edu
+   USER.publish_data : 0
+   USER.return_data : 0
+   USER.storage_element : T2_US_Vanderbilt
+   USER.user_remote_dir : hiRun2013pPb
+End of used properties.
+
+2014-06-30 18:14:25,905 [DEBUG] 	CMSSW::__init__
+2014-06-30 18:14:25,906 [DEBUG] 	Scram::Scram() version is 2
+2014-06-30 18:14:25,906 [DEBUG] 	Scram::Scram() arch is slc5_amd64_gcc462
+2014-06-30 18:14:25,906 [DEBUG] 	Downloading file [https://cmssdt.cern.ch/SDT/cgi-bin] to [/home/janjamrk/.cms_crab/ReleasesXML?anytype=1].
+2014-06-30 18:14:25,907 [DEBUG] 	Service initialised ({'endpoint': 'https://cmssdt.cern.ch/SDT/cgi-bin', 'maxcachereuse': 24.0, 'cachepath': '/home/janjamrk/.cms_crab', 'basepath': '/SDT/cgi-bin/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'https://cmssdt.cern.ch/SDT/cgi-bin', 'timeout': 20, 'cachepath': '/home/janjamrk/.cms_crab', 'cacheduration': 0.5, 'host': 'cmssdt.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x16770d40>, 'type': 'txt/csv', 'conn': <httplib.HTTPSConnection instance at 0x167ffc68>}, 'logger': <logging.Logger instance at 0x16770d40>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmssdt.cern.ch, basepath: /SDT/cgi-bin/ (text/html)
+	 cache: /home/janjamrk/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-06-30 18:14:25,908 [DEBUG] 	/home/janjamrk/.cms_crab/0_GET_ReleasesXML?anytype=1 expired, refreshing cache
+2014-06-30 18:14:25,908 [DEBUG] 	getData: 
+	url: /SDT/cgi-bin/ReleasesXML?anytype=1
+	data: {}
+2014-06-30 18:14:26,889 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x16770d40>, 'conn': <httplib.HTTPSConnection instance at 0x168c6710>}, 'logger': <logging.Logger instance at 0x16770d40>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/janjamrk/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-06-30 18:14:26,890 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x16770d40>, 'conn': <httplib.HTTPSConnection instance at 0x168c6290>}, 'logger': <logging.Logger instance at 0x16770d40>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/janjamrk/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-06-30 18:14:26,890 [DEBUG] 	Input whitelist: 
+2014-06-30 18:14:26,890 [DEBUG] 	Input blacklist: 
+2014-06-30 18:14:26,890 [DEBUG] 	Converted whitelist: 
+2014-06-30 18:14:26,890 [DEBUG] 	Converted blacklist: 
+2014-06-30 18:14:26,967 [INFO] 	Contacting Data Discovery Services ...
+2014-06-30 18:14:26,968 [INFO] 	Accessing DBS at: https://cmsweb.cern.ch/dbs/prod/global/DBSReader
+2014-06-30 18:14:26,968 [INFO] 	Will do Data Discovery using  DBS3
+2014-06-30 18:15:33,427 [INFO] 	DBS3 lookup took 66.25 sec
+2014-06-30 18:15:33,615 [INFO] 	Datatype is data
+2014-06-30 18:15:33,991 [DEBUG] 	DLS interface: DLS_TYPE_PHEDEX Server https://cmsweb.cern.ch/phedex/datasvc/xml/prod/
+2014-06-30 18:15:36,617 [INFO] 	Requested (A)DS /PAHighPt/HIRun2013-PromptReco-v1/RECO has 43 block(s).
+2014-06-30 18:15:36,617 [DEBUG] 	Job splitting method: LumiBased
+2014-06-30 18:15:36,617 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x16770d40>, 'conn': <httplib.HTTPSConnection instance at 0x1977f5f0>}, 'logger': <logging.Logger instance at 0x16770d40>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/janjamrk/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-06-30 18:15:36,618 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x16770d40>, 'conn': <httplib.HTTPSConnection instance at 0x198a4ab8>}, 'logger': <logging.Logger instance at 0x16770d40>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/janjamrk/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-06-30 18:15:36,618 [DEBUG] 	Input whitelist: T2_US_Vanderbilt
+2014-06-30 18:15:36,618 [DEBUG] 	Input blacklist: 
+2014-06-30 18:15:36,618 [DEBUG] 	/home/janjamrk/.cms_sitedbcache/0_GET_site-names.json expired, refreshing cache
+2014-06-30 18:15:36,618 [DEBUG] 	getData: 
+	url: /sitedb/data/prod/site-names
+	data: {}
+2014-06-30 18:15:37,989 [DEBUG] 	/home/janjamrk/.cms_sitedbcache/0_GET_site-resources.json expired, refreshing cache
+2014-06-30 18:15:37,989 [DEBUG] 	getData: 
+	url: /sitedb/data/prod/site-resources
+	data: {}
+2014-06-30 18:15:39,222 [DEBUG] 	Converted whitelist: se3.accre.vanderbilt.edu, se1.accre.vanderbilt.edu
+2014-06-30 18:15:39,223 [DEBUG] 	Converted blacklist: 
+2014-06-30 18:15:39,223 [INFO] 	SE white list applied to data location: ['T2_US_Vanderbilt']
+2014-06-30 18:15:39,223 [DEBUG] 	List of blocks and used locations (SE):
+2014-06-30 18:15:39,225 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#49649428-689e-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,225 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#3b0be4a0-69c8-11e2-9b6e-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,225 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#c478220c-70c7-11e2-9eda-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,225 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#daa31de0-6eef-11e2-9eda-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,225 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#35d44ab0-63b3-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,226 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#2f164490-6b19-11e2-9b6e-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,226 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#d74764e2-662c-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,226 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#11a757d2-6056-11e2-93f3-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,226 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#16536984-7482-11e2-8d3d-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,227 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#68903430-6c7a-11e2-9eda-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,227 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#5e612b3c-6909-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,227 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#16542bc6-7482-11e2-8d3d-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,227 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#456f1356-6be2-11e2-9eda-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,227 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#5683c492-6a35-11e2-9b6e-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,228 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#5c66c370-6b96-11e2-9b6e-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,228 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#bed1f794-6b07-11e2-9b6e-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,228 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#99ea9598-66d5-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,228 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#7c8db8fe-6563-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,229 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#41c02930-6961-11e2-9b6e-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,229 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#3f583ff4-73aa-11e2-8d3d-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,229 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#d9afe852-6763-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,229 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#4b85a5e6-74d1-11e2-8d3d-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,229 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#36eb2a1e-6786-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,230 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#b705abfa-7025-11e2-9eda-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,230 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#9bf6e630-7502-11e2-8d3d-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,230 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#1653cb68-7482-11e2-8d3d-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,230 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#d282fd5c-5f08-11e2-93f3-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,231 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#57f2a74a-6499-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,231 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#98794ff6-647d-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,231 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#d455425e-6203-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,231 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#c92f0b14-67dd-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,232 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#7c62ae5e-733f-11e2-8d3d-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,232 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#d495a8ca-6e11-11e2-9eda-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,232 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#69ae32f4-613a-11e2-8837-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,232 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#6c77c256-6d48-11e2-9eda-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,232 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#391f1bda-6fb8-11e2-9eda-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,233 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#b2addc72-729a-11e2-9eda-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,233 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#94e494ca-74b5-11e2-8d3d-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,233 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#cf163d64-706f-11e2-9eda-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,233 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#d5fd943a-71f8-11e2-9eda-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,234 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#b85f1dd4-7128-11e2-9eda-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,234 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#7fc81b20-6a5b-11e2-9b6e-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,234 [DEBUG] 	/PAHighPt/HIRun2013-PromptReco-v1/RECO#0594815e-62e0-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-06-30 18:15:39,234 [DEBUG] 	Splitting by Lumi
+2014-06-30 18:15:41,051 [DEBUG] 	Job 1 will run on 11 files and 26 lumis 
+2014-06-30 18:15:41,051 [DEBUG] 	Job 2 will run on 12 files and 26 lumis 
+2014-06-30 18:15:41,051 [DEBUG] 	Job 3 will run on 9 files and 26 lumis 
+2014-06-30 18:15:41,051 [DEBUG] 	Job 4 will run on 9 files and 27 lumis 
+2014-06-30 18:15:41,052 [DEBUG] 	Job 5 will run on 9 files and 27 lumis 
+2014-06-30 18:15:41,052 [DEBUG] 	Job 6 will run on 10 files and 25 lumis 
+2014-06-30 18:15:41,052 [DEBUG] 	Job 7 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,052 [DEBUG] 	Job 8 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,052 [DEBUG] 	Job 9 will run on 12 files and 26 lumis 
+2014-06-30 18:15:41,053 [DEBUG] 	Job 10 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,053 [DEBUG] 	Job 11 will run on 11 files and 28 lumis 
+2014-06-30 18:15:41,053 [DEBUG] 	Job 12 will run on 7 files and 28 lumis 
+2014-06-30 18:15:41,053 [DEBUG] 	Job 13 will run on 7 files and 28 lumis 
+2014-06-30 18:15:41,053 [DEBUG] 	Job 14 will run on 7 files and 28 lumis 
+2014-06-30 18:15:41,054 [DEBUG] 	Job 15 will run on 7 files and 28 lumis 
+2014-06-30 18:15:41,054 [DEBUG] 	Job 16 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,054 [DEBUG] 	Job 17 will run on 11 files and 26 lumis 
+2014-06-30 18:15:41,054 [DEBUG] 	Job 18 will run on 7 files and 28 lumis 
+2014-06-30 18:15:41,055 [DEBUG] 	Job 19 will run on 12 files and 26 lumis 
+2014-06-30 18:15:41,055 [DEBUG] 	Job 20 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,055 [DEBUG] 	Job 21 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,055 [DEBUG] 	Job 22 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,055 [DEBUG] 	Job 23 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,056 [DEBUG] 	Job 24 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,056 [DEBUG] 	Job 25 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,056 [DEBUG] 	Job 26 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,056 [DEBUG] 	Job 27 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,057 [DEBUG] 	Job 28 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,057 [DEBUG] 	Job 29 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,057 [DEBUG] 	Job 30 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,057 [DEBUG] 	Job 31 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,057 [DEBUG] 	Job 32 will run on 12 files and 26 lumis 
+2014-06-30 18:15:41,058 [DEBUG] 	Job 33 will run on 12 files and 26 lumis 
+2014-06-30 18:15:41,058 [DEBUG] 	Job 34 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,058 [DEBUG] 	Job 35 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,058 [DEBUG] 	Job 36 will run on 10 files and 26 lumis 
+2014-06-30 18:15:41,058 [DEBUG] 	Job 37 will run on 7 files and 28 lumis 
+2014-06-30 18:15:41,059 [DEBUG] 	Job 38 will run on 7 files and 28 lumis 
+2014-06-30 18:15:41,059 [DEBUG] 	Job 39 will run on 11 files and 26 lumis 
+2014-06-30 18:15:41,059 [DEBUG] 	Job 40 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,059 [DEBUG] 	Job 41 will run on 12 files and 25 lumis 
+2014-06-30 18:15:41,060 [DEBUG] 	Job 42 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,060 [DEBUG] 	Job 43 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,060 [DEBUG] 	Job 44 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,060 [DEBUG] 	Job 45 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,060 [DEBUG] 	Job 46 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,061 [DEBUG] 	Job 47 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,061 [DEBUG] 	Job 48 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,061 [DEBUG] 	Job 49 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,061 [DEBUG] 	Job 50 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,062 [DEBUG] 	Job 51 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,062 [DEBUG] 	Job 52 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,062 [DEBUG] 	Job 53 will run on 10 files and 25 lumis 
+2014-06-30 18:15:41,062 [DEBUG] 	Job 54 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,062 [DEBUG] 	Job 55 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,063 [DEBUG] 	Job 56 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,063 [DEBUG] 	Job 57 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,063 [DEBUG] 	Job 58 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,063 [DEBUG] 	Job 59 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,064 [DEBUG] 	Job 60 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,064 [DEBUG] 	Job 61 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,064 [DEBUG] 	Job 62 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,064 [DEBUG] 	Job 63 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,064 [DEBUG] 	Job 64 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,065 [DEBUG] 	Job 65 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,065 [DEBUG] 	Job 66 will run on 11 files and 26 lumis 
+2014-06-30 18:15:41,065 [DEBUG] 	Job 67 will run on 9 files and 27 lumis 
+2014-06-30 18:15:41,065 [DEBUG] 	Job 68 will run on 9 files and 27 lumis 
+2014-06-30 18:15:41,065 [DEBUG] 	Job 69 will run on 9 files and 27 lumis 
+2014-06-30 18:15:41,066 [DEBUG] 	Job 70 will run on 9 files and 27 lumis 
+2014-06-30 18:15:41,066 [DEBUG] 	Job 71 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,066 [DEBUG] 	Job 72 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,066 [DEBUG] 	Job 73 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,067 [DEBUG] 	Job 74 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,067 [DEBUG] 	Job 75 will run on 10 files and 28 lumis 
+2014-06-30 18:15:41,067 [DEBUG] 	Job 76 will run on 7 files and 28 lumis 
+2014-06-30 18:15:41,067 [DEBUG] 	Job 77 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,067 [DEBUG] 	Job 78 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,068 [DEBUG] 	Job 79 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,068 [DEBUG] 	Job 80 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,068 [DEBUG] 	Job 81 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,068 [DEBUG] 	Job 82 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,069 [DEBUG] 	Job 83 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,069 [DEBUG] 	Job 84 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,069 [DEBUG] 	Job 85 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,069 [DEBUG] 	Job 86 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,069 [DEBUG] 	Job 87 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,070 [DEBUG] 	Job 88 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,070 [DEBUG] 	Job 89 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,070 [DEBUG] 	Job 90 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,070 [DEBUG] 	Job 91 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,071 [DEBUG] 	Job 92 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,071 [DEBUG] 	Job 93 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,071 [DEBUG] 	Job 94 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,071 [DEBUG] 	Job 95 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,071 [DEBUG] 	Job 96 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,072 [DEBUG] 	Job 97 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,072 [DEBUG] 	Job 98 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,072 [DEBUG] 	Job 99 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,072 [DEBUG] 	Job 100 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,073 [DEBUG] 	Job 101 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,073 [DEBUG] 	Job 102 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,073 [DEBUG] 	Job 103 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,073 [DEBUG] 	Job 104 will run on 11 files and 26 lumis 
+2014-06-30 18:15:41,073 [DEBUG] 	Job 105 will run on 11 files and 26 lumis 
+2014-06-30 18:15:41,074 [DEBUG] 	Job 106 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,074 [DEBUG] 	Job 107 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,074 [DEBUG] 	Job 108 will run on 10 files and 26 lumis 
+2014-06-30 18:15:41,074 [DEBUG] 	Job 109 will run on 7 files and 26 lumis 
+2014-06-30 18:15:41,075 [DEBUG] 	Job 110 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,075 [DEBUG] 	Job 111 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,075 [DEBUG] 	Job 112 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,075 [DEBUG] 	Job 113 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,075 [DEBUG] 	Job 114 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,076 [DEBUG] 	Job 115 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,076 [DEBUG] 	Job 116 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,076 [DEBUG] 	Job 117 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,076 [DEBUG] 	Job 118 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,077 [DEBUG] 	Job 119 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,077 [DEBUG] 	Job 120 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,077 [DEBUG] 	Job 121 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,077 [DEBUG] 	Job 122 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,077 [DEBUG] 	Job 123 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,078 [DEBUG] 	Job 124 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,078 [DEBUG] 	Job 125 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,078 [DEBUG] 	Job 126 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,078 [DEBUG] 	Job 127 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,079 [DEBUG] 	Job 128 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,079 [DEBUG] 	Job 129 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,079 [DEBUG] 	Job 130 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,079 [DEBUG] 	Job 131 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,079 [DEBUG] 	Job 132 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,080 [DEBUG] 	Job 133 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,080 [DEBUG] 	Job 134 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,080 [DEBUG] 	Job 135 will run on 13 files and 29 lumis 
+2014-06-30 18:15:41,080 [DEBUG] 	Job 136 will run on 12 files and 25 lumis 
+2014-06-30 18:15:41,081 [DEBUG] 	Job 137 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,081 [DEBUG] 	Job 138 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,081 [DEBUG] 	Job 139 will run on 9 files and 28 lumis 
+2014-06-30 18:15:41,081 [DEBUG] 	Job 140 will run on 7 files and 28 lumis 
+2014-06-30 18:15:41,081 [DEBUG] 	Job 141 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,082 [DEBUG] 	Job 142 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,082 [DEBUG] 	Job 143 will run on 12 files and 26 lumis 
+2014-06-30 18:15:41,082 [DEBUG] 	Job 144 will run on 9 files and 25 lumis 
+2014-06-30 18:15:41,082 [DEBUG] 	Job 145 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,082 [DEBUG] 	Job 146 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,083 [DEBUG] 	Job 147 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,083 [DEBUG] 	Job 148 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,083 [DEBUG] 	Job 149 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,083 [DEBUG] 	Job 150 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,084 [DEBUG] 	Job 151 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,084 [DEBUG] 	Job 152 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,084 [DEBUG] 	Job 153 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,084 [DEBUG] 	Job 154 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,084 [DEBUG] 	Job 155 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,085 [DEBUG] 	Job 156 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,085 [DEBUG] 	Job 157 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,085 [DEBUG] 	Job 158 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,085 [DEBUG] 	Job 159 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,086 [DEBUG] 	Job 160 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,086 [DEBUG] 	Job 161 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,086 [DEBUG] 	Job 162 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,086 [DEBUG] 	Job 163 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,086 [DEBUG] 	Job 164 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,087 [DEBUG] 	Job 165 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,087 [DEBUG] 	Job 166 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,087 [DEBUG] 	Job 167 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,087 [DEBUG] 	Job 168 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,088 [DEBUG] 	Job 169 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,088 [DEBUG] 	Job 170 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,088 [DEBUG] 	Job 171 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,088 [DEBUG] 	Job 172 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,088 [DEBUG] 	Job 173 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,089 [DEBUG] 	Job 174 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,089 [DEBUG] 	Job 175 will run on 11 files and 26 lumis 
+2014-06-30 18:15:41,089 [DEBUG] 	Job 176 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,089 [DEBUG] 	Job 177 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,090 [DEBUG] 	Job 178 will run on 9 files and 26 lumis 
+2014-06-30 18:15:41,090 [DEBUG] 	Job 179 will run on 7 files and 28 lumis 
+2014-06-30 18:15:41,090 [DEBUG] 	Job 180 will run on 7 files and 26 lumis 
+2014-06-30 18:15:41,090 [DEBUG] 	Job 181 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,090 [DEBUG] 	Job 182 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,091 [DEBUG] 	Job 183 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,091 [DEBUG] 	Job 184 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,091 [DEBUG] 	Job 185 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,091 [DEBUG] 	Job 186 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,092 [DEBUG] 	Job 187 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,092 [DEBUG] 	Job 188 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,092 [DEBUG] 	Job 189 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,092 [DEBUG] 	Job 190 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,092 [DEBUG] 	Job 191 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,093 [DEBUG] 	Job 192 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,093 [DEBUG] 	Job 193 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,093 [DEBUG] 	Job 194 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,093 [DEBUG] 	Job 195 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,094 [DEBUG] 	Job 196 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,094 [DEBUG] 	Job 197 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,094 [DEBUG] 	Job 198 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,094 [DEBUG] 	Job 199 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,094 [DEBUG] 	Job 200 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,095 [DEBUG] 	Job 201 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,095 [DEBUG] 	Job 202 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,095 [DEBUG] 	Job 203 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,095 [DEBUG] 	Job 204 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,096 [DEBUG] 	Job 205 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,096 [DEBUG] 	Job 206 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,096 [DEBUG] 	Job 207 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,096 [DEBUG] 	Job 208 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,096 [DEBUG] 	Job 209 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,097 [DEBUG] 	Job 210 will run on 8 files and 27 lumis 
+2014-06-30 18:15:41,097 [DEBUG] 	Job 211 will run on 12 files and 26 lumis 
+2014-06-30 18:15:41,097 [DEBUG] 	Job 212 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,097 [DEBUG] 	Job 213 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,098 [DEBUG] 	Job 214 will run on 11 files and 26 lumis 
+2014-06-30 18:15:41,098 [DEBUG] 	Job 215 will run on 7 files and 28 lumis 
+2014-06-30 18:15:41,098 [DEBUG] 	Job 216 will run on 7 files and 28 lumis 
+2014-06-30 18:15:41,098 [DEBUG] 	Job 217 will run on 9 files and 26 lumis 
+2014-06-30 18:15:41,098 [DEBUG] 	Job 218 will run on 12 files and 29 lumis 
+2014-06-30 18:15:41,099 [DEBUG] 	Job 219 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,099 [DEBUG] 	Job 220 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,099 [DEBUG] 	Job 221 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,099 [DEBUG] 	Job 222 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,100 [DEBUG] 	Job 223 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,100 [DEBUG] 	Job 224 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,100 [DEBUG] 	Job 225 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,100 [DEBUG] 	Job 226 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,100 [DEBUG] 	Job 227 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,101 [DEBUG] 	Job 228 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,101 [DEBUG] 	Job 229 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,101 [DEBUG] 	Job 230 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,101 [DEBUG] 	Job 231 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,102 [DEBUG] 	Job 232 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,102 [DEBUG] 	Job 233 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,102 [DEBUG] 	Job 234 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,102 [DEBUG] 	Job 235 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,102 [DEBUG] 	Job 236 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,103 [DEBUG] 	Job 237 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,103 [DEBUG] 	Job 238 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,103 [DEBUG] 	Job 239 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,103 [DEBUG] 	Job 240 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,104 [DEBUG] 	Job 241 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,104 [DEBUG] 	Job 242 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,104 [DEBUG] 	Job 243 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,104 [DEBUG] 	Job 244 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,104 [DEBUG] 	Job 245 will run on 9 files and 26 lumis 
+2014-06-30 18:15:41,105 [DEBUG] 	Job 246 will run on 9 files and 27 lumis 
+2014-06-30 18:15:41,105 [DEBUG] 	Job 247 will run on 9 files and 27 lumis 
+2014-06-30 18:15:41,105 [DEBUG] 	Job 248 will run on 9 files and 27 lumis 
+2014-06-30 18:15:41,105 [DEBUG] 	Job 249 will run on 9 files and 27 lumis 
+2014-06-30 18:15:41,106 [DEBUG] 	Job 250 will run on 9 files and 26 lumis 
+2014-06-30 18:15:41,106 [DEBUG] 	Job 251 will run on 12 files and 25 lumis 
+2014-06-30 18:15:41,106 [DEBUG] 	Job 252 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,106 [DEBUG] 	Job 253 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,106 [DEBUG] 	Job 254 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,107 [DEBUG] 	Job 255 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,107 [DEBUG] 	Job 256 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,107 [DEBUG] 	Job 257 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,107 [DEBUG] 	Job 258 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,108 [DEBUG] 	Job 259 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,108 [DEBUG] 	Job 260 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,108 [DEBUG] 	Job 261 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,108 [DEBUG] 	Job 262 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,108 [DEBUG] 	Job 263 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,109 [DEBUG] 	Job 264 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,109 [DEBUG] 	Job 265 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,109 [DEBUG] 	Job 266 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,109 [DEBUG] 	Job 267 will run on 13 files and 25 lumis 
+2014-06-30 18:15:41,110 [DEBUG] 	Job 268 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,110 [DEBUG] 	Job 269 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,110 [DEBUG] 	Job 270 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,110 [DEBUG] 	Job 271 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,110 [DEBUG] 	Job 272 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,111 [DEBUG] 	Job 273 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,111 [DEBUG] 	Job 274 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,111 [DEBUG] 	Job 275 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,111 [DEBUG] 	Job 276 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,112 [DEBUG] 	Job 277 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,112 [DEBUG] 	Job 278 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,112 [DEBUG] 	Job 279 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,112 [DEBUG] 	Job 280 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,112 [DEBUG] 	Job 281 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,113 [DEBUG] 	Job 282 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,113 [DEBUG] 	Job 283 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,113 [DEBUG] 	Job 284 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,113 [DEBUG] 	Job 285 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,114 [DEBUG] 	Job 286 will run on 12 files and 26 lumis 
+2014-06-30 18:15:41,114 [DEBUG] 	Job 287 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,114 [DEBUG] 	Job 288 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,114 [DEBUG] 	Job 289 will run on 16 files and 25 lumis 
+2014-06-30 18:15:41,115 [DEBUG] 	Job 290 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,115 [DEBUG] 	Job 291 will run on 20 files and 25 lumis 
+2014-06-30 18:15:41,115 [DEBUG] 	Job 292 will run on 14 files and 25 lumis 
+2014-06-30 18:15:41,115 [DEBUG] 	Job 293 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,115 [DEBUG] 	Job 294 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,116 [DEBUG] 	Job 295 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,116 [DEBUG] 	Job 296 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,116 [DEBUG] 	Job 297 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,116 [DEBUG] 	Job 298 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,117 [DEBUG] 	Job 299 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,117 [DEBUG] 	Job 300 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,117 [DEBUG] 	Job 301 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,118 [DEBUG] 	Job 302 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,118 [DEBUG] 	Job 303 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,118 [DEBUG] 	Job 304 will run on 20 files and 26 lumis 
+2014-06-30 18:15:41,118 [DEBUG] 	Job 305 will run on 15 files and 26 lumis 
+2014-06-30 18:15:41,118 [DEBUG] 	Job 306 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,119 [DEBUG] 	Job 307 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,119 [DEBUG] 	Job 308 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,119 [DEBUG] 	Job 309 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,119 [DEBUG] 	Job 310 will run on 7 files and 26 lumis 
+2014-06-30 18:15:41,120 [DEBUG] 	Job 311 will run on 9 files and 26 lumis 
+2014-06-30 18:15:41,120 [DEBUG] 	Job 312 will run on 9 files and 27 lumis 
+2014-06-30 18:15:41,120 [DEBUG] 	Job 313 will run on 11 files and 25 lumis 
+2014-06-30 18:15:41,120 [DEBUG] 	Job 314 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,120 [DEBUG] 	Job 315 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,121 [DEBUG] 	Job 316 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,121 [DEBUG] 	Job 317 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,121 [DEBUG] 	Job 318 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,121 [DEBUG] 	Job 319 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,122 [DEBUG] 	Job 320 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,122 [DEBUG] 	Job 321 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,122 [DEBUG] 	Job 322 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,122 [DEBUG] 	Job 323 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,122 [DEBUG] 	Job 324 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,123 [DEBUG] 	Job 325 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,123 [DEBUG] 	Job 326 will run on 15 files and 25 lumis 
+2014-06-30 18:15:41,123 [DEBUG] 	Job 327 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,123 [DEBUG] 	Job 328 will run on 13 files and 25 lumis 
+2014-06-30 18:15:41,124 [DEBUG] 	Job 329 will run on 13 files and 25 lumis 
+2014-06-30 18:15:41,124 [DEBUG] 	Job 330 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,124 [DEBUG] 	Job 331 will run on 19 files and 25 lumis 
+2014-06-30 18:15:41,124 [DEBUG] 	Job 332 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,125 [DEBUG] 	Job 333 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,125 [DEBUG] 	Job 334 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,125 [DEBUG] 	Job 335 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,125 [DEBUG] 	Job 336 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,126 [DEBUG] 	Job 337 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,126 [DEBUG] 	Job 338 will run on 24 files and 26 lumis 
+2014-06-30 18:15:41,126 [DEBUG] 	Job 339 will run on 16 files and 25 lumis 
+2014-06-30 18:15:41,126 [DEBUG] 	Job 340 will run on 13 files and 25 lumis 
+2014-06-30 18:15:41,127 [DEBUG] 	Job 341 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,127 [DEBUG] 	Job 342 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,127 [DEBUG] 	Job 343 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,127 [DEBUG] 	Job 344 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,127 [DEBUG] 	Job 345 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,128 [DEBUG] 	Job 346 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,128 [DEBUG] 	Job 347 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,128 [DEBUG] 	Job 348 will run on 11 files and 26 lumis 
+2014-06-30 18:15:41,128 [DEBUG] 	Job 349 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,129 [DEBUG] 	Job 350 will run on 12 files and 25 lumis 
+2014-06-30 18:15:41,129 [DEBUG] 	Job 351 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,129 [DEBUG] 	Job 352 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,129 [DEBUG] 	Job 353 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,130 [DEBUG] 	Job 354 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,130 [DEBUG] 	Job 355 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,130 [DEBUG] 	Job 356 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,130 [DEBUG] 	Job 357 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,130 [DEBUG] 	Job 358 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,131 [DEBUG] 	Job 359 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,131 [DEBUG] 	Job 360 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,131 [DEBUG] 	Job 361 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,131 [DEBUG] 	Job 362 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,132 [DEBUG] 	Job 363 will run on 12 files and 25 lumis 
+2014-06-30 18:15:41,132 [DEBUG] 	Job 364 will run on 15 files and 25 lumis 
+2014-06-30 18:15:41,132 [DEBUG] 	Job 365 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,132 [DEBUG] 	Job 366 will run on 20 files and 25 lumis 
+2014-06-30 18:15:41,132 [DEBUG] 	Job 367 will run on 14 files and 25 lumis 
+2014-06-30 18:15:41,133 [DEBUG] 	Job 368 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,133 [DEBUG] 	Job 369 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,133 [DEBUG] 	Job 370 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,133 [DEBUG] 	Job 371 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,134 [DEBUG] 	Job 372 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,134 [DEBUG] 	Job 373 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,134 [DEBUG] 	Job 374 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,134 [DEBUG] 	Job 375 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,135 [DEBUG] 	Job 376 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,135 [DEBUG] 	Job 377 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,135 [DEBUG] 	Job 378 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,135 [DEBUG] 	Job 379 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,135 [DEBUG] 	Job 380 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,136 [DEBUG] 	Job 381 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,136 [DEBUG] 	Job 382 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,136 [DEBUG] 	Job 383 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,136 [DEBUG] 	Job 384 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,137 [DEBUG] 	Job 385 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,137 [DEBUG] 	Job 386 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,137 [DEBUG] 	Job 387 will run on 21 files and 25 lumis 
+2014-06-30 18:15:41,137 [DEBUG] 	Job 388 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,138 [DEBUG] 	Job 389 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,138 [DEBUG] 	Job 390 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,138 [DEBUG] 	Job 391 will run on 16 files and 25 lumis 
+2014-06-30 18:15:41,138 [DEBUG] 	Job 392 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,139 [DEBUG] 	Job 393 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,139 [DEBUG] 	Job 394 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,139 [DEBUG] 	Job 395 will run on 13 files and 27 lumis 
+2014-06-30 18:15:41,139 [DEBUG] 	Job 396 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,139 [DEBUG] 	Job 397 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,140 [DEBUG] 	Job 398 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,140 [DEBUG] 	Job 399 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,140 [DEBUG] 	Job 400 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,140 [DEBUG] 	Job 401 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,141 [DEBUG] 	Job 402 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,141 [DEBUG] 	Job 403 will run on 19 files and 25 lumis 
+2014-06-30 18:15:41,141 [DEBUG] 	Job 404 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,141 [DEBUG] 	Job 405 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,142 [DEBUG] 	Job 406 will run on 23 files and 25 lumis 
+2014-06-30 18:15:41,142 [DEBUG] 	Job 407 will run on 17 files and 25 lumis 
+2014-06-30 18:15:41,142 [DEBUG] 	Job 408 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,142 [DEBUG] 	Job 409 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,142 [DEBUG] 	Job 410 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,143 [DEBUG] 	Job 411 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,143 [DEBUG] 	Job 412 will run on 20 files and 25 lumis 
+2014-06-30 18:15:41,143 [DEBUG] 	Job 413 will run on 22 files and 26 lumis 
+2014-06-30 18:15:41,143 [DEBUG] 	Job 414 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,144 [DEBUG] 	Job 415 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,144 [DEBUG] 	Job 416 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,144 [DEBUG] 	Job 417 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,144 [DEBUG] 	Job 418 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,145 [DEBUG] 	Job 419 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,145 [DEBUG] 	Job 420 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,145 [DEBUG] 	Job 421 will run on 13 files and 25 lumis 
+2014-06-30 18:15:41,145 [DEBUG] 	Job 422 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,145 [DEBUG] 	Job 423 will run on 16 files and 26 lumis 
+2014-06-30 18:15:41,146 [DEBUG] 	Job 424 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,146 [DEBUG] 	Job 425 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,146 [DEBUG] 	Job 426 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,146 [DEBUG] 	Job 427 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,147 [DEBUG] 	Job 428 will run on 22 files and 25 lumis 
+2014-06-30 18:15:41,147 [DEBUG] 	Job 429 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,147 [DEBUG] 	Job 430 will run on 18 files and 26 lumis 
+2014-06-30 18:15:41,147 [DEBUG] 	Job 431 will run on 13 files and 25 lumis 
+2014-06-30 18:15:41,148 [DEBUG] 	Job 432 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,148 [DEBUG] 	Job 433 will run on 13 files and 25 lumis 
+2014-06-30 18:15:41,148 [DEBUG] 	Job 434 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,148 [DEBUG] 	Job 435 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,149 [DEBUG] 	Job 436 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,149 [DEBUG] 	Job 437 will run on 19 files and 26 lumis 
+2014-06-30 18:15:41,149 [DEBUG] 	Job 438 will run on 17 files and 26 lumis 
+2014-06-30 18:15:41,149 [DEBUG] 	Job 439 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,150 [DEBUG] 	Job 440 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,150 [DEBUG] 	Job 441 will run on 19 files and 25 lumis 
+2014-06-30 18:15:41,150 [DEBUG] 	Job 442 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,150 [DEBUG] 	Job 443 will run on 15 files and 25 lumis 
+2014-06-30 18:15:41,151 [DEBUG] 	Job 444 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,151 [DEBUG] 	Job 445 will run on 16 files and 25 lumis 
+2014-06-30 18:15:41,151 [DEBUG] 	Job 446 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,151 [DEBUG] 	Job 447 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,152 [DEBUG] 	Job 448 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,152 [DEBUG] 	Job 449 will run on 22 files and 25 lumis 
+2014-06-30 18:15:41,152 [DEBUG] 	Job 450 will run on 15 files and 26 lumis 
+2014-06-30 18:15:41,152 [DEBUG] 	Job 451 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,153 [DEBUG] 	Job 452 will run on 15 files and 25 lumis 
+2014-06-30 18:15:41,153 [DEBUG] 	Job 453 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,153 [DEBUG] 	Job 454 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,153 [DEBUG] 	Job 455 will run on 24 files and 26 lumis 
+2014-06-30 18:15:41,154 [DEBUG] 	Job 456 will run on 15 files and 25 lumis 
+2014-06-30 18:15:41,154 [DEBUG] 	Job 457 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,154 [DEBUG] 	Job 458 will run on 21 files and 25 lumis 
+2014-06-30 18:15:41,154 [DEBUG] 	Job 459 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,155 [DEBUG] 	Job 460 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,155 [DEBUG] 	Job 461 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,155 [DEBUG] 	Job 462 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,155 [DEBUG] 	Job 463 will run on 9 files and 25 lumis 
+2014-06-30 18:15:41,156 [DEBUG] 	Job 464 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,156 [DEBUG] 	Job 465 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,156 [DEBUG] 	Job 466 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,156 [DEBUG] 	Job 467 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,156 [DEBUG] 	Job 468 will run on 16 files and 25 lumis 
+2014-06-30 18:15:41,157 [DEBUG] 	Job 469 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,157 [DEBUG] 	Job 470 will run on 22 files and 26 lumis 
+2014-06-30 18:15:41,157 [DEBUG] 	Job 471 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,157 [DEBUG] 	Job 472 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,158 [DEBUG] 	Job 473 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,158 [DEBUG] 	Job 474 will run on 21 files and 25 lumis 
+2014-06-30 18:15:41,158 [DEBUG] 	Job 475 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,158 [DEBUG] 	Job 476 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,159 [DEBUG] 	Job 477 will run on 24 files and 26 lumis 
+2014-06-30 18:15:41,159 [DEBUG] 	Job 478 will run on 16 files and 26 lumis 
+2014-06-30 18:15:41,159 [DEBUG] 	Job 479 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,159 [DEBUG] 	Job 480 will run on 14 files and 25 lumis 
+2014-06-30 18:15:41,160 [DEBUG] 	Job 481 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,160 [DEBUG] 	Job 482 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,160 [DEBUG] 	Job 483 will run on 23 files and 26 lumis 
+2014-06-30 18:15:41,160 [DEBUG] 	Job 484 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,161 [DEBUG] 	Job 485 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,161 [DEBUG] 	Job 486 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,161 [DEBUG] 	Job 487 will run on 19 files and 25 lumis 
+2014-06-30 18:15:41,161 [DEBUG] 	Job 488 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,162 [DEBUG] 	Job 489 will run on 24 files and 27 lumis 
+2014-06-30 18:15:41,162 [DEBUG] 	Job 490 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,162 [DEBUG] 	Job 491 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,162 [DEBUG] 	Job 492 will run on 12 files and 25 lumis 
+2014-06-30 18:15:41,163 [DEBUG] 	Job 493 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,163 [DEBUG] 	Job 494 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,163 [DEBUG] 	Job 495 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,163 [DEBUG] 	Job 496 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,163 [DEBUG] 	Job 497 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,164 [DEBUG] 	Job 498 will run on 17 files and 25 lumis 
+2014-06-30 18:15:41,164 [DEBUG] 	Job 499 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,164 [DEBUG] 	Job 500 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,164 [DEBUG] 	Job 501 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,165 [DEBUG] 	Job 502 will run on 22 files and 25 lumis 
+2014-06-30 18:15:41,165 [DEBUG] 	Job 503 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,165 [DEBUG] 	Job 504 will run on 16 files and 25 lumis 
+2014-06-30 18:15:41,165 [DEBUG] 	Job 505 will run on 13 files and 25 lumis 
+2014-06-30 18:15:41,166 [DEBUG] 	Job 506 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,166 [DEBUG] 	Job 507 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,166 [DEBUG] 	Job 508 will run on 14 files and 25 lumis 
+2014-06-30 18:15:41,166 [DEBUG] 	Job 509 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,167 [DEBUG] 	Job 510 will run on 20 files and 26 lumis 
+2014-06-30 18:15:41,167 [DEBUG] 	Job 511 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,167 [DEBUG] 	Job 512 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,167 [DEBUG] 	Job 513 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,168 [DEBUG] 	Job 514 will run on 21 files and 25 lumis 
+2014-06-30 18:15:41,168 [DEBUG] 	Job 515 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,168 [DEBUG] 	Job 516 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,168 [DEBUG] 	Job 517 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,169 [DEBUG] 	Job 518 will run on 14 files and 26 lumis 
+2014-06-30 18:15:41,169 [DEBUG] 	Job 519 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,169 [DEBUG] 	Job 520 will run on 18 files and 25 lumis 
+2014-06-30 18:15:41,169 [DEBUG] 	Job 521 will run on 20 files and 29 lumis 
+2014-06-30 18:15:41,170 [DEBUG] 	Job 522 will run on 20 files and 26 lumis 
+2014-06-30 18:15:41,170 [DEBUG] 	Job 523 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,170 [DEBUG] 	Job 524 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,170 [DEBUG] 	Job 525 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,171 [DEBUG] 	Job 526 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,171 [DEBUG] 	Job 527 will run on 23 files and 25 lumis 
+2014-06-30 18:15:41,171 [DEBUG] 	Job 528 will run on 21 files and 26 lumis 
+2014-06-30 18:15:41,171 [DEBUG] 	Job 529 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,171 [DEBUG] 	Job 530 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,172 [DEBUG] 	Job 531 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,172 [DEBUG] 	Job 532 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,172 [DEBUG] 	Job 533 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,172 [DEBUG] 	Job 534 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,173 [DEBUG] 	Job 535 will run on 18 files and 26 lumis 
+2014-06-30 18:15:41,173 [DEBUG] 	Job 536 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,173 [DEBUG] 	Job 537 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,173 [DEBUG] 	Job 538 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,174 [DEBUG] 	Job 539 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,174 [DEBUG] 	Job 540 will run on 19 files and 25 lumis 
+2014-06-30 18:15:41,174 [DEBUG] 	Job 541 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,174 [DEBUG] 	Job 542 will run on 17 files and 25 lumis 
+2014-06-30 18:15:41,175 [DEBUG] 	Job 543 will run on 13 files and 25 lumis 
+2014-06-30 18:15:41,175 [DEBUG] 	Job 544 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,175 [DEBUG] 	Job 545 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,175 [DEBUG] 	Job 546 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,176 [DEBUG] 	Job 547 will run on 22 files and 25 lumis 
+2014-06-30 18:15:41,176 [DEBUG] 	Job 548 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,176 [DEBUG] 	Job 549 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,176 [DEBUG] 	Job 550 will run on 15 files and 25 lumis 
+2014-06-30 18:15:41,177 [DEBUG] 	Job 551 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,177 [DEBUG] 	Job 552 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,177 [DEBUG] 	Job 553 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,177 [DEBUG] 	Job 554 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,177 [DEBUG] 	Job 555 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,178 [DEBUG] 	Job 556 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,178 [DEBUG] 	Job 557 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,178 [DEBUG] 	Job 558 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,178 [DEBUG] 	Job 559 will run on 13 files and 31 lumis 
+2014-06-30 18:15:41,179 [DEBUG] 	Job 560 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,179 [DEBUG] 	Job 561 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,179 [DEBUG] 	Job 562 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,179 [DEBUG] 	Job 563 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,180 [DEBUG] 	Job 564 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,180 [DEBUG] 	Job 565 will run on 16 files and 25 lumis 
+2014-06-30 18:15:41,180 [DEBUG] 	Job 566 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,180 [DEBUG] 	Job 567 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,181 [DEBUG] 	Job 568 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,181 [DEBUG] 	Job 569 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,181 [DEBUG] 	Job 570 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,181 [DEBUG] 	Job 571 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,181 [DEBUG] 	Job 572 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,182 [DEBUG] 	Job 573 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,182 [DEBUG] 	Job 574 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,182 [DEBUG] 	Job 575 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,182 [DEBUG] 	Job 576 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,183 [DEBUG] 	Job 577 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,183 [DEBUG] 	Job 578 will run on 23 files and 26 lumis 
+2014-06-30 18:15:41,183 [DEBUG] 	Job 579 will run on 14 files and 26 lumis 
+2014-06-30 18:15:41,183 [DEBUG] 	Job 580 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,184 [DEBUG] 	Job 581 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,184 [DEBUG] 	Job 582 will run on 18 files and 25 lumis 
+2014-06-30 18:15:41,184 [DEBUG] 	Job 583 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,184 [DEBUG] 	Job 584 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,185 [DEBUG] 	Job 585 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,185 [DEBUG] 	Job 586 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,185 [DEBUG] 	Job 587 will run on 14 files and 26 lumis 
+2014-06-30 18:15:41,185 [DEBUG] 	Job 588 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,186 [DEBUG] 	Job 589 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,186 [DEBUG] 	Job 590 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,186 [DEBUG] 	Job 591 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,186 [DEBUG] 	Job 592 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,187 [DEBUG] 	Job 593 will run on 16 files and 25 lumis 
+2014-06-30 18:15:41,187 [DEBUG] 	Job 594 will run on 17 files and 25 lumis 
+2014-06-30 18:15:41,187 [DEBUG] 	Job 595 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,187 [DEBUG] 	Job 596 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,187 [DEBUG] 	Job 597 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,188 [DEBUG] 	Job 598 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,188 [DEBUG] 	Job 599 will run on 15 files and 25 lumis 
+2014-06-30 18:15:41,188 [DEBUG] 	Job 600 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,188 [DEBUG] 	Job 601 will run on 22 files and 25 lumis 
+2014-06-30 18:15:41,189 [DEBUG] 	Job 602 will run on 16 files and 26 lumis 
+2014-06-30 18:15:41,189 [DEBUG] 	Job 603 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,189 [DEBUG] 	Job 604 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,189 [DEBUG] 	Job 605 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,190 [DEBUG] 	Job 606 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,190 [DEBUG] 	Job 607 will run on 19 files and 25 lumis 
+2014-06-30 18:15:41,190 [DEBUG] 	Job 608 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,191 [DEBUG] 	Job 609 will run on 21 files and 25 lumis 
+2014-06-30 18:15:41,191 [DEBUG] 	Job 610 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,191 [DEBUG] 	Job 611 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,191 [DEBUG] 	Job 612 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,191 [DEBUG] 	Job 613 will run on 12 files and 25 lumis 
+2014-06-30 18:15:41,192 [DEBUG] 	Job 614 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,192 [DEBUG] 	Job 615 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,192 [DEBUG] 	Job 616 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,193 [DEBUG] 	Job 617 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,193 [DEBUG] 	Job 618 will run on 22 files and 26 lumis 
+2014-06-30 18:15:41,193 [DEBUG] 	Job 619 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,193 [DEBUG] 	Job 620 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,193 [DEBUG] 	Job 621 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,194 [DEBUG] 	Job 622 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,194 [DEBUG] 	Job 623 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,194 [DEBUG] 	Job 624 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,194 [DEBUG] 	Job 625 will run on 19 files and 25 lumis 
+2014-06-30 18:15:41,195 [DEBUG] 	Job 626 will run on 21 files and 25 lumis 
+2014-06-30 18:15:41,195 [DEBUG] 	Job 627 will run on 13 files and 25 lumis 
+2014-06-30 18:15:41,195 [DEBUG] 	Job 628 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,195 [DEBUG] 	Job 629 will run on 12 files and 25 lumis 
+2014-06-30 18:15:41,196 [DEBUG] 	Job 630 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,196 [DEBUG] 	Job 631 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,196 [DEBUG] 	Job 632 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,196 [DEBUG] 	Job 633 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,196 [DEBUG] 	Job 634 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,197 [DEBUG] 	Job 635 will run on 13 files and 25 lumis 
+2014-06-30 18:15:41,197 [DEBUG] 	Job 636 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,197 [DEBUG] 	Job 637 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,197 [DEBUG] 	Job 638 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,198 [DEBUG] 	Job 639 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,198 [DEBUG] 	Job 640 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,198 [DEBUG] 	Job 641 will run on 20 files and 25 lumis 
+2014-06-30 18:15:41,198 [DEBUG] 	Job 642 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,199 [DEBUG] 	Job 643 will run on 20 files and 25 lumis 
+2014-06-30 18:15:41,199 [DEBUG] 	Job 644 will run on 10 files and 26 lumis 
+2014-06-30 18:15:41,199 [DEBUG] 	Job 645 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,199 [DEBUG] 	Job 646 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,199 [DEBUG] 	Job 647 will run on 15 files and 25 lumis 
+2014-06-30 18:15:41,200 [DEBUG] 	Job 648 will run on 13 files and 25 lumis 
+2014-06-30 18:15:41,200 [DEBUG] 	Job 649 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,200 [DEBUG] 	Job 650 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,200 [DEBUG] 	Job 651 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,201 [DEBUG] 	Job 652 will run on 15 files and 25 lumis 
+2014-06-30 18:15:41,201 [DEBUG] 	Job 653 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,201 [DEBUG] 	Job 654 will run on 19 files and 25 lumis 
+2014-06-30 18:15:41,201 [DEBUG] 	Job 655 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,202 [DEBUG] 	Job 656 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,202 [DEBUG] 	Job 657 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,202 [DEBUG] 	Job 658 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,202 [DEBUG] 	Job 659 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,203 [DEBUG] 	Job 660 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,203 [DEBUG] 	Job 661 will run on 23 files and 25 lumis 
+2014-06-30 18:15:41,203 [DEBUG] 	Job 662 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,203 [DEBUG] 	Job 663 will run on 18 files and 26 lumis 
+2014-06-30 18:15:41,204 [DEBUG] 	Job 664 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,204 [DEBUG] 	Job 665 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,204 [DEBUG] 	Job 666 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,204 [DEBUG] 	Job 667 will run on 16 files and 29 lumis 
+2014-06-30 18:15:41,205 [DEBUG] 	Job 668 will run on 2 files and 32 lumis 
+2014-06-30 18:15:41,205 [DEBUG] 	Job 669 will run on 3 files and 29 lumis 
+2014-06-30 18:15:41,205 [DEBUG] 	Job 670 will run on 3 files and 30 lumis 
+2014-06-30 18:15:41,205 [DEBUG] 	Job 671 will run on 4 files and 28 lumis 
+2014-06-30 18:15:41,205 [DEBUG] 	Job 672 will run on 4 files and 28 lumis 
+2014-06-30 18:15:41,206 [DEBUG] 	Job 673 will run on 4 files and 28 lumis 
+2014-06-30 18:15:41,206 [DEBUG] 	Job 674 will run on 3 files and 32 lumis 
+2014-06-30 18:15:41,206 [DEBUG] 	Job 675 will run on 3 files and 36 lumis 
+2014-06-30 18:15:41,206 [DEBUG] 	Job 676 will run on 3 files and 36 lumis 
+2014-06-30 18:15:41,206 [DEBUG] 	Job 677 will run on 3 files and 35 lumis 
+2014-06-30 18:15:41,207 [DEBUG] 	Job 678 will run on 3 files and 30 lumis 
+2014-06-30 18:15:41,207 [DEBUG] 	Job 679 will run on 3 files and 32 lumis 
+2014-06-30 18:15:41,207 [DEBUG] 	Job 680 will run on 3 files and 36 lumis 
+2014-06-30 18:15:41,207 [DEBUG] 	Job 681 will run on 3 files and 36 lumis 
+2014-06-30 18:15:41,207 [DEBUG] 	Job 682 will run on 3 files and 36 lumis 
+2014-06-30 18:15:41,208 [DEBUG] 	Job 683 will run on 3 files and 36 lumis 
+2014-06-30 18:15:41,208 [DEBUG] 	Job 684 will run on 3 files and 36 lumis 
+2014-06-30 18:15:41,208 [DEBUG] 	Job 685 will run on 3 files and 36 lumis 
+2014-06-30 18:15:41,208 [DEBUG] 	Job 686 will run on 3 files and 36 lumis 
+2014-06-30 18:15:41,208 [DEBUG] 	Job 687 will run on 3 files and 38 lumis 
+2014-06-30 18:15:41,209 [DEBUG] 	Job 688 will run on 2 files and 36 lumis 
+2014-06-30 18:15:41,209 [DEBUG] 	Job 689 will run on 2 files and 37 lumis 
+2014-06-30 18:15:41,209 [DEBUG] 	Job 690 will run on 2 files and 36 lumis 
+2014-06-30 18:15:41,209 [DEBUG] 	Job 691 will run on 2 files and 36 lumis 
+2014-06-30 18:15:41,209 [DEBUG] 	Job 692 will run on 2 files and 36 lumis 
+2014-06-30 18:15:41,210 [DEBUG] 	Job 693 will run on 2 files and 36 lumis 
+2014-06-30 18:15:41,210 [DEBUG] 	Job 694 will run on 2 files and 35 lumis 
+2014-06-30 18:15:41,210 [DEBUG] 	Job 695 will run on 2 files and 32 lumis 
+2014-06-30 18:15:41,210 [DEBUG] 	Job 696 will run on 2 files and 32 lumis 
+2014-06-30 18:15:41,210 [DEBUG] 	Job 697 will run on 2 files and 36 lumis 
+2014-06-30 18:15:41,211 [DEBUG] 	Job 698 will run on 2 files and 37 lumis 
+2014-06-30 18:15:41,211 [DEBUG] 	Job 699 will run on 2 files and 36 lumis 
+2014-06-30 18:15:41,211 [DEBUG] 	Job 700 will run on 2 files and 36 lumis 
+2014-06-30 18:15:41,211 [DEBUG] 	Job 701 will run on 5 files and 26 lumis 
+2014-06-30 18:15:41,211 [DEBUG] 	Job 702 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,212 [DEBUG] 	Job 703 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,212 [DEBUG] 	Job 704 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,212 [DEBUG] 	Job 705 will run on 15 files and 26 lumis 
+2014-06-30 18:15:41,212 [DEBUG] 	Job 706 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,213 [DEBUG] 	Job 707 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,213 [DEBUG] 	Job 708 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,213 [DEBUG] 	Job 709 will run on 21 files and 25 lumis 
+2014-06-30 18:15:41,213 [DEBUG] 	Job 710 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,214 [DEBUG] 	Job 711 will run on 19 files and 26 lumis 
+2014-06-30 18:15:41,214 [DEBUG] 	Job 712 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,214 [DEBUG] 	Job 713 will run on 4 files and 28 lumis 
+2014-06-30 18:15:41,214 [DEBUG] 	Job 714 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,214 [DEBUG] 	Job 715 will run on 23 files and 25 lumis 
+2014-06-30 18:15:41,215 [DEBUG] 	Job 716 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,215 [DEBUG] 	Job 717 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,215 [DEBUG] 	Job 718 will run on 22 files and 26 lumis 
+2014-06-30 18:15:41,215 [DEBUG] 	Job 719 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,216 [DEBUG] 	Job 720 will run on 22 files and 25 lumis 
+2014-06-30 18:15:41,216 [DEBUG] 	Job 721 will run on 17 files and 25 lumis 
+2014-06-30 18:15:41,216 [DEBUG] 	Job 722 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,216 [DEBUG] 	Job 723 will run on 22 files and 25 lumis 
+2014-06-30 18:15:41,217 [DEBUG] 	Job 724 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,217 [DEBUG] 	Job 725 will run on 22 files and 26 lumis 
+2014-06-30 18:15:41,217 [DEBUG] 	Job 726 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,217 [DEBUG] 	Job 727 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,218 [DEBUG] 	Job 728 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,218 [DEBUG] 	Job 729 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,218 [DEBUG] 	Job 730 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,218 [DEBUG] 	Job 731 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,219 [DEBUG] 	Job 732 will run on 23 files and 26 lumis 
+2014-06-30 18:15:41,219 [DEBUG] 	Job 733 will run on 14 files and 25 lumis 
+2014-06-30 18:15:41,219 [DEBUG] 	Job 734 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,219 [DEBUG] 	Job 735 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,220 [DEBUG] 	Job 736 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,220 [DEBUG] 	Job 737 will run on 23 files and 25 lumis 
+2014-06-30 18:15:41,220 [DEBUG] 	Job 738 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,220 [DEBUG] 	Job 739 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,221 [DEBUG] 	Job 740 will run on 19 files and 26 lumis 
+2014-06-30 18:15:41,221 [DEBUG] 	Job 741 will run on 13 files and 25 lumis 
+2014-06-30 18:15:41,221 [DEBUG] 	Job 742 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,221 [DEBUG] 	Job 743 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,222 [DEBUG] 	Job 744 will run on 16 files and 25 lumis 
+2014-06-30 18:15:41,222 [DEBUG] 	Job 745 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,222 [DEBUG] 	Job 746 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,222 [DEBUG] 	Job 747 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,223 [DEBUG] 	Job 748 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,223 [DEBUG] 	Job 749 will run on 20 files and 26 lumis 
+2014-06-30 18:15:41,223 [DEBUG] 	Job 750 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,223 [DEBUG] 	Job 751 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,224 [DEBUG] 	Job 752 will run on 14 files and 25 lumis 
+2014-06-30 18:15:41,224 [DEBUG] 	Job 753 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,224 [DEBUG] 	Job 754 will run on 13 files and 25 lumis 
+2014-06-30 18:15:41,224 [DEBUG] 	Job 755 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,225 [DEBUG] 	Job 756 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,225 [DEBUG] 	Job 757 will run on 14 files and 25 lumis 
+2014-06-30 18:15:41,225 [DEBUG] 	Job 758 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,225 [DEBUG] 	Job 759 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,226 [DEBUG] 	Job 760 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,226 [DEBUG] 	Job 761 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,226 [DEBUG] 	Job 762 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,226 [DEBUG] 	Job 763 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,227 [DEBUG] 	Job 764 will run on 21 files and 25 lumis 
+2014-06-30 18:15:41,227 [DEBUG] 	Job 765 will run on 14 files and 25 lumis 
+2014-06-30 18:15:41,227 [DEBUG] 	Job 766 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,227 [DEBUG] 	Job 767 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,227 [DEBUG] 	Job 768 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,228 [DEBUG] 	Job 769 will run on 15 files and 25 lumis 
+2014-06-30 18:15:41,228 [DEBUG] 	Job 770 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,228 [DEBUG] 	Job 771 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,229 [DEBUG] 	Job 772 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,229 [DEBUG] 	Job 773 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,229 [DEBUG] 	Job 774 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,229 [DEBUG] 	Job 775 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,230 [DEBUG] 	Job 776 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,230 [DEBUG] 	Job 777 will run on 22 files and 26 lumis 
+2014-06-30 18:15:41,230 [DEBUG] 	Job 778 will run on 14 files and 25 lumis 
+2014-06-30 18:15:41,230 [DEBUG] 	Job 779 will run on 15 files and 25 lumis 
+2014-06-30 18:15:41,231 [DEBUG] 	Job 780 will run on 23 files and 25 lumis 
+2014-06-30 18:15:41,231 [DEBUG] 	Job 781 will run on 14 files and 26 lumis 
+2014-06-30 18:15:41,231 [DEBUG] 	Job 782 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,231 [DEBUG] 	Job 783 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,232 [DEBUG] 	Job 784 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,232 [DEBUG] 	Job 785 will run on 19 files and 25 lumis 
+2014-06-30 18:15:41,232 [DEBUG] 	Job 786 will run on 13 files and 25 lumis 
+2014-06-30 18:15:41,232 [DEBUG] 	Job 787 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,232 [DEBUG] 	Job 788 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,233 [DEBUG] 	Job 789 will run on 23 files and 25 lumis 
+2014-06-30 18:15:41,233 [DEBUG] 	Job 790 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,233 [DEBUG] 	Job 791 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,234 [DEBUG] 	Job 792 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,234 [DEBUG] 	Job 793 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,234 [DEBUG] 	Job 794 will run on 17 files and 25 lumis 
+2014-06-30 18:15:41,234 [DEBUG] 	Job 795 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,234 [DEBUG] 	Job 796 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,235 [DEBUG] 	Job 797 will run on 15 files and 25 lumis 
+2014-06-30 18:15:41,235 [DEBUG] 	Job 798 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,235 [DEBUG] 	Job 799 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,236 [DEBUG] 	Job 800 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,236 [DEBUG] 	Job 801 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,236 [DEBUG] 	Job 802 will run on 22 files and 25 lumis 
+2014-06-30 18:15:41,236 [DEBUG] 	Job 803 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,236 [DEBUG] 	Job 804 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,237 [DEBUG] 	Job 805 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,237 [DEBUG] 	Job 806 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,237 [DEBUG] 	Job 807 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,237 [DEBUG] 	Job 808 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,238 [DEBUG] 	Job 809 will run on 22 files and 25 lumis 
+2014-06-30 18:15:41,238 [DEBUG] 	Job 810 will run on 13 files and 25 lumis 
+2014-06-30 18:15:41,238 [DEBUG] 	Job 811 will run on 24 files and 25 lumis 
+2014-06-30 18:15:41,239 [DEBUG] 	Job 812 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,239 [DEBUG] 	Job 813 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,239 [DEBUG] 	Job 814 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,239 [DEBUG] 	Job 815 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,240 [DEBUG] 	Job 816 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,240 [DEBUG] 	Job 817 will run on 23 files and 25 lumis 
+2014-06-30 18:15:41,240 [DEBUG] 	Job 818 will run on 14 files and 26 lumis 
+2014-06-30 18:15:41,240 [DEBUG] 	Job 819 will run on 14 files and 25 lumis 
+2014-06-30 18:15:41,241 [DEBUG] 	Job 820 will run on 25 files and 26 lumis 
+2014-06-30 18:15:41,241 [DEBUG] 	Job 821 will run on 15 files and 26 lumis 
+2014-06-30 18:15:41,241 [DEBUG] 	Job 822 will run on 13 files and 26 lumis 
+2014-06-30 18:15:41,241 [DEBUG] 	Job 823 will run on 17 files and 25 lumis 
+2014-06-30 18:15:41,242 [DEBUG] 	Job 824 will run on 25 files and 25 lumis 
+2014-06-30 18:15:41,242 [DEBUG] 	Job 825 will run on 2 files and 2 lumis 
+2014-06-30 18:15:41,242 [INFO] 	825 jobs created to run on 21523 lumis
+2014-06-30 18:15:41,337 [DEBUG] 	PsetManipulator::__init__: PSet file = ecalflowntpPAHightPt_True.py
+2014-06-30 18:15:46,296 [DEBUG] 	Output from TFileService pPb_14June2014_PAHighPt_True095_175.root already in output files
+2014-06-30 18:15:46,362 [DEBUG] 	Exe /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_8_HI/bin/slc5_amd64_gcc462/cmsRun to be tarred
+2014-06-30 18:15:46,398 [DEBUG] 	lib /gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/lib to be tarred
+2014-06-30 18:15:47,248 [DEBUG] 	data HeavyIonsAnalysis/Configuration/data to be tarred
+2014-06-30 18:15:47,501 [DEBUG] 	data RecoHI/HiCentralityAlgos/data to be tarred
+2014-06-30 18:15:47,884 [DEBUG] 	data CmsHi/JetAnalysis/data to be tarred
+2014-06-30 18:15:48,678 [DEBUG] 	data CmsHi/Analysis2010/data to be tarred
+2014-06-30 18:15:51,223 [DEBUG] 	Creator: JobType CMSSW created
+2014-06-30 18:15:51,223 [DEBUG] 	Creator: total # of jobs = 825
+2014-06-30 18:15:51,223 [DEBUG] 	Creator constructor finished
+2014-06-30 18:15:54,593 [DEBUG] 	Creator::run() called
+2014-06-30 18:15:54,593 [DEBUG] 	Scram::Scram() version is 2
+2014-06-30 18:15:54,594 [DEBUG] 	Scram::Scram() arch is slc5_amd64_gcc462
+2014-06-30 18:16:02,203 [INFO] 	Creating 825 jobs, please wait...
+2014-06-30 18:16:02,204 [DEBUG] 	Creation Time: 7.61069297791
+2014-06-30 18:16:02,204 [INFO] 	Total of 825 jobs created.
+
+2014-06-30 18:16:27,046 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_6/python/crab.py -submit 1-400 -c
+
+2014-06-30 18:16:27,047 [INFO] 	Version 2.10.6_pre4 running on Mon Jun 30 18:16:27 2014 CST (23:16:27 UTC)
+
+crab. Working options:
+	scheduler           pbsv2
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140630_181414/
+
+2014-06-30 18:16:27,048 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/janjamrk/.cms_crab/allowed_releases.conf].
+2014-06-30 18:16:27,048 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/janjamrk/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/janjamrk/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1fa8cd40>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1fa8cf80>}, 'logger': <logging.Logger instance at 0x1fa8cd40>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/janjamrk/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-06-30 18:16:27,180 [INFO] 	error detecting glite version 
+2014-06-30 18:16:27,184 [INFO] 	error detecting glite version 
+2014-06-30 18:16:27,185 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1fa8cd40>, 'conn': <httplib.HTTPSConnection instance at 0x1f9dafc8>}, 'logger': <logging.Logger instance at 0x1fa8cd40>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/janjamrk/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-06-30 18:16:27,186 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1fa8cd40>, 'conn': <httplib.HTTPSConnection instance at 0x1fae2098>}, 'logger': <logging.Logger instance at 0x1fa8cd40>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/janjamrk/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-06-30 18:16:27,186 [DEBUG] 	Input whitelist: T2_US_Vanderbilt
+2014-06-30 18:16:27,186 [DEBUG] 	Input blacklist: 
+2014-06-30 18:16:27,232 [DEBUG] 	Converted whitelist: se3.accre.vanderbilt.edu, se1.accre.vanderbilt.edu
+2014-06-30 18:16:27,232 [DEBUG] 	Converted blacklist: 
+2014-06-30 18:16:27,233 [INFO] 	Your se_white_list is set to T2_US_Vanderbilt: only local dataset will be considered
+2014-06-30 18:16:27,233 [INFO] 	 The default queue of local PBS configuration will be used
+2014-06-30 18:16:27,233 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/janjamrk/.cms_crab/myproxy_server.conf].
+2014-06-30 18:16:27,234 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/janjamrk/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/janjamrk/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1fa8cd40>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1f9cc2d8>}, 'logger': <logging.Logger instance at 0x1fa8cd40>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/janjamrk/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-06-30 18:16:27,234 [INFO] 	Using a proxy
+2014-06-30 18:16:29,834 [DEBUG] 	parseRange_ 1-400
+2014-06-30 18:16:29,838 [DEBUG] 	Scram::Scram() version is 2
+2014-06-30 18:16:29,839 [DEBUG] 	Scram::Scram() arch is slc5_amd64_gcc462
+2014-06-30 18:16:30,317 [DEBUG] 	Submitter::run() called
+2014-06-30 18:16:30,652 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1fa8cd40>, 'conn': <httplib.HTTPSConnection instance at 0x1f9cbcb0>}, 'logger': <logging.Logger instance at 0x1fa8cd40>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/janjamrk/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-06-30 18:16:30,652 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1fa8cd40>, 'conn': <httplib.HTTPSConnection instance at 0x1f9cbc68>}, 'logger': <logging.Logger instance at 0x1fa8cd40>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/janjamrk/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-06-30 18:16:30,652 [DEBUG] 	Input whitelist: T2_US_Vanderbilt
+2014-06-30 18:16:30,653 [DEBUG] 	Input blacklist: 
+2014-06-30 18:16:30,680 [DEBUG] 	Converted whitelist: se3.accre.vanderbilt.edu, se1.accre.vanderbilt.edu
+2014-06-30 18:16:30,680 [DEBUG] 	Converted blacklist: 
+2014-06-30 18:16:30,680 [DEBUG] 	nsjobs 400
+2014-06-30 18:16:30,680 [DEBUG] 	Total jobs 825
+2014-06-30 18:16:30,824 [DEBUG] 	nj_list [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400]
+2014-06-30 18:16:31,366 [DEBUG] 	GRIDNAME: /CN=Ravi Kishore Janjam 
+2014-06-30 18:16:31,382 [DEBUG] 	Submission DashBoard Pre-Submission report: {'ApplicationVersion': 'CMSSW_5_3_8_HI_patch2', 'taskId': 'janjamrk_crab_0_140630_181414_r524yd', 'resubmitter': 'user', 'tool': 'crab', 'vo': 'cms', 'tool_ui': 'vmps08.vampire', 'JSToolVersion': '2.10.6_pre4', 'user': 'janjamrk', 'scheduler': 'pbsv2', 'taskType': 'analysis', 'CMSUser': 'janjamrk', 'jobId': 'TaskMeta', 'datasetFull': '/PAHighPt/HIRun2013-PromptReco-v1/RECO', 'exe': 'cmsRun', 'GridName': '/CN=Ravi Kishore Janjam', 'SubmissionType': 'direct'}
+2014-06-30 18:16:31,382 [INFO] 	Checking available resources...
+2014-06-30 18:16:31,891 [INFO] 	Found  compatible site(s) for job 1
+2014-06-30 18:16:31,892 [INFO] 	1 blocks of jobs will be submitted
+2014-06-30 18:16:31,893 [DEBUG] 	Delegating proxy 
+2014-06-30 18:16:31,893 [DEBUG] 	Submitting jobs [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400]
+2014-06-30 18:16:32,583 [DEBUG] 	BossLite wants to use the proxy
+2014-06-30 18:16:32,584 [DEBUG] 	Moved /tmp/x509up_u171357 to /gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140630_181414/res/proxy.cert
+2014-06-30 18:16:32,585 [DEBUG] 	 CONFIG: #!/bin/sh
+2014-06-30 18:16:32,585 [DEBUG] 	 CONFIG: # This script generated by CRAB2 from http://cms.cern.ch
+2014-06-30 18:16:32,585 [DEBUG] 	 CONFIG: #PBS -e vmps09.vampire:/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140630_181414/res/tmp_CMSSW_1.stderr
+2014-06-30 18:16:32,585 [DEBUG] 	 CONFIG: #PBS -o vmps09.vampire:/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140630_181414/res/tmp_CMSSW_1.stdout
+2014-06-30 18:16:32,585 [DEBUG] 	 CONFIG: #PBS -q 
+2014-06-30 18:16:32,585 [DEBUG] 	 CONFIG: #PBS -N CMS_CRAB2
+2014-06-30 18:16:32,585 [DEBUG] 	 CONFIG: #PBS -l walltime=18:00:00
+2014-06-30 18:16:32,585 [DEBUG] 	 CONFIG: #PBS -l pmem=2800mb
+2014-06-30 18:16:32,585 [DEBUG] 	 CONFIG: #PBS -l mem=2800mb
+2014-06-30 18:16:32,586 [DEBUG] 	 CONFIG: #PBS -W group_list=cms_stage3
+2014-06-30 18:16:32,586 [DEBUG] 	 CONFIG: set -x
+2014-06-30 18:16:32,586 [DEBUG] 	 CONFIG: cp /gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140630_181414/share/default.tgz /tmp/9ce274a64aff4586913643976b24c59e-default.tgz
+2014-06-30 18:16:32,586 [DEBUG] 	 CONFIG: cp /gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140630_181414/share/arguments.xml /tmp/9ce274a64aff4586913643976b24c59e-arguments.xml
+2014-06-30 18:16:32,586 [DEBUG] 	 CONFIG: cp /gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140630_181414/job/CMSSW.sh /tmp/9ce274a64aff4586913643976b24c59e-CMSSW.sh
+2014-06-30 18:16:32,586 [DEBUG] 	 CONFIG: cp /gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140630_181414/res/proxy.cert /tmp/9ce274a64aff4586913643976b24c59e-proxy.cert
+2014-06-30 18:16:32,586 [DEBUG] 	 CONFIG: pwd
+2014-06-30 18:16:32,586 [DEBUG] 	 CONFIG: ls -lah
+2014-06-30 18:16:32,586 [DEBUG] 	 CONFIG: echo ***BEGINNING PBSV2***
+2014-06-30 18:16:32,587 [DEBUG] 	 CONFIG: CRAB2_OLD_DIRECTORY=`pwd`
+2014-06-30 18:16:32,587 [DEBUG] 	 CONFIG: CRAB2_PBS_WORKDIR=/tmp
+2014-06-30 18:16:32,587 [DEBUG] 	 CONFIG: cd /tmp
+2014-06-30 18:16:32,587 [DEBUG] 	 CONFIG: CRAB2_WORKDIR=`pwd`/CRAB2-$PBS_JOBCOOKIE
+2014-06-30 18:16:32,587 [DEBUG] 	 CONFIG: if [ ! -d $CRAB2_WORKDIR ] ; then 
+2014-06-30 18:16:32,587 [DEBUG] 	 CONFIG:   mkdir -p $CRAB2_WORKDIR
+2014-06-30 18:16:32,587 [DEBUG] 	 CONFIG: fi
+2014-06-30 18:16:32,587 [DEBUG] 	 CONFIG: cd $CRAB2_WORKDIR
+2014-06-30 18:16:32,587 [DEBUG] 	 CONFIG: ls -lah
+2014-06-30 18:16:32,588 [DEBUG] 	 CONFIG: mv $CRAB2_PBS_WORKDIR/9ce274a64aff4586913643976b24c59e-default.tgz $CRAB2_WORKDIR/default.tgz
+2014-06-30 18:16:32,588 [DEBUG] 	 CONFIG: mv $CRAB2_PBS_WORKDIR/9ce274a64aff4586913643976b24c59e-arguments.xml $CRAB2_WORKDIR/arguments.xml
+2014-06-30 18:16:32,588 [DEBUG] 	 CONFIG: mv $CRAB2_PBS_WORKDIR/9ce274a64aff4586913643976b24c59e-CMSSW.sh $CRAB2_WORKDIR/CMSSW.sh
+2014-06-30 18:16:32,588 [DEBUG] 	 CONFIG: mv $CRAB2_PBS_WORKDIR/9ce274a64aff4586913643976b24c59e-proxy.cert $CRAB2_WORKDIR/proxy.cert
+2014-06-30 18:16:32,588 [DEBUG] 	 CONFIG: export X509_USER_PROXY=$CRAB2_WORKDIR/proxy.cert
+2014-06-30 18:16:32,588 [DEBUG] 	 CONFIG: ./CMSSW.sh 1 1
+2014-06-30 18:16:32,588 [DEBUG] 	 CONFIG: mv $CRAB2_WORKDIR/out_files_1.tgz $CRAB2_PBS_WORKDIR/9ce274a64aff4586913643976b24c59e-out_files_1.tgz
+2014-06-30 18:16:32,588 [DEBUG] 	 CONFIG: mv $CRAB2_WORKDIR/crab_fjr_1.xml $CRAB2_PBS_WORKDIR/9ce274a64aff4586913643976b24c59e-crab_fjr_1.xml
+2014-06-30 18:16:32,588 [DEBUG] 	 CONFIG: mv -f /tmp/9ce274a64aff4586913643976b24c59e-out_files_1.tgz /gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140630_181414/res/out_files_1.tgz
+2014-06-30 18:16:32,589 [DEBUG] 	 CONFIG: mv -f /tmp/9ce274a64aff4586913643976b24c59e-crab_fjr_1.xml /gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140630_181414/res/crab_fjr_1.xml
+2014-06-30 18:16:32,589 [DEBUG] 	 CONFIG: cd $CRAB2_OLD_DIRECTORY
+2014-06-30 18:16:32,589 [DEBUG] 	 CONFIG: rm -rf $CRAB2_WORKDIR
+2014-06-30 18:16:32,589 [DEBUG] 	 Beginning to qsub
+2014-06-30 18:16:32,603 [DEBUG] 	 qsub ended: 0.0133948326111 seconds
+2014-06-30 18:16:32,603 [ERROR] 	Error in job submission
+2014-06-30 18:16:32,603 [ERROR] 	qsub: option requires an argument -- q
+[exiting]
+
+usage: qsub [-a date_time] [-A account_string] [-b secs]
+    [-c [ none | { enabled | periodic | shutdown |
+    depth=<int> | dir=<path> | interval=<minutes>}... ]
+    [-C directive_prefix] [-d path] [-D path]
+    [-e path] [-h] [-I] [-j oe|eo|n] [-k {oe}] [-l resource_list] [-m n|{abe}]
+    [-M user_list] [-N jobname] [-o path] [-p priority] [-P proxy_user [-J <jobid]]
+    [-q queue] [-r y|n] [-S path] [-t number_to_submit] [-T type]  [-u user_list]
+    [-w] path
+      [-W additional_attributes] [-v variable_list] [-V ] [-x] [-X] [-z] [script]
+
+
+2014-06-30 18:16:32,780 [DEBUG] 	Submission Failed with message: PBS error
+qsub: option requires an argument -- q
+[exiting]
+
+usage: qsub [-a date_time] [-A account_string] [-b secs]
+    [-c [ none | { enabled | periodic | shutdown |
+    depth=<int> | dir=<path> | interval=<minutes>}... ]
+    [-C directive_prefix] [-d path] [-D path]
+    [-e path] [-h] [-I] [-j oe|eo|n] [-k {oe}] [-l resource_list] [-m n|{abe}]
+    [-M user_list] [-N jobname] [-o path] [-p priority] [-P proxy_user [-J <jobid]]
+    [-q queue] [-r y|n] [-S path] [-t number_to_submit] [-T type]  [-u user_list]
+    [-w] path
+      [-W additional_attributes] [-v variable_list] [-V ] [-x] [-X] [-z] [script]
+
+
+2014-06-30 18:16:32,782 [DEBUG] 	common.scheduler.submit exception. Job(s) possibly not submitted
+2014-06-30 18:16:32,782 [DEBUG] 	ERROR: Job not submitted
+

@@ -1,0 +1,22 @@
+48,68d47
+<     suppressTrackMatchedClusters = cms.bool(False),
+<     makeOutputTree = cms.bool(False),
+<     recoTrackStore = cms.bool(False),
+<     clusterStore = cms.bool(False),
+<     clusterRecoTrackStore = cms.bool(False),                       
+<     crystalStore = cms.bool(False),
+<     mcParticleStore = cms.bool(False),
+<     simTrackStore = cms.bool(False),                      
+<     mergedTrackTruthStore = cms.bool(False),
+<     mergedTrackTruthPhotonOnly = cms.bool(False),                         
+<     genParticleStore = cms.bool(False),
+<     mesonStore = cms.bool(False),                             
+<     photonStore = cms.bool(False),
+< 
+<     minimumHITracksCut = cms.int32( 0 ),
+<     maximumHITracksCut = cms.int32( 100000 ),                      
+<                              
+<     goodPhiMatch = cms.double( 0.03 ),
+<     goodThetaMatch = cms.double( 0.03 ),                        
+<     goodAngleMatch = cms.double( 0.03 ),                     
+<                              

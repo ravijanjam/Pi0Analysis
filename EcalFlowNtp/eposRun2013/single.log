@@ -1,0 +1,1596 @@
+10-May-2014 12:42:54 CDT  Initiating request to open file /store//himc//HiWinter13/ReggeGribovPartonMCfix_EposLHC_5TeV_pPb/GEN-SIM-RECO/pa_STARTHI53_V25-v1/20000/004C2C1B-0777-E211-B514-0024E86E8D0B.root
+10-May-2014 12:42:56 CDT  Successfully opened file /store//himc//HiWinter13/ReggeGribovPartonMCfix_EposLHC_5TeV_pPb/GEN-SIM-RECO/pa_STARTHI53_V25-v1/20000/004C2C1B-0777-E211-B514-0024E86E8D0B.root
+
+ Cuts used for pair correlations:
+ Trigger (pi0) particle from 0.3 to 8 GeV/c
+ Associated charged particle from 0.3 to 3 GeV/c
+
+ The low invariant mass cut is 0.095 GeV/c^2
+ The high invariant mass cut is 0.175 GeV/c^2
+
+ The cluster S4/S9 cut is 0.74
+The pT bin width used are: 16	1.6	12
+pT bins used for the histogram: 10	0.7	8
+
+ Using a pT dependent separation cut parameterization 35.657/pT - 4.1995/pT^2,  with a rescale factor 0.7
+
+ The goodAngleMatch opening angle criterion for reco track-cluster matching is 0.029 radians
+
+ The goodPhiMatch residual angle criterion for reco track-cluster matching is 0.029 radians
+
+ The goodThetaMatch residual angle criterion for reco track-cluster matching is 0.029 radians
+
+ Cluster energy value will be recalibrated according to number of crystals in the cluster
+
+ There is no check on the number of crystals in a cluster
+
+ Cluster with a charged particle tracking match will not be used
+
+ An output tree will be generated according to the xxxStore parameters
+
+
+  Attempt to create m_tree object 
+
+
+ Return from m_tree creation attempt, with m_tree value 0x2aada3e38e00
+
+ No crystal information is being stored in the hTree for this job
+ The basic cluster information is being stored in the hTree for this job
+ No reco track-cluster information is being stored in the hTree for this job
+ Only the reco tracks information for pairs correlations is being stored in the hTree for this job
+ No reco tracks complete information is being stored in the hTree for this job
+ No mcParticle information is being stored in the hTree for this job
+ No simTrack information is being stored in the hTree for this job
+ No mergedTrackTruth information is being stored in the hTree for this job
+ No genParticle information is being stored in the hTree for this job
+ The charged particle truth information is being stored in the hTree for this job
+ The generator meson and reco truth information is being stored in the hTree for this job
+ No generator photon and reco truth information is being stored in the hTree for this job
+
+ Completed set up for the hTree contents (photon component is the last check)
+
+Begin processing the 1st record. Run 1, Event 1339201, LumiSection 4186 at 10-May-2014 12:43:04.796 CDT
+
+ nPairTracksSize = 109
+
+ First pass: zVertexEventSelected = 0.065033, zAtECal = 1.14957, zCorrected = 1.08454, thetaForZEqualsZero = 0.842898, thetaCorrected = 0.871711, zCorrectedEta = 0.764155, uncorrected Eta = 0.802266
+ First pass: zVertexEventSelected = 0.065033, zAtECal = 0.0179467, zCorrected = -0.0470863, thetaForZEqualsZero = 1.55689, thetaCorrected = 1.60728, zCorrectedEta = -0.0364929, uncorrected Eta = 0.0139117
+ First pass: zVertexEventSelected = 0.065033, zAtECal = 2.57245, zCorrected = 2.50742, thetaForZEqualsZero = 0.464821, thetaCorrected = 0.475159, zCorrectedEta = 1.41819, uncorrected Eta = 1.44102
+ First pass: zVertexEventSelected = 0.065033, zAtECal = -1.8837, zCorrected = -1.94873, thetaForZEqualsZero = 2.54113, thetaCorrected = 2.55685, zCorrectedEta = -1.20065, uncorrected Eta = -1.1725
+ First pass: zVertexEventSelected = 0.065033, zAtECal = 2.37675, zCorrected = 2.31172, thetaForZEqualsZero = 0.497266, thetaCorrected = 0.508984, zCorrectedEta = 1.34656, uncorrected Eta = 1.37087
+ First pass: zVertexEventSelected = 0.065033, zAtECal = -2.47226, zCorrected = -2.53729, thetaForZEqualsZero = 2.66067, thetaCorrected = 2.67123, zCorrectedEta = -1.42873, uncorrected Eta = -1.40565
+ First pass: zVertexEventSelected = 0.065033, zAtECal = 2.47803, zCorrected = 2.41299, thetaForZEqualsZero = 0.479972, thetaCorrected = 0.490947, zCorrectedEta = 1.38419, uncorrected Eta = 1.40771
+ First pass: zVertexEventSelected = 0.065033, zAtECal = -1.89285, zCorrected = -1.95788, thetaForZEqualsZero = 2.54338, thetaCorrected = 2.559, zCorrectedEta = -1.20456, uncorrected Eta = -1.1765
+ First pass: zVertexEventSelected = 0.065033, zAtECal = 0.334248, zCorrected = 0.269215, thetaForZEqualsZero = 1.31726, thetaCorrected = 1.36506, zCorrectedEta = 0.207208, uncorrected Eta = 0.256292
+ First pass: zVertexEventSelected = 0.065033, zAtECal = 1.87361, zCorrected = 1.80858, thetaForZEqualsZero = 0.602973, thetaCorrected = 0.619575, zCorrectedEta = 1.13914, uncorrected Eta = 1.16807
+
+ nChMesonSize = 127
+
+
+ The meson tree size is 78, genSize 1929, countDisAllowedMesons 1851, countAllowedMesons 78
+ The njSim size is 818 with simTracksSize 2267
+
+
+ nPairTracksSize = 86
+
+ nChMesonSize = 105
+
+
+ The meson tree size is 72, genSize 1795, countDisAllowedMesons 1723, countAllowedMesons 72
+ The njSim size is 631 with simTracksSize 2048
+
+
+ nPairTracksSize = 92
+
+ nChMesonSize = 114
+
+
+ The meson tree size is 93, genSize 1922, countDisAllowedMesons 1829, countAllowedMesons 93
+ The njSim size is 693 with simTracksSize 1905
+
+
+ nPairTracksSize = 75
+
+ nChMesonSize = 85
+
+
+ The meson tree size is 76, genSize 1457, countDisAllowedMesons 1381, countAllowedMesons 76
+ The njSim size is 583 with simTracksSize 1551
+
+
+ nPairTracksSize = 110
+
+ nChMesonSize = 123
+
+
+ The meson tree size is 61, genSize 1977, countDisAllowedMesons 1916, countAllowedMesons 61
+ The njSim size is 730 with simTracksSize 2373
+
+
+ nPairTracksSize = 121
+
+ nChMesonSize = 137
+
+
+ The meson tree size is 95, genSize 2124, countDisAllowedMesons 2029, countAllowedMesons 95
+ The njSim size is 806 with simTracksSize 2461
+
+
+ nPairTracksSize = 118
+
+ nChMesonSize = 138
+
+
+ The meson tree size is 109, genSize 2373, countDisAllowedMesons 2264, countAllowedMesons 109
+ The njSim size is 919 with simTracksSize 3264
+
+
+ nPairTracksSize = 91
+
+ nChMesonSize = 105
+
+
+ The meson tree size is 69, genSize 1762, countDisAllowedMesons 1693, countAllowedMesons 69
+ The njSim size is 551 with simTracksSize 1782
+
+
+ nPairTracksSize = 134
+
+ nChMesonSize = 148
+
+
+ The meson tree size is 104, genSize 2214, countDisAllowedMesons 2110, countAllowedMesons 104
+ The njSim size is 865 with simTracksSize 2513
+
+
+ nPairTracksSize = 107
+
+ nChMesonSize = 133
+
+
+ The meson tree size is 95, genSize 2143, countDisAllowedMesons 2048, countAllowedMesons 95
+ The njSim size is 755 with simTracksSize 2350
+
+
+ nPairTracksSize = 72
+
+ nChMesonSize = 92
+
+
+ The meson tree size is 66, genSize 1517, countDisAllowedMesons 1451, countAllowedMesons 66
+ The njSim size is 541 with simTracksSize 1816
+
+
+ nPairTracksSize = 91
+
+ nChMesonSize = 99
+
+
+ The meson tree size is 58, genSize 1725, countDisAllowedMesons 1667, countAllowedMesons 58
+ The njSim size is 525 with simTracksSize 1964
+
+
+ nPairTracksSize = 102
+
+ nChMesonSize = 117
+
+
+ The meson tree size is 94, genSize 1719, countDisAllowedMesons 1625, countAllowedMesons 94
+ The njSim size is 700 with simTracksSize 1796
+
+
+ nPairTracksSize = 86
+
+ nChMesonSize = 102
+
+
+ The meson tree size is 70, genSize 1740, countDisAllowedMesons 1670, countAllowedMesons 70
+ The njSim size is 559 with simTracksSize 1900
+
+
+ nPairTracksSize = 73
+
+ nChMesonSize = 83
+
+
+ The meson tree size is 37, genSize 1504, countDisAllowedMesons 1467, countAllowedMesons 37
+ The njSim size is 435 with simTracksSize 1652
+
+Begin processing the 101st record. Run 1, Event 1339301, LumiSection 4186 at 10-May-2014 12:43:13.009 CDT
+
+ nPairTracksSize = 111
+
+ nChMesonSize = 134
+
+
+ The meson tree size is 91, genSize 2246, countDisAllowedMesons 2155, countAllowedMesons 91
+ The njSim size is 839 with simTracksSize 2975
+
+
+ nPairTracksSize = 100
+
+ nChMesonSize = 121
+
+
+ The meson tree size is 114, genSize 2376, countDisAllowedMesons 2262, countAllowedMesons 114
+ The njSim size is 877 with simTracksSize 2663
+
+
+ nPairTracksSize = 85
+
+ nChMesonSize = 95
+
+
+ The meson tree size is 53, genSize 1463, countDisAllowedMesons 1410, countAllowedMesons 53
+ The njSim size is 434 with simTracksSize 1354
+
+
+ nPairTracksSize = 121
+
+ nChMesonSize = 143
+
+
+ The meson tree size is 78, genSize 2026, countDisAllowedMesons 1948, countAllowedMesons 78
+ The njSim size is 771 with simTracksSize 2369
+
+
+ nPairTracksSize = 71
+
+ nChMesonSize = 93
+
+
+ The meson tree size is 71, genSize 1725, countDisAllowedMesons 1654, countAllowedMesons 71
+ The njSim size is 624 with simTracksSize 2068
+
+
+ nPairTracksSize = 85
+
+ nChMesonSize = 103
+
+
+ The meson tree size is 65, genSize 1501, countDisAllowedMesons 1436, countAllowedMesons 65
+ The njSim size is 467 with simTracksSize 1373
+
+
+ nPairTracksSize = 68
+
+ nChMesonSize = 83
+
+
+ The meson tree size is 74, genSize 1408, countDisAllowedMesons 1334, countAllowedMesons 74
+ The njSim size is 531 with simTracksSize 1471
+
+
+ nPairTracksSize = 81
+
+ nChMesonSize = 104
+
+
+ The meson tree size is 78, genSize 1834, countDisAllowedMesons 1756, countAllowedMesons 78
+ The njSim size is 597 with simTracksSize 2078
+
+
+ nPairTracksSize = 114
+
+ nChMesonSize = 119
+
+
+ The meson tree size is 63, genSize 1667, countDisAllowedMesons 1604, countAllowedMesons 63
+ The njSim size is 626 with simTracksSize 2085
+
+
+ nPairTracksSize = 89
+
+ nChMesonSize = 98
+
+
+ The meson tree size is 81, genSize 1704, countDisAllowedMesons 1623, countAllowedMesons 81
+ The njSim size is 593 with simTracksSize 1481
+
+
+ nPairTracksSize = 73
+
+ nChMesonSize = 85
+
+
+ The meson tree size is 58, genSize 1537, countDisAllowedMesons 1479, countAllowedMesons 58
+ The njSim size is 584 with simTracksSize 1993
+
+
+ nPairTracksSize = 102
+
+ nChMesonSize = 116
+
+
+ The meson tree size is 94, genSize 2038, countDisAllowedMesons 1944, countAllowedMesons 94
+ The njSim size is 736 with simTracksSize 2399
+
+
+ nPairTracksSize = 76
+
+ nChMesonSize = 103
+
+
+ The meson tree size is 81, genSize 1965, countDisAllowedMesons 1884, countAllowedMesons 81
+ The njSim size is 662 with simTracksSize 2269
+
+
+ nPairTracksSize = 74
+
+ nChMesonSize = 91
+
+
+ The meson tree size is 79, genSize 2083, countDisAllowedMesons 2004, countAllowedMesons 79
+ The njSim size is 660 with simTracksSize 2084
+
+
+ nPairTracksSize = 81
+
+ nChMesonSize = 92
+
+
+ The meson tree size is 45, genSize 1365, countDisAllowedMesons 1320, countAllowedMesons 45
+ The njSim size is 519 with simTracksSize 1527
+
+Begin processing the 201st record. Run 1, Event 1339401, LumiSection 4186 at 10-May-2014 12:43:15.178 CDT
+
+ nPairTracksSize = 78
+
+ nChMesonSize = 90
+
+
+ The meson tree size is 63, genSize 1638, countDisAllowedMesons 1575, countAllowedMesons 63
+ The njSim size is 581 with simTracksSize 1849
+
+
+ nPairTracksSize = 92
+
+ nChMesonSize = 109
+
+
+ The meson tree size is 69, genSize 2012, countDisAllowedMesons 1943, countAllowedMesons 69
+ The njSim size is 654 with simTracksSize 2261
+
+
+ nPairTracksSize = 83
+
+ nChMesonSize = 98
+
+
+ The meson tree size is 74, genSize 1555, countDisAllowedMesons 1481, countAllowedMesons 74
+ The njSim size is 544 with simTracksSize 1794
+
+
+ nPairTracksSize = 149
+
+ nChMesonSize = 165
+
+
+ The meson tree size is 157, genSize 2481, countDisAllowedMesons 2324, countAllowedMesons 157
+ The njSim size is 1063 with simTracksSize 2967
+
+
+ nPairTracksSize = 153
+
+ nChMesonSize = 170
+
+
+ The meson tree size is 124, genSize 2680, countDisAllowedMesons 2556, countAllowedMesons 124
+ The njSim size is 1013 with simTracksSize 2904
+
+
+ nPairTracksSize = 89
+
+ nChMesonSize = 106
+
+
+ The meson tree size is 73, genSize 1833, countDisAllowedMesons 1760, countAllowedMesons 73
+ The njSim size is 580 with simTracksSize 1907
+
+
+ nPairTracksSize = 117
+
+ nChMesonSize = 141
+
+
+ The meson tree size is 98, genSize 2270, countDisAllowedMesons 2172, countAllowedMesons 98
+ The njSim size is 873 with simTracksSize 2693
+
+
+ nPairTracksSize = 104
+
+ nChMesonSize = 133
+
+
+ The meson tree size is 101, genSize 2386, countDisAllowedMesons 2285, countAllowedMesons 101
+ The njSim size is 765 with simTracksSize 2770
+
+
+ nPairTracksSize = 78
+
+ nChMesonSize = 92
+
+
+ The meson tree size is 61, genSize 1753, countDisAllowedMesons 1692, countAllowedMesons 61
+ The njSim size is 545 with simTracksSize 2393
+
+
+ nPairTracksSize = 72
+
+ nChMesonSize = 80
+
+
+ The meson tree size is 63, genSize 1398, countDisAllowedMesons 1335, countAllowedMesons 63
+ The njSim size is 482 with simTracksSize 1385
+
+
+ nPairTracksSize = 89
+
+ nChMesonSize = 99
+
+
+ The meson tree size is 73, genSize 1516, countDisAllowedMesons 1443, countAllowedMesons 73
+ The njSim size is 497 with simTracksSize 1683
+
+
+ nPairTracksSize = 87
+
+ nChMesonSize = 98
+
+
+ The meson tree size is 73, genSize 1811, countDisAllowedMesons 1738, countAllowedMesons 73
+ The njSim size is 633 with simTracksSize 1867
+
+Begin processing the 301st record. Run 1, Event 1339501, LumiSection 4186 at 10-May-2014 12:43:17.323 CDT
+
+ nPairTracksSize = 76
+
+ nChMesonSize = 90
+
+
+ The meson tree size is 54, genSize 1686, countDisAllowedMesons 1632, countAllowedMesons 54
+ The njSim size is 517 with simTracksSize 2648
+
+
+ nPairTracksSize = 70
+
+ nChMesonSize = 88
+
+
+ The meson tree size is 55, genSize 1525, countDisAllowedMesons 1470, countAllowedMesons 55
+ The njSim size is 548 with simTracksSize 1544
+
+
+ nPairTracksSize = 80
+
+ nChMesonSize = 96
+
+
+ The meson tree size is 69, genSize 1732, countDisAllowedMesons 1663, countAllowedMesons 69
+ The njSim size is 541 with simTracksSize 1812
+
+
+ nPairTracksSize = 92
+
+ nChMesonSize = 102
+
+
+ The meson tree size is 70, genSize 1835, countDisAllowedMesons 1765, countAllowedMesons 70
+ The njSim size is 634 with simTracksSize 1915
+
+
+ nPairTracksSize = 99
+
+ nChMesonSize = 126
+
+
+ The meson tree size is 66, genSize 2096, countDisAllowedMesons 2030, countAllowedMesons 66
+ The njSim size is 728 with simTracksSize 2167
+
+
+ nPairTracksSize = 86
+
+ nChMesonSize = 104
+
+
+ The meson tree size is 86, genSize 2133, countDisAllowedMesons 2047, countAllowedMesons 86
+ The njSim size is 752 with simTracksSize 2723
+
+
+ nPairTracksSize = 106
+
+ nChMesonSize = 124
+
+
+ The meson tree size is 84, genSize 2095, countDisAllowedMesons 2011, countAllowedMesons 84
+ The njSim size is 812 with simTracksSize 2359
+
+
+ nPairTracksSize = 88
+
+ nChMesonSize = 107
+
+
+ The meson tree size is 79, genSize 1762, countDisAllowedMesons 1683, countAllowedMesons 79
+ The njSim size is 720 with simTracksSize 1916
+
+
+ nPairTracksSize = 98
+
+ nChMesonSize = 118
+
+
+ The meson tree size is 83, genSize 2026, countDisAllowedMesons 1943, countAllowedMesons 83
+ The njSim size is 752 with simTracksSize 2701
+
+
+ nPairTracksSize = 136
+
+ nChMesonSize = 165
+
+
+ The meson tree size is 136, genSize 2610, countDisAllowedMesons 2474, countAllowedMesons 136
+ The njSim size is 1055 with simTracksSize 2863
+
+
+ nPairTracksSize = 130
+
+ nChMesonSize = 150
+
+
+ The meson tree size is 123, genSize 2562, countDisAllowedMesons 2439, countAllowedMesons 123
+ The njSim size is 1002 with simTracksSize 3201
+
+
+ nPairTracksSize = 91
+
+ nChMesonSize = 115
+
+
+ The meson tree size is 80, genSize 1927, countDisAllowedMesons 1847, countAllowedMesons 80
+ The njSim size is 639 with simTracksSize 2191
+
+
+ nPairTracksSize = 77
+
+ nChMesonSize = 91
+
+
+ The meson tree size is 61, genSize 1661, countDisAllowedMesons 1600, countAllowedMesons 61
+ The njSim size is 615 with simTracksSize 1919
+
+Begin processing the 401st record. Run 1, Event 1347921, LumiSection 4213 at 10-May-2014 12:43:19.485 CDT
+
+ nPairTracksSize = 84
+
+ nChMesonSize = 101
+
+
+ The meson tree size is 80, genSize 1684, countDisAllowedMesons 1604, countAllowedMesons 80
+ The njSim size is 613 with simTracksSize 1657
+
+
+ nPairTracksSize = 105
+
+ nChMesonSize = 118
+
+
+ The meson tree size is 83, genSize 1863, countDisAllowedMesons 1780, countAllowedMesons 83
+ The njSim size is 584 with simTracksSize 1836
+
+
+ nPairTracksSize = 89
+
+ nChMesonSize = 109
+
+
+ The meson tree size is 69, genSize 1821, countDisAllowedMesons 1752, countAllowedMesons 69
+ The njSim size is 689 with simTracksSize 1808
+
+
+ nPairTracksSize = 100
+
+ nChMesonSize = 118
+
+
+ The meson tree size is 95, genSize 1940, countDisAllowedMesons 1845, countAllowedMesons 95
+ The njSim size is 753 with simTracksSize 2110
+
+
+ nPairTracksSize = 115
+
+ nChMesonSize = 131
+
+
+ The meson tree size is 85, genSize 2091, countDisAllowedMesons 2006, countAllowedMesons 85
+ The njSim size is 727 with simTracksSize 2291
+
+
+ nPairTracksSize = 79
+
+ nChMesonSize = 98
+
+
+ The meson tree size is 50, genSize 1652, countDisAllowedMesons 1602, countAllowedMesons 50
+ The njSim size is 547 with simTracksSize 2033
+
+
+ nPairTracksSize = 103
+
+ nChMesonSize = 119
+
+
+ The meson tree size is 75, genSize 1922, countDisAllowedMesons 1847, countAllowedMesons 75
+ The njSim size is 616 with simTracksSize 1870
+
+
+ nPairTracksSize = 73
+
+ nChMesonSize = 96
+
+
+ The meson tree size is 73, genSize 1837, countDisAllowedMesons 1764, countAllowedMesons 73
+ The njSim size is 672 with simTracksSize 2323
+
+
+ nPairTracksSize = 70
+
+ nChMesonSize = 76
+
+
+ The meson tree size is 58, genSize 1678, countDisAllowedMesons 1620, countAllowedMesons 58
+ The njSim size is 493 with simTracksSize 1638
+
+
+ nPairTracksSize = 95
+
+ nChMesonSize = 113
+
+
+ The meson tree size is 75, genSize 1913, countDisAllowedMesons 1838, countAllowedMesons 75
+ The njSim size is 704 with simTracksSize 2206
+
+
+ nPairTracksSize = 75
+
+ nChMesonSize = 92
+
+
+ The meson tree size is 70, genSize 1846, countDisAllowedMesons 1776, countAllowedMesons 70
+ The njSim size is 563 with simTracksSize 2597
+
+
+ nPairTracksSize = 89
+
+ nChMesonSize = 106
+
+
+ The meson tree size is 61, genSize 1551, countDisAllowedMesons 1490, countAllowedMesons 61
+ The njSim size is 588 with simTracksSize 1593
+
+
+ nPairTracksSize = 111
+
+ nChMesonSize = 141
+
+
+ The meson tree size is 79, genSize 2190, countDisAllowedMesons 2111, countAllowedMesons 79
+ The njSim size is 856 with simTracksSize 2557
+
+
+ nPairTracksSize = 73
+
+ nChMesonSize = 90
+
+
+ The meson tree size is 59, genSize 1667, countDisAllowedMesons 1608, countAllowedMesons 59
+ The njSim size is 595 with simTracksSize 1936
+
+
+ nPairTracksSize = 91
+
+ nChMesonSize = 107
+
+
+ The meson tree size is 53, genSize 1650, countDisAllowedMesons 1597, countAllowedMesons 53
+ The njSim size is 579 with simTracksSize 2356
+
+
+ nPairTracksSize = 108
+
+ nChMesonSize = 134
+
+
+ The meson tree size is 104, genSize 2127, countDisAllowedMesons 2023, countAllowedMesons 104
+ The njSim size is 833 with simTracksSize 2487
+
+Begin processing the 501st record. Run 1, Event 1348021, LumiSection 4213 at 10-May-2014 12:43:23.320 CDT
+
+ nPairTracksSize = 68
+
+ nChMesonSize = 82
+
+
+ The meson tree size is 66, genSize 1475, countDisAllowedMesons 1409, countAllowedMesons 66
+ The njSim size is 481 with simTracksSize 1494
+
+
+ nPairTracksSize = 85
+
+ nChMesonSize = 108
+
+
+ The meson tree size is 99, genSize 2082, countDisAllowedMesons 1983, countAllowedMesons 99
+ The njSim size is 723 with simTracksSize 2151
+
+
+ nPairTracksSize = 123
+
+ nChMesonSize = 141
+
+
+ The meson tree size is 120, genSize 2461, countDisAllowedMesons 2341, countAllowedMesons 120
+ The njSim size is 874 with simTracksSize 2541
+
+
+ nPairTracksSize = 82
+
+ nChMesonSize = 90
+
+
+ The meson tree size is 63, genSize 1929, countDisAllowedMesons 1866, countAllowedMesons 63
+ The njSim size is 593 with simTracksSize 1874
+
+
+ nPairTracksSize = 84
+
+ nChMesonSize = 105
+
+
+ The meson tree size is 75, genSize 1912, countDisAllowedMesons 1837, countAllowedMesons 75
+ The njSim size is 695 with simTracksSize 2052
+
+
+ nPairTracksSize = 85
+
+ nChMesonSize = 101
+
+
+ The meson tree size is 58, genSize 1694, countDisAllowedMesons 1636, countAllowedMesons 58
+ The njSim size is 628 with simTracksSize 1801
+
+
+ nPairTracksSize = 89
+
+ nChMesonSize = 105
+
+
+ The meson tree size is 59, genSize 1594, countDisAllowedMesons 1535, countAllowedMesons 59
+ The njSim size is 576 with simTracksSize 1734
+
+
+ nPairTracksSize = 74
+
+ nChMesonSize = 105
+
+
+ The meson tree size is 89, genSize 2285, countDisAllowedMesons 2196, countAllowedMesons 89
+ The njSim size is 826 with simTracksSize 2542
+
+
+ nPairTracksSize = 77
+
+ nChMesonSize = 100
+
+
+ The meson tree size is 74, genSize 1949, countDisAllowedMesons 1875, countAllowedMesons 74
+ The njSim size is 581 with simTracksSize 2026
+
+
+ nPairTracksSize = 94
+
+ nChMesonSize = 110
+
+
+ The meson tree size is 73, genSize 2017, countDisAllowedMesons 1944, countAllowedMesons 73
+ The njSim size is 722 with simTracksSize 2240
+
+
+ nPairTracksSize = 109
+
+ nChMesonSize = 136
+
+
+ The meson tree size is 97, genSize 2145, countDisAllowedMesons 2048, countAllowedMesons 97
+ The njSim size is 764 with simTracksSize 2104
+
+
+ nPairTracksSize = 84
+
+ nChMesonSize = 96
+
+
+ The meson tree size is 77, genSize 1530, countDisAllowedMesons 1453, countAllowedMesons 77
+ The njSim size is 626 with simTracksSize 1550
+
+
+ nPairTracksSize = 84
+
+ nChMesonSize = 96
+
+
+ The meson tree size is 81, genSize 1675, countDisAllowedMesons 1594, countAllowedMesons 81
+ The njSim size is 528 with simTracksSize 1744
+
+
+ nPairTracksSize = 79
+
+ nChMesonSize = 97
+
+
+ The meson tree size is 95, genSize 1683, countDisAllowedMesons 1588, countAllowedMesons 95
+ The njSim size is 637 with simTracksSize 2107
+
+
+ nPairTracksSize = 81
+
+ nChMesonSize = 97
+
+
+ The meson tree size is 51, genSize 1750, countDisAllowedMesons 1699, countAllowedMesons 51
+ The njSim size is 562 with simTracksSize 2263
+
+
+ nPairTracksSize = 92
+
+ nChMesonSize = 118
+
+
+ The meson tree size is 84, genSize 2034, countDisAllowedMesons 1950, countAllowedMesons 84
+ The njSim size is 743 with simTracksSize 1938
+
+
+ nPairTracksSize = 72
+
+ nChMesonSize = 86
+
+
+ The meson tree size is 91, genSize 1664, countDisAllowedMesons 1573, countAllowedMesons 91
+ The njSim size is 666 with simTracksSize 1846
+
+
+ nPairTracksSize = 70
+
+ nChMesonSize = 82
+
+
+ The meson tree size is 61, genSize 1519, countDisAllowedMesons 1458, countAllowedMesons 61
+ The njSim size is 511 with simTracksSize 1606
+
+
+ nPairTracksSize = 101
+
+ nChMesonSize = 140
+
+
+ The meson tree size is 84, genSize 2237, countDisAllowedMesons 2153, countAllowedMesons 84
+ The njSim size is 820 with simTracksSize 2507
+
+
+ nPairTracksSize = 82
+
+ nChMesonSize = 99
+
+
+ The meson tree size is 66, genSize 1642, countDisAllowedMesons 1576, countAllowedMesons 66
+ The njSim size is 537 with simTracksSize 1899
+
+Begin processing the 601st record. Run 1, Event 1348121, LumiSection 4213 at 10-May-2014 12:43:26.175 CDT
+
+ nPairTracksSize = 92
+
+ nChMesonSize = 103
+
+
+ The meson tree size is 77, genSize 1726, countDisAllowedMesons 1649, countAllowedMesons 77
+ The njSim size is 612 with simTracksSize 1776
+
+
+ nPairTracksSize = 99
+
+ nChMesonSize = 119
+
+
+ The meson tree size is 67, genSize 2023, countDisAllowedMesons 1956, countAllowedMesons 67
+ The njSim size is 624 with simTracksSize 2006
+
+
+ nPairTracksSize = 94
+
+ nChMesonSize = 112
+
+
+ The meson tree size is 75, genSize 1698, countDisAllowedMesons 1623, countAllowedMesons 75
+ The njSim size is 615 with simTracksSize 2069
+
+
+ nPairTracksSize = 91
+
+ nChMesonSize = 106
+
+
+ The meson tree size is 73, genSize 2008, countDisAllowedMesons 1935, countAllowedMesons 73
+ The njSim size is 628 with simTracksSize 2104
+
+
+ nPairTracksSize = 90
+
+ nChMesonSize = 117
+
+
+ The meson tree size is 89, genSize 1932, countDisAllowedMesons 1843, countAllowedMesons 89
+ The njSim size is 729 with simTracksSize 1962
+
+
+ nPairTracksSize = 143
+
+ nChMesonSize = 162
+
+
+ The meson tree size is 126, genSize 2301, countDisAllowedMesons 2175, countAllowedMesons 126
+ The njSim size is 946 with simTracksSize 2570
+
+
+ nPairTracksSize = 71
+
+ nChMesonSize = 84
+
+
+ The meson tree size is 96, genSize 1774, countDisAllowedMesons 1678, countAllowedMesons 96
+ The njSim size is 619 with simTracksSize 1750
+
+
+ nPairTracksSize = 109
+
+ nChMesonSize = 128
+
+
+ The meson tree size is 99, genSize 1786, countDisAllowedMesons 1687, countAllowedMesons 99
+ The njSim size is 822 with simTracksSize 2168
+
+
+ nPairTracksSize = 77
+
+ nChMesonSize = 97
+
+
+ The meson tree size is 78, genSize 1815, countDisAllowedMesons 1737, countAllowedMesons 78
+ The njSim size is 572 with simTracksSize 2096
+
+
+ nPairTracksSize = 105
+
+ nChMesonSize = 117
+
+
+ The meson tree size is 107, genSize 2071, countDisAllowedMesons 1964, countAllowedMesons 107
+ The njSim size is 787 with simTracksSize 2332
+
+
+ nPairTracksSize = 100
+
+ nChMesonSize = 115
+
+
+ The meson tree size is 75, genSize 2009, countDisAllowedMesons 1934, countAllowedMesons 75
+ The njSim size is 750 with simTracksSize 2470
+
+
+ nPairTracksSize = 78
+
+ nChMesonSize = 90
+
+
+ The meson tree size is 67, genSize 1466, countDisAllowedMesons 1399, countAllowedMesons 67
+ The njSim size is 488 with simTracksSize 1531
+
+
+ nPairTracksSize = 95
+
+ nChMesonSize = 115
+
+
+ The meson tree size is 73, genSize 1764, countDisAllowedMesons 1691, countAllowedMesons 73
+ The njSim size is 766 with simTracksSize 2191
+
+
+ nPairTracksSize = 87
+
+ nChMesonSize = 114
+
+
+ The meson tree size is 103, genSize 2236, countDisAllowedMesons 2133, countAllowedMesons 103
+ The njSim size is 756 with simTracksSize 2044
+
+
+ nPairTracksSize = 80
+
+ nChMesonSize = 90
+
+
+ The meson tree size is 96, genSize 1810, countDisAllowedMesons 1714, countAllowedMesons 96
+ The njSim size is 654 with simTracksSize 2050
+
+
+ nPairTracksSize = 79
+
+ nChMesonSize = 91
+
+
+ The meson tree size is 58, genSize 1458, countDisAllowedMesons 1400, countAllowedMesons 58
+ The njSim size is 557 with simTracksSize 1605
+
+
+ nPairTracksSize = 84
+
+ nChMesonSize = 95
+
+
+ The meson tree size is 58, genSize 1705, countDisAllowedMesons 1647, countAllowedMesons 58
+ The njSim size is 526 with simTracksSize 1643
+
+Begin processing the 701st record. Run 1, Event 1348221, LumiSection 4214 at 10-May-2014 12:43:28.365 CDT
+
+ nPairTracksSize = 69
+
+ nChMesonSize = 90
+
+
+ The meson tree size is 44, genSize 1434, countDisAllowedMesons 1390, countAllowedMesons 44
+ The njSim size is 500 with simTracksSize 1562
+
+
+ nPairTracksSize = 77
+
+ nChMesonSize = 93
+
+
+ The meson tree size is 70, genSize 1698, countDisAllowedMesons 1628, countAllowedMesons 70
+ The njSim size is 611 with simTracksSize 1837
+
+
+ nPairTracksSize = 84
+
+ nChMesonSize = 100
+
+
+ The meson tree size is 59, genSize 1714, countDisAllowedMesons 1655, countAllowedMesons 59
+ The njSim size is 502 with simTracksSize 1747
+
+
+ nPairTracksSize = 78
+
+ nChMesonSize = 97
+
+
+ The meson tree size is 90, genSize 2171, countDisAllowedMesons 2081, countAllowedMesons 90
+ The njSim size is 713 with simTracksSize 2508
+
+
+ nPairTracksSize = 82
+
+ nChMesonSize = 93
+
+
+ The meson tree size is 63, genSize 1767, countDisAllowedMesons 1704, countAllowedMesons 63
+ The njSim size is 571 with simTracksSize 1852
+
+
+ nPairTracksSize = 83
+
+ nChMesonSize = 101
+
+
+ The meson tree size is 70, genSize 1553, countDisAllowedMesons 1483, countAllowedMesons 70
+ The njSim size is 581 with simTracksSize 2294
+
+
+ nPairTracksSize = 102
+
+ nChMesonSize = 112
+
+
+ The meson tree size is 87, genSize 2053, countDisAllowedMesons 1966, countAllowedMesons 87
+ The njSim size is 682 with simTracksSize 2183
+
+
+ nPairTracksSize = 116
+
+ nChMesonSize = 134
+
+
+ The meson tree size is 112, genSize 2129, countDisAllowedMesons 2017, countAllowedMesons 112
+ The njSim size is 877 with simTracksSize 3120
+
+
+ nPairTracksSize = 118
+
+ nChMesonSize = 146
+
+
+ The meson tree size is 102, genSize 2449, countDisAllowedMesons 2347, countAllowedMesons 102
+ The njSim size is 965 with simTracksSize 2909
+
+
+ nPairTracksSize = 104
+
+ nChMesonSize = 115
+
+
+ The meson tree size is 92, genSize 1907, countDisAllowedMesons 1815, countAllowedMesons 92
+ The njSim size is 709 with simTracksSize 1815
+
+
+ nPairTracksSize = 99
+
+ nChMesonSize = 111
+
+
+ The meson tree size is 77, genSize 1533, countDisAllowedMesons 1456, countAllowedMesons 77
+ The njSim size is 549 with simTracksSize 1989
+
+
+ nPairTracksSize = 93
+
+ nChMesonSize = 119
+
+
+ The meson tree size is 100, genSize 1920, countDisAllowedMesons 1820, countAllowedMesons 100
+ The njSim size is 784 with simTracksSize 2450
+
+
+ nPairTracksSize = 85
+
+ nChMesonSize = 104
+
+
+ The meson tree size is 77, genSize 1620, countDisAllowedMesons 1543, countAllowedMesons 77
+ The njSim size is 614 with simTracksSize 1680
+
+
+ nPairTracksSize = 99
+
+ nChMesonSize = 122
+
+
+ The meson tree size is 88, genSize 1987, countDisAllowedMesons 1899, countAllowedMesons 88
+ The njSim size is 743 with simTracksSize 2034
+
+
+ nPairTracksSize = 71
+
+ nChMesonSize = 84
+
+
+ The meson tree size is 60, genSize 1676, countDisAllowedMesons 1616, countAllowedMesons 60
+ The njSim size is 626 with simTracksSize 1894
+
+
+ nPairTracksSize = 82
+
+ nChMesonSize = 105
+
+
+ The meson tree size is 80, genSize 1660, countDisAllowedMesons 1580, countAllowedMesons 80
+ The njSim size is 656 with simTracksSize 1825
+
+
+ nPairTracksSize = 79
+
+ nChMesonSize = 86
+
+
+ The meson tree size is 56, genSize 1694, countDisAllowedMesons 1638, countAllowedMesons 56
+ The njSim size is 559 with simTracksSize 1637
+
+
+ nPairTracksSize = 74
+
+ nChMesonSize = 87
+
+
+ The meson tree size is 86, genSize 1907, countDisAllowedMesons 1821, countAllowedMesons 86
+ The njSim size is 598 with simTracksSize 1973
+
+
+ nPairTracksSize = 77
+
+ nChMesonSize = 86
+
+
+ The meson tree size is 64, genSize 1584, countDisAllowedMesons 1520, countAllowedMesons 64
+ The njSim size is 575 with simTracksSize 1830
+
+
+ nPairTracksSize = 88
+
+ nChMesonSize = 105
+
+
+ The meson tree size is 77, genSize 1523, countDisAllowedMesons 1446, countAllowedMesons 77
+ The njSim size is 543 with simTracksSize 1431
+
+Begin processing the 801st record. Run 1, Event 1348321, LumiSection 4214 at 10-May-2014 12:43:31.241 CDT
+
+ nPairTracksSize = 92
+
+ nChMesonSize = 115
+
+
+ The meson tree size is 93, genSize 1963, countDisAllowedMesons 1870, countAllowedMesons 93
+ The njSim size is 624 with simTracksSize 2949
+
+
+ nPairTracksSize = 120
+
+ nChMesonSize = 133
+
+
+ The meson tree size is 75, genSize 1885, countDisAllowedMesons 1810, countAllowedMesons 75
+ The njSim size is 726 with simTracksSize 1938
+
+
+ nPairTracksSize = 118
+
+ nChMesonSize = 140
+
+
+ The meson tree size is 89, genSize 2124, countDisAllowedMesons 2035, countAllowedMesons 89
+ The njSim size is 890 with simTracksSize 3046
+
+
+ nPairTracksSize = 79
+
+ nChMesonSize = 93
+
+
+ The meson tree size is 43, genSize 1548, countDisAllowedMesons 1505, countAllowedMesons 43
+ The njSim size is 470 with simTracksSize 1385
+
+
+ nPairTracksSize = 104
+
+ nChMesonSize = 131
+
+
+ The meson tree size is 106, genSize 2348, countDisAllowedMesons 2242, countAllowedMesons 106
+ The njSim size is 867 with simTracksSize 2480
+
+
+ nPairTracksSize = 63
+
+ nChMesonSize = 82
+
+
+ The meson tree size is 66, genSize 1560, countDisAllowedMesons 1494, countAllowedMesons 66
+ The njSim size is 585 with simTracksSize 1886
+
+
+ nPairTracksSize = 135
+
+ nChMesonSize = 156
+
+
+ The meson tree size is 131, genSize 2395, countDisAllowedMesons 2264, countAllowedMesons 131
+ The njSim size is 933 with simTracksSize 2518
+
+
+ nPairTracksSize = 84
+
+ nChMesonSize = 98
+
+
+ The meson tree size is 76, genSize 1712, countDisAllowedMesons 1636, countAllowedMesons 76
+ The njSim size is 594 with simTracksSize 1854
+
+
+ nPairTracksSize = 71
+
+ nChMesonSize = 81
+
+
+ The meson tree size is 33, genSize 1775, countDisAllowedMesons 1742, countAllowedMesons 33
+ The njSim size is 521 with simTracksSize 1791
+
+
+ nPairTracksSize = 101
+
+ nChMesonSize = 114
+
+
+ The meson tree size is 74, genSize 1822, countDisAllowedMesons 1748, countAllowedMesons 74
+ The njSim size is 625 with simTracksSize 1818
+
+
+ nPairTracksSize = 86
+
+ nChMesonSize = 97
+
+
+ The meson tree size is 72, genSize 1478, countDisAllowedMesons 1406, countAllowedMesons 72
+ The njSim size is 493 with simTracksSize 1535
+
+
+ nPairTracksSize = 83
+
+ nChMesonSize = 91
+
+
+ The meson tree size is 64, genSize 1433, countDisAllowedMesons 1369, countAllowedMesons 64
+ The njSim size is 543 with simTracksSize 1380
+
+
+ nPairTracksSize = 103
+
+ nChMesonSize = 122
+
+
+ The meson tree size is 114, genSize 2178, countDisAllowedMesons 2064, countAllowedMesons 114
+ The njSim size is 915 with simTracksSize 2378
+
+
+ nPairTracksSize = 82
+
+ nChMesonSize = 95
+
+
+ The meson tree size is 50, genSize 1408, countDisAllowedMesons 1358, countAllowedMesons 50
+ The njSim size is 520 with simTracksSize 1460
+
+
+ nPairTracksSize = 77
+
+ nChMesonSize = 95
+
+
+ The meson tree size is 52, genSize 1730, countDisAllowedMesons 1678, countAllowedMesons 52
+ The njSim size is 517 with simTracksSize 1737
+
+
+ nPairTracksSize = 123
+
+ nChMesonSize = 142
+
+
+ The meson tree size is 94, genSize 2204, countDisAllowedMesons 2110, countAllowedMesons 94
+ The njSim size is 873 with simTracksSize 2914
+
+
+ nPairTracksSize = 75
+
+ nChMesonSize = 94
+
+
+ The meson tree size is 55, genSize 1683, countDisAllowedMesons 1628, countAllowedMesons 55
+ The njSim size is 548 with simTracksSize 1829
+
+
+ nPairTracksSize = 88
+
+ nChMesonSize = 106
+
+
+ The meson tree size is 79, genSize 1845, countDisAllowedMesons 1766, countAllowedMesons 79
+ The njSim size is 626 with simTracksSize 2274
+
+
+ nPairTracksSize = 81
+
+ nChMesonSize = 95
+
+
+ The meson tree size is 50, genSize 1707, countDisAllowedMesons 1657, countAllowedMesons 50
+ The njSim size is 587 with simTracksSize 1908
+
+
+ nPairTracksSize = 74
+
+ nChMesonSize = 89
+
+
+ The meson tree size is 51, genSize 1639, countDisAllowedMesons 1588, countAllowedMesons 51
+ The njSim size is 537 with simTracksSize 1718
+
+
+ nPairTracksSize = 98
+
+ nChMesonSize = 116
+
+
+ The meson tree size is 70, genSize 1840, countDisAllowedMesons 1770, countAllowedMesons 70
+ The njSim size is 665 with simTracksSize 2073
+
+Begin processing the 901st record. Run 1, Event 1348421, LumiSection 4214 at 10-May-2014 12:43:34.479 CDT
+
+ nPairTracksSize = 100
+
+ nChMesonSize = 120
+
+
+ The meson tree size is 82, genSize 1891, countDisAllowedMesons 1809, countAllowedMesons 82
+ The njSim size is 771 with simTracksSize 2134
+
+
+ nPairTracksSize = 76
+
+ nChMesonSize = 89
+
+
+ The meson tree size is 86, genSize 1727, countDisAllowedMesons 1641, countAllowedMesons 86
+ The njSim size is 642 with simTracksSize 1973
+
+
+ nPairTracksSize = 104
+
+ nChMesonSize = 122
+
+
+ The meson tree size is 112, genSize 1774, countDisAllowedMesons 1662, countAllowedMesons 112
+ The njSim size is 731 with simTracksSize 1956
+
+
+ nPairTracksSize = 76
+
+ nChMesonSize = 86
+
+
+ The meson tree size is 61, genSize 1541, countDisAllowedMesons 1480, countAllowedMesons 61
+ The njSim size is 565 with simTracksSize 1740
+
+
+ nPairTracksSize = 114
+
+ nChMesonSize = 136
+
+
+ The meson tree size is 78, genSize 2362, countDisAllowedMesons 2284, countAllowedMesons 78
+ The njSim size is 810 with simTracksSize 2670
+
+
+ nPairTracksSize = 70
+
+ nChMesonSize = 82
+
+
+ The meson tree size is 63, genSize 1514, countDisAllowedMesons 1451, countAllowedMesons 63
+ The njSim size is 494 with simTracksSize 1502
+
+
+ nPairTracksSize = 118
+
+ nChMesonSize = 144
+
+
+ The meson tree size is 93, genSize 2259, countDisAllowedMesons 2166, countAllowedMesons 93
+ The njSim size is 824 with simTracksSize 2477
+
+
+ nPairTracksSize = 86
+
+ nChMesonSize = 103
+
+
+ The meson tree size is 94, genSize 1881, countDisAllowedMesons 1787, countAllowedMesons 94
+ The njSim size is 636 with simTracksSize 2315
+
+
+ nPairTracksSize = 67
+
+ nChMesonSize = 93
+
+
+ The meson tree size is 48, genSize 1389, countDisAllowedMesons 1341, countAllowedMesons 48
+ The njSim size is 466 with simTracksSize 1524
+
+
+ nPairTracksSize = 77
+
+ nChMesonSize = 89
+
+
+ The meson tree size is 56, genSize 1401, countDisAllowedMesons 1345, countAllowedMesons 56
+ The njSim size is 525 with simTracksSize 1614
+
+
+ nPairTracksSize = 102
+
+ nChMesonSize = 125
+
+
+ The meson tree size is 56, genSize 1804, countDisAllowedMesons 1748, countAllowedMesons 56
+ The njSim size is 602 with simTracksSize 1950
+
+
+ nPairTracksSize = 100
+
+ nChMesonSize = 116
+
+
+ The meson tree size is 64, genSize 1875, countDisAllowedMesons 1811, countAllowedMesons 64
+ The njSim size is 629 with simTracksSize 2021
+
+
+ nPairTracksSize = 108
+
+ nChMesonSize = 124
+
+
+ The meson tree size is 63, genSize 1950, countDisAllowedMesons 1887, countAllowedMesons 63
+ The njSim size is 655 with simTracksSize 2588
+
+
+ nPairTracksSize = 108
+
+ nChMesonSize = 134
+
+
+ The meson tree size is 73, genSize 2055, countDisAllowedMesons 1982, countAllowedMesons 73
+ The njSim size is 841 with simTracksSize 2706
+
+10-May-2014 12:43:36 CDT  Closed file /store//himc//HiWinter13/ReggeGribovPartonMCfix_EposLHC_5TeV_pPb/GEN-SIM-RECO/pa_STARTHI53_V25-v1/20000/004C2C1B-0777-E211-B514-0024E86E8D0B.root
+
+
+ EcalFlowNTP::endJob() <I>  nevttotal_trg = 163,  nevttotal_ass = 163, totalEventsThisJob 900
+
+ Will check the Z-vertex differences
+
+ Number of trigger events with at least one partner event = 163
+
+
+ EcalFlowNTP::endJob() <I>  Generator: nevttotal_trg = 163,  nevttotal_ass = 163
+
+--- RESULTS ---
+
+  Currently with pi0 mixed event entries = 53585,  mixed clusters examined 322323,  events containing at least one cluster 163
+ Number of hot channel seed crystals that were discarded 0
+ Number of hot channel satellite crystals that were discarded 0
+ Maximum number of HI tracks for run 1 is 286 at event 1339505
+ Maximum number clusters found for run 1 is 84 at event 1339445
+ Maximum number crystals found for run 1 is 279 at event 1347908
+ Total events this run = 900 with accumulated events for all runs = 900
+ Number of events with trigger particle (nevttotal_trg) = 163
+ Number of events with associated particle (nevttotal_ass) = 163
+ Number of background fills = 163
+ Total of takeAssociated events = 1315
+ Minimum number of associated events for any trigger event = 1
+ Number of generator background fills = 163
+ Total of generator takeAssociated events = 1620
+ Minimum number of generator associated events for any trigger event = 9
+ Number of fills for background histogram 0 = 984645
+ Number of fills for background histogram 1 = 606404
+ Number of fills for background histogram 2 = 237949
+ Number of fills for background histogram 3 = 106539
+ Number of fills for background histogram 4 = 41746
+ Number of fills for background histogram 5 = 18720
+ Number of fills for background histogram 6 = 8190
+ Number of fills for background histogram 7 = 7020
+ Number of fills for background histogram 8 = 1170
+ Number of fills for background histogram 9 = 1170
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 fileAction           -s file_close                             1        1
+    2 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 fileAction           PostEndRun                        
+    2 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+System                  3                   3

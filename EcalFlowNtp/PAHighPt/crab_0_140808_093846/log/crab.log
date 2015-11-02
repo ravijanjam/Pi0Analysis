@@ -1,0 +1,107 @@
+2014-08-08 09:38:47,288 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_6/python/crab.py -create -cfg crab.cfg
+
+2014-08-08 09:38:47,288 [INFO] 	Version 2.10.6_pre4 running on Fri Aug  8 09:38:47 2014 CST (14:38:47 UTC)
+
+crab. Working options:
+	scheduler           pbsv2
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140808_093846/
+
+2014-08-08 09:38:47,289 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/janjamrk/.cms_crab/allowed_releases.conf].
+2014-08-08 09:38:47,289 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/janjamrk/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/janjamrk/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xc1ddd40>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xc1ddf80>}, 'logger': <logging.Logger instance at 0xc1ddd40>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/janjamrk/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-08-08 09:38:47,603 [DEBUG] 	/home/janjamrk/.cms_crab/0_GET_allowed_releases.conf expired, refreshing cache
+2014-08-08 09:38:47,603 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/allowed_releases.conf
+	data: {}
+2014-08-08 09:38:48,646 [INFO] 	error detecting glite version 
+2014-08-08 09:38:48,650 [INFO] 	error detecting glite version 
+2014-08-08 09:38:49,317 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xc1ddd40>, 'conn': <httplib.HTTPSConnection instance at 0xc1041b8>}, 'logger': <logging.Logger instance at 0xc1ddd40>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/janjamrk/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-08-08 09:38:49,318 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xc1ddd40>, 'conn': <httplib.HTTPSConnection instance at 0xc104248>}, 'logger': <logging.Logger instance at 0xc1ddd40>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/janjamrk/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-08-08 09:38:49,318 [DEBUG] 	Input whitelist: T2_US_Vanderbilt
+2014-08-08 09:38:49,318 [DEBUG] 	Input blacklist: 
+2014-08-08 09:38:49,541 [DEBUG] 	/home/janjamrk/.cms_sitedbcache/0_GET_site-names.json expired, refreshing cache
+2014-08-08 09:38:49,541 [DEBUG] 	getData: 
+	url: /sitedb/data/prod/site-names
+	data: {}
+2014-08-08 09:38:52,835 [INFO] 	Problem connecting to SiteDB. White/blacklist may be incomplete.
+2014-08-08 09:38:52,836 [INFO] 	List is ['T2_US_Vanderbilt']
+2014-08-08 09:38:52,836 [DEBUG] 	Converted whitelist: T2_US_Vanderbilt
+2014-08-08 09:38:52,836 [DEBUG] 	Converted blacklist: 
+2014-08-08 09:38:52,837 [INFO] 	Your se_white_list is set to T2_US_Vanderbilt: only local dataset will be considered
+2014-08-08 09:38:52,837 [INFO] 	 The default queue of local PBS configuration will be used
+2014-08-08 09:38:52,837 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/janjamrk/.cms_crab/myproxy_server.conf].
+2014-08-08 09:38:52,838 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/janjamrk/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/janjamrk/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xc1ddd40>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xc104518>}, 'logger': <logging.Logger instance at 0xc1ddd40>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/janjamrk/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-08-08 09:38:52,839 [DEBUG] 	/home/janjamrk/.cms_crab/0_GET_myproxy_server.conf expired, refreshing cache
+2014-08-08 09:38:52,839 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/myproxy_server.conf
+	data: {}
+2014-08-08 09:38:53,108 [INFO] 	Using a proxy
+2014-08-08 09:38:59,766 [INFO] 	Your proxy will expire in:
+	58 hours 20 minutes 56 seconds
+
+2014-08-08 09:39:05,289 [DEBUG] 	MyProxy delegation:
+eval `scram unsetenv -sh`; export GT_PROXY_MODE=rfc; myproxy-init -d -n -s myproxy.cern.ch
+2014-08-08 09:39:05,416 [DEBUG] 	Linux vmps10 2.6.18-194.32.1.el5 #1 SMP Wed Jan 5 17:52:25 EST 2011 x86_64 x86_64 x86_64 GNU/Linux
+ 
+Used properties:
+Linux vmps10 2.6.18-194.32.1.el5 #1 SMP Wed Jan 5 17:52:25 EST 2011 x86_64 x86_64 x86_64 GNU/Linux
+ 
+Used properties:
+   CMSSW.datasetpath : /PAHighPt/HIRun2013-PromptReco-v1/RECO
+   CMSSW.lumi_mask : Cert_pPb_Pbpcombined_HI_PromptReco_Collisions13_JSON.txt
+   CMSSW.lumis_per_job : 25
+   CMSSW.output_file : pPb_14June2014_PAHighPt_True095_175.root
+   CMSSW.pset : ecalflowntpPAHightPt_True.py
+   CMSSW.total_number_of_lumis : -1
+   CRAB.cfg : crab.cfg
+   CRAB.create : 
+   CRAB.jobtype : cmssw
+   CRAB.scheduler : pbsv2
+   CRAB.use_server : 0
+   GRID.se_white_list : T2_US_Vanderbilt
+   PBSV2.grouplist : cms_stage3
+   PBSV2.hostname : vmps09.vampire
+   PBSV2.resources : walltime=18:00:00,pmem=2800mb,mem=2800mb
+   PBSV2.workernodebase : /tmp
+   USER.check_user_remote_dir : 0
+   USER.copy_data : 1
+   USER.email : charles.f.maguire@vanderbilt.edu
+   USER.publish_data : 0
+   USER.return_data : 0
+   USER.storage_element : T2_US_Vanderbilt
+   USER.user_remote_dir : hiRun2013pPb
+End of used properties.
+
+2014-08-08 09:39:05,693 [DEBUG] 	CMSSW::__init__
+2014-08-08 09:39:05,694 [DEBUG] 	Scram::Scram() version is 2
+2014-08-08 09:39:05,694 [DEBUG] 	Scram::Scram() arch is slc5_amd64_gcc462
+2014-08-08 09:39:05,694 [DEBUG] 	Downloading file [https://cmssdt.cern.ch/SDT/cgi-bin] to [/home/janjamrk/.cms_crab/ReleasesXML?anytype=1].
+2014-08-08 09:39:05,695 [DEBUG] 	Service initialised ({'endpoint': 'https://cmssdt.cern.ch/SDT/cgi-bin', 'maxcachereuse': 24.0, 'cachepath': '/home/janjamrk/.cms_crab', 'basepath': '/SDT/cgi-bin/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'https://cmssdt.cern.ch/SDT/cgi-bin', 'timeout': 20, 'cachepath': '/home/janjamrk/.cms_crab', 'cacheduration': 0.5, 'host': 'cmssdt.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xc1ddd40>, 'type': 'txt/csv', 'conn': <httplib.HTTPSConnection instance at 0xc12cc68>}, 'logger': <logging.Logger instance at 0xc1ddd40>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmssdt.cern.ch, basepath: /SDT/cgi-bin/ (text/html)
+	 cache: /home/janjamrk/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-08-08 09:39:05,696 [DEBUG] 	/home/janjamrk/.cms_crab/0_GET_ReleasesXML?anytype=1 expired, refreshing cache
+2014-08-08 09:39:05,696 [DEBUG] 	getData: 
+	url: /SDT/cgi-bin/ReleasesXML?anytype=1
+	data: {}
+2014-08-08 09:39:06,689 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xc1ddd40>, 'conn': <httplib.HTTPSConnection instance at 0xc332710>}, 'logger': <logging.Logger instance at 0xc1ddd40>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/janjamrk/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-08-08 09:39:06,689 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/janjamrk/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xc1ddd40>, 'conn': <httplib.HTTPSConnection instance at 0xc332290>}, 'logger': <logging.Logger instance at 0xc1ddd40>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/janjamrk/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-08-08 09:39:06,689 [DEBUG] 	Input whitelist: 
+2014-08-08 09:39:06,690 [DEBUG] 	Input blacklist: 
+2014-08-08 09:39:06,690 [DEBUG] 	Converted whitelist: 
+2014-08-08 09:39:06,690 [DEBUG] 	Converted blacklist: 
+2014-08-08 09:39:06,769 [INFO] 	Contacting Data Discovery Services ...
+2014-08-08 09:39:06,769 [INFO] 	Accessing DBS at: https://cmsweb.cern.ch/dbs/prod/global/DBSReader
+2014-08-08 09:39:06,770 [INFO] 	Will do Data Discovery using  DBS3

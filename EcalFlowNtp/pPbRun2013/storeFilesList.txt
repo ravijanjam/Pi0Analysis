@@ -1,0 +1,10 @@
+-rw-rw---- 0 uscms01 cms 364079690 Jan 26 20:28 pPb_ReCal_26January2014V1_10_1_cuh.root
+-rw-rw---- 0 uscms01 cms 324194704 Jan 26 16:22 pPb_ReCal_26January2014V1_1_1_4lW.root
+-rw-rw---- 0 uscms01 cms 436901024 Jan 26 22:01 pPb_ReCal_26January2014V1_2_1_ctx.root
+-rw-rw---- 0 uscms01 cms 399068874 Jan 26 20:52 pPb_ReCal_26January2014V1_3_1_Dx7.root
+-rw-rw---- 0 uscms01 cms 364973989 Jan 26 21:13 pPb_ReCal_26January2014V1_4_1_8Lj.root
+-rw-rw---- 0 uscms01 cms 355568778 Jan 26 20:23 pPb_ReCal_26January2014V1_5_1_VQZ.root
+-rw-rw---- 0 uscms01 cms 416126331 Jan 26 23:07 pPb_ReCal_26January2014V1_6_1_tFG.root
+-rw-rw---- 0 uscms01 cms 400771164 Jan 26 22:22 pPb_ReCal_26January2014V1_7_1_840.root
+-rw-rw---- 0 uscms01 cms 380765658 Jan 26 21:59 pPb_ReCal_26January2014V1_8_1_i8f.root
+-rw-rw---- 0 uscms01 cms 376006763 Jan 26 20:08 pPb_ReCal_26January2014V1_9_1_RsZ.root

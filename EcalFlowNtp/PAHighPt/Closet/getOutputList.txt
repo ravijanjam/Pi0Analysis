@@ -1,0 +1,23 @@
+crab:  Version 2.10.3 running on Thu Mar  6 21:49:06 2014 CST (03:49:06 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140303_183405/
+
+crab:  error detecting glite version 
+crab:  error detecting glite version 
+crab:  contacting remote host hcc-crabserver.unl.edu
+crab:  Preparing to rsync 2 files
+crab:  Results of Jobs # 446 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140303_183405/res/
+crab:  contacting remote host hcc-crabserver.unl.edu
+crab:  Preparing to rsync 14 files
+crab:  Results of Jobs # 453 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140303_183405/res/
+crab:  Results of Jobs # 454 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140303_183405/res/
+crab:  Results of Jobs # 458 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140303_183405/res/
+crab:  Results of Jobs # 459 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140303_183405/res/
+crab:  Results of Jobs # 483 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140303_183405/res/
+crab:  Results of Jobs # 553 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140303_183405/res/
+crab:  Results of Jobs # 554 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140303_183405/res/
+Log file is /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140303_183405/log/crab.log

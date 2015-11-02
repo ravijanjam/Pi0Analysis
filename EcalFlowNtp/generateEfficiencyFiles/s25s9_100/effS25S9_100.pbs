@@ -1,0 +1,18 @@
+#!/bin/tcsh
+#PBS -W group_list=cms_stage3
+#PBS -l nodes=1:ppn=1
+#PBS -o effS25S9_100.log
+#PBS -l walltime=1:00:00
+#PBS -l mem=1900mb
+setenv SCRAM_ARCH slc5_amd64_gcc462
+source /home/grid-app/cmssoft/cms/cmsset_default.csh
+cd $HOME/CMSSW_5_3_8_HI_patch2/src
+cmsenv
+
+cd /home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/generateEfficiencyFiles/s25s9_100
+echo $HOST > s25s9_100Host.txt
+date
+which root
+root -b < s25s9_100.input >& s25s9_100.log
+date
+exit 0

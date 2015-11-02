@@ -1,0 +1,30 @@
+Start at 
+Thu Jun 19 06:55:31 CDT 2014
+Copying from cms@cms-lstore:2702/user/maguirc/hirun2013/pPb_EPOS2_494Files_SlimTrack_27May2014.root to /tmp/maguirc/pPb_EPOS2_494Files_SlimTrack_27May2014.root using 16 threads
+........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Data rate: 31.0 MB/s  Metadata op time: 0s  Total rate: 31.0 MB/s
+1 files successfully transferred. 0 failed. No retries attempted yet.
+Final results: 1 files successfully transferred. 0 failed. 0 Skipped instead of being overwritten. (2)
+Finished first download at 
+Thu Jun 19 07:02:07 CDT 2014
+Copying from cms@cms-lstore:2702/user/maguirc/hirun2013/pPb_Data_450Files_26May2014.root to /tmp/maguirc/pPb_Data_450Files_26May2014.root using 16 threads
+.............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Data rate: 56.0 MB/s  Metadata op time: 0s  Total rate: 56.0 MB/s
+1 files successfully transferred. 0 failed. No retries attempted yet.
+Final results: 1 files successfully transferred. 0 failed. 0 Skipped instead of being overwritten. (2)
+Finished second download at 
+Thu Jun 19 07:05:22 CDT 2014
+Copying from cms@cms-lstore:2702/user/maguirc/hirun2013/pPb_EPOS_489Files_EDMPtCut15ClustS2510_30May2014.root to /tmp/maguirc/pPb_EPOS_489Files_EDMPtCut15ClustS2510_30May2014.root using 16 threads
+........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Data rate: 55.0 MB/s  Metadata op time: 0s  Total rate: 55.0 MB/s
+1 files successfully transferred. 0 failed. No retries attempted yet.
+Final results: 1 files successfully transferred. 0 failed. 0 Skipped instead of being overwritten. (2)
+Finished third download at 
+Thu Jun 19 07:09:06 CDT 2014
+Copying from cms@cms-lstore:2702/user/maguirc/hirun2013/pPbHighPt_310Files_07June2014.root to /tmp/maguirc/pPbHighPt_310Files_07June2014.root using 16 threads
+......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+Data rate: 56.0 MB/s  Metadata op time: 0s  Total rate: 56.0 MB/s
+1 files successfully transferred. 0 failed. No retries attempted yet.
+Final results: 1 files successfully transferred. 0 failed. 0 Skipped instead of being overwritten. (2)
+Finished fourth download at 
+Thu Jun 19 07:12:57 CDT 2014

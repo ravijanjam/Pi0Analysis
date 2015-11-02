@@ -1,0 +1,43 @@
+  *******************************************
+  *                                         *
+  *        W E L C O M E  to  R O O T       *
+  *                                         *
+  *   Version   5.32/00   2 December 2011   *
+  *                                         *
+  *  You are welcome to visit our Web site  *
+  *          http://root.cern.ch            *
+  *                                         *
+  *******************************************
+
+ROOT 5.32/00 (branches/v5-32-00-patches@42372, Nov 19 2012, 10:56:00 on linuxx8664gcc)
+
+CINT/ROOT C/C++ Interpreter version 5.18.00, July 2, 2010
+Type ? for help. Commands must be C++ statements.
+Enclose multiple statements between { }.
+Loading FW Lite setup.
+
+ Using the pi0 mass window for the observed v2 region
+
+ The use of the pi0 efficiency table was not requested
+
+ The use of the track efficiency table was requested
+
+ Found the charged particle efficiency table ROOT file
+
+ Minimum Bias data sets are used
+
+ Number of events in EcalFlowNtpMult100/NeutralPions/hTree = 1439285
+
+ Normalization factor for pT from 1 to 1.5 GeV/c = 0.272124, with second normalization at 0.313255 FCN=18.4508 FROM MIGRAD    STATUS=CONVERGED     124 CALLS         125 TOTAL
+                     EDM=4.75932e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Ampl         1.50742e+04   1.10186e+02   1.90474e-01   7.57736e-06
+   2  Cent         1.34340e-01   1.19810e-04   2.56510e-07  -2.72021e+00
+   3  Sigma        1.49523e-02   1.20587e-04   2.07584e-07   9.73961e+00
+
+  EDFit:  Centroid = 0.13434,  Width = 0.0149523
+  EDM fit:  Signal yield = 134594 +/- 854
+  EDM fit:  S/(S+B)= 0.226399 +/- 0.00143768
+Info in <TCanvas::Print>: pdf file pi0MassHighPt_PtBin1_327Files_Multiplicity120-150_20140617.pdf has been created
+Info in <TCanvas::SaveAs>: ROOT file pi0MassHighPt_PtBin1_327Files_Multiplicity120-150_20140617.root has been created

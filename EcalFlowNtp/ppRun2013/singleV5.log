@@ -1,0 +1,494 @@
+17-Jan-2014 17:47:14 CST  Initiating request to open file /store//data/Run2013A/PPMinBias/RECO/PromptReco-v1/000/211/792/00000/C810EC35-4077-E211-B710-E0CB4E553651.root
+17-Jan-2014 17:47:16 CST  Successfully opened file /store//data/Run2013A/PPMinBias/RECO/PromptReco-v1/000/211/792/00000/C810EC35-4077-E211-B710-E0CB4E553651.root
+The pT bin width used are: 16	1.6	12
+pT bins used for the histogram: 8	1	6
+
+ Using a pT dependent separation cut parameterization 35.657/pT - 4.1995/pT^2,  with a rescale factor 0.7
+
+ The goodAngleMatch opening angle criterion for reco track-cluster matching is 0.03 radians
+
+ The goodPhiMatch residual angle criterion for reco track-cluster matching is 0.03 radians
+
+ The goodThetaMatch residual angle criterion for reco track-cluster matching is 0.03 radians
+
+ Cluster energy value will be recalibrated according to number of crystals in the cluster
+
+ There is no check on the number of crystals in a cluster
+
+ Cluster with a charged particle tracking match will not be used
+
+ No output tree will be generated
+Begin processing the 1st record. Run 211792, Event 915344505, LumiSection 793 at 17-Jan-2014 17:48:54.592 CST
+
+ First pass: zVertexEventSelected = -0.113045, zAtECal = 1.91459, zCorrected = 2.02763, thetaForZEqualsZero = 0.592908, thetaCorrected = 0.56662, zCorrectedEta = 1.23395, uncorrected Eta = 1.18595
+ First pass: zVertexEventSelected = -0.113045, zAtECal = 0.208581, zCorrected = 0.321625, thetaForZEqualsZero = 1.41049, thetaCorrected = 1.32646, zCorrectedEta = 0.246809, uncorrected Eta = 0.160994
+ First pass: zVertexEventSelected = -0.113045, zAtECal = -0.0624443, zCorrected = 0.0506002, thetaForZEqualsZero = 1.61917, thetaCorrected = 1.53159, zCorrectedEta = 0.0392149, uncorrected Eta = -0.0483876
+ First pass: zVertexEventSelected = -0.113045, zAtECal = -2.20337, zCorrected = -2.09033, thetaForZEqualsZero = 2.61193, thetaCorrected = 2.58867, zCorrectedEta = -1.25975, uncorrected Eta = -1.30489
+ First pass: zVertexEventSelected = -0.113045, zAtECal = -2.11878, zCorrected = -2.00573, thetaForZEqualsZero = 2.5947, thetaCorrected = 2.57004, zCorrectedEta = -1.2248, uncorrected Eta = -1.27128
+ First pass: zVertexEventSelected = -0.113045, zAtECal = 2.12185, zCorrected = 2.2349, thetaForZEqualsZero = 0.546252, thetaCorrected = 0.523492, zCorrectedEta = 1.31717, uncorrected Eta = 1.27251
+ First pass: zVertexEventSelected = -0.113045, zAtECal = 0.678476, zCorrected = 0.791521, thetaForZEqualsZero = 1.0866, thetaCorrected = 1.02045, zCorrectedEta = 0.580436, uncorrected Eta = 0.504302
+ First pass: zVertexEventSelected = -0.113045, zAtECal = 2.34327, zCorrected = 2.45631, thetaForZEqualsZero = 0.503237, thetaCorrected = 0.483586, zCorrectedEta = 1.39991, uncorrected Eta = 1.35842
+ First pass: zVertexEventSelected = -0.113045, zAtECal = 2.42693, zCorrected = 2.53998, thetaForZEqualsZero = 0.488556, thetaCorrected = 0.46993, zCorrectedEta = 1.42967, uncorrected Eta = 1.38928
+ First pass: zVertexEventSelected = -0.113045, zAtECal = -1.95441, zCorrected = -1.84137, thetaForZEqualsZero = 2.55819, thetaCorrected = 2.53049, zCorrectedEta = -1.15382, uncorrected Eta = -1.20308
+Begin processing the 101st record. Run 211792, Event 915560409, LumiSection 793 at 17-Jan-2014 17:49:00.671 CST
+Begin processing the 201st record. Run 211792, Event 915732953, LumiSection 793 at 17-Jan-2014 17:49:01.021 CST
+Begin processing the 301st record. Run 211792, Event 915953105, LumiSection 793 at 17-Jan-2014 17:49:01.271 CST
+Begin processing the 401st record. Run 211792, Event 915355132, LumiSection 793 at 17-Jan-2014 17:49:01.526 CST
+Begin processing the 501st record. Run 211792, Event 915556196, LumiSection 793 at 17-Jan-2014 17:49:01.721 CST
+Begin processing the 601st record. Run 211792, Event 915774116, LumiSection 793 at 17-Jan-2014 17:49:03.220 CST
+Begin processing the 701st record. Run 211792, Event 916013244, LumiSection 793 at 17-Jan-2014 17:49:03.560 CST
+Begin processing the 801st record. Run 211792, Event 915409482, LumiSection 793 at 17-Jan-2014 17:49:03.788 CST
+Begin processing the 901st record. Run 211792, Event 915635394, LumiSection 793 at 17-Jan-2014 17:49:04.029 CST
+Begin processing the 1001st record. Run 211792, Event 915845266, LumiSection 793 at 17-Jan-2014 17:49:04.262 CST
+Begin processing the 1101st record. Run 211792, Event 916054154, LumiSection 793 at 17-Jan-2014 17:49:06.302 CST
+Begin processing the 1201st record. Run 211792, Event 915481757, LumiSection 793 at 17-Jan-2014 17:49:06.574 CST
+Begin processing the 1301st record. Run 211792, Event 915717477, LumiSection 793 at 17-Jan-2014 17:49:06.938 CST
+Begin processing the 1401st record. Run 211792, Event 915920029, LumiSection 793 at 17-Jan-2014 17:49:07.181 CST
+Begin processing the 1501st record. Run 211792, Event 916125757, LumiSection 793 at 17-Jan-2014 17:49:07.424 CST
+Begin processing the 1601st record. Run 211792, Event 915535584, LumiSection 793 at 17-Jan-2014 17:49:09.049 CST
+Begin processing the 1701st record. Run 211792, Event 915715376, LumiSection 793 at 17-Jan-2014 17:49:09.422 CST
+Begin processing the 1801st record. Run 211792, Event 915933696, LumiSection 793 at 17-Jan-2014 17:49:09.653 CST
+Begin processing the 1901st record. Run 211792, Event 915340061, LumiSection 793 at 17-Jan-2014 17:49:09.887 CST
+Begin processing the 2001st record. Run 211792, Event 915571053, LumiSection 793 at 17-Jan-2014 17:49:10.114 CST
+Begin processing the 2101st record. Run 211792, Event 915779453, LumiSection 793 at 17-Jan-2014 17:49:12.138 CST
+Begin processing the 2201st record. Run 211792, Event 915983549, LumiSection 793 at 17-Jan-2014 17:49:12.542 CST
+Begin processing the 2301st record. Run 211792, Event 915402835, LumiSection 793 at 17-Jan-2014 17:49:12.751 CST
+Begin processing the 2401st record. Run 211792, Event 915597083, LumiSection 793 at 17-Jan-2014 17:49:12.987 CST
+Begin processing the 2501st record. Run 211792, Event 915838899, LumiSection 793 at 17-Jan-2014 17:49:13.215 CST
+Begin processing the 2601st record. Run 211792, Event 916035587, LumiSection 793 at 17-Jan-2014 17:49:17.799 CST
+Begin processing the 2701st record. Run 211792, Event 915459179, LumiSection 793 at 17-Jan-2014 17:49:18.138 CST
+Begin processing the 2801st record. Run 211792, Event 915643443, LumiSection 793 at 17-Jan-2014 17:49:18.578 CST
+Begin processing the 2901st record. Run 211792, Event 915858443, LumiSection 793 at 17-Jan-2014 17:49:18.806 CST
+Begin processing the 3001st record. Run 211792, Event 916040371, LumiSection 793 at 17-Jan-2014 17:49:19.059 CST
+Begin processing the 3101st record. Run 211792, Event 915454274, LumiSection 793 at 17-Jan-2014 17:49:21.033 CST
+Begin processing the 3201st record. Run 211792, Event 915690610, LumiSection 793 at 17-Jan-2014 17:49:21.416 CST
+Begin processing the 3301st record. Run 211792, Event 915929786, LumiSection 793 at 17-Jan-2014 17:49:21.668 CST
+Begin processing the 3401st record. Run 211792, Event 915378392, LumiSection 793 at 17-Jan-2014 17:49:21.882 CST
+Begin processing the 3501st record. Run 211792, Event 915584112, LumiSection 793 at 17-Jan-2014 17:49:22.118 CST
+Begin processing the 3601st record. Run 211792, Event 915787216, LumiSection 793 at 17-Jan-2014 17:49:24.409 CST
+Begin processing the 3701st record. Run 211792, Event 915994792, LumiSection 793 at 17-Jan-2014 17:49:24.734 CST
+Begin processing the 3801st record. Run 211792, Event 915375614, LumiSection 793 at 17-Jan-2014 17:49:25.052 CST
+Begin processing the 3901st record. Run 211792, Event 915576926, LumiSection 793 at 17-Jan-2014 17:49:25.257 CST
+Begin processing the 4001st record. Run 211792, Event 915787694, LumiSection 793 at 17-Jan-2014 17:49:25.558 CST
+Begin processing the 4101st record. Run 211792, Event 915989366, LumiSection 793 at 17-Jan-2014 17:49:28.583 CST
+Begin processing the 4201st record. Run 211792, Event 915420230, LumiSection 793 at 17-Jan-2014 17:49:28.961 CST
+Begin processing the 4301st record. Run 211792, Event 915632534, LumiSection 793 at 17-Jan-2014 17:49:29.209 CST
+Begin processing the 4401st record. Run 211792, Event 915877038, LumiSection 793 at 17-Jan-2014 17:49:29.504 CST
+Begin processing the 4501st record. Run 211792, Event 916072678, LumiSection 793 at 17-Jan-2014 17:49:29.704 CST
+Begin processing the 4601st record. Run 211792, Event 915445703, LumiSection 793 at 17-Jan-2014 17:49:29.974 CST
+Begin processing the 4701st record. Run 211792, Event 915652895, LumiSection 793 at 17-Jan-2014 17:49:34.214 CST
+Begin processing the 4801st record. Run 211792, Event 915863647, LumiSection 793 at 17-Jan-2014 17:49:34.555 CST
+Begin processing the 4901st record. Run 211792, Event 916071815, LumiSection 793 at 17-Jan-2014 17:49:34.826 CST
+Begin processing the 5001st record. Run 211792, Event 915467964, LumiSection 793 at 17-Jan-2014 17:49:35.091 CST
+Begin processing the 5101st record. Run 211792, Event 915654100, LumiSection 793 at 17-Jan-2014 17:49:35.314 CST
+Begin processing the 5201st record. Run 211792, Event 915879060, LumiSection 793 at 17-Jan-2014 17:49:37.652 CST
+Begin processing the 5301st record. Run 211792, Event 916083900, LumiSection 793 at 17-Jan-2014 17:49:37.971 CST
+Begin processing the 5401st record. Run 211792, Event 915479343, LumiSection 793 at 17-Jan-2014 17:49:38.261 CST
+Begin processing the 5501st record. Run 211792, Event 915699159, LumiSection 793 at 17-Jan-2014 17:49:38.524 CST
+Begin processing the 5601st record. Run 211792, Event 915907839, LumiSection 793 at 17-Jan-2014 17:49:38.765 CST
+Begin processing the 5701st record. Run 211792, Event 915337569, LumiSection 793 at 17-Jan-2014 17:49:42.405 CST
+Begin processing the 5801st record. Run 211792, Event 915577249, LumiSection 793 at 17-Jan-2014 17:49:42.698 CST
+Begin processing the 5901st record. Run 211792, Event 915768417, LumiSection 793 at 17-Jan-2014 17:49:43.074 CST
+Begin processing the 6001st record. Run 211792, Event 915980225, LumiSection 793 at 17-Jan-2014 17:49:43.286 CST
+Begin processing the 6101st record. Run 211792, Event 916180099, LumiSection 794 at 17-Jan-2014 17:49:43.471 CST
+Begin processing the 6201st record. Run 211792, Event 916397283, LumiSection 794 at 17-Jan-2014 17:49:43.691 CST
+Begin processing the 6301st record. Run 211792, Event 916611155, LumiSection 794 at 17-Jan-2014 17:49:48.253 CST
+Begin processing the 6401st record. Run 211792, Event 916799259, LumiSection 794 at 17-Jan-2014 17:49:48.566 CST
+Begin processing the 6501st record. Run 211792, Event 916217634, LumiSection 794 at 17-Jan-2014 17:49:48.798 CST
+Begin processing the 6601st record. Run 211792, Event 916460874, LumiSection 794 at 17-Jan-2014 17:49:49.035 CST
+Begin processing the 6701st record. Run 211792, Event 916639362, LumiSection 794 at 17-Jan-2014 17:49:49.197 CST
+Begin processing the 6801st record. Run 211792, Event 916848722, LumiSection 794 at 17-Jan-2014 17:49:55.026 CST
+Begin processing the 6901st record. Run 211792, Event 916270726, LumiSection 794 at 17-Jan-2014 17:49:55.330 CST
+Begin processing the 7001st record. Run 211792, Event 916502926, LumiSection 794 at 17-Jan-2014 17:49:55.651 CST
+Begin processing the 7101st record. Run 211792, Event 916690782, LumiSection 794 at 17-Jan-2014 17:49:55.834 CST
+Begin processing the 7201st record. Run 211792, Event 916144819, LumiSection 794 at 17-Jan-2014 17:49:56.010 CST
+Begin processing the 7301st record. Run 211792, Event 916341099, LumiSection 794 at 17-Jan-2014 17:49:58.405 CST
+Begin processing the 7401st record. Run 211792, Event 916567003, LumiSection 794 at 17-Jan-2014 17:49:58.692 CST
+Begin processing the 7501st record. Run 211792, Event 916772803, LumiSection 794 at 17-Jan-2014 17:49:58.993 CST
+Begin processing the 7601st record. Run 211792, Event 916196085, LumiSection 794 at 17-Jan-2014 17:49:59.217 CST
+Begin processing the 7701st record. Run 211792, Event 916416053, LumiSection 794 at 17-Jan-2014 17:49:59.413 CST
+Begin processing the 7801st record. Run 211792, Event 916617373, LumiSection 794 at 17-Jan-2014 17:50:02.178 CST
+Begin processing the 7901st record. Run 211792, Event 916842381, LumiSection 794 at 17-Jan-2014 17:50:02.541 CST
+Begin processing the 8001st record. Run 211792, Event 916234056, LumiSection 794 at 17-Jan-2014 17:50:02.770 CST
+Begin processing the 8101st record. Run 211792, Event 916416920, LumiSection 794 at 17-Jan-2014 17:50:02.981 CST
+Begin processing the 8201st record. Run 211792, Event 916635208, LumiSection 794 at 17-Jan-2014 17:50:03.208 CST
+Begin processing the 8301st record. Run 211792, Event 916834312, LumiSection 794 at 17-Jan-2014 17:50:04.600 CST
+Begin processing the 8401st record. Run 211792, Event 916269711, LumiSection 794 at 17-Jan-2014 17:50:04.902 CST
+Begin processing the 8501st record. Run 211792, Event 916473151, LumiSection 794 at 17-Jan-2014 17:50:05.185 CST
+Begin processing the 8601st record. Run 211792, Event 916684175, LumiSection 794 at 17-Jan-2014 17:50:05.459 CST
+Begin processing the 8701st record. Run 211792, Event 916899855, LumiSection 794 at 17-Jan-2014 17:50:05.740 CST
+Begin processing the 8801st record. Run 211792, Event 916329964, LumiSection 794 at 17-Jan-2014 17:50:11.870 CST
+Begin processing the 8901st record. Run 211792, Event 916524836, LumiSection 794 at 17-Jan-2014 17:50:12.234 CST
+Begin processing the 9001st record. Run 211792, Event 916714676, LumiSection 794 at 17-Jan-2014 17:50:12.552 CST
+Begin processing the 9101st record. Run 211792, Event 916872596, LumiSection 794 at 17-Jan-2014 17:50:12.834 CST
+Begin processing the 9201st record. Run 211792, Event 916278143, LumiSection 794 at 17-Jan-2014 17:50:13.035 CST
+Begin processing the 9301st record. Run 211792, Event 916463487, LumiSection 794 at 17-Jan-2014 17:50:15.215 CST
+Begin processing the 9401st record. Run 211792, Event 916688375, LumiSection 794 at 17-Jan-2014 17:50:15.550 CST
+Begin processing the 9501st record. Run 211792, Event 916912119, LumiSection 794 at 17-Jan-2014 17:50:15.936 CST
+Begin processing the 9601st record. Run 211792, Event 916320601, LumiSection 794 at 17-Jan-2014 17:50:16.181 CST
+Begin processing the 9701st record. Run 211792, Event 916529001, LumiSection 794 at 17-Jan-2014 17:50:16.407 CST
+Begin processing the 9801st record. Run 211792, Event 916730881, LumiSection 794 at 17-Jan-2014 17:50:16.554 CST
+Begin processing the 9901st record. Run 211792, Event 916170054, LumiSection 794 at 17-Jan-2014 17:50:24.144 CST
+Begin processing the 10001st record. Run 211792, Event 916374590, LumiSection 794 at 17-Jan-2014 17:50:24.513 CST
+Begin processing the 10101st record. Run 211792, Event 916557358, LumiSection 794 at 17-Jan-2014 17:50:24.706 CST
+Begin processing the 10201st record. Run 211792, Event 916780750, LumiSection 794 at 17-Jan-2014 17:50:24.906 CST
+Begin processing the 10301st record. Run 211792, Event 916185980, LumiSection 794 at 17-Jan-2014 17:50:26.423 CST
+Begin processing the 10401st record. Run 211792, Event 916387708, LumiSection 794 at 17-Jan-2014 17:50:26.801 CST
+Begin processing the 10501st record. Run 211792, Event 916644772, LumiSection 794 at 17-Jan-2014 17:50:27.108 CST
+Begin processing the 10601st record. Run 211792, Event 916864812, LumiSection 794 at 17-Jan-2014 17:50:27.319 CST
+Begin processing the 10701st record. Run 211792, Event 916273880, LumiSection 794 at 17-Jan-2014 17:50:27.507 CST
+Begin processing the 10801st record. Run 211792, Event 916496728, LumiSection 794 at 17-Jan-2014 17:50:28.995 CST
+Begin processing the 10901st record. Run 211792, Event 916727984, LumiSection 794 at 17-Jan-2014 17:50:29.363 CST
+Begin processing the 11001st record. Run 211792, Event 916149458, LumiSection 794 at 17-Jan-2014 17:50:29.654 CST
+Begin processing the 11101st record. Run 211792, Event 916347682, LumiSection 794 at 17-Jan-2014 17:50:29.940 CST
+Begin processing the 11201st record. Run 211792, Event 916577058, LumiSection 794 at 17-Jan-2014 17:50:30.201 CST
+Begin processing the 11301st record. Run 211792, Event 916762762, LumiSection 794 at 17-Jan-2014 17:50:31.675 CST
+Begin processing the 11401st record. Run 211792, Event 916215949, LumiSection 794 at 17-Jan-2014 17:50:32.022 CST
+Begin processing the 11501st record. Run 211792, Event 916469309, LumiSection 794 at 17-Jan-2014 17:50:32.241 CST
+Begin processing the 11601st record. Run 211792, Event 916655029, LumiSection 794 at 17-Jan-2014 17:50:32.433 CST
+Begin processing the 11701st record. Run 211792, Event 916844405, LumiSection 794 at 17-Jan-2014 17:50:32.615 CST
+Begin processing the 11801st record. Run 211792, Event 916286761, LumiSection 794 at 17-Jan-2014 17:50:35.028 CST
+Begin processing the 11901st record. Run 211792, Event 916462097, LumiSection 794 at 17-Jan-2014 17:50:35.394 CST
+Begin processing the 12001st record. Run 211792, Event 916707313, LumiSection 794 at 17-Jan-2014 17:50:35.700 CST
+Begin processing the 12101st record. Run 211792, Event 916883201, LumiSection 794 at 17-Jan-2014 17:50:35.878 CST
+Begin processing the 12201st record. Run 211792, Event 917083434, LumiSection 795 at 17-Jan-2014 17:50:36.066 CST
+Begin processing the 12301st record. Run 211792, Event 917270210, LumiSection 795 at 17-Jan-2014 17:50:36.260 CST
+Begin processing the 12401st record. Run 211792, Event 917476650, LumiSection 795 at 17-Jan-2014 17:50:39.111 CST
+Begin processing the 12501st record. Run 211792, Event 917623274, LumiSection 795 at 17-Jan-2014 17:50:39.440 CST
+Begin processing the 12601st record. Run 211792, Event 917067057, LumiSection 795 at 17-Jan-2014 17:50:39.727 CST
+Begin processing the 12701st record. Run 211792, Event 917275089, LumiSection 795 at 17-Jan-2014 17:50:39.976 CST
+Begin processing the 12801st record. Run 211792, Event 917488673, LumiSection 795 at 17-Jan-2014 17:50:40.274 CST
+Begin processing the 12901st record. Run 211792, Event 917662193, LumiSection 795 at 17-Jan-2014 17:50:42.702 CST
+Begin processing the 13001st record. Run 211792, Event 917098252, LumiSection 795 at 17-Jan-2014 17:50:43.063 CST
+Begin processing the 13101st record. Run 211792, Event 917326084, LumiSection 795 at 17-Jan-2014 17:50:43.287 CST
+Begin processing the 13201st record. Run 211792, Event 917528844, LumiSection 795 at 17-Jan-2014 17:50:43.498 CST
+Begin processing the 13301st record. Run 211792, Event 916939534, LumiSection 795 at 17-Jan-2014 17:50:43.711 CST
+Begin processing the 13401st record. Run 211792, Event 917187046, LumiSection 795 at 17-Jan-2014 17:50:45.766 CST
+Begin processing the 13501st record. Run 211792, Event 917375062, LumiSection 795 at 17-Jan-2014 17:50:46.117 CST
+Begin processing the 13601st record. Run 211792, Event 917592742, LumiSection 795 at 17-Jan-2014 17:50:46.510 CST
+Begin processing the 13701st record. Run 211792, Event 917033322, LumiSection 795 at 17-Jan-2014 17:50:46.772 CST
+Begin processing the 13801st record. Run 211792, Event 917248834, LumiSection 795 at 17-Jan-2014 17:50:46.996 CST
+Begin processing the 13901st record. Run 211792, Event 917414346, LumiSection 795 at 17-Jan-2014 17:50:48.545 CST
+Begin processing the 14001st record. Run 211792, Event 917643882, LumiSection 795 at 17-Jan-2014 17:50:48.950 CST
+Begin processing the 14101st record. Run 211792, Event 917028528, LumiSection 795 at 17-Jan-2014 17:50:49.195 CST
+Begin processing the 14201st record. Run 211792, Event 917230328, LumiSection 795 at 17-Jan-2014 17:50:49.463 CST
+Begin processing the 14301st record. Run 211792, Event 917476504, LumiSection 795 at 17-Jan-2014 17:50:49.692 CST
+Begin processing the 14401st record. Run 211792, Event 917711504, LumiSection 795 at 17-Jan-2014 17:50:51.055 CST
+Begin processing the 14501st record. Run 211792, Event 917097224, LumiSection 795 at 17-Jan-2014 17:50:51.419 CST
+Begin processing the 14601st record. Run 211792, Event 917278320, LumiSection 795 at 17-Jan-2014 17:50:51.677 CST
+Begin processing the 14701st record. Run 211792, Event 917497120, LumiSection 795 at 17-Jan-2014 17:50:51.910 CST
+Begin processing the 14801st record. Run 211792, Event 916937741, LumiSection 795 at 17-Jan-2014 17:50:52.127 CST
+Begin processing the 14901st record. Run 211792, Event 917195189, LumiSection 795 at 17-Jan-2014 17:50:53.628 CST
+Begin processing the 15001st record. Run 211792, Event 917374013, LumiSection 795 at 17-Jan-2014 17:50:53.980 CST
+Begin processing the 15101st record. Run 211792, Event 917597141, LumiSection 795 at 17-Jan-2014 17:50:54.301 CST
+Begin processing the 15201st record. Run 211792, Event 917005491, LumiSection 795 at 17-Jan-2014 17:50:54.666 CST
+Begin processing the 15301st record. Run 211792, Event 917189931, LumiSection 795 at 17-Jan-2014 17:50:54.938 CST
+Begin processing the 15401st record. Run 211792, Event 917418003, LumiSection 795 at 17-Jan-2014 17:50:55.164 CST
+Begin processing the 15501st record. Run 211792, Event 917643155, LumiSection 795 at 17-Jan-2014 17:50:56.855 CST
+Begin processing the 15601st record. Run 211792, Event 917040206, LumiSection 795 at 17-Jan-2014 17:50:57.102 CST
+Begin processing the 15701st record. Run 211792, Event 917253078, LumiSection 795 at 17-Jan-2014 17:50:57.332 CST
+Begin processing the 15801st record. Run 211792, Event 917483998, LumiSection 795 at 17-Jan-2014 17:50:57.527 CST
+Begin processing the 15901st record. Run 211792, Event 917699870, LumiSection 795 at 17-Jan-2014 17:50:57.819 CST
+Begin processing the 16001st record. Run 211792, Event 917121251, LumiSection 795 at 17-Jan-2014 17:51:00.937 CST
+Begin processing the 16101st record. Run 211792, Event 917319403, LumiSection 795 at 17-Jan-2014 17:51:01.244 CST
+Begin processing the 16201st record. Run 211792, Event 917491707, LumiSection 795 at 17-Jan-2014 17:51:01.549 CST
+Begin processing the 16301st record. Run 211792, Event 917703347, LumiSection 795 at 17-Jan-2014 17:51:01.671 CST
+Begin processing the 16401st record. Run 211792, Event 917131111, LumiSection 795 at 17-Jan-2014 17:51:01.890 CST
+Begin processing the 16501st record. Run 211792, Event 917339167, LumiSection 795 at 17-Jan-2014 17:51:03.183 CST
+Begin processing the 16601st record. Run 211792, Event 917566135, LumiSection 795 at 17-Jan-2014 17:51:03.475 CST
+Begin processing the 16701st record. Run 211792, Event 916980137, LumiSection 795 at 17-Jan-2014 17:51:03.654 CST
+Begin processing the 16801st record. Run 211792, Event 917167729, LumiSection 795 at 17-Jan-2014 17:51:03.858 CST
+Begin processing the 16901st record. Run 211792, Event 917345489, LumiSection 795 at 17-Jan-2014 17:51:04.094 CST
+Begin processing the 17001st record. Run 211792, Event 917556041, LumiSection 795 at 17-Jan-2014 17:51:05.611 CST
+Begin processing the 17101st record. Run 211792, Event 917010436, LumiSection 795 at 17-Jan-2014 17:51:05.912 CST
+Begin processing the 17201st record. Run 211792, Event 917232172, LumiSection 795 at 17-Jan-2014 17:51:06.149 CST
+Begin processing the 17301st record. Run 211792, Event 917464660, LumiSection 795 at 17-Jan-2014 17:51:06.427 CST
+Begin processing the 17401st record. Run 211792, Event 917671036, LumiSection 795 at 17-Jan-2014 17:51:06.614 CST
+Begin processing the 17501st record. Run 211792, Event 917083357, LumiSection 795 at 17-Jan-2014 17:51:09.265 CST
+Begin processing the 17601st record. Run 211792, Event 917302517, LumiSection 795 at 17-Jan-2014 17:51:09.680 CST
+Begin processing the 17701st record. Run 211792, Event 917432045, LumiSection 795 at 17-Jan-2014 17:51:10.034 CST
+Begin processing the 17801st record. Run 211792, Event 917708333, LumiSection 795 at 17-Jan-2014 17:51:10.296 CST
+Begin processing the 17901st record. Run 211792, Event 917076063, LumiSection 795 at 17-Jan-2014 17:51:10.516 CST
+Begin processing the 18001st record. Run 211792, Event 917281783, LumiSection 795 at 17-Jan-2014 17:51:12.105 CST
+Begin processing the 18101st record. Run 211792, Event 917489559, LumiSection 795 at 17-Jan-2014 17:51:12.555 CST
+Begin processing the 18201st record. Run 211792, Event 917689159, LumiSection 795 at 17-Jan-2014 17:51:12.769 CST
+Begin processing the 18301st record. Run 211792, Event 917893716, LumiSection 796 at 17-Jan-2014 17:51:13.053 CST
+Begin processing the 18401st record. Run 211792, Event 918149972, LumiSection 796 at 17-Jan-2014 17:51:13.307 CST
+Begin processing the 18501st record. Run 211792, Event 918351020, LumiSection 796 at 17-Jan-2014 17:51:14.254 CST
+Begin processing the 18601st record. Run 211792, Event 917739607, LumiSection 796 at 17-Jan-2014 17:51:14.675 CST
+Begin processing the 18701st record. Run 211792, Event 917943319, LumiSection 796 at 17-Jan-2014 17:51:15.070 CST
+Begin processing the 18801st record. Run 211792, Event 918144223, LumiSection 796 at 17-Jan-2014 17:51:15.233 CST
+Begin processing the 18901st record. Run 211792, Event 918390295, LumiSection 796 at 17-Jan-2014 17:51:15.462 CST
+Begin processing the 19001st record. Run 211792, Event 917814478, LumiSection 796 at 17-Jan-2014 17:51:17.265 CST
+Begin processing the 19101st record. Run 211792, Event 918015894, LumiSection 796 at 17-Jan-2014 17:51:17.663 CST
+Begin processing the 19201st record. Run 211792, Event 918255558, LumiSection 796 at 17-Jan-2014 17:51:17.975 CST
+Begin processing the 19301st record. Run 211792, Event 918442294, LumiSection 796 at 17-Jan-2014 17:51:18.259 CST
+Begin processing the 19401st record. Run 211792, Event 917879599, LumiSection 796 at 17-Jan-2014 17:51:18.442 CST
+Begin processing the 19501st record. Run 211792, Event 918078071, LumiSection 796 at 17-Jan-2014 17:51:20.656 CST
+Begin processing the 19601st record. Run 211792, Event 918295303, LumiSection 796 at 17-Jan-2014 17:51:20.962 CST
+Begin processing the 19701st record. Run 211792, Event 918481775, LumiSection 796 at 17-Jan-2014 17:51:21.343 CST
+Begin processing the 19801st record. Run 211792, Event 917902921, LumiSection 796 at 17-Jan-2014 17:51:21.644 CST
+Begin processing the 19901st record. Run 211792, Event 918115865, LumiSection 796 at 17-Jan-2014 17:51:21.842 CST
+Begin processing the 20001st record. Run 211792, Event 918352953, LumiSection 796 at 17-Jan-2014 17:51:22.006 CST
+Begin processing the 20101st record. Run 211792, Event 917747137, LumiSection 796 at 17-Jan-2014 17:51:24.686 CST
+Begin processing the 20201st record. Run 211792, Event 917959969, LumiSection 796 at 17-Jan-2014 17:51:24.962 CST
+Begin processing the 20301st record. Run 211792, Event 918180961, LumiSection 796 at 17-Jan-2014 17:51:25.213 CST
+Begin processing the 20401st record. Run 211792, Event 918402649, LumiSection 796 at 17-Jan-2014 17:51:25.465 CST
+Begin processing the 20501st record. Run 211792, Event 917827478, LumiSection 796 at 17-Jan-2014 17:51:25.693 CST
+Begin processing the 20601st record. Run 211792, Event 918032166, LumiSection 796 at 17-Jan-2014 17:51:28.809 CST
+Begin processing the 20701st record. Run 211792, Event 918233126, LumiSection 796 at 17-Jan-2014 17:51:29.133 CST
+Begin processing the 20801st record. Run 211792, Event 918449246, LumiSection 796 at 17-Jan-2014 17:51:29.429 CST
+Begin processing the 20901st record. Run 211792, Event 917833955, LumiSection 796 at 17-Jan-2014 17:51:29.685 CST
+Begin processing the 21001st record. Run 211792, Event 918067755, LumiSection 796 at 17-Jan-2014 17:51:29.916 CST
+Begin processing the 21101st record. Run 211792, Event 918269947, LumiSection 796 at 17-Jan-2014 17:51:30.120 CST
+Begin processing the 21201st record. Run 211792, Event 918492539, LumiSection 796 at 17-Jan-2014 17:51:34.829 CST
+Begin processing the 21301st record. Run 211792, Event 917904472, LumiSection 796 at 17-Jan-2014 17:51:35.121 CST
+Begin processing the 21401st record. Run 211792, Event 918117440, LumiSection 796 at 17-Jan-2014 17:51:35.340 CST
+Begin processing the 21501st record. Run 211792, Event 918321208, LumiSection 796 at 17-Jan-2014 17:51:35.555 CST
+Begin processing the 21601st record. Run 211792, Event 918505880, LumiSection 796 at 17-Jan-2014 17:51:35.761 CST
+Begin processing the 21701st record. Run 211792, Event 917914939, LumiSection 796 at 17-Jan-2014 17:51:39.393 CST
+Begin processing the 21801st record. Run 211792, Event 918140699, LumiSection 796 at 17-Jan-2014 17:51:39.820 CST
+Begin processing the 21901st record. Run 211792, Event 918353907, LumiSection 796 at 17-Jan-2014 17:51:40.113 CST
+Begin processing the 22001st record. Run 211792, Event 917758957, LumiSection 796 at 17-Jan-2014 17:51:40.322 CST
+Begin processing the 22101st record. Run 211792, Event 917982429, LumiSection 796 at 17-Jan-2014 17:51:40.543 CST
+Begin processing the 22201st record. Run 211792, Event 918190541, LumiSection 796 at 17-Jan-2014 17:51:43.042 CST
+Begin processing the 22301st record. Run 211792, Event 918384677, LumiSection 796 at 17-Jan-2014 17:51:43.454 CST
+Begin processing the 22401st record. Run 211792, Event 917827442, LumiSection 796 at 17-Jan-2014 17:51:43.681 CST
+Begin processing the 22501st record. Run 211792, Event 917999538, LumiSection 796 at 17-Jan-2014 17:51:43.860 CST
+Begin processing the 22601st record. Run 211792, Event 918219138, LumiSection 796 at 17-Jan-2014 17:51:44.116 CST
+Begin processing the 22701st record. Run 211792, Event 918492178, LumiSection 796 at 17-Jan-2014 17:51:44.294 CST
+Begin processing the 22801st record. Run 211792, Event 917906373, LumiSection 796 at 17-Jan-2014 17:51:45.913 CST
+Begin processing the 22901st record. Run 211792, Event 918110229, LumiSection 796 at 17-Jan-2014 17:51:46.261 CST
+Begin processing the 23001st record. Run 211792, Event 918312685, LumiSection 796 at 17-Jan-2014 17:51:46.583 CST
+Begin processing the 23101st record. Run 211792, Event 918502029, LumiSection 796 at 17-Jan-2014 17:51:46.800 CST
+Begin processing the 23201st record. Run 211792, Event 917895690, LumiSection 796 at 17-Jan-2014 17:51:47.015 CST
+Begin processing the 23301st record. Run 211792, Event 918111906, LumiSection 796 at 17-Jan-2014 17:51:48.707 CST
+Begin processing the 23401st record. Run 211792, Event 918340386, LumiSection 796 at 17-Jan-2014 17:51:49.038 CST
+Begin processing the 23501st record. Run 211792, Event 917743912, LumiSection 796 at 17-Jan-2014 17:51:49.252 CST
+Begin processing the 23601st record. Run 211792, Event 917943944, LumiSection 796 at 17-Jan-2014 17:51:49.386 CST
+Begin processing the 23701st record. Run 211792, Event 918141664, LumiSection 796 at 17-Jan-2014 17:51:49.584 CST
+Begin processing the 23801st record. Run 211792, Event 918386296, LumiSection 796 at 17-Jan-2014 17:51:51.076 CST
+Begin processing the 23901st record. Run 211792, Event 917788044, LumiSection 796 at 17-Jan-2014 17:51:51.428 CST
+Begin processing the 24001st record. Run 211792, Event 917964380, LumiSection 796 at 17-Jan-2014 17:51:51.679 CST
+Begin processing the 24101st record. Run 211792, Event 918166116, LumiSection 796 at 17-Jan-2014 17:51:51.882 CST
+Begin processing the 24201st record. Run 211792, Event 918413620, LumiSection 796 at 17-Jan-2014 17:51:52.075 CST
+Begin processing the 24301st record. Run 211792, Event 918606512, LumiSection 797 at 17-Jan-2014 17:51:52.341 CST
+Begin processing the 24401st record. Run 211792, Event 918812736, LumiSection 797 at 17-Jan-2014 17:51:53.511 CST
+Begin processing the 24501st record. Run 211792, Event 919002488, LumiSection 797 at 17-Jan-2014 17:51:53.866 CST
+Begin processing the 24601st record. Run 211792, Event 919208264, LumiSection 797 at 17-Jan-2014 17:51:54.209 CST
+Begin processing the 24701st record. Run 211792, Event 918604818, LumiSection 797 at 17-Jan-2014 17:51:54.364 CST
+Begin processing the 24801st record. Run 211792, Event 918832730, LumiSection 797 at 17-Jan-2014 17:51:54.562 CST
+Begin processing the 24901st record. Run 211792, Event 919036122, LumiSection 797 at 17-Jan-2014 17:51:55.692 CST
+Begin processing the 25001st record. Run 211792, Event 919240146, LumiSection 797 at 17-Jan-2014 17:51:56.043 CST
+Begin processing the 25101st record. Run 211792, Event 918650269, LumiSection 797 at 17-Jan-2014 17:51:56.223 CST
+Begin processing the 25201st record. Run 211792, Event 918870093, LumiSection 797 at 17-Jan-2014 17:51:56.434 CST
+Begin processing the 25301st record. Run 211792, Event 919069381, LumiSection 797 at 17-Jan-2014 17:51:56.630 CST
+Begin processing the 25401st record. Run 211792, Event 919268701, LumiSection 797 at 17-Jan-2014 17:52:02.782 CST
+Begin processing the 25501st record. Run 211792, Event 918689666, LumiSection 797 at 17-Jan-2014 17:52:03.182 CST
+Begin processing the 25601st record. Run 211792, Event 918894466, LumiSection 797 at 17-Jan-2014 17:52:03.514 CST
+Begin processing the 25701st record. Run 211792, Event 919104330, LumiSection 797 at 17-Jan-2014 17:52:03.685 CST
+Begin processing the 25801st record. Run 211792, Event 918535596, LumiSection 797 at 17-Jan-2014 17:52:03.914 CST
+Begin processing the 25901st record. Run 211792, Event 918709572, LumiSection 797 at 17-Jan-2014 17:52:09.232 CST
+Begin processing the 26001st record. Run 211792, Event 918895972, LumiSection 797 at 17-Jan-2014 17:52:09.622 CST
+Begin processing the 26101st record. Run 211792, Event 919120772, LumiSection 797 at 17-Jan-2014 17:52:09.967 CST
+Begin processing the 26201st record. Run 211792, Event 918543780, LumiSection 797 at 17-Jan-2014 17:52:10.161 CST
+Begin processing the 26301st record. Run 211792, Event 918761468, LumiSection 797 at 17-Jan-2014 17:52:10.410 CST
+Begin processing the 26401st record. Run 211792, Event 918962860, LumiSection 797 at 17-Jan-2014 17:52:15.500 CST
+Begin processing the 26501st record. Run 211792, Event 919189164, LumiSection 797 at 17-Jan-2014 17:52:15.930 CST
+Begin processing the 26601st record. Run 211792, Event 918608774, LumiSection 797 at 17-Jan-2014 17:52:16.140 CST
+Begin processing the 26701st record. Run 211792, Event 918812174, LumiSection 797 at 17-Jan-2014 17:52:16.385 CST
+Begin processing the 26801st record. Run 211792, Event 919043846, LumiSection 797 at 17-Jan-2014 17:52:16.556 CST
+Begin processing the 26901st record. Run 211792, Event 919240366, LumiSection 797 at 17-Jan-2014 17:52:19.069 CST
+Begin processing the 27001st record. Run 211792, Event 918659121, LumiSection 797 at 17-Jan-2014 17:52:19.390 CST
+Begin processing the 27101st record. Run 211792, Event 918873953, LumiSection 797 at 17-Jan-2014 17:52:19.665 CST
+Begin processing the 27201st record. Run 211792, Event 919105193, LumiSection 797 at 17-Jan-2014 17:52:19.875 CST
+Begin processing the 27301st record. Run 211792, Event 919275657, LumiSection 797 at 17-Jan-2014 17:52:20.087 CST
+Begin processing the 27401st record. Run 211792, Event 918679568, LumiSection 797 at 17-Jan-2014 17:52:21.333 CST
+Begin processing the 27501st record. Run 211792, Event 918881368, LumiSection 797 at 17-Jan-2014 17:52:21.640 CST
+Begin processing the 27601st record. Run 211792, Event 919082720, LumiSection 797 at 17-Jan-2014 17:52:22.035 CST
+Begin processing the 27701st record. Run 211792, Event 919311840, LumiSection 797 at 17-Jan-2014 17:52:22.257 CST
+Begin processing the 27801st record. Run 211792, Event 918711254, LumiSection 797 at 17-Jan-2014 17:52:22.532 CST
+Begin processing the 27901st record. Run 211792, Event 918899350, LumiSection 797 at 17-Jan-2014 17:52:22.740 CST
+Begin processing the 28001st record. Run 211792, Event 919135670, LumiSection 797 at 17-Jan-2014 17:52:23.969 CST
+Begin processing the 28101st record. Run 211792, Event 919316270, LumiSection 797 at 17-Jan-2014 17:52:24.383 CST
+Begin processing the 28201st record. Run 211792, Event 918707047, LumiSection 797 at 17-Jan-2014 17:52:24.634 CST
+Begin processing the 28301st record. Run 211792, Event 918927055, LumiSection 797 at 17-Jan-2014 17:52:24.864 CST
+Begin processing the 28401st record. Run 211792, Event 919129167, LumiSection 797 at 17-Jan-2014 17:52:25.078 CST
+Begin processing the 28501st record. Run 211792, Event 918549019, LumiSection 797 at 17-Jan-2014 17:52:26.265 CST
+Begin processing the 28601st record. Run 211792, Event 918750179, LumiSection 797 at 17-Jan-2014 17:52:26.645 CST
+Begin processing the 28701st record. Run 211792, Event 918978035, LumiSection 797 at 17-Jan-2014 17:52:26.985 CST
+Begin processing the 28801st record. Run 211792, Event 919195171, LumiSection 797 at 17-Jan-2014 17:52:27.221 CST
+Begin processing the 28901st record. Run 211792, Event 918678241, LumiSection 797 at 17-Jan-2014 17:52:27.384 CST
+Begin processing the 29001st record. Run 211792, Event 918890881, LumiSection 797 at 17-Jan-2014 17:52:30.944 CST
+Begin processing the 29101st record. Run 211792, Event 919102185, LumiSection 797 at 17-Jan-2014 17:52:31.271 CST
+Begin processing the 29201st record. Run 211792, Event 918535335, LumiSection 797 at 17-Jan-2014 17:52:31.623 CST
+Begin processing the 29301st record. Run 211792, Event 918764647, LumiSection 797 at 17-Jan-2014 17:52:31.909 CST
+Begin processing the 29401st record. Run 211792, Event 918982639, LumiSection 797 at 17-Jan-2014 17:52:32.128 CST
+Begin processing the 29501st record. Run 211792, Event 919151695, LumiSection 797 at 17-Jan-2014 17:52:32.418 CST
+Begin processing the 29601st record. Run 211792, Event 918606083, LumiSection 797 at 17-Jan-2014 17:52:36.948 CST
+Begin processing the 29701st record. Run 211792, Event 918817651, LumiSection 797 at 17-Jan-2014 17:52:37.305 CST
+Begin processing the 29801st record. Run 211792, Event 919036283, LumiSection 797 at 17-Jan-2014 17:52:37.618 CST
+Begin processing the 29901st record. Run 211792, Event 919228283, LumiSection 797 at 17-Jan-2014 17:52:37.838 CST
+Begin processing the 30001st record. Run 211792, Event 918616693, LumiSection 797 at 17-Jan-2014 17:52:38.025 CST
+Begin processing the 30101st record. Run 211792, Event 918874949, LumiSection 797 at 17-Jan-2014 17:52:41.798 CST
+Begin processing the 30201st record. Run 211792, Event 919090773, LumiSection 797 at 17-Jan-2014 17:52:42.087 CST
+Begin processing the 30301st record. Run 211792, Event 919298461, LumiSection 797 at 17-Jan-2014 17:52:42.307 CST
+Begin processing the 30401st record. Run 211792, Event 919499646, LumiSection 798 at 17-Jan-2014 17:52:42.495 CST
+Begin processing the 30501st record. Run 211792, Event 919702518, LumiSection 798 at 17-Jan-2014 17:52:42.733 CST
+Begin processing the 30601st record. Run 211792, Event 919921902, LumiSection 798 at 17-Jan-2014 17:52:44.657 CST
+Begin processing the 30701st record. Run 211792, Event 919320802, LumiSection 798 at 17-Jan-2014 17:52:45.062 CST
+Begin processing the 30801st record. Run 211792, Event 919528226, LumiSection 798 at 17-Jan-2014 17:52:45.320 CST
+Begin processing the 30901st record. Run 211792, Event 919746066, LumiSection 798 at 17-Jan-2014 17:52:45.552 CST
+Begin processing the 31001st record. Run 211792, Event 919943874, LumiSection 798 at 17-Jan-2014 17:52:45.797 CST
+Begin processing the 31101st record. Run 211792, Event 919332228, LumiSection 798 at 17-Jan-2014 17:52:47.713 CST
+Begin processing the 31201st record. Run 211792, Event 919550484, LumiSection 798 at 17-Jan-2014 17:52:48.022 CST
+Begin processing the 31301st record. Run 211792, Event 919779948, LumiSection 798 at 17-Jan-2014 17:52:48.260 CST
+Begin processing the 31401st record. Run 211792, Event 919982132, LumiSection 798 at 17-Jan-2014 17:52:48.474 CST
+Begin processing the 31501st record. Run 211792, Event 919421838, LumiSection 798 at 17-Jan-2014 17:52:48.684 CST
+Begin processing the 31601st record. Run 211792, Event 919621894, LumiSection 798 at 17-Jan-2014 17:52:50.824 CST
+Begin processing the 31701st record. Run 211792, Event 919849750, LumiSection 798 at 17-Jan-2014 17:52:51.256 CST
+Begin processing the 31801st record. Run 211792, Event 920075238, LumiSection 798 at 17-Jan-2014 17:52:51.541 CST
+Begin processing the 31901st record. Run 211792, Event 919458599, LumiSection 798 at 17-Jan-2014 17:52:51.746 CST
+Begin processing the 32001st record. Run 211792, Event 919672423, LumiSection 798 at 17-Jan-2014 17:52:51.985 CST
+Begin processing the 32101st record. Run 211792, Event 919869535, LumiSection 798 at 17-Jan-2014 17:52:56.532 CST
+Begin processing the 32201st record. Run 211792, Event 920094847, LumiSection 798 at 17-Jan-2014 17:52:56.928 CST
+Begin processing the 32301st record. Run 211792, Event 919506936, LumiSection 798 at 17-Jan-2014 17:52:57.250 CST
+Begin processing the 32401st record. Run 211792, Event 919701680, LumiSection 798 at 17-Jan-2014 17:52:57.520 CST
+Begin processing the 32501st record. Run 211792, Event 919898968, LumiSection 798 at 17-Jan-2014 17:52:57.775 CST
+Begin processing the 32601st record. Run 211792, Event 920104280, LumiSection 798 at 17-Jan-2014 17:53:03.261 CST
+Begin processing the 32701st record. Run 211792, Event 919515543, LumiSection 798 at 17-Jan-2014 17:53:03.588 CST
+Begin processing the 32801st record. Run 211792, Event 919703383, LumiSection 798 at 17-Jan-2014 17:53:03.915 CST
+Begin processing the 32901st record. Run 211792, Event 919915871, LumiSection 798 at 17-Jan-2014 17:53:04.169 CST
+Begin processing the 33001st record. Run 211792, Event 920101279, LumiSection 798 at 17-Jan-2014 17:53:04.406 CST
+Begin processing the 33101st record. Run 211792, Event 919504395, LumiSection 798 at 17-Jan-2014 17:53:08.004 CST
+Begin processing the 33201st record. Run 211792, Event 919716587, LumiSection 798 at 17-Jan-2014 17:53:08.362 CST
+Begin processing the 33301st record. Run 211792, Event 919899099, LumiSection 798 at 17-Jan-2014 17:53:08.684 CST
+Begin processing the 33401st record. Run 211792, Event 920109395, LumiSection 798 at 17-Jan-2014 17:53:08.919 CST
+Begin processing the 33501st record. Run 211792, Event 919539825, LumiSection 798 at 17-Jan-2014 17:53:09.115 CST
+Begin processing the 33601st record. Run 211792, Event 919723961, LumiSection 798 at 17-Jan-2014 17:53:11.814 CST
+Begin processing the 33701st record. Run 211792, Event 919973017, LumiSection 798 at 17-Jan-2014 17:53:12.178 CST
+Begin processing the 33801st record. Run 211792, Event 919397440, LumiSection 798 at 17-Jan-2014 17:53:12.522 CST
+Begin processing the 33901st record. Run 211792, Event 919629976, LumiSection 798 at 17-Jan-2014 17:53:12.704 CST
+Begin processing the 34001st record. Run 211792, Event 919849712, LumiSection 798 at 17-Jan-2014 17:53:12.918 CST
+Begin processing the 34101st record. Run 211792, Event 920072360, LumiSection 798 at 17-Jan-2014 17:53:13.122 CST
+Begin processing the 34201st record. Run 211792, Event 919487893, LumiSection 798 at 17-Jan-2014 17:53:16.311 CST
+Begin processing the 34301st record. Run 211792, Event 919687749, LumiSection 798 at 17-Jan-2014 17:53:16.640 CST
+Begin processing the 34401st record. Run 211792, Event 919891253, LumiSection 798 at 17-Jan-2014 17:53:16.784 CST
+Begin processing the 34501st record. Run 211792, Event 920107013, LumiSection 798 at 17-Jan-2014 17:53:17.004 CST
+Begin processing the 34601st record. Run 211792, Event 919548330, LumiSection 798 at 17-Jan-2014 17:53:17.251 CST
+Begin processing the 34701st record. Run 211792, Event 919725986, LumiSection 798 at 17-Jan-2014 17:53:20.608 CST
+Begin processing the 34801st record. Run 211792, Event 919908322, LumiSection 798 at 17-Jan-2014 17:53:20.987 CST
+Begin processing the 34901st record. Run 211792, Event 920096642, LumiSection 798 at 17-Jan-2014 17:53:21.193 CST
+Begin processing the 35001st record. Run 211792, Event 919541868, LumiSection 798 at 17-Jan-2014 17:53:21.423 CST
+Begin processing the 35101st record. Run 211792, Event 919728900, LumiSection 798 at 17-Jan-2014 17:53:21.625 CST
+Begin processing the 35201st record. Run 211792, Event 919912764, LumiSection 798 at 17-Jan-2014 17:53:21.823 CST
+Begin processing the 35301st record. Run 211792, Event 919332125, LumiSection 798 at 17-Jan-2014 17:53:24.327 CST
+Begin processing the 35401st record. Run 211792, Event 919524573, LumiSection 798 at 17-Jan-2014 17:53:24.663 CST
+Begin processing the 35501st record. Run 211792, Event 919757653, LumiSection 798 at 17-Jan-2014 17:53:24.848 CST
+Begin processing the 35601st record. Run 211792, Event 919959469, LumiSection 798 at 17-Jan-2014 17:53:25.085 CST
+Begin processing the 35701st record. Run 211792, Event 919359513, LumiSection 798 at 17-Jan-2014 17:53:25.335 CST
+Begin processing the 35801st record. Run 211792, Event 919570121, LumiSection 798 at 17-Jan-2014 17:53:30.304 CST
+Begin processing the 35901st record. Run 211792, Event 919782665, LumiSection 798 at 17-Jan-2014 17:53:30.659 CST
+Begin processing the 36001st record. Run 211792, Event 919965481, LumiSection 798 at 17-Jan-2014 17:53:30.873 CST
+Begin processing the 36101st record. Run 211792, Event 919388643, LumiSection 798 at 17-Jan-2014 17:53:31.062 CST
+Begin processing the 36201st record. Run 211792, Event 919612907, LumiSection 798 at 17-Jan-2014 17:53:31.269 CST
+Begin processing the 36301st record. Run 211792, Event 919821203, LumiSection 798 at 17-Jan-2014 17:53:33.633 CST
+Begin processing the 36401st record. Run 211792, Event 920037843, LumiSection 798 at 17-Jan-2014 17:53:34.015 CST
+Begin processing the 36501st record. Run 211792, Event 920246795, LumiSection 799 at 17-Jan-2014 17:53:34.212 CST
+Begin processing the 36601st record. Run 211792, Event 920457891, LumiSection 799 at 17-Jan-2014 17:53:34.372 CST
+Begin processing the 36701st record. Run 211792, Event 920629195, LumiSection 799 at 17-Jan-2014 17:53:34.649 CST
+Begin processing the 36801st record. Run 211792, Event 920810667, LumiSection 799 at 17-Jan-2014 17:53:34.907 CST
+Begin processing the 36901st record. Run 211792, Event 920223752, LumiSection 799 at 17-Jan-2014 17:53:40.150 CST
+Begin processing the 37001st record. Run 211792, Event 920414856, LumiSection 799 at 17-Jan-2014 17:53:40.546 CST
+Begin processing the 37101st record. Run 211792, Event 920639120, LumiSection 799 at 17-Jan-2014 17:53:40.834 CST
+Begin processing the 37201st record. Run 211792, Event 920841368, LumiSection 799 at 17-Jan-2014 17:53:41.009 CST
+Begin processing the 37301st record. Run 211792, Event 920260186, LumiSection 799 at 17-Jan-2014 17:53:41.243 CST
+Begin processing the 37401st record. Run 211792, Event 920466642, LumiSection 799 at 17-Jan-2014 17:53:43.142 CST
+Begin processing the 37501st record. Run 211792, Event 920699738, LumiSection 799 at 17-Jan-2014 17:53:43.543 CST
+Begin processing the 37601st record. Run 211792, Event 920159784, LumiSection 799 at 17-Jan-2014 17:53:43.755 CST
+Begin processing the 37701st record. Run 211792, Event 920392888, LumiSection 799 at 17-Jan-2014 17:53:44.027 CST
+Begin processing the 37801st record. Run 211792, Event 920583272, LumiSection 799 at 17-Jan-2014 17:53:44.211 CST
+Begin processing the 37901st record. Run 211792, Event 920815952, LumiSection 799 at 17-Jan-2014 17:53:45.940 CST
+Begin processing the 38001st record. Run 211792, Event 920223893, LumiSection 799 at 17-Jan-2014 17:53:46.394 CST
+Begin processing the 38101st record. Run 211792, Event 920415029, LumiSection 799 at 17-Jan-2014 17:53:46.624 CST
+Begin processing the 38201st record. Run 211792, Event 920618045, LumiSection 799 at 17-Jan-2014 17:53:46.856 CST
+Begin processing the 38301st record. Run 211792, Event 920840389, LumiSection 799 at 17-Jan-2014 17:53:47.339 CST
+Begin processing the 38401st record. Run 211792, Event 920254306, LumiSection 799 at 17-Jan-2014 17:53:49.872 CST
+Begin processing the 38501st record. Run 211792, Event 920456882, LumiSection 799 at 17-Jan-2014 17:53:50.172 CST
+Begin processing the 38601st record. Run 211792, Event 920653042, LumiSection 799 at 17-Jan-2014 17:53:50.539 CST
+Begin processing the 38701st record. Run 211792, Event 920865202, LumiSection 799 at 17-Jan-2014 17:53:50.735 CST
+Begin processing the 38801st record. Run 211792, Event 920297300, LumiSection 799 at 17-Jan-2014 17:53:50.961 CST
+Begin processing the 38901st record. Run 211792, Event 920495100, LumiSection 799 at 17-Jan-2014 17:53:52.436 CST
+Begin processing the 39001st record. Run 211792, Event 920715620, LumiSection 799 at 17-Jan-2014 17:53:52.805 CST
+Begin processing the 39101st record. Run 211792, Event 920166421, LumiSection 799 at 17-Jan-2014 17:53:53.084 CST
+Begin processing the 39201st record. Run 211792, Event 920453501, LumiSection 799 at 17-Jan-2014 17:53:53.267 CST
+Begin processing the 39301st record. Run 211792, Event 920659141, LumiSection 799 at 17-Jan-2014 17:53:53.519 CST
+Begin processing the 39401st record. Run 211792, Event 920850317, LumiSection 799 at 17-Jan-2014 17:53:56.739 CST
+Begin processing the 39501st record. Run 211792, Event 920231955, LumiSection 799 at 17-Jan-2014 17:53:57.223 CST
+Begin processing the 39601st record. Run 211792, Event 920436699, LumiSection 799 at 17-Jan-2014 17:53:57.527 CST
+Begin processing the 39701st record. Run 211792, Event 920616099, LumiSection 799 at 17-Jan-2014 17:53:57.688 CST
+Begin processing the 39801st record. Run 211792, Event 920849715, LumiSection 799 at 17-Jan-2014 17:53:57.911 CST
+Begin processing the 39901st record. Run 211792, Event 920294175, LumiSection 799 at 17-Jan-2014 17:54:02.369 CST
+Begin processing the 40001st record. Run 211792, Event 920527671, LumiSection 799 at 17-Jan-2014 17:54:02.729 CST
+Begin processing the 40101st record. Run 211792, Event 920707799, LumiSection 799 at 17-Jan-2014 17:54:03.084 CST
+Begin processing the 40201st record. Run 211792, Event 920124022, LumiSection 799 at 17-Jan-2014 17:54:03.305 CST
+Begin processing the 40301st record. Run 211792, Event 920307862, LumiSection 799 at 17-Jan-2014 17:54:03.499 CST
+Begin processing the 40401st record. Run 211792, Event 920521830, LumiSection 799 at 17-Jan-2014 17:54:05.322 CST
+Begin processing the 40501st record. Run 211792, Event 920723046, LumiSection 799 at 17-Jan-2014 17:54:05.636 CST
+Begin processing the 40601st record. Run 211792, Event 920881302, LumiSection 799 at 17-Jan-2014 17:54:06.013 CST
+Begin processing the 40701st record. Run 211792, Event 920304524, LumiSection 799 at 17-Jan-2014 17:54:06.183 CST
+Begin processing the 40801st record. Run 211792, Event 920518452, LumiSection 799 at 17-Jan-2014 17:54:06.386 CST
+Begin processing the 40901st record. Run 211792, Event 920716444, LumiSection 799 at 17-Jan-2014 17:54:06.592 CST
+Begin processing the 41001st record. Run 211792, Event 920154046, LumiSection 799 at 17-Jan-2014 17:54:10.615 CST
+Begin processing the 41101st record. Run 211792, Event 920323414, LumiSection 799 at 17-Jan-2014 17:54:10.965 CST
+Begin processing the 41201st record. Run 211792, Event 920508614, LumiSection 799 at 17-Jan-2014 17:54:11.195 CST
+Begin processing the 41301st record. Run 211792, Event 920712718, LumiSection 799 at 17-Jan-2014 17:54:11.468 CST
+Begin processing the 41401st record. Run 211792, Event 920166457, LumiSection 799 at 17-Jan-2014 17:54:11.712 CST
+Begin processing the 41501st record. Run 211792, Event 920394201, LumiSection 799 at 17-Jan-2014 17:54:12.010 CST
+Begin processing the 41601st record. Run 211792, Event 920591233, LumiSection 799 at 17-Jan-2014 17:54:13.827 CST
+Begin processing the 41701st record. Run 211792, Event 920823457, LumiSection 799 at 17-Jan-2014 17:54:14.161 CST
+Begin processing the 41801st record. Run 211792, Event 920238729, LumiSection 799 at 17-Jan-2014 17:54:14.481 CST
+Begin processing the 41901st record. Run 211792, Event 920475073, LumiSection 799 at 17-Jan-2014 17:54:14.668 CST
+Begin processing the 42001st record. Run 211792, Event 920666225, LumiSection 799 at 17-Jan-2014 17:54:14.887 CST
+Begin processing the 42101st record. Run 211792, Event 920824305, LumiSection 799 at 17-Jan-2014 17:54:15.797 CST
+Begin processing the 42201st record. Run 211792, Event 920260319, LumiSection 799 at 17-Jan-2014 17:54:16.080 CST
+Begin processing the 42301st record. Run 211792, Event 920462031, LumiSection 799 at 17-Jan-2014 17:54:16.441 CST
+Begin processing the 42401st record. Run 211792, Event 920695191, LumiSection 799 at 17-Jan-2014 17:54:16.709 CST
+17-Jan-2014 17:54:16 CST  Closed file /store//data/Run2013A/PPMinBias/RECO/PromptReco-v1/000/211/792/00000/C810EC35-4077-E211-B710-E0CB4E553651.root
+
+
+ EcalFlowNTP::endJob() <I>  nevttotal_trg = 5363,  nevttotal_ass = 5363
+ Will check the Z-vertex differences
+
+ Number of trigger events with at least one partner event = 5363
+
+--- RESULTS ---
+
+  Currently with pi0 mixed event entries = 46227,  mixed clusters examined 367294,  events containing at least one cluster 5363
+ Number of hot channel seed crystals that were discarded 1928
+ Number of hot channel satellite crystals that were discarded 19
+ Maximum number of HI tracks for run 211792 is 116 at event 920121752
+ Maximum number clusters found for run 211792 is 318 at event 920121752
+ Maximum number crystals found for run 211792 is 431 at event 919622031
+ Total events this run = 5462 with accumulated events for all runs = 5462
+ Number of events with trigger particle (nevttotal_trg) = 5363
+ Number of events with associated particle (nevttotal_ass) = 5363
+ Number of background fills = 2273992
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 fileAction           -s file_close                             1        1
+    2 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 fileAction           PostEndRun                        
+    2 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+System                  3                   3

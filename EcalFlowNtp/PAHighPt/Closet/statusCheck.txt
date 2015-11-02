@@ -1,0 +1,959 @@
+crab:  Version 2.10.3 running on Thu Mar  6 21:48:38 2014 CST (03:48:38 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140303_183405/
+
+crab:  error detecting glite version 
+crab:  error detecting glite version 
+crab:  Checking the status of all jobs: please wait
+crab:  contacting remote host hcc-crabserver.unl.edu
+crab:  
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+2     Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+3     Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+4     Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+5     Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+6     Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+7     Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+8     Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+9     Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+10    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+11    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+12    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+13    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+14    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+15    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+16    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+17    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+18    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+19    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+20    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+21    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+22    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+23    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+24    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+25    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+26    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+27    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+28    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+29    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+30    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+31    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+32    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+33    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+34    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+35    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+36    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+37    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+38    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+39    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+40    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+41    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+42    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+43    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+44    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+45    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+46    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+47    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+48    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+49    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+50    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+51    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+52    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+53    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+54    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+55    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+56    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+57    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+58    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+59    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+60    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+61    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+62    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+63    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+64    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+65    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+66    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+67    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+68    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+69    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+70    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+71    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+72    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+73    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+74    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+75    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+76    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+77    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+78    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+79    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+80    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+81    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+82    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+83    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+84    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+85    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+86    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+87    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+88    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+89    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+90    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+91    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+92    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+93    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+94    Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+95    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+96    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+97    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+98    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+99    Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+100   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+101   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+102   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+103   N   Submitted         SubSuccess                           
+104   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+105   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+106   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+107   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+108   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+109   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+110   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+111   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+112   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+113   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+114   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+115   Y   Retrieved         Cleared       143        50664       ce2.accre.vanderbilt.edu
+116   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+117   Y   Retrieved         Cleared       8021       8021        ce1.accre.vanderbilt.edu
+118   Y   Retrieved         Cleared       8021       8021        ce2.accre.vanderbilt.edu
+119   Y   Retrieved         Cleared       143        50664       ce1.accre.vanderbilt.edu
+120   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+121   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+122   Y   Retrieved         Cleared       143        50664       ce2.accre.vanderbilt.edu
+123   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+124   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+125   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+126   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+127   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+128   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+129   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+130   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+131   N   Running           SubSuccess                           ce1.accre.vanderbilt.edu
+132   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+133   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+134   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+135   N   Submitted         SubSuccess                           
+136   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+137   Y   Retrieved         Cleared       8021       8021        ce1.accre.vanderbilt.edu
+138   Y   Retrieved         Cleared       8021       8021        ce1.accre.vanderbilt.edu
+139   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+140   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+141   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+142   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+143   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+144   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+145   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+146   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+147   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+148   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+149   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+150   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+151   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+152   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+153   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+154   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+155   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+156   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+157   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+158   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+159   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+160   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+161   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+162   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+163   Y   Retrieved         Cleared       143        50664       ce1.accre.vanderbilt.edu
+164   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+165   Y   Retrieved         Cleared       143        50664       ce1.accre.vanderbilt.edu
+166   Y   Retrieved         Cleared       143        50664       ce1.accre.vanderbilt.edu
+167   Y   Retrieved         Cleared       143        50664       ce2.accre.vanderbilt.edu
+168   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+169   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+170   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+171   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+172   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+173   Y   Retrieved         Cleared       143        50664       ce1.accre.vanderbilt.edu
+174   Y   Retrieved         Cleared       143        50664       ce1.accre.vanderbilt.edu
+175   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+176   Y   Retrieved         Cleared       8021       8021        ce1.accre.vanderbilt.edu
+177   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+178   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+179   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+180   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+181   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+182   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+183   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+184   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+185   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+186   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+187   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+188   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+189   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+190   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+191   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+192   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+193   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+194   Y   Retrieved         Cleared       8021       8021        ce1.accre.vanderbilt.edu
+195   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+196   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+197   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+198   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+199   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+200   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+201   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+202   Y   Retrieved         Cleared       143        50664       ce1.accre.vanderbilt.edu
+203   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+204   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+205   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+206   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+207   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+208   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+209   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+210   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+211   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+212   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+213   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+214   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+215   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+216   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+217   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+218   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+219   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+220   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+221   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+222   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+223   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+224   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+225   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+226   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+227   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+228   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+229   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+230   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+231   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+232   Y   Retrieved         Cleared       8021       8021        ce2.accre.vanderbilt.edu
+233   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+234   Y   Retrieved         Cleared       143        50664       ce2.accre.vanderbilt.edu
+235   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+236   N   Submitted         SubSuccess                           ce1.accre.vanderbilt.edu
+237   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+238   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+239   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+240   Y   Retrieved         Cleared       143        50664       ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+241   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+242   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+243   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+244   Y   Retrieved         Cleared       143        50664       ce2.accre.vanderbilt.edu
+245   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+246   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+247   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+248   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+249   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+250   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+251   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+252   Y   Retrieved         Cleared       8021       8021        ce2.accre.vanderbilt.edu
+253   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+254   N   Submitted         SubSuccess                           ce2.accre.vanderbilt.edu
+255   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+256   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+257   N   Submitted         SubSuccess                           ce1.accre.vanderbilt.edu
+258   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+259   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+260   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+261   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+262   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+263   Y   Retrieved         Cleared       8021       8021        ce1.accre.vanderbilt.edu
+264   Y   Retrieved         Cleared       143        50664       ce1.accre.vanderbilt.edu
+265   Y   Retrieved         Cleared       143        50664       ce1.accre.vanderbilt.edu
+266   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+267   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+268   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+269   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+270   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+271   Y   Retrieved         Cleared       143        50664       ce1.accre.vanderbilt.edu
+272   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+273   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+274   Y   Retrieved         Cleared       143        50664       ce1.accre.vanderbilt.edu
+275   Y   Retrieved         Cleared       143        50664       ce1.accre.vanderbilt.edu
+276   Y   Retrieved         Cleared       143        50664       ce1.accre.vanderbilt.edu
+277   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+278   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+279   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+280   Y   Retrieved         Cleared       8021       8021        ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+281   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+282   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+283   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+284   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+285   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+286   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+287   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+288   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+289   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+290   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+291   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+292   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+293   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+294   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+295   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+296   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+297   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+298   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+299   Y   Retrieved         Cleared       143        50664       ce1.accre.vanderbilt.edu
+300   Y   Retrieved         Cleared       143        50664       ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+301   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+302   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+303   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+304   Y   Retrieved         Cleared       143        50664       ce2.accre.vanderbilt.edu
+305   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+306   Y   Retrieved         Cleared       8021       8021        ce2.accre.vanderbilt.edu
+307   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+308   Y   Retrieved         Cleared       143        50664       ce1.accre.vanderbilt.edu
+309   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+310   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+311   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+312   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+313   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+314   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+315   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+316   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+317   Y   Retrieved         Cleared       8021       8021        ce2.accre.vanderbilt.edu
+318   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+319   Y   Retrieved         Cleared       8021       8021        ce2.accre.vanderbilt.edu
+320   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+321   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+322   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+323   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+324   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+325   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+326   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+327   Y   Retrieved         Cleared       8021       8021        ce1.accre.vanderbilt.edu
+328   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+329   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+330   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+331   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+332   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+333   Y   Retrieved         Cleared       143        50664       ce1.accre.vanderbilt.edu
+334   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+335   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+336   Y   Retrieved         Cleared       143        50664       ce2.accre.vanderbilt.edu
+337   Y   Retrieved         Cleared       8021       8021        ce1.accre.vanderbilt.edu
+338   N   Submitted         SubSuccess                           ce2.accre.vanderbilt.edu
+339   Y   Retrieved         Cleared       143        50664       ce1.accre.vanderbilt.edu
+340   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+341   Y   Retrieved         Cleared       143        50664       ce1.accre.vanderbilt.edu
+342   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+343   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+344   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+345   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+346   Y   Retrieved         Cleared       8021       8021        ce1.accre.vanderbilt.edu
+347   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+348   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+349   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+350   Y   Retrieved         Cleared       8021       8021        ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+351   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+352   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+353   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+354   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+355   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+356   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+357   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+358   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+359   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+360   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+361   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+362   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+363   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+364   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+365   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+366   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+367   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+368   N   Submitted         SubSuccess                           ce2.accre.vanderbilt.edu
+369   Y   Retrieved         Cleared       8021       8021        ce1.accre.vanderbilt.edu
+370   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+371   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+372   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+373   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+374   Y   Retrieved         Cleared       8021       8021        ce1.accre.vanderbilt.edu
+375   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+376   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+377   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+378   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+379   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+380   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+381   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+382   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+383   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+384   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+385   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+386   Y   Retrieved         Cleared       8021       8021        ce1.accre.vanderbilt.edu
+387   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+388   Y   Retrieved         Cleared       143        50664       ce1.accre.vanderbilt.edu
+389   Y   Retrieved         Cleared       143        50664       ce1.accre.vanderbilt.edu
+390   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+391   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+392   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+393   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+394   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+395   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+396   N   Submitted         SubSuccess                           ce1.accre.vanderbilt.edu
+397   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+398   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+399   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+400   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+401   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+402   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+403   Y   Retrieved         Cleared       8021       8021        ce1.accre.vanderbilt.edu
+404   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+405   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+406   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+407   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+408   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+409   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+410   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+411   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+412   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+413   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+414   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+415   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+416   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+417   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+418   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+419   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+420   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+421   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+422   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+423   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+424   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+425   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+426   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+427   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+428   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+429   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+430   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+431   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+432   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+433   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+434   N   Submitted         SubSuccess                           ce1.accre.vanderbilt.edu
+435   Y   Retrieved         Cleared       143        50664       ce2.accre.vanderbilt.edu
+436   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+437   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+438   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+439   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+440   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+441   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+442   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+443   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+444   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+445   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+446   N   Done              Terminated    143        50664       ce1.accre.vanderbilt.edu
+447   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+448   N   Running           SubSuccess                           ce1.accre.vanderbilt.edu
+449   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+450   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+451   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+452   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+453   N   Done              Terminated    143        50664       ce2.accre.vanderbilt.edu
+454   N   Done              Terminated    0          0           ce1.accre.vanderbilt.edu
+455   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+456   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+457   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+458   N   Done              Terminated    143        50664       ce1.accre.vanderbilt.edu
+459   N   Done              Terminated    143        50664       ce2.accre.vanderbilt.edu
+460   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+461   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+462   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+463   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+464   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+465   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+466   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+467   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+468   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+469   N   Running           SubSuccess                           ce1.accre.vanderbilt.edu
+470   N   Running           SubSuccess                           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+471   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+472   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+473   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+474   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+475   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+476   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+477   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+478   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+479   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+480   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+481   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+482   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+483   N   Done              Terminated    0          0           ce2.accre.vanderbilt.edu
+484   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+485   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+486   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+487   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+488   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+489   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+490   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+491   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+492   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+493   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+494   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+495   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+496   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+497   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+498   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+499   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+500   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+501   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+502   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+503   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+504   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+505   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+506   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+507   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+508   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+509   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+510   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+511   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+512   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+513   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+514   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+515   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+516   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+517   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+518   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+519   N   Running           SubSuccess                           ce1.accre.vanderbilt.edu
+520   N   Running           SubSuccess                           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+521   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+522   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+523   N   Running           SubSuccess                           ce1.accre.vanderbilt.edu
+524   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+525   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+526   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+527   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+528   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+529   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+530   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+531   Y   Retrieved         Cleared       8021       8021        ce2.accre.vanderbilt.edu
+532   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+533   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+534   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+535   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+536   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+537   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+538   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+539   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+540   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+541   Y   Retrieved         Cleared       8021       8021        ce1.accre.vanderbilt.edu
+542   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+543   Y   Retrieved         Cleared       8021       8021        ce2.accre.vanderbilt.edu
+544   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+545   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+546   N   Running           SubSuccess                           ce1.accre.vanderbilt.edu
+547   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+548   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+549   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+550   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+551   N   Running           SubSuccess                           ce1.accre.vanderbilt.edu
+552   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+553   N   Done              Terminated    0          0           ce2.accre.vanderbilt.edu
+554   N   Done              Terminated    0          0           ce2.accre.vanderbilt.edu
+555   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+556   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+557   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+558   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+559   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+560   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+561   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+562   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+563   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+564   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+565   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+566   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+567   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+568   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+569   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+570   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+571   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+572   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+573   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+574   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+575   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+576   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+577   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+578   Y   Retrieved         Cleared       8021       8021        ce2.accre.vanderbilt.edu
+579   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+580   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+581   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+582   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+583   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+584   Y   Retrieved         Cleared       8021       8021        ce1.accre.vanderbilt.edu
+585   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+586   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+587   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+588   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+589   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+590   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+591   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+592   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+593   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+594   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+595   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+596   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+597   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+598   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+599   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+600   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+601   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+602   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+603   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+604   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+605   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+606   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+607   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+608   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+609   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+610   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+611   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+612   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+613   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+614   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+615   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+616   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+617   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+618   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+619   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+620   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+621   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+622   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+623   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+624   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+625   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+626   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+627   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+628   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+629   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+630   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+631   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+632   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+633   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+634   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+635   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+636   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+637   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+638   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+639   Y   Retrieved         Cleared       8021       8021        ce2.accre.vanderbilt.edu
+640   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+641   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+642   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+643   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+644   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+645   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+646   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+647   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+648   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+649   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+650   Y   Retrieved         Cleared       8021       8021        ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+651   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+652   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+653   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+654   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+655   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+656   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+657   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+658   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+659   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+660   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+661   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+662   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+663   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+664   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+665   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+666   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+667   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+668   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+669   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+670   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+671   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+672   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+673   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+674   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+675   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+676   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+677   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+678   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+679   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+680   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+681   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+682   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+683   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+684   Y   Retrieved         Cleared       8021       8021        ce1.accre.vanderbilt.edu
+685   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+686   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+687   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+688   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+689   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+690   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+691   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+692   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+693   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+694   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+695   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+696   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+697   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+698   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+699   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+700   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+701   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+702   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+703   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+704   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+705   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+706   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+707   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+708   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+709   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+710   Y   Retrieved         Cleared       8021       8021        ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+711   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+712   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+713   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+714   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+715   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+716   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+717   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+718   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+719   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+720   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+721   Y   Retrieved         Cleared       8021       8021        ce1.accre.vanderbilt.edu
+722   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+723   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+724   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+725   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+726   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+727   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+728   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+729   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+730   Y   Retrieved         Cleared       8028       8028        ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+731   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+732   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+733   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+734   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+735   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+736   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+737   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+738   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+739   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+740   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+741   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+742   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+743   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+744   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+745   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+746   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+747   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+748   Y   Retrieved         Cleared       8021       8021        ce2.accre.vanderbilt.edu
+749   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+750   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+751   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+752   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+753   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+754   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+755   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+756   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+757   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+758   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+759   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+760   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+761   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+762   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+763   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+764   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+765   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+766   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+767   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+768   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+769   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+770   Y   Retrieved         Cleared       8021       8021        ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+771   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+772   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+773   Y   Retrieved         Cleared       8021       8021        ce2.accre.vanderbilt.edu
+774   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+775   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+776   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+777   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+778   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+779   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+780   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+781   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+782   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+783   Y   Retrieved         Cleared       8021       8021        ce2.accre.vanderbilt.edu
+784   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+785   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+786   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+787   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+788   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+789   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+790   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+791   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+792   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+793   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+794   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+795   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+796   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+797   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+798   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+799   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+800   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+801   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+802   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+803   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+804   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+805   N   Running           SubSuccess                           ce1.accre.vanderbilt.edu
+806   N   Submitted         SubSuccess                           
+807   N   Running           SubSuccess                           ce2.accre.vanderbilt.edu
+808   N   Running           SubSuccess                           ce2.accre.vanderbilt.edu
+809   N   Running           SubSuccess                           ce2.accre.vanderbilt.edu
+810   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+811   N   Running           SubSuccess                           ce1.accre.vanderbilt.edu
+812   N   Running           SubSuccess                           ce1.accre.vanderbilt.edu
+813   Y   Retrieved         Cleared       0          0           ce2.accre.vanderbilt.edu
+814   N   Running           SubSuccess                           ce2.accre.vanderbilt.edu
+815   N   Running           SubSuccess                           ce2.accre.vanderbilt.edu
+816   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+817   N   Running           SubSuccess                           ce1.accre.vanderbilt.edu
+818   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+819   N   Running           SubSuccess                           ce1.accre.vanderbilt.edu
+820   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+--------------------------------------------------------------------------------
+821   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+822   N   Running           SubSuccess                           ce2.accre.vanderbilt.edu
+823   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+824   N   Running           SubSuccess                           ce1.accre.vanderbilt.edu
+825   Y   Retrieved         Cleared       0          0           ce1.accre.vanderbilt.edu
+
+crab:  ExitCodes Summary
+ >>>>>>>>> 724 Jobs with Wrapper Exit Code : 0 
+	 List of jobs: 1-102,104-114,116,120-121,123-130,132-134,136,139-162,164,168-172,175,177-193,195-201,203-231,233,235,237-239,241-243,245-251,253,255-256,258-262,266-270,272-273,277-279,281-298,301-303,305,307,309-316,318,320-326,328-332,334-335,340,342-345,347-349,351-367,370-373,375-385,387,390-395,397-402,404-433,436-445,447,449-452,454-457,460-468,471-518,521-522,524-530,532-540,542,544-545,547-550,552-577,579-583,585-638,640-649,651-683,685-709,711-720,722-729,731-747,749-769,771-772,774-782,784-804,810,813,816,818,820-821,823,825 
+	See https://twiki.cern.ch/twiki/bin/view/CMS/JobExitCodes for Exit Code meaning
+
+crab:  ExitCodes Summary
+ >>>>>>>>> 35 Jobs with Wrapper Exit Code : 8021 
+	 List of jobs: 117-118,137-138,176,194,232,252,263,280,306,317,319,327,337,346,350,369,374,386,403,531,541,543,578,584,639,650,684,710,721,748,770,773,783 
+	See https://twiki.cern.ch/twiki/bin/view/CMS/JobExitCodes for Exit Code meaning
+
+crab:  ExitCodes Summary
+ >>>>>>>>> 34 Jobs with Wrapper Exit Code : 50664 
+	 List of jobs: 115,119,122,163,165-167,173-174,202,234,240,244,264-265,271,274-276,299-300,304,308,333,336,339,341,388-389,435,446,453,458-459 
+	See https://twiki.cern.ch/twiki/bin/view/CMS/JobExitCodes for Exit Code meaning
+
+crab:  ExitCodes Summary
+ >>>>>>>>> 1 Jobs with Wrapper Exit Code : 8028 
+	 List of jobs: 730 
+	See https://twiki.cern.ch/twiki/bin/view/CMS/JobExitCodes for Exit Code meaning
+
+crab:   825 Total Jobs 
+ >>>>>>>>> 10 Jobs Submitted 
+	List of jobs Submitted: 103,135,236,254,257,338,368,396,434,806 
+ >>>>>>>>> 21 Jobs Running 
+	List of jobs Running: 131,448,469-470,519-520,523,546,551,805,807-809,811-812,814-815,817,819,822,824 
+ >>>>>>>>> 786 Jobs Retrieved 
+	List of jobs Retrieved: 1-102,104-130,132-134,136-235,237-253,255-256,258-337,339-367,369-395,397-433,435-445,447,449-452,455-457,460-468,471-482,484-518,521-522,524-545,547-550,552,555-804,810,813,816,818,820-821,823,825 
+ >>>>>>>>> 8 Jobs Done
+	Jobs terminated: retrieve them with: crab -getoutput <List of jobs>
+	List of jobs: 446,453-454,458-459,483,553-554 
+
+crab:  You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=maguire_crab_0_140303_183405_t0h5f9
+	Your task name is: maguire_crab_0_140303_183405_t0h5f9 
+
+Log file is /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/PAHighPt/crab_0_140303_183405/log/crab.log

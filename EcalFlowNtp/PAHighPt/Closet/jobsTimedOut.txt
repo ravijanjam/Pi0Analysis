@@ -1,0 +1,16 @@
+CMSSW_100.stdout:JobExitCode=50664
+CMSSW_54.stdout:JobExitCode=50664
+CMSSW_55.stdout:JobExitCode=50664
+CMSSW_56.stdout:JobExitCode=50664
+CMSSW_57.stdout:JobExitCode=50664
+CMSSW_58.stdout:JobExitCode=50664
+CMSSW_59.stdout:JobExitCode=50664
+CMSSW_60.stdout:JobExitCode=50664
+CMSSW_61.stdout:JobExitCode=50664
+CMSSW_63.stdout:JobExitCode=50664
+CMSSW_64.stdout:JobExitCode=50664
+CMSSW_95.stdout:JobExitCode=50664
+CMSSW_96.stdout:JobExitCode=50664
+CMSSW_97.stdout:JobExitCode=50664
+CMSSW_98.stdout:JobExitCode=50664
+CMSSW_99.stdout:JobExitCode=50664

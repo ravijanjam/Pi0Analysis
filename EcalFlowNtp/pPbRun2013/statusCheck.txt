@@ -1,0 +1,465 @@
+crab:  Version 2.10.5_patch1 running on Wed May  7 19:52:21 2014 CST (00:52:21 UTC)
+
+crab. Working options:
+	scheduler           pbsv2
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/
+
+crab:  error detecting glite version 
+crab:  error detecting glite version 
+crab:  Your se_white_list is set to T2_US_Vanderbilt: only local dataset will be considered
+crab:   The default queue of local PBS configuration will be used
+crab:  Using a proxy
+crab:  Checking the status of all jobs: please wait
+crab:  
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     Y   Retrieved         Cleared       0          0           vmp726/4
+2     N   R                 SubSuccess                           vmp143/0
+3     N   R                 SubSuccess                           vmp143/2
+4     N   R                 SubSuccess                           vmp143/6
+5     Y   Retrieved         Cleared       8021       8021        vmp143/7
+6     N   R                 SubSuccess                           vmp539/0
+7     N   R                 SubSuccess                           vmp539/7
+8     Y   Retrieved         Cleared       8021       8021        
+9     Y   Retrieved         Cleared       8021       8021        
+10    Y   Retrieved         Cleared       0          0           vmp446/2
+--------------------------------------------------------------------------------
+11    N   R                 SubSuccess                           vmp425/0
+12    N   R                 SubSuccess                           vmp425/1
+13    N   R                 SubSuccess                           vmp425/2
+14    Y   Retrieved         Cleared       8021       8021        
+15    Y   Retrieved         Cleared       8021       8021        
+16    Y   Retrieved         Cleared       8021       8021        
+17    Y   Retrieved         Cleared       8021       8021        
+18    N   R                 SubSuccess                           vmp425/7
+19    N   R                 SubSuccess                           vmp425/8
+20    Y   Retrieved         Cleared       8021       8021        
+--------------------------------------------------------------------------------
+21    Y   Retrieved         Cleared       8021       8021        
+22    N   R                 SubSuccess                           vmp142/0
+23    Y   Retrieved         Cleared       8021       8021        
+24    Y   Retrieved         Cleared       0          0           vmp1051/1
+25    Y   Retrieved         Cleared       8021       8021        
+26    N   R                 SubSuccess                           vmp548/7
+27    Y   Retrieved         Cleared       0          0           vmp1113/1
+28    Y   Retrieved         Cleared       0          0           vmp1112/11
+29    Y   Retrieved         Cleared       0          0           vmp342/11
+30    Y   Retrieved         Cleared       0          0           vmp322/11
+--------------------------------------------------------------------------------
+31    N   R                 SubSuccess                           vmp487/0
+32    N   R                 SubSuccess                           vmp487/1
+33    N   R                 SubSuccess                           vmp487/3
+34    N   R                 SubSuccess                           vmp487/4
+35    Y   Done              Terminated                           vmp487/5
+36    Y   Retrieved         Cleared       8021       8021        vmp487/7
+37    N   R                 SubSuccess                           vmp487/8
+38    N   R                 SubSuccess                           vmp487/9
+39    N   R                 SubSuccess                           vmp425/9
+40    Y   Retrieved         Cleared       8021       8021        vmp425/10
+--------------------------------------------------------------------------------
+41    Y   Retrieved         Cleared       8021       8021        vmp425/11
+42    N   R                 SubSuccess                           vmp080/1
+43    Y   Retrieved         Cleared       0          0           vmp1052/2
+44    N   R                 SubSuccess                           vmp609/6
+45    N   R                 SubSuccess                           vmp1050/0
+46    N   R                 SubSuccess                           vmp1050/10
+47    Y   Retrieved         Cleared       8021       8021        
+48    Y   Retrieved         Cleared       0          0           vmp1049/0
+49    Y   Retrieved         Cleared       8021       8021        vmp1101/5
+50    Y   Retrieved         Cleared       0          0           vmp320/5
+--------------------------------------------------------------------------------
+51    Y   Retrieved         Cleared       0          0           vmp421/7
+52    N   R                 SubSuccess                           vmp109/5
+53    N   R                 SubSuccess                           vmp128/0
+54    Y   Retrieved         Cleared       8021       8021        
+55    N   R                 SubSuccess                           vmp128/6
+56    Y   Retrieved         Cleared       8021       8021        
+57    Y   Retrieved         Cleared       0          0           vmp096/6
+58    N   R                 SubSuccess                           vmp643/7
+59    Y   Retrieved         Cleared       8021       8021        vmp516/0
+60    Y   Done              Terminated                           vmp1055/2
+--------------------------------------------------------------------------------
+61    Y   Retrieved         Cleared       0          0           vmp1045/2
+62    Y   Retrieved         Cleared       0          0           vmp1109/9
+63    Y   Retrieved         Cleared       0          0           vmp1120/11
+64    Y   Retrieved         Cleared       0          0           vmp327/10
+65    Y   Retrieved         Cleared       0          0           vmp495/4
+66    N   R                 SubSuccess                           vmp531/4
+67    N   R                 SubSuccess                           vmp515/6
+68    Y   Retrieved         Cleared       8021       8021        
+69    Y   Retrieved         Cleared       0          0           vmp1048/6
+70    Y   Retrieved         Cleared       0          0           vmp1132/1
+--------------------------------------------------------------------------------
+71    N   R                 SubSuccess                           vmp595/7
+72    Y   Retrieved         Cleared       0          0           vmp344/2
+73    Y   Retrieved         Cleared       8021       8021        vmp391/1
+74    N   R                 SubSuccess                           vmp050/6
+75    N   R                 SubSuccess                           vmp050/7
+76    Y   Retrieved         Cleared       8021       8021        
+77    N   R                 SubSuccess                           vmp1102/5
+78    N   R                 SubSuccess                           vmp1114/1
+79    N   R                 SubSuccess                           vmp1114/4
+80    N   R                 SubSuccess                           vmp1114/5
+--------------------------------------------------------------------------------
+81    Y   Done              Terminated                           vmp1114/6
+82    N   R                 SubSuccess                           vmp1114/7
+83    Y   Retrieved         Cleared       0          0           vmp1118/2
+84    Y   Retrieved         Cleared       0          0           vmp337/5
+85    Y   Retrieved         Cleared       0          0           vmp331/5
+86    Y   Retrieved         Cleared       8021       8021        vmp324/6
+87    N   R                 SubSuccess                           vmp1078/5
+88    Y   Retrieved         Cleared       8021       8021        
+89    Y   Retrieved         Cleared       8021       8021        vmp147/0
+90    Y   Retrieved         Cleared       8021       8021        vmp147/5
+--------------------------------------------------------------------------------
+91    Y   Retrieved         Cleared       8021       8021        vmp147/6
+92    Y   Retrieved         Cleared       8021       8021        
+93    Y   Retrieved         Cleared       8021       8021        
+94    Y   Retrieved         Cleared       8021       8021        vmp1046/1
+95    N   R                 SubSuccess                           vmp1046/8
+96    Y   Retrieved         Cleared       8021       8021        vmp1046/10
+97    Y   Retrieved         Cleared       8021       8021        vmp1046/11
+98    Y   Retrieved         Cleared       8021       8021        
+99    Y   Retrieved         Cleared       0          0           vmp1125/10
+100   Y   Retrieved         Cleared       0          0           vmp323/10
+--------------------------------------------------------------------------------
+101   N   R                 SubSuccess                           vmp493/1
+102   N   R                 SubSuccess                           vmp493/2
+103   N   R                 SubSuccess                           vmp493/3
+104   N   R                 SubSuccess                           vmp493/5
+105   N   R                 SubSuccess                           vmp493/7
+106   N   R                 SubSuccess                           vmp493/8
+107   N   R                 SubSuccess                           vmp493/9
+108   N   R                 SubSuccess                           vmp493/10
+109   N   R                 SubSuccess                           vmp426/0
+110   N   R                 SubSuccess                           vmp426/1
+--------------------------------------------------------------------------------
+111   Y   Retrieved         Cleared       8021       8021        vmp426/2
+112   N   R                 SubSuccess                           vmp426/3
+113   N   R                 SubSuccess                           vmp426/4
+114   N   R                 SubSuccess                           vmp426/5
+115   N   R                 SubSuccess                           vmp426/6
+116   N   R                 SubSuccess                           vmp426/7
+117   N   R                 SubSuccess                           vmp426/8
+118   N   R                 SubSuccess                           vmp426/9
+119   N   R                 SubSuccess                           vmp426/10
+120   N   R                 SubSuccess                           vmp736/0
+--------------------------------------------------------------------------------
+121   N   R                 SubSuccess                           vmp090/0
+122   Y   Done              Terminated                           vmp090/7
+123   Y   Retrieved         Cleared       8021       8021        
+124   Y   Retrieved         Cleared       0          0           vmp1094/8
+125   Y   Retrieved         Cleared       0          0           vmp1121/2
+126   N   R                 SubSuccess                           vmp426/11
+127   N   R                 SubSuccess                           vmp514/0
+128   N   R                 SubSuccess                           vmp630/2
+129   N   R                 SubSuccess                           vmp525/3
+130   N   R                 SubSuccess                           vmp525/5
+--------------------------------------------------------------------------------
+131   N   Created           Created                              
+132   N   Created           Created                              
+133   N   Created           Created                              
+134   N   Created           Created                              
+135   N   Created           Created                              
+136   N   Created           Created                              
+137   N   Created           Created                              
+138   N   Created           Created                              
+139   N   Created           Created                              
+140   N   Created           Created                              
+--------------------------------------------------------------------------------
+141   N   Created           Created                              
+142   N   Created           Created                              
+143   N   Created           Created                              
+144   N   Created           Created                              
+145   N   Created           Created                              
+146   N   Created           Created                              
+147   N   Created           Created                              
+148   N   Created           Created                              
+149   N   Created           Created                              
+150   N   Created           Created                              
+--------------------------------------------------------------------------------
+151   N   Created           Created                              
+152   N   Created           Created                              
+153   N   Created           Created                              
+154   N   Created           Created                              
+155   N   Created           Created                              
+156   N   Created           Created                              
+157   N   Created           Created                              
+158   N   Created           Created                              
+159   N   Created           Created                              
+160   N   Created           Created                              
+--------------------------------------------------------------------------------
+161   N   Created           Created                              
+162   N   Created           Created                              
+163   N   Created           Created                              
+164   N   Created           Created                              
+165   N   Created           Created                              
+166   N   Created           Created                              
+167   N   Created           Created                              
+168   N   Created           Created                              
+169   N   Created           Created                              
+170   N   Created           Created                              
+--------------------------------------------------------------------------------
+171   N   Created           Created                              
+172   N   Created           Created                              
+173   N   Created           Created                              
+174   N   Created           Created                              
+175   N   Created           Created                              
+176   N   Created           Created                              
+177   N   Created           Created                              
+178   N   Created           Created                              
+179   N   Created           Created                              
+180   N   Created           Created                              
+--------------------------------------------------------------------------------
+181   N   Created           Created                              
+182   N   Created           Created                              
+183   N   Created           Created                              
+184   N   Created           Created                              
+185   N   Created           Created                              
+186   N   Created           Created                              
+187   N   Created           Created                              
+188   N   Created           Created                              
+189   N   Created           Created                              
+190   N   Created           Created                              
+--------------------------------------------------------------------------------
+191   N   Created           Created                              
+192   N   Created           Created                              
+193   N   Created           Created                              
+194   N   Created           Created                              
+195   N   Created           Created                              
+196   N   Created           Created                              
+197   N   Created           Created                              
+198   N   Created           Created                              
+199   N   Created           Created                              
+200   N   Created           Created                              
+--------------------------------------------------------------------------------
+201   N   Created           Created                              
+202   N   Created           Created                              
+203   N   Created           Created                              
+204   N   Created           Created                              
+205   N   Created           Created                              
+206   N   Created           Created                              
+207   N   Created           Created                              
+208   N   Created           Created                              
+209   N   Created           Created                              
+210   N   Created           Created                              
+--------------------------------------------------------------------------------
+211   N   Created           Created                              
+212   N   Created           Created                              
+213   N   Created           Created                              
+214   N   Created           Created                              
+215   N   Created           Created                              
+216   N   Created           Created                              
+217   N   Created           Created                              
+218   N   Created           Created                              
+219   N   Created           Created                              
+220   N   Created           Created                              
+--------------------------------------------------------------------------------
+221   N   Created           Created                              
+222   N   Created           Created                              
+223   N   Created           Created                              
+224   N   Created           Created                              
+225   N   Created           Created                              
+226   N   Created           Created                              
+227   N   Created           Created                              
+228   N   Created           Created                              
+229   N   Created           Created                              
+230   N   Created           Created                              
+--------------------------------------------------------------------------------
+231   N   Created           Created                              
+232   N   Created           Created                              
+233   N   Created           Created                              
+234   N   Created           Created                              
+235   N   Created           Created                              
+236   N   Created           Created                              
+237   N   Created           Created                              
+238   N   Created           Created                              
+239   N   Created           Created                              
+240   N   Created           Created                              
+--------------------------------------------------------------------------------
+241   N   Created           Created                              
+242   N   Created           Created                              
+243   N   Created           Created                              
+244   N   Created           Created                              
+245   N   Created           Created                              
+246   N   Created           Created                              
+247   N   Created           Created                              
+248   N   Created           Created                              
+249   N   Created           Created                              
+250   N   Created           Created                              
+--------------------------------------------------------------------------------
+251   N   Created           Created                              
+252   N   Created           Created                              
+253   N   Created           Created                              
+254   N   Created           Created                              
+255   N   Created           Created                              
+256   N   Created           Created                              
+257   N   Created           Created                              
+258   N   Created           Created                              
+259   N   Created           Created                              
+260   N   Created           Created                              
+--------------------------------------------------------------------------------
+261   N   Created           Created                              
+262   N   Created           Created                              
+263   N   Created           Created                              
+264   N   Created           Created                              
+265   N   Created           Created                              
+266   N   Created           Created                              
+267   N   Created           Created                              
+268   N   Created           Created                              
+269   N   Created           Created                              
+270   N   Created           Created                              
+--------------------------------------------------------------------------------
+271   N   Created           Created                              
+272   N   Created           Created                              
+273   N   Created           Created                              
+274   N   Created           Created                              
+275   N   Created           Created                              
+276   N   Created           Created                              
+277   N   Created           Created                              
+278   N   Created           Created                              
+279   N   Created           Created                              
+280   N   Created           Created                              
+--------------------------------------------------------------------------------
+281   N   Created           Created                              
+282   N   Created           Created                              
+283   N   Created           Created                              
+284   N   Created           Created                              
+285   N   Created           Created                              
+286   N   Created           Created                              
+287   N   Created           Created                              
+288   N   Created           Created                              
+289   N   Created           Created                              
+290   N   Created           Created                              
+--------------------------------------------------------------------------------
+291   N   Created           Created                              
+292   N   Created           Created                              
+293   N   Created           Created                              
+294   N   Created           Created                              
+295   N   Created           Created                              
+296   N   Created           Created                              
+297   N   Created           Created                              
+298   N   Created           Created                              
+299   N   Created           Created                              
+300   N   Created           Created                              
+--------------------------------------------------------------------------------
+301   N   Created           Created                              
+302   N   Created           Created                              
+303   N   Created           Created                              
+304   N   Created           Created                              
+305   N   Created           Created                              
+306   N   Created           Created                              
+307   N   Created           Created                              
+308   N   Created           Created                              
+309   N   Created           Created                              
+310   N   Created           Created                              
+--------------------------------------------------------------------------------
+311   N   Created           Created                              
+312   N   Created           Created                              
+313   N   Created           Created                              
+314   N   Created           Created                              
+315   N   Created           Created                              
+316   N   Created           Created                              
+317   N   Created           Created                              
+318   N   Created           Created                              
+319   N   Created           Created                              
+320   N   Created           Created                              
+--------------------------------------------------------------------------------
+321   N   Created           Created                              
+322   N   Created           Created                              
+323   N   Created           Created                              
+324   N   Created           Created                              
+325   N   Created           Created                              
+326   N   Created           Created                              
+327   N   Created           Created                              
+328   N   Created           Created                              
+329   N   Created           Created                              
+330   N   Created           Created                              
+--------------------------------------------------------------------------------
+331   N   Created           Created                              
+332   N   Created           Created                              
+333   N   Created           Created                              
+334   N   Created           Created                              
+335   N   Created           Created                              
+336   N   Created           Created                              
+337   N   Created           Created                              
+338   N   Created           Created                              
+339   N   Created           Created                              
+340   N   Created           Created                              
+--------------------------------------------------------------------------------
+341   N   Created           Created                              
+342   N   Created           Created                              
+343   N   Created           Created                              
+344   N   Created           Created                              
+345   N   Created           Created                              
+346   N   Created           Created                              
+347   N   Created           Created                              
+348   N   Created           Created                              
+349   N   Created           Created                              
+350   N   Created           Created                              
+--------------------------------------------------------------------------------
+351   N   Created           Created                              
+352   N   Created           Created                              
+353   N   Created           Created                              
+354   N   Created           Created                              
+355   N   Created           Created                              
+356   N   Created           Created                              
+357   N   Created           Created                              
+358   N   Created           Created                              
+359   N   Created           Created                              
+360   N   Created           Created                              
+--------------------------------------------------------------------------------
+361   N   Created           Created                              
+362   N   Created           Created                              
+363   N   Created           Created                              
+364   N   Created           Created                              
+365   N   Created           Created                              
+366   N   Created           Created                              
+367   N   Created           Created                              
+368   N   Created           Created                              
+369   N   Created           Created                              
+370   N   Created           Created                              
+--------------------------------------------------------------------------------
+371   N   Created           Created                              
+372   N   Created           Created                              
+373   N   Created           Created                              
+374   N   Created           Created                              
+375   N   Created           Created                              
+376   N   Created           Created                              
+377   N   Created           Created                              
+378   N   Created           Created                              
+379   N   Created           Created                              
+380   N   Created           Created                              
+--------------------------------------------------------------------------------
+381   N   Created           Created                              
+382   N   Created           Created                              
+383   N   Created           Created                              
+384   N   Created           Created                              
+385   N   Created           Created                              
+386   N   Created           Created                              
+387   N   Created           Created                              
+388   N   Created           Created                              
+389   N   Created           Created                              
+
+crab:  ExitCodes Summary
+ >>>>>>>>> 27 Jobs with Wrapper Exit Code : 0 
+	 List of jobs: 1,10,24,27-30,43,48,50-51,57,61-65,69-70,72,83-85,99-100,124-125 
+	See https://twiki.cern.ch/twiki/bin/view/CMS/JobExitCodes for Exit Code meaning
+
+crab:  ExitCodes Summary
+ >>>>>>>>> 35 Jobs with Wrapper Exit Code : 8021 
+	 List of jobs: 5,8-9,14-17,20-21,23,25,36,40-41,47,49,54,56,59,68,73,76,86,88-94,96-98,111,123 
+	See https://twiki.cern.ch/twiki/bin/view/CMS/JobExitCodes for Exit Code meaning
+
+crab:   389 Total Jobs 
+ >>>>>>>>> 259 Jobs Created 
+ >>>>>>>>> 62 Jobs Retrieved 
+	List of jobs Retrieved: 1,5,8-10,14-17,20-21,23-25,27-30,36,40-41,43,47-51,54,56-57,59,61-65,68-70,72-73,76,83-86,88-94,96-100,111,123-125 
+
+crab:  You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=maguirc_crab_0_140507_175214_0wx3k8
+	Your task name is: maguirc_crab_0_140507_175214_0wx3k8 
+
+Log file is /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/log/crab.log

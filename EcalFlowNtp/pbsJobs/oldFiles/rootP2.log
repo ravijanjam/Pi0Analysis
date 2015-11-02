@@ -1,0 +1,43 @@
+  *******************************************
+  *                                         *
+  *        W E L C O M E  to  R O O T       *
+  *                                         *
+  *   Version   5.32/00   2 December 2011   *
+  *                                         *
+  *  You are welcome to visit our Web site  *
+  *          http://root.cern.ch            *
+  *                                         *
+  *******************************************
+
+ROOT 5.32/00 (branches/v5-32-00-patches@42372, Nov 19 2012, 10:56:00 on linuxx8664gcc)
+
+CINT/ROOT C/C++ Interpreter version 5.18.00, July 2, 2010
+Type ? for help. Commands must be C++ statements.
+Enclose multiple statements between { }.
+Loading FW Lite setup.
+
+ Using the pi0 mass window for the observed v2 region
+
+ The use of the pi0 efficiency table was not requested
+
+ The use of the track efficiency table was requested
+
+ Found the charged particle efficiency table ROOT file
+
+ Minimum Bias data sets are used
+
+ Number of events in EcalFlowNtpMult100/NeutralPions/hTree = 1439285
+
+ Normalization factor for pT from 1.5 to 2 GeV/c = 0.29857, with second normalization at 0.359657 FCN=165.608 FROM MIGRAD    STATUS=CONVERGED     106 CALLS         107 TOTAL
+                     EDM=2.43315e-08    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   1.7 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Ampl         5.53765e+04   2.23893e+02  -3.82077e-01  -2.12794e-07
+   2  Cent         1.35188e-01   6.44421e-05  -1.50018e-07  -1.17212e+00
+   3  Sigma        1.50809e-02   7.00072e-05  -2.77519e-08  -4.39698e+00
+
+  EDFit:  Centroid = 0.135188,  Width = 0.0150809
+  EDM fit:  Signal yield = 497729 +/- 1677
+  EDM fit:  S/(S+B)= 0.222666 +/- 0.000750596
+Info in <TCanvas::Print>: pdf file pi0MassHighPt_PtBin2_327Files_Multiplicity120-150_20140617.pdf has been created
+Info in <TCanvas::SaveAs>: ROOT file pi0MassHighPt_PtBin2_327Files_Multiplicity120-150_20140617.root has been created

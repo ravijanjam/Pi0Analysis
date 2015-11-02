@@ -1,0 +1,10 @@
+#! /bin/tcsh
+#PBS -l nodes=1:ppn=1
+#PBS -o highPtReRecoFile1PBS.log
+#PBS -l walltime=12:00:00
+#PBS -l mem=1900mb
+setenv SCRAM_ARCH slc5_amd64_gcc434
+source /gpfs21/grid/grid-app/cmssoft/cms/cmsset_default.csh
+cd /home/maguirc/CMSSW_4_4_5_patch1/src/highPtReReco
+cmsenv
+cmsRun highPtReRecoFile1.py >& highPtReRecoFile1FullV3.log

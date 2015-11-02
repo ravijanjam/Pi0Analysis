@@ -1,0 +1,28 @@
+140519_205413: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -create
+140519_205521: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -submit 1
+140519_214024: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140519_214049: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -get 1
+140519_214348: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -submit 2-500
+140519_214429: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140519_215243: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140519_215334: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140519_215842: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140519_215858: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -get 2-5
+140519_220434: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140519_220456: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -get 6-29
+140519_221352: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140519_221434: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -get 30-62,66-70
+140519_221542: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140519_221605: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -get 73-80
+140519_221906: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140519_221926: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -get 81-97
+140519_225421: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140519_230402: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140519_230425: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -get
+140520_084040: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140520_084328: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140520_084335: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140520_084426: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -get 451-500
+140520_110322: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140520_110404: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -get 400-451
+140520_110451: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -get

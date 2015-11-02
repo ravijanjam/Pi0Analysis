@@ -1,0 +1,1927 @@
+06-Jun-2014 20:38:46 CDT  Initiating request to open file /store//hidata/HIRun2013/PAMinBiasUPC/RECO/PromptReco-v1/000/210/759/00000/4A433FF3-8968-E211-8E95-00237DDBE0E2.root
+06-Jun-2014 20:38:49 CDT  Successfully opened file /store//hidata/HIRun2013/PAMinBiasUPC/RECO/PromptReco-v1/000/210/759/00000/4A433FF3-8968-E211-8E95-00237DDBE0E2.root
+
+ Cuts used for pair correlations:
+ Trigger (pi0) particle from 0.3 to 8 GeV/c
+ Associated charged particle from 0.3 to 3 GeV/c
+
+ The low invariant mass cut is 0.095 GeV/c^2
+ The high invariant mass cut is 0.175 GeV/c^2
+
+ The cluster S4/S9 cut is 0.74
+The pT bin width used are: 16	1.6	12
+pT bins used for the histogram: 10	0.7	8
+
+ Not using a a pT dependent separation cut
+
+ The goodAngleMatch opening angle criterion for reco track-cluster matching is 0.03 radians
+
+ The goodPhiMatch residual angle criterion for reco track-cluster matching is 0.03 radians
+
+ The goodThetaMatch residual angle criterion for reco track-cluster matching is 0.03 radians
+
+ Cluster energy value will be recalibrated according to number of crystals in the cluster
+
+ For the pi0 candidate with a pT below 1.5 GeV/c then both clusters must have a crystal number in the range 1 to 1
+
+ There is no check on the number of crystals in a cluster
+
+ Cluster with a charged particle tracking match will not be used
+
+ An output tree will be generated according to the xxxStore parameters
+
+
+  Attempt to create m_tree object 
+
+
+ Return from m_tree creation attempt, with m_tree value 0x2abd88a35000
+
+ No crystal information is being stored in the hTree for this job
+ The basic cluster information is being stored in the hTree for this job
+ No reco track-cluster information is being stored in the hTree for this job
+ Only the reco tracks information for pairs correlations is being stored in the hTree for this job
+ No reco tracks complete information is being stored in the hTree for this job
+ No mcParticle information is being stored in the hTree for this job
+ No simTrack information is being stored in the hTree for this job
+ No mergedTrackTruth information is being stored in the hTree for this job
+ No genParticle information is being stored in the hTree for this job
+ No charged meson information is being stored in the hTree for this job
+ No generator meson and reco truth information is being stored in the hTree for this job
+ No generator photon and reco truth information is being stored in the hTree for this job
+
+ Completed set up for the hTree contents (photon component is the last check)
+
+Begin processing the 1st record. Run 210759, Event 570986320, LumiSection 558 at 06-Jun-2014 20:40:26.903 CDT
+
+ nPairTracksSize = 74
+
+ First pass: zVertexEventSelected = 0.0578829, zAtECal = -2.15709, zCorrected = -2.21497, thetaForZEqualsZero = 2.60262, thetaCorrected = 2.61422, zCorrectedEta = -1.30943, uncorrected Eta = -1.28662
+ First pass: zVertexEventSelected = 0.0578829, zAtECal = -1.37541, zCorrected = -1.43329, thetaForZEqualsZero = 2.38823, thetaCorrected = 2.40876, zCorrectedEta = -0.957778, uncorrected Eta = -0.927423
+ First pass: zVertexEventSelected = 0.0578829, zAtECal = 2.20357, zCorrected = 2.14569, thetaForZEqualsZero = 0.529624, thetaCorrected = 0.541305, zCorrectedEta = 1.28208, uncorrected Eta = 1.30497
+ First pass: zVertexEventSelected = 0.0578829, zAtECal = 2.42738, zCorrected = 2.3695, thetaForZEqualsZero = 0.48848, thetaCorrected = 0.498548, zCorrectedEta = 1.36818, uncorrected Eta = 1.38944
+ First pass: zVertexEventSelected = 0.0578829, zAtECal = 2.64581, zCorrected = 2.58793, thetaForZEqualsZero = 0.453649, thetaCorrected = 0.462422, zCorrectedEta = 1.44638, uncorrected Eta = 1.46622
+ First pass: zVertexEventSelected = 0.0578829, zAtECal = 2.38093, zCorrected = 2.32305, thetaForZEqualsZero = 0.49653, thetaCorrected = 0.506907, zCorrectedEta = 1.35083, uncorrected Eta = 1.37241
+ First pass: zVertexEventSelected = 0.0578829, zAtECal = 1.97733, zCorrected = 1.91945, thetaForZEqualsZero = 0.578056, thetaCorrected = 0.591733, zCorrectedEta = 1.18806, uncorrected Eta = 1.21283
+ First pass: zVertexEventSelected = 0.0578829, zAtECal = 0.769399, zCorrected = 0.711516, thetaForZEqualsZero = 1.033, thetaCorrected = 1.06675, zCorrectedEta = 0.526849, uncorrected Eta = 0.565764
+ First pass: zVertexEventSelected = 0.0578829, zAtECal = -0.815472, zCorrected = -0.873355, thetaForZEqualsZero = 2.13452, thetaCorrected = 2.16593, zCorrectedEta = -0.633739, uncorrected Eta = -0.596196
+ First pass: zVertexEventSelected = 0.0578829, zAtECal = 1.762, zCorrected = 1.70412, thetaForZEqualsZero = 0.631961, thetaCorrected = 0.64796, zCorrectedEta = 1.0912, uncorrected Eta = 1.118
+Begin processing the 101st record. Run 210759, Event 571154768, LumiSection 558 at 06-Jun-2014 20:40:34.210 CDT
+
+ nPairTracksSize = 82
+
+ nPairTracksSize = 127
+
+ nPairTracksSize = 92
+
+ nPairTracksSize = 94
+Begin processing the 201st record. Run 210759, Event 571349464, LumiSection 558 at 06-Jun-2014 20:40:34.556 CDT
+Begin processing the 301st record. Run 210759, Event 571498440, LumiSection 558 at 06-Jun-2014 20:40:36.334 CDT
+
+ nPairTracksSize = 88
+
+ nPairTracksSize = 65
+Begin processing the 401st record. Run 210759, Event 571655272, LumiSection 558 at 06-Jun-2014 20:40:36.590 CDT
+
+ nPairTracksSize = 79
+
+ nPairTracksSize = 161
+Begin processing the 501st record. Run 210759, Event 571807042, LumiSection 558 at 06-Jun-2014 20:40:43.065 CDT
+
+ nPairTracksSize = 98
+
+ nPairTracksSize = 81
+Begin processing the 601st record. Run 210759, Event 571153777, LumiSection 558 at 06-Jun-2014 20:40:43.338 CDT
+
+ nPairTracksSize = 92
+
+ nPairTracksSize = 99
+
+ nPairTracksSize = 85
+Begin processing the 701st record. Run 210759, Event 571305673, LumiSection 558 at 06-Jun-2014 20:40:43.606 CDT
+
+ nPairTracksSize = 74
+
+ nPairTracksSize = 166
+Begin processing the 801st record. Run 210759, Event 571468433, LumiSection 558 at 06-Jun-2014 20:40:46.268 CDT
+
+ nPairTracksSize = 71
+
+ nPairTracksSize = 86
+Begin processing the 901st record. Run 210759, Event 571641193, LumiSection 558 at 06-Jun-2014 20:40:46.572 CDT
+
+ nPairTracksSize = 74
+
+ nPairTracksSize = 83
+
+ nPairTracksSize = 151
+Begin processing the 1001st record. Run 210759, Event 571806011, LumiSection 558 at 06-Jun-2014 20:40:51.280 CDT
+
+ nPairTracksSize = 59
+
+ nPairTracksSize = 118
+
+ nPairTracksSize = 120
+
+ nPairTracksSize = 81
+Begin processing the 1101st record. Run 210759, Event 571120525, LumiSection 558 at 06-Jun-2014 20:40:51.615 CDT
+
+ nPairTracksSize = 115
+
+ nPairTracksSize = 101
+
+ nPairTracksSize = 133
+
+ nPairTracksSize = 138
+
+ nPairTracksSize = 61
+
+ nPairTracksSize = 67
+Begin processing the 1201st record. Run 210759, Event 571283469, LumiSection 558 at 06-Jun-2014 20:40:57.700 CDT
+
+ nPairTracksSize = 85
+
+ nPairTracksSize = 114
+
+ nPairTracksSize = 83
+Begin processing the 1301st record. Run 210759, Event 571426893, LumiSection 558 at 06-Jun-2014 20:40:58.004 CDT
+
+ nPairTracksSize = 74
+Begin processing the 1401st record. Run 210759, Event 571588909, LumiSection 558 at 06-Jun-2014 20:40:58.217 CDT
+
+ nPairTracksSize = 107
+
+ nPairTracksSize = 79
+Begin processing the 1501st record. Run 210759, Event 571726901, LumiSection 558 at 06-Jun-2014 20:41:06.231 CDT
+
+ nPairTracksSize = 94
+
+ nPairTracksSize = 90
+
+ nPairTracksSize = 113
+
+ nPairTracksSize = 94
+Begin processing the 1601st record. Run 210759, Event 571060131, LumiSection 558 at 06-Jun-2014 20:41:06.573 CDT
+Begin processing the 1701st record. Run 210759, Event 571201227, LumiSection 558 at 06-Jun-2014 20:41:06.726 CDT
+
+ nPairTracksSize = 85
+Begin processing the 1801st record. Run 210759, Event 571362635, LumiSection 558 at 06-Jun-2014 20:41:10.128 CDT
+
+ nPairTracksSize = 144
+
+ nPairTracksSize = 106
+Begin processing the 1901st record. Run 210759, Event 571541435, LumiSection 558 at 06-Jun-2014 20:41:10.397 CDT
+
+ nPairTracksSize = 87
+Begin processing the 2001st record. Run 210759, Event 571713971, LumiSection 558 at 06-Jun-2014 20:41:15.838 CDT
+
+ nPairTracksSize = 156
+
+ nPairTracksSize = 91
+
+ nPairTracksSize = 114
+
+ nPairTracksSize = 79
+
+ nPairTracksSize = 108
+
+ nPairTracksSize = 72
+
+ nPairTracksSize = 83
+Begin processing the 2101st record. Run 210759, Event 571020713, LumiSection 558 at 06-Jun-2014 20:41:16.254 CDT
+
+ nPairTracksSize = 79
+
+ nPairTracksSize = 92
+
+ nPairTracksSize = 113
+
+ nPairTracksSize = 101
+Begin processing the 2201st record. Run 210759, Event 571179257, LumiSection 558 at 06-Jun-2014 20:41:18.496 CDT
+
+ nPairTracksSize = 81
+
+ nPairTracksSize = 91
+Begin processing the 2301st record. Run 210759, Event 571330073, LumiSection 558 at 06-Jun-2014 20:41:18.782 CDT
+
+ nPairTracksSize = 92
+Begin processing the 2401st record. Run 210759, Event 571473393, LumiSection 558 at 06-Jun-2014 20:41:19.017 CDT
+
+ nPairTracksSize = 149
+
+ nPairTracksSize = 137
+
+ nPairTracksSize = 70
+Begin processing the 2501st record. Run 210759, Event 571622545, LumiSection 558 at 06-Jun-2014 20:41:22.003 CDT
+
+ nPairTracksSize = 76
+
+ nPairTracksSize = 74
+
+ nPairTracksSize = 90
+
+ nPairTracksSize = 145
+Begin processing the 2601st record. Run 210759, Event 571775307, LumiSection 558 at 06-Jun-2014 20:41:22.321 CDT
+Begin processing the 2701st record. Run 210759, Event 571114316, LumiSection 558 at 06-Jun-2014 20:41:28.825 CDT
+
+ nPairTracksSize = 74
+
+ nPairTracksSize = 123
+
+ nPairTracksSize = 144
+Begin processing the 2801st record. Run 210759, Event 571238580, LumiSection 558 at 06-Jun-2014 20:41:29.123 CDT
+
+ nPairTracksSize = 70
+
+ nPairTracksSize = 121
+
+ nPairTracksSize = 98
+
+ nPairTracksSize = 100
+Begin processing the 2901st record. Run 210759, Event 571401748, LumiSection 558 at 06-Jun-2014 20:41:37.515 CDT
+
+ nPairTracksSize = 102
+Begin processing the 3001st record. Run 210759, Event 571570044, LumiSection 558 at 06-Jun-2014 20:41:37.783 CDT
+
+ nPairTracksSize = 86
+
+ nPairTracksSize = 85
+
+ nPairTracksSize = 83
+Begin processing the 3101st record. Run 210759, Event 571736884, LumiSection 558 at 06-Jun-2014 20:41:38.048 CDT
+Begin processing the 3201st record. Run 210759, Event 571075495, LumiSection 558 at 06-Jun-2014 20:41:44.021 CDT
+Begin processing the 3301st record. Run 210759, Event 571240471, LumiSection 558 at 06-Jun-2014 20:41:44.225 CDT
+
+ nPairTracksSize = 77
+
+ nPairTracksSize = 82
+
+ nPairTracksSize = 95
+
+ nPairTracksSize = 89
+Begin processing the 3401st record. Run 210759, Event 571364263, LumiSection 558 at 06-Jun-2014 20:41:46.621 CDT
+Begin processing the 3501st record. Run 210759, Event 571537223, LumiSection 558 at 06-Jun-2014 20:41:46.848 CDT
+
+ nPairTracksSize = 100
+
+ nPairTracksSize = 91
+Begin processing the 3601st record. Run 210759, Event 571670511, LumiSection 558 at 06-Jun-2014 20:41:47.134 CDT
+
+ nPairTracksSize = 100
+Begin processing the 3701st record. Run 210759, Event 571046540, LumiSection 558 at 06-Jun-2014 20:41:52.205 CDT
+
+ nPairTracksSize = 114
+
+ nPairTracksSize = 112
+Begin processing the 3801st record. Run 210759, Event 571210540, LumiSection 558 at 06-Jun-2014 20:41:52.520 CDT
+
+ nPairTracksSize = 79
+
+ nPairTracksSize = 89
+Begin processing the 3901st record. Run 210759, Event 571398844, LumiSection 558 at 06-Jun-2014 20:41:56.619 CDT
+Begin processing the 4001st record. Run 210759, Event 571549468, LumiSection 558 at 06-Jun-2014 20:41:56.847 CDT
+
+ nPairTracksSize = 127
+
+ nPairTracksSize = 98
+Begin processing the 4101st record. Run 210759, Event 571707140, LumiSection 558 at 06-Jun-2014 20:42:01.288 CDT
+
+ nPairTracksSize = 101
+
+ nPairTracksSize = 111
+
+ nPairTracksSize = 90
+Begin processing the 4201st record. Run 210759, Event 571055480, LumiSection 558 at 06-Jun-2014 20:42:01.637 CDT
+
+ nPairTracksSize = 123
+
+ nPairTracksSize = 112
+
+ nPairTracksSize = 87
+
+ nPairTracksSize = 123
+Begin processing the 4301st record. Run 210759, Event 571213112, LumiSection 558 at 06-Jun-2014 20:42:05.440 CDT
+
+ nPairTracksSize = 106
+
+ nPairTracksSize = 104
+
+ nPairTracksSize = 98
+Begin processing the 4401st record. Run 210759, Event 571356840, LumiSection 558 at 06-Jun-2014 20:42:05.749 CDT
+
+ nPairTracksSize = 72
+
+ nPairTracksSize = 75
+
+ nPairTracksSize = 85
+
+ nPairTracksSize = 66
+Begin processing the 4501st record. Run 210759, Event 571548624, LumiSection 558 at 06-Jun-2014 20:42:06.050 CDT
+
+ nPairTracksSize = 87
+
+ nPairTracksSize = 77
+Begin processing the 4601st record. Run 210759, Event 571744328, LumiSection 558 at 06-Jun-2014 20:42:13.688 CDT
+
+ nPairTracksSize = 95
+
+ nPairTracksSize = 114
+Begin processing the 4701st record. Run 210759, Event 571088730, LumiSection 558 at 06-Jun-2014 20:42:13.973 CDT
+
+ nPairTracksSize = 83
+
+ nPairTracksSize = 96
+Begin processing the 4801st record. Run 210759, Event 571252570, LumiSection 558 at 06-Jun-2014 20:42:14.245 CDT
+
+ nPairTracksSize = 93
+Begin processing the 4901st record. Run 210759, Event 571415386, LumiSection 558 at 06-Jun-2014 20:42:21.279 CDT
+
+ nPairTracksSize = 64
+Begin processing the 5001st record. Run 210759, Event 571559250, LumiSection 558 at 06-Jun-2014 20:42:21.566 CDT
+
+ nPairTracksSize = 79
+
+ nPairTracksSize = 85
+
+ nPairTracksSize = 83
+Begin processing the 5101st record. Run 210759, Event 571727610, LumiSection 558 at 06-Jun-2014 20:42:26.756 CDT
+
+ nPairTracksSize = 113
+
+ nPairTracksSize = 149
+
+ nPairTracksSize = 100
+
+ nPairTracksSize = 142
+Begin processing the 5201st record. Run 210759, Event 571042690, LumiSection 558 at 06-Jun-2014 20:42:27.103 CDT
+
+ nPairTracksSize = 82
+
+ nPairTracksSize = 91
+
+ nPairTracksSize = 71
+Begin processing the 5301st record. Run 210759, Event 571210274, LumiSection 558 at 06-Jun-2014 20:42:30.450 CDT
+
+ nPairTracksSize = 98
+Begin processing the 5401st record. Run 210759, Event 571382250, LumiSection 558 at 06-Jun-2014 20:42:30.708 CDT
+
+ nPairTracksSize = 116
+
+ nPairTracksSize = 116
+Begin processing the 5501st record. Run 210759, Event 571554970, LumiSection 558 at 06-Jun-2014 20:42:30.953 CDT
+
+ nPairTracksSize = 130
+Begin processing the 5601st record. Run 210759, Event 571717914, LumiSection 558 at 06-Jun-2014 20:42:37.160 CDT
+
+ nPairTracksSize = 66
+
+ nPairTracksSize = 102
+
+ nPairTracksSize = 94
+Begin processing the 5701st record. Run 210759, Event 571042663, LumiSection 558 at 06-Jun-2014 20:42:37.470 CDT
+
+ nPairTracksSize = 86
+
+ nPairTracksSize = 104
+Begin processing the 5801st record. Run 210759, Event 571214007, LumiSection 558 at 06-Jun-2014 20:42:41.568 CDT
+
+ nPairTracksSize = 113
+
+ nPairTracksSize = 88
+
+ nPairTracksSize = 116
+Begin processing the 5901st record. Run 210759, Event 571349927, LumiSection 558 at 06-Jun-2014 20:42:41.882 CDT
+Begin processing the 6001st record. Run 210759, Event 571496695, LumiSection 558 at 06-Jun-2014 20:42:44.158 CDT
+
+ nPairTracksSize = 84
+
+ nPairTracksSize = 133
+
+ nPairTracksSize = 78
+
+ nPairTracksSize = 93
+
+ nPairTracksSize = 115
+Begin processing the 6101st record. Run 210759, Event 571637159, LumiSection 558 at 06-Jun-2014 20:42:44.501 CDT
+
+ nPairTracksSize = 83
+
+ nPairTracksSize = 143
+Begin processing the 6201st record. Run 210759, Event 571800977, LumiSection 558 at 06-Jun-2014 20:42:44.699 CDT
+
+ nPairTracksSize = 89
+
+ nPairTracksSize = 137
+Begin processing the 6301st record. Run 210759, Event 571157486, LumiSection 558 at 06-Jun-2014 20:42:48.075 CDT
+Begin processing the 6401st record. Run 210759, Event 571307374, LumiSection 558 at 06-Jun-2014 20:42:48.284 CDT
+
+ nPairTracksSize = 137
+
+ nPairTracksSize = 100
+
+ nPairTracksSize = 93
+
+ nPairTracksSize = 88
+
+ nPairTracksSize = 68
+
+ nPairTracksSize = 144
+Begin processing the 6501st record. Run 210759, Event 571499766, LumiSection 558 at 06-Jun-2014 20:42:50.764 CDT
+
+ nPairTracksSize = 80
+
+ nPairTracksSize = 70
+
+ nPairTracksSize = 77
+Begin processing the 6601st record. Run 210759, Event 571692294, LumiSection 558 at 06-Jun-2014 20:42:51.067 CDT
+
+ nPairTracksSize = 96
+
+ nPairTracksSize = 134
+
+ nPairTracksSize = 98
+
+ nPairTracksSize = 81
+Begin processing the 6701st record. Run 210759, Event 571035238, LumiSection 558 at 06-Jun-2014 20:42:51.293 CDT
+
+ nPairTracksSize = 80
+
+ nPairTracksSize = 95
+
+ nPairTracksSize = 100
+
+ nPairTracksSize = 90
+Begin processing the 6801st record. Run 210759, Event 571197910, LumiSection 558 at 06-Jun-2014 20:42:54.298 CDT
+
+ nPairTracksSize = 77
+
+ nPairTracksSize = 132
+
+ nPairTracksSize = 86
+Begin processing the 6901st record. Run 210759, Event 571362782, LumiSection 558 at 06-Jun-2014 20:42:54.600 CDT
+
+ nPairTracksSize = 80
+Begin processing the 7001st record. Run 210759, Event 571514742, LumiSection 558 at 06-Jun-2014 20:42:59.313 CDT
+
+ nPairTracksSize = 69
+Begin processing the 7101st record. Run 210759, Event 571687134, LumiSection 558 at 06-Jun-2014 20:42:59.575 CDT
+
+ nPairTracksSize = 86
+
+ nPairTracksSize = 86
+Begin processing the 7201st record. Run 210759, Event 571002091, LumiSection 558 at 06-Jun-2014 20:42:59.800 CDT
+
+ nPairTracksSize = 87
+
+ nPairTracksSize = 92
+
+ nPairTracksSize = 101
+Begin processing the 7301st record. Run 210759, Event 571179843, LumiSection 558 at 06-Jun-2014 20:43:03.684 CDT
+
+ nPairTracksSize = 102
+
+ nPairTracksSize = 77
+Begin processing the 7401st record. Run 210759, Event 571339979, LumiSection 558 at 06-Jun-2014 20:43:03.957 CDT
+
+ nPairTracksSize = 86
+
+ nPairTracksSize = 73
+Begin processing the 7501st record. Run 210759, Event 571525403, LumiSection 558 at 06-Jun-2014 20:43:08.637 CDT
+
+ nPairTracksSize = 115
+
+ nPairTracksSize = 102
+
+ nPairTracksSize = 79
+Begin processing the 7601st record. Run 210759, Event 571718571, LumiSection 558 at 06-Jun-2014 20:43:08.968 CDT
+
+ nPairTracksSize = 88
+
+ nPairTracksSize = 79
+
+ nPairTracksSize = 91
+Begin processing the 7701st record. Run 210759, Event 571055045, LumiSection 558 at 06-Jun-2014 20:43:15.539 CDT
+
+ nPairTracksSize = 82
+
+ nPairTracksSize = 83
+
+ nPairTracksSize = 114
+Begin processing the 7801st record. Run 210759, Event 571209685, LumiSection 558 at 06-Jun-2014 20:43:15.862 CDT
+
+ nPairTracksSize = 117
+Begin processing the 7901st record. Run 210759, Event 571385837, LumiSection 558 at 06-Jun-2014 20:43:17.692 CDT
+Begin processing the 8001st record. Run 210759, Event 571558069, LumiSection 558 at 06-Jun-2014 20:43:17.941 CDT
+
+ nPairTracksSize = 131
+
+ nPairTracksSize = 60
+
+ nPairTracksSize = 89
+Begin processing the 8101st record. Run 210759, Event 571705045, LumiSection 558 at 06-Jun-2014 20:43:18.265 CDT
+
+ nPairTracksSize = 79
+Begin processing the 8201st record. Run 210759, Event 571863146, LumiSection 559 at 06-Jun-2014 20:43:20.821 CDT
+
+ nPairTracksSize = 79
+
+ nPairTracksSize = 84
+Begin processing the 8301st record. Run 210759, Event 572011818, LumiSection 559 at 06-Jun-2014 20:43:21.098 CDT
+
+ nPairTracksSize = 91
+
+ nPairTracksSize = 81
+
+ nPairTracksSize = 82
+
+ nPairTracksSize = 94
+
+ nPairTracksSize = 100
+
+ nPairTracksSize = 78
+Begin processing the 8401st record. Run 210759, Event 572150098, LumiSection 559 at 06-Jun-2014 20:43:24.648 CDT
+
+ nPairTracksSize = 100
+
+ nPairTracksSize = 88
+Begin processing the 8501st record. Run 210759, Event 572334066, LumiSection 559 at 06-Jun-2014 20:43:24.918 CDT
+
+ nPairTracksSize = 97
+
+ nPairTracksSize = 132
+
+ nPairTracksSize = 119
+
+ nPairTracksSize = 84
+Begin processing the 8601st record. Run 210759, Event 572481562, LumiSection 559 at 06-Jun-2014 20:43:29.760 CDT
+
+ nPairTracksSize = 137
+
+ nPairTracksSize = 113
+
+ nPairTracksSize = 81
+
+ nPairTracksSize = 115
+Begin processing the 8701st record. Run 210759, Event 571815546, LumiSection 559 at 06-Jun-2014 20:43:30.129 CDT
+
+ nPairTracksSize = 70
+
+ nPairTracksSize = 99
+
+ nPairTracksSize = 111
+Begin processing the 8801st record. Run 210759, Event 571972962, LumiSection 559 at 06-Jun-2014 20:43:34.669 CDT
+
+ nPairTracksSize = 131
+
+ nPairTracksSize = 95
+Begin processing the 8901st record. Run 210759, Event 572146330, LumiSection 559 at 06-Jun-2014 20:43:34.985 CDT
+
+ nPairTracksSize = 93
+
+ nPairTracksSize = 115
+
+ nPairTracksSize = 97
+
+ nPairTracksSize = 75
+
+ nPairTracksSize = 80
+
+ nPairTracksSize = 131
+
+ nPairTracksSize = 71
+Begin processing the 9001st record. Run 210759, Event 572228642, LumiSection 559 at 06-Jun-2014 20:43:35.458 CDT
+
+ nPairTracksSize = 143
+Begin processing the 9101st record. Run 210759, Event 572460714, LumiSection 559 at 06-Jun-2014 20:43:40.862 CDT
+
+ nPairTracksSize = 60
+Begin processing the 9201st record. Run 210759, Event 572616362, LumiSection 559 at 06-Jun-2014 20:43:41.055 CDT
+
+ nPairTracksSize = 77
+
+ nPairTracksSize = 74
+Begin processing the 9301st record. Run 210759, Event 571951279, LumiSection 559 at 06-Jun-2014 20:43:44.438 CDT
+
+ nPairTracksSize = 74
+
+ nPairTracksSize = 91
+Begin processing the 9401st record. Run 210759, Event 572122743, LumiSection 559 at 06-Jun-2014 20:43:44.716 CDT
+
+ nPairTracksSize = 94
+
+ nPairTracksSize = 104
+Begin processing the 9501st record. Run 210759, Event 572309887, LumiSection 559 at 06-Jun-2014 20:43:48.286 CDT
+
+ nPairTracksSize = 138
+
+ nPairTracksSize = 119
+Begin processing the 9601st record. Run 210759, Event 572455903, LumiSection 559 at 06-Jun-2014 20:43:48.594 CDT
+
+ nPairTracksSize = 94
+
+ nPairTracksSize = 85
+
+ nPairTracksSize = 139
+
+ nPairTracksSize = 127
+
+ nPairTracksSize = 71
+
+ nPairTracksSize = 72
+Begin processing the 9701st record. Run 210759, Event 572596423, LumiSection 559 at 06-Jun-2014 20:43:52.851 CDT
+
+ nPairTracksSize = 108
+
+ nPairTracksSize = 66
+
+ nPairTracksSize = 89
+Begin processing the 9801st record. Run 210759, Event 571929468, LumiSection 559 at 06-Jun-2014 20:43:53.128 CDT
+
+ nPairTracksSize = 87
+Begin processing the 9901st record. Run 210759, Event 572083540, LumiSection 559 at 06-Jun-2014 20:43:53.354 CDT
+
+ nPairTracksSize = 67
+
+ nPairTracksSize = 111
+
+ nPairTracksSize = 71
+Begin processing the 10001st record. Run 210759, Event 572249516, LumiSection 559 at 06-Jun-2014 20:43:57.482 CDT
+
+ nPairTracksSize = 73
+Begin processing the 10101st record. Run 210759, Event 572425068, LumiSection 559 at 06-Jun-2014 20:43:57.764 CDT
+
+ nPairTracksSize = 144
+
+ nPairTracksSize = 68
+
+ nPairTracksSize = 82
+
+ nPairTracksSize = 110
+Begin processing the 10201st record. Run 210759, Event 572539452, LumiSection 559 at 06-Jun-2014 20:44:00.653 CDT
+
+ nPairTracksSize = 102
+
+ nPairTracksSize = 85
+Begin processing the 10301st record. Run 210759, Event 571885616, LumiSection 559 at 06-Jun-2014 20:44:00.951 CDT
+
+ nPairTracksSize = 146
+
+ nPairTracksSize = 127
+Begin processing the 10401st record. Run 210759, Event 572049208, LumiSection 559 at 06-Jun-2014 20:44:01.195 CDT
+
+ nPairTracksSize = 123
+
+ nPairTracksSize = 104
+Begin processing the 10501st record. Run 210759, Event 572209448, LumiSection 559 at 06-Jun-2014 20:44:03.314 CDT
+
+ nPairTracksSize = 81
+
+ nPairTracksSize = 90
+Begin processing the 10601st record. Run 210759, Event 572389872, LumiSection 559 at 06-Jun-2014 20:44:03.570 CDT
+
+ nPairTracksSize = 132
+
+ nPairTracksSize = 75
+
+ nPairTracksSize = 114
+
+ nPairTracksSize = 76
+Begin processing the 10701st record. Run 210759, Event 572541432, LumiSection 559 at 06-Jun-2014 20:44:06.045 CDT
+
+ nPairTracksSize = 82
+
+ nPairTracksSize = 118
+Begin processing the 10801st record. Run 210759, Event 571843397, LumiSection 559 at 06-Jun-2014 20:44:06.364 CDT
+
+ nPairTracksSize = 101
+Begin processing the 10901st record. Run 210759, Event 572009541, LumiSection 559 at 06-Jun-2014 20:44:08.653 CDT
+
+ nPairTracksSize = 113
+
+ nPairTracksSize = 92
+Begin processing the 11001st record. Run 210759, Event 572179237, LumiSection 559 at 06-Jun-2014 20:44:08.924 CDT
+
+ nPairTracksSize = 102
+Begin processing the 11101st record. Run 210759, Event 572368629, LumiSection 559 at 06-Jun-2014 20:44:10.658 CDT
+
+ nPairTracksSize = 78
+
+ nPairTracksSize = 75
+
+ nPairTracksSize = 79
+Begin processing the 11201st record. Run 210759, Event 572529701, LumiSection 559 at 06-Jun-2014 20:44:10.965 CDT
+
+ nPairTracksSize = 101
+
+ nPairTracksSize = 129
+
+ nPairTracksSize = 84
+Begin processing the 11301st record. Run 210759, Event 571831163, LumiSection 559 at 06-Jun-2014 20:44:11.249 CDT
+
+ nPairTracksSize = 117
+
+ nPairTracksSize = 94
+
+ nPairTracksSize = 115
+
+ nPairTracksSize = 122
+Begin processing the 11401st record. Run 210759, Event 572032203, LumiSection 559 at 06-Jun-2014 20:44:15.556 CDT
+
+ nPairTracksSize = 84
+
+ nPairTracksSize = 84
+
+ nPairTracksSize = 77
+Begin processing the 11501st record. Run 210759, Event 572208003, LumiSection 559 at 06-Jun-2014 20:44:15.844 CDT
+
+ nPairTracksSize = 74
+
+ nPairTracksSize = 80
+
+ nPairTracksSize = 88
+
+ nPairTracksSize = 102
+Begin processing the 11601st record. Run 210759, Event 572394211, LumiSection 559 at 06-Jun-2014 20:44:19.726 CDT
+
+ nPairTracksSize = 81
+Begin processing the 11701st record. Run 210759, Event 572545003, LumiSection 559 at 06-Jun-2014 20:44:19.928 CDT
+
+ nPairTracksSize = 133
+Begin processing the 11801st record. Run 210759, Event 571858025, LumiSection 559 at 06-Jun-2014 20:44:20.154 CDT
+Begin processing the 11901st record. Run 210759, Event 572002289, LumiSection 559 at 06-Jun-2014 20:44:22.883 CDT
+
+ nPairTracksSize = 102
+
+ nPairTracksSize = 105
+
+ nPairTracksSize = 131
+
+ nPairTracksSize = 134
+Begin processing the 12001st record. Run 210759, Event 572155793, LumiSection 559 at 06-Jun-2014 20:44:23.211 CDT
+
+ nPairTracksSize = 84
+
+ nPairTracksSize = 82
+
+ nPairTracksSize = 82
+
+ nPairTracksSize = 113
+Begin processing the 12101st record. Run 210759, Event 572300417, LumiSection 559 at 06-Jun-2014 20:44:25.840 CDT
+
+ nPairTracksSize = 70
+Begin processing the 12201st record. Run 210759, Event 572447985, LumiSection 559 at 06-Jun-2014 20:44:26.058 CDT
+Begin processing the 12301st record. Run 210759, Event 572616081, LumiSection 559 at 06-Jun-2014 20:44:26.254 CDT
+Begin processing the 12401st record. Run 210759, Event 571943014, LumiSection 559 at 06-Jun-2014 20:44:31.284 CDT
+
+ nPairTracksSize = 94
+
+ nPairTracksSize = 95
+Begin processing the 12501st record. Run 210759, Event 572107310, LumiSection 559 at 06-Jun-2014 20:44:31.510 CDT
+
+ nPairTracksSize = 127
+Begin processing the 12601st record. Run 210759, Event 572262382, LumiSection 559 at 06-Jun-2014 20:44:35.016 CDT
+
+ nPairTracksSize = 140
+
+ nPairTracksSize = 90
+
+ nPairTracksSize = 93
+
+ nPairTracksSize = 82
+
+ nPairTracksSize = 95
+Begin processing the 12701st record. Run 210759, Event 572424118, LumiSection 559 at 06-Jun-2014 20:44:35.386 CDT
+
+ nPairTracksSize = 75
+
+ nPairTracksSize = 84
+
+ nPairTracksSize = 89
+
+ nPairTracksSize = 87
+
+ nPairTracksSize = 108
+Begin processing the 12801st record. Run 210759, Event 572611470, LumiSection 559 at 06-Jun-2014 20:44:35.767 CDT
+
+ nPairTracksSize = 102
+
+ nPairTracksSize = 123
+Begin processing the 12901st record. Run 210759, Event 571967408, LumiSection 559 at 06-Jun-2014 20:44:39.479 CDT
+
+ nPairTracksSize = 78
+
+ nPairTracksSize = 86
+
+ nPairTracksSize = 93
+
+ nPairTracksSize = 148
+Begin processing the 13001st record. Run 210759, Event 572111928, LumiSection 559 at 06-Jun-2014 20:44:39.804 CDT
+Begin processing the 13101st record. Run 210759, Event 572258480, LumiSection 559 at 06-Jun-2014 20:44:45.016 CDT
+Begin processing the 13201st record. Run 210759, Event 572420384, LumiSection 559 at 06-Jun-2014 20:44:45.268 CDT
+
+ nPairTracksSize = 73
+Begin processing the 13301st record. Run 210759, Event 572590008, LumiSection 559 at 06-Jun-2014 20:44:46.753 CDT
+Begin processing the 13401st record. Run 210759, Event 571880879, LumiSection 559 at 06-Jun-2014 20:44:46.958 CDT
+
+ nPairTracksSize = 126
+
+ nPairTracksSize = 122
+
+ nPairTracksSize = 90
+
+ nPairTracksSize = 90
+
+ nPairTracksSize = 122
+
+ nPairTracksSize = 91
+Begin processing the 13501st record. Run 210759, Event 572066391, LumiSection 559 at 06-Jun-2014 20:44:47.282 CDT
+
+ nPairTracksSize = 112
+
+ nPairTracksSize = 83
+
+ nPairTracksSize = 145
+Begin processing the 13601st record. Run 210759, Event 572241671, LumiSection 559 at 06-Jun-2014 20:44:50.249 CDT
+
+ nPairTracksSize = 85
+
+ nPairTracksSize = 101
+Begin processing the 13701st record. Run 210759, Event 572399455, LumiSection 559 at 06-Jun-2014 20:44:50.553 CDT
+
+ nPairTracksSize = 78
+
+ nPairTracksSize = 73
+
+ nPairTracksSize = 71
+Begin processing the 13801st record. Run 210759, Event 572570511, LumiSection 559 at 06-Jun-2014 20:44:56.571 CDT
+
+ nPairTracksSize = 154
+
+ nPairTracksSize = 126
+
+ nPairTracksSize = 123
+
+ nPairTracksSize = 75
+Begin processing the 13901st record. Run 210759, Event 571931817, LumiSection 559 at 06-Jun-2014 20:44:56.925 CDT
+
+ nPairTracksSize = 113
+
+ nPairTracksSize = 73
+
+ nPairTracksSize = 95
+
+ nPairTracksSize = 146
+Begin processing the 14001st record. Run 210759, Event 572091937, LumiSection 559 at 06-Jun-2014 20:45:01.912 CDT
+
+ nPairTracksSize = 108
+
+ nPairTracksSize = 90
+Begin processing the 14101st record. Run 210759, Event 572231289, LumiSection 559 at 06-Jun-2014 20:45:02.162 CDT
+
+ nPairTracksSize = 101
+Begin processing the 14201st record. Run 210759, Event 572374497, LumiSection 559 at 06-Jun-2014 20:45:02.398 CDT
+
+ nPairTracksSize = 114
+Begin processing the 14301st record. Run 210759, Event 572532657, LumiSection 559 at 06-Jun-2014 20:45:10.021 CDT
+
+ nPairTracksSize = 76
+Begin processing the 14401st record. Run 210759, Event 571851493, LumiSection 559 at 06-Jun-2014 20:45:10.233 CDT
+
+ nPairTracksSize = 142
+Begin processing the 14501st record. Run 210759, Event 571995909, LumiSection 559 at 06-Jun-2014 20:45:15.468 CDT
+
+ nPairTracksSize = 78
+
+ nPairTracksSize = 69
+Begin processing the 14601st record. Run 210759, Event 572169125, LumiSection 559 at 06-Jun-2014 20:45:15.762 CDT
+Begin processing the 14701st record. Run 210759, Event 572326637, LumiSection 559 at 06-Jun-2014 20:45:23.390 CDT
+
+ nPairTracksSize = 83
+
+ nPairTracksSize = 106
+Begin processing the 14801st record. Run 210759, Event 572487301, LumiSection 559 at 06-Jun-2014 20:45:23.658 CDT
+
+ nPairTracksSize = 114
+
+ nPairTracksSize = 70
+Begin processing the 14901st record. Run 210759, Event 572629181, LumiSection 559 at 06-Jun-2014 20:45:23.964 CDT
+
+ nPairTracksSize = 92
+Begin processing the 15001st record. Run 210759, Event 571978540, LumiSection 559 at 06-Jun-2014 20:45:26.100 CDT
+Begin processing the 15101st record. Run 210759, Event 572119860, LumiSection 559 at 06-Jun-2014 20:45:26.306 CDT
+Begin processing the 15201st record. Run 210759, Event 572303860, LumiSection 559 at 06-Jun-2014 20:45:27.906 CDT
+
+ nPairTracksSize = 88
+
+ nPairTracksSize = 71
+
+ nPairTracksSize = 145
+Begin processing the 15301st record. Run 210759, Event 572450532, LumiSection 559 at 06-Jun-2014 20:45:28.220 CDT
+
+ nPairTracksSize = 102
+Begin processing the 15401st record. Run 210759, Event 572611812, LumiSection 559 at 06-Jun-2014 20:45:32.538 CDT
+
+ nPairTracksSize = 97
+
+ nPairTracksSize = 87
+
+ nPairTracksSize = 143
+
+ nPairTracksSize = 87
+Begin processing the 15501st record. Run 210759, Event 571945030, LumiSection 559 at 06-Jun-2014 20:45:32.857 CDT
+
+ nPairTracksSize = 74
+
+ nPairTracksSize = 72
+
+ nPairTracksSize = 74
+Begin processing the 15601st record. Run 210759, Event 572101710, LumiSection 559 at 06-Jun-2014 20:45:33.130 CDT
+
+ nPairTracksSize = 103
+
+ nPairTracksSize = 116
+
+ nPairTracksSize = 81
+Begin processing the 15701st record. Run 210759, Event 572284294, LumiSection 559 at 06-Jun-2014 20:45:39.471 CDT
+
+ nPairTracksSize = 84
+
+ nPairTracksSize = 74
+Begin processing the 15801st record. Run 210759, Event 572497830, LumiSection 559 at 06-Jun-2014 20:45:39.711 CDT
+
+ nPairTracksSize = 72
+
+ nPairTracksSize = 91
+Begin processing the 15901st record. Run 210759, Event 571823747, LumiSection 559 at 06-Jun-2014 20:45:44.080 CDT
+
+ nPairTracksSize = 63
+
+ nPairTracksSize = 132
+Begin processing the 16001st record. Run 210759, Event 571977323, LumiSection 559 at 06-Jun-2014 20:45:44.325 CDT
+
+ nPairTracksSize = 81
+
+ nPairTracksSize = 84
+
+ nPairTracksSize = 74
+Begin processing the 16101st record. Run 210759, Event 572140427, LumiSection 559 at 06-Jun-2014 20:45:44.613 CDT
+
+ nPairTracksSize = 131
+Begin processing the 16201st record. Run 210759, Event 572318195, LumiSection 559 at 06-Jun-2014 20:45:47.790 CDT
+
+ nPairTracksSize = 88
+Begin processing the 16301st record. Run 210759, Event 572495659, LumiSection 559 at 06-Jun-2014 20:45:48.051 CDT
+
+ nPairTracksSize = 88
+
+ nPairTracksSize = 73
+Begin processing the 16401st record. Run 210759, Event 572619643, LumiSection 559 at 06-Jun-2014 20:45:52.008 CDT
+
+ nPairTracksSize = 108
+
+ nPairTracksSize = 73
+Begin processing the 16501st record. Run 210759, Event 572798382, LumiSection 560 at 06-Jun-2014 20:45:52.280 CDT
+
+ nPairTracksSize = 120
+Begin processing the 16601st record. Run 210759, Event 572982958, LumiSection 560 at 06-Jun-2014 20:45:52.516 CDT
+
+ nPairTracksSize = 132
+
+ nPairTracksSize = 101
+
+ nPairTracksSize = 86
+
+ nPairTracksSize = 78
+Begin processing the 16701st record. Run 210759, Event 573142294, LumiSection 560 at 06-Jun-2014 20:45:57.704 CDT
+
+ nPairTracksSize = 152
+
+ nPairTracksSize = 76
+Begin processing the 16801st record. Run 210759, Event 573289694, LumiSection 560 at 06-Jun-2014 20:45:58.035 CDT
+
+ nPairTracksSize = 113
+Begin processing the 16901st record. Run 210759, Event 573443710, LumiSection 560 at 06-Jun-2014 20:46:01.704 CDT
+
+ nPairTracksSize = 78
+
+ nPairTracksSize = 79
+Begin processing the 17001st record. Run 210759, Event 572766130, LumiSection 560 at 06-Jun-2014 20:46:01.986 CDT
+
+ nPairTracksSize = 80
+Begin processing the 17101st record. Run 210759, Event 572900090, LumiSection 560 at 06-Jun-2014 20:46:02.240 CDT
+Begin processing the 17201st record. Run 210759, Event 573062418, LumiSection 560 at 06-Jun-2014 20:46:05.452 CDT
+
+ nPairTracksSize = 148
+Begin processing the 17301st record. Run 210759, Event 573228538, LumiSection 560 at 06-Jun-2014 20:46:05.824 CDT
+
+ nPairTracksSize = 82
+Begin processing the 17401st record. Run 210759, Event 573368642, LumiSection 560 at 06-Jun-2014 20:46:07.940 CDT
+
+ nPairTracksSize = 71
+
+ nPairTracksSize = 75
+Begin processing the 17501st record. Run 210759, Event 572667626, LumiSection 560 at 06-Jun-2014 20:46:08.184 CDT
+
+ nPairTracksSize = 104
+Begin processing the 17601st record. Run 210759, Event 572817362, LumiSection 560 at 06-Jun-2014 20:46:08.415 CDT
+
+ nPairTracksSize = 101
+
+ nPairTracksSize = 95
+
+ nPairTracksSize = 92
+Begin processing the 17701st record. Run 210759, Event 572996610, LumiSection 560 at 06-Jun-2014 20:46:11.004 CDT
+
+ nPairTracksSize = 86
+
+ nPairTracksSize = 142
+Begin processing the 17801st record. Run 210759, Event 573138274, LumiSection 560 at 06-Jun-2014 20:46:11.278 CDT
+
+ nPairTracksSize = 108
+
+ nPairTracksSize = 88
+
+ nPairTracksSize = 73
+
+ nPairTracksSize = 115
+Begin processing the 17901st record. Run 210759, Event 573268258, LumiSection 560 at 06-Jun-2014 20:46:11.615 CDT
+
+ nPairTracksSize = 99
+
+ nPairTracksSize = 79
+Begin processing the 18001st record. Run 210759, Event 573431938, LumiSection 560 at 06-Jun-2014 20:46:17.596 CDT
+
+ nPairTracksSize = 153
+
+ nPairTracksSize = 121
+Begin processing the 18101st record. Run 210759, Event 572746753, LumiSection 560 at 06-Jun-2014 20:46:17.893 CDT
+
+ nPairTracksSize = 92
+Begin processing the 18201st record. Run 210759, Event 572921313, LumiSection 560 at 06-Jun-2014 20:46:22.825 CDT
+
+ nPairTracksSize = 88
+Begin processing the 18301st record. Run 210759, Event 573102137, LumiSection 560 at 06-Jun-2014 20:46:23.056 CDT
+
+ nPairTracksSize = 110
+
+ nPairTracksSize = 110
+
+ nPairTracksSize = 97
+
+ nPairTracksSize = 133
+Begin processing the 18401st record. Run 210759, Event 573274753, LumiSection 560 at 06-Jun-2014 20:46:23.399 CDT
+
+ nPairTracksSize = 71
+
+ nPairTracksSize = 102
+Begin processing the 18501st record. Run 210759, Event 573427497, LumiSection 560 at 06-Jun-2014 20:46:27.585 CDT
+
+ nPairTracksSize = 94
+
+ nPairTracksSize = 122
+
+ nPairTracksSize = 115
+
+ nPairTracksSize = 107
+
+ nPairTracksSize = 85
+Begin processing the 18601st record. Run 210759, Event 572766559, LumiSection 560 at 06-Jun-2014 20:46:27.932 CDT
+
+ nPairTracksSize = 74
+
+ nPairTracksSize = 126
+
+ nPairTracksSize = 137
+Begin processing the 18701st record. Run 210759, Event 572942359, LumiSection 560 at 06-Jun-2014 20:46:28.176 CDT
+
+ nPairTracksSize = 67
+
+ nPairTracksSize = 101
+Begin processing the 18801st record. Run 210759, Event 573096375, LumiSection 560 at 06-Jun-2014 20:46:34.435 CDT
+
+ nPairTracksSize = 68
+
+ nPairTracksSize = 82
+
+ nPairTracksSize = 76
+Begin processing the 18901st record. Run 210759, Event 573268383, LumiSection 560 at 06-Jun-2014 20:46:34.718 CDT
+
+ nPairTracksSize = 66
+
+ nPairTracksSize = 75
+Begin processing the 19001st record. Run 210759, Event 573437607, LumiSection 560 at 06-Jun-2014 20:46:40.061 CDT
+
+ nPairTracksSize = 82
+Begin processing the 19101st record. Run 210759, Event 572758232, LumiSection 560 at 06-Jun-2014 20:46:40.300 CDT
+
+ nPairTracksSize = 151
+
+ nPairTracksSize = 76
+
+ nPairTracksSize = 83
+Begin processing the 19201st record. Run 210759, Event 572950480, LumiSection 560 at 06-Jun-2014 20:46:46.590 CDT
+
+ nPairTracksSize = 91
+Begin processing the 19301st record. Run 210759, Event 573091080, LumiSection 560 at 06-Jun-2014 20:46:46.838 CDT
+
+ nPairTracksSize = 103
+
+ nPairTracksSize = 91
+Begin processing the 19401st record. Run 210759, Event 573257744, LumiSection 560 at 06-Jun-2014 20:46:47.100 CDT
+Begin processing the 19501st record. Run 210759, Event 573449352, LumiSection 560 at 06-Jun-2014 20:46:53.893 CDT
+
+ nPairTracksSize = 79
+
+ nPairTracksSize = 90
+
+ nPairTracksSize = 107
+Begin processing the 19601st record. Run 210759, Event 572749631, LumiSection 560 at 06-Jun-2014 20:46:54.215 CDT
+
+ nPairTracksSize = 72
+
+ nPairTracksSize = 81
+
+ nPairTracksSize = 87
+
+ nPairTracksSize = 81
+Begin processing the 19701st record. Run 210759, Event 572901167, LumiSection 560 at 06-Jun-2014 20:47:02.145 CDT
+
+ nPairTracksSize = 109
+Begin processing the 19801st record. Run 210759, Event 573034951, LumiSection 560 at 06-Jun-2014 20:47:02.389 CDT
+
+ nPairTracksSize = 71
+
+ nPairTracksSize = 75
+Begin processing the 19901st record. Run 210759, Event 573161159, LumiSection 560 at 06-Jun-2014 20:47:02.638 CDT
+
+ nPairTracksSize = 83
+Begin processing the 20001st record. Run 210759, Event 573377695, LumiSection 560 at 06-Jun-2014 20:47:07.011 CDT
+
+ nPairTracksSize = 82
+Begin processing the 20101st record. Run 210759, Event 572697629, LumiSection 560 at 06-Jun-2014 20:47:07.266 CDT
+
+ nPairTracksSize = 93
+Begin processing the 20201st record. Run 210759, Event 572875037, LumiSection 560 at 06-Jun-2014 20:47:10.727 CDT
+
+ nPairTracksSize = 105
+Begin processing the 20301st record. Run 210759, Event 573039861, LumiSection 560 at 06-Jun-2014 20:47:10.944 CDT
+
+ nPairTracksSize = 102
+
+ nPairTracksSize = 100
+
+ nPairTracksSize = 65
+
+ nPairTracksSize = 83
+Begin processing the 20401st record. Run 210759, Event 573185453, LumiSection 560 at 06-Jun-2014 20:47:11.322 CDT
+
+ nPairTracksSize = 80
+
+ nPairTracksSize = 76
+Begin processing the 20501st record. Run 210759, Event 573348493, LumiSection 560 at 06-Jun-2014 20:47:16.526 CDT
+
+ nPairTracksSize = 95
+
+ nPairTracksSize = 131
+
+ nPairTracksSize = 91
+
+ nPairTracksSize = 98
+
+ nPairTracksSize = 131
+
+ nPairTracksSize = 111
+
+ nPairTracksSize = 65
+Begin processing the 20601st record. Run 210759, Event 572653851, LumiSection 560 at 06-Jun-2014 20:47:16.965 CDT
+
+ nPairTracksSize = 85
+Begin processing the 20701st record. Run 210759, Event 572790971, LumiSection 560 at 06-Jun-2014 20:47:20.842 CDT
+
+ nPairTracksSize = 74
+
+ nPairTracksSize = 78
+
+ nPairTracksSize = 137
+Begin processing the 20801st record. Run 210759, Event 572952851, LumiSection 560 at 06-Jun-2014 20:47:21.138 CDT
+
+ nPairTracksSize = 115
+
+ nPairTracksSize = 95
+Begin processing the 20901st record. Run 210759, Event 573081203, LumiSection 560 at 06-Jun-2014 20:47:21.449 CDT
+
+ nPairTracksSize = 80
+
+ nPairTracksSize = 85
+
+ nPairTracksSize = 146
+
+ nPairTracksSize = 107
+
+ nPairTracksSize = 79
+Begin processing the 21001st record. Run 210759, Event 573247243, LumiSection 560 at 06-Jun-2014 20:47:25.018 CDT
+Begin processing the 21101st record. Run 210759, Event 573394283, LumiSection 560 at 06-Jun-2014 20:47:25.223 CDT
+
+ nPairTracksSize = 101
+
+ nPairTracksSize = 77
+Begin processing the 21201st record. Run 210759, Event 572723891, LumiSection 560 at 06-Jun-2014 20:47:30.418 CDT
+
+ nPairTracksSize = 104
+
+ nPairTracksSize = 74
+Begin processing the 21301st record. Run 210759, Event 572933923, LumiSection 560 at 06-Jun-2014 20:47:30.764 CDT
+
+ nPairTracksSize = 110
+
+ nPairTracksSize = 92
+
+ nPairTracksSize = 102
+
+ nPairTracksSize = 75
+Begin processing the 21401st record. Run 210759, Event 573067843, LumiSection 560 at 06-Jun-2014 20:47:31.129 CDT
+
+ nPairTracksSize = 89
+Begin processing the 21501st record. Run 210759, Event 573237547, LumiSection 560 at 06-Jun-2014 20:47:33.585 CDT
+
+ nPairTracksSize = 93
+
+ nPairTracksSize = 97
+Begin processing the 21601st record. Run 210759, Event 573386931, LumiSection 560 at 06-Jun-2014 20:47:33.874 CDT
+
+ nPairTracksSize = 84
+
+ nPairTracksSize = 124
+Begin processing the 21701st record. Run 210759, Event 572730374, LumiSection 560 at 06-Jun-2014 20:47:37.695 CDT
+
+ nPairTracksSize = 84
+
+ nPairTracksSize = 126
+
+ nPairTracksSize = 77
+Begin processing the 21801st record. Run 210759, Event 572869278, LumiSection 560 at 06-Jun-2014 20:47:38.006 CDT
+
+ nPairTracksSize = 74
+Begin processing the 21901st record. Run 210759, Event 573020270, LumiSection 560 at 06-Jun-2014 20:47:46.008 CDT
+
+ nPairTracksSize = 99
+
+ nPairTracksSize = 105
+
+ nPairTracksSize = 116
+Begin processing the 22001st record. Run 210759, Event 573206430, LumiSection 560 at 06-Jun-2014 20:47:46.354 CDT
+
+ nPairTracksSize = 92
+
+ nPairTracksSize = 98
+
+ nPairTracksSize = 98
+
+ nPairTracksSize = 103
+Begin processing the 22101st record. Run 210759, Event 573356614, LumiSection 560 at 06-Jun-2014 20:47:46.675 CDT
+
+ nPairTracksSize = 83
+
+ nPairTracksSize = 115
+Begin processing the 22201st record. Run 210759, Event 572668152, LumiSection 560 at 06-Jun-2014 20:47:53.238 CDT
+
+ nPairTracksSize = 116
+
+ nPairTracksSize = 84
+Begin processing the 22301st record. Run 210759, Event 572831368, LumiSection 560 at 06-Jun-2014 20:47:53.508 CDT
+
+ nPairTracksSize = 68
+
+ nPairTracksSize = 70
+
+ nPairTracksSize = 73
+Begin processing the 22401st record. Run 210759, Event 573006064, LumiSection 560 at 06-Jun-2014 20:48:03.946 CDT
+
+ nPairTracksSize = 84
+
+ nPairTracksSize = 86
+
+ nPairTracksSize = 91
+Begin processing the 22501st record. Run 210759, Event 573164888, LumiSection 560 at 06-Jun-2014 20:48:04.257 CDT
+
+ nPairTracksSize = 65
+
+ nPairTracksSize = 104
+Begin processing the 22601st record. Run 210759, Event 573314656, LumiSection 560 at 06-Jun-2014 20:48:10.056 CDT
+
+ nPairTracksSize = 70
+
+ nPairTracksSize = 127
+Begin processing the 22701st record. Run 210759, Event 573483016, LumiSection 560 at 06-Jun-2014 20:48:10.315 CDT
+
+ nPairTracksSize = 96
+
+ nPairTracksSize = 68
+
+ nPairTracksSize = 108
+Begin processing the 22801st record. Run 210759, Event 572782068, LumiSection 560 at 06-Jun-2014 20:48:10.618 CDT
+
+ nPairTracksSize = 95
+
+ nPairTracksSize = 74
+
+ nPairTracksSize = 70
+Begin processing the 22901st record. Run 210759, Event 572929092, LumiSection 560 at 06-Jun-2014 20:48:20.252 CDT
+
+ nPairTracksSize = 95
+
+ nPairTracksSize = 81
+Begin processing the 23001st record. Run 210759, Event 573120484, LumiSection 560 at 06-Jun-2014 20:48:20.527 CDT
+Begin processing the 23101st record. Run 210759, Event 573264004, LumiSection 560 at 06-Jun-2014 20:48:20.670 CDT
+
+ nPairTracksSize = 95
+
+ nPairTracksSize = 85
+
+ nPairTracksSize = 93
+Begin processing the 23201st record. Run 210759, Event 573406188, LumiSection 560 at 06-Jun-2014 20:48:29.190 CDT
+
+ nPairTracksSize = 84
+
+ nPairTracksSize = 100
+Begin processing the 23301st record. Run 210759, Event 572724973, LumiSection 560 at 06-Jun-2014 20:48:29.520 CDT
+
+ nPairTracksSize = 82
+
+ nPairTracksSize = 82
+
+ nPairTracksSize = 79
+Begin processing the 23401st record. Run 210759, Event 572884677, LumiSection 560 at 06-Jun-2014 20:48:36.756 CDT
+
+ nPairTracksSize = 79
+
+ nPairTracksSize = 101
+
+ nPairTracksSize = 103
+Begin processing the 23501st record. Run 210759, Event 573055069, LumiSection 560 at 06-Jun-2014 20:48:37.075 CDT
+
+ nPairTracksSize = 99
+
+ nPairTracksSize = 130
+Begin processing the 23601st record. Run 210759, Event 573219101, LumiSection 560 at 06-Jun-2014 20:48:40.007 CDT
+
+ nPairTracksSize = 100
+Begin processing the 23701st record. Run 210759, Event 573356909, LumiSection 560 at 06-Jun-2014 20:48:40.270 CDT
+Begin processing the 23801st record. Run 210759, Event 572679657, LumiSection 560 at 06-Jun-2014 20:48:40.511 CDT
+
+ nPairTracksSize = 79
+
+ nPairTracksSize = 68
+Begin processing the 23901st record. Run 210759, Event 572827569, LumiSection 560 at 06-Jun-2014 20:48:44.276 CDT
+
+ nPairTracksSize = 69
+
+ nPairTracksSize = 96
+
+ nPairTracksSize = 115
+Begin processing the 24001st record. Run 210759, Event 572966873, LumiSection 560 at 06-Jun-2014 20:48:44.596 CDT
+
+ nPairTracksSize = 107
+
+ nPairTracksSize = 135
+
+ nPairTracksSize = 137
+
+ nPairTracksSize = 151
+
+ nPairTracksSize = 75
+Begin processing the 24101st record. Run 210759, Event 573120481, LumiSection 560 at 06-Jun-2014 20:48:49.714 CDT
+
+ nPairTracksSize = 116
+
+ nPairTracksSize = 85
+Begin processing the 24201st record. Run 210759, Event 573262745, LumiSection 560 at 06-Jun-2014 20:48:49.996 CDT
+
+ nPairTracksSize = 79
+
+ nPairTracksSize = 143
+
+ nPairTracksSize = 71
+Begin processing the 24301st record. Run 210759, Event 573421017, LumiSection 560 at 06-Jun-2014 20:48:56.157 CDT
+Begin processing the 24401st record. Run 210759, Event 572746068, LumiSection 560 at 06-Jun-2014 20:48:56.386 CDT
+
+ nPairTracksSize = 128
+
+ nPairTracksSize = 86
+
+ nPairTracksSize = 74
+
+ nPairTracksSize = 93
+
+ nPairTracksSize = 85
+Begin processing the 24501st record. Run 210759, Event 572889404, LumiSection 560 at 06-Jun-2014 20:49:00.604 CDT
+
+ nPairTracksSize = 153
+
+ nPairTracksSize = 75
+Begin processing the 24601st record. Run 210759, Event 573036308, LumiSection 560 at 06-Jun-2014 20:49:00.884 CDT
+
+ nPairTracksSize = 147
+Begin processing the 24701st record. Run 210759, Event 573197148, LumiSection 560 at 06-Jun-2014 20:49:01.133 CDT
+
+ nPairTracksSize = 135
+
+ nPairTracksSize = 115
+
+ nPairTracksSize = 115
+Begin processing the 24801st record. Run 210759, Event 573352716, LumiSection 560 at 06-Jun-2014 20:49:05.477 CDT
+Begin processing the 24901st record. Run 210759, Event 573508700, LumiSection 561 at 06-Jun-2014 20:49:05.713 CDT
+
+ nPairTracksSize = 82
+
+ nPairTracksSize = 112
+
+ nPairTracksSize = 102
+
+ nPairTracksSize = 74
+
+ nPairTracksSize = 95
+Begin processing the 25001st record. Run 210759, Event 573695316, LumiSection 561 at 06-Jun-2014 20:49:10.066 CDT
+
+ nPairTracksSize = 96
+Begin processing the 25101st record. Run 210759, Event 573890220, LumiSection 561 at 06-Jun-2014 20:49:10.323 CDT
+
+ nPairTracksSize = 81
+
+ nPairTracksSize = 69
+Begin processing the 25201st record. Run 210759, Event 574065852, LumiSection 561 at 06-Jun-2014 20:49:10.602 CDT
+
+ nPairTracksSize = 93
+
+ nPairTracksSize = 91
+
+ nPairTracksSize = 86
+Begin processing the 25301st record. Run 210759, Event 574244700, LumiSection 561 at 06-Jun-2014 20:49:14.796 CDT
+
+ nPairTracksSize = 116
+
+ nPairTracksSize = 75
+
+ nPairTracksSize = 130
+Begin processing the 25401st record. Run 210759, Event 573588922, LumiSection 561 at 06-Jun-2014 20:49:15.077 CDT
+
+ nPairTracksSize = 111
+
+ nPairTracksSize = 83
+
+ nPairTracksSize = 88
+
+ nPairTracksSize = 101
+
+ nPairTracksSize = 110
+
+ nPairTracksSize = 106
+
+ nPairTracksSize = 100
+Begin processing the 25501st record. Run 210759, Event 573748682, LumiSection 561 at 06-Jun-2014 20:49:15.341 CDT
+
+ nPairTracksSize = 74
+Begin processing the 25601st record. Run 210759, Event 573918986, LumiSection 561 at 06-Jun-2014 20:49:17.828 CDT
+
+ nPairTracksSize = 70
+
+ nPairTracksSize = 119
+Begin processing the 25701st record. Run 210759, Event 574109362, LumiSection 561 at 06-Jun-2014 20:49:18.123 CDT
+
+ nPairTracksSize = 72
+
+ nPairTracksSize = 74
+Begin processing the 25801st record. Run 210759, Event 574290626, LumiSection 561 at 06-Jun-2014 20:49:24.063 CDT
+
+ nPairTracksSize = 84
+
+ nPairTracksSize = 134
+Begin processing the 25901st record. Run 210759, Event 573654647, LumiSection 561 at 06-Jun-2014 20:49:24.339 CDT
+
+ nPairTracksSize = 81
+
+ nPairTracksSize = 112
+Begin processing the 26001st record. Run 210759, Event 573806311, LumiSection 561 at 06-Jun-2014 20:49:33.759 CDT
+
+ nPairTracksSize = 72
+
+ nPairTracksSize = 85
+Begin processing the 26101st record. Run 210759, Event 573967407, LumiSection 561 at 06-Jun-2014 20:49:34.064 CDT
+
+ nPairTracksSize = 107
+
+ nPairTracksSize = 82
+Begin processing the 26201st record. Run 210759, Event 574099079, LumiSection 561 at 06-Jun-2014 20:49:34.355 CDT
+
+ nPairTracksSize = 108
+
+ nPairTracksSize = 93
+
+ nPairTracksSize = 76
+
+ nPairTracksSize = 72
+
+ nPairTracksSize = 105
+Begin processing the 26301st record. Run 210759, Event 574245791, LumiSection 561 at 06-Jun-2014 20:49:37.350 CDT
+
+ nPairTracksSize = 100
+
+ nPairTracksSize = 102
+Begin processing the 26401st record. Run 210759, Event 573608410, LumiSection 561 at 06-Jun-2014 20:49:37.646 CDT
+
+ nPairTracksSize = 102
+
+ nPairTracksSize = 84
+Begin processing the 26501st record. Run 210759, Event 573794042, LumiSection 561 at 06-Jun-2014 20:49:41.272 CDT
+
+ nPairTracksSize = 85
+
+ nPairTracksSize = 90
+Begin processing the 26601st record. Run 210759, Event 573942146, LumiSection 561 at 06-Jun-2014 20:49:41.563 CDT
+
+ nPairTracksSize = 106
+
+ nPairTracksSize = 113
+
+ nPairTracksSize = 108
+
+ nPairTracksSize = 86
+
+ nPairTracksSize = 72
+Begin processing the 26701st record. Run 210759, Event 574087314, LumiSection 561 at 06-Jun-2014 20:49:45.914 CDT
+
+ nPairTracksSize = 75
+
+ nPairTracksSize = 100
+Begin processing the 26801st record. Run 210759, Event 574276698, LumiSection 561 at 06-Jun-2014 20:49:46.176 CDT
+
+ nPairTracksSize = 93
+
+ nPairTracksSize = 102
+Begin processing the 26901st record. Run 210759, Event 573606592, LumiSection 561 at 06-Jun-2014 20:49:51.688 CDT
+
+ nPairTracksSize = 130
+
+ nPairTracksSize = 68
+Begin processing the 27001st record. Run 210759, Event 573748424, LumiSection 561 at 06-Jun-2014 20:49:51.920 CDT
+
+ nPairTracksSize = 90
+
+ nPairTracksSize = 97
+
+ nPairTracksSize = 80
+Begin processing the 27101st record. Run 210759, Event 573885408, LumiSection 561 at 06-Jun-2014 20:49:52.199 CDT
+
+ nPairTracksSize = 86
+Begin processing the 27201st record. Run 210759, Event 574040560, LumiSection 561 at 06-Jun-2014 20:49:55.336 CDT
+
+ nPairTracksSize = 88
+
+ nPairTracksSize = 112
+Begin processing the 27301st record. Run 210759, Event 574181176, LumiSection 561 at 06-Jun-2014 20:49:55.601 CDT
+
+ nPairTracksSize = 161
+Begin processing the 27401st record. Run 210759, Event 573508517, LumiSection 561 at 06-Jun-2014 20:49:55.777 CDT
+
+ nPairTracksSize = 79
+
+ nPairTracksSize = 143
+
+ nPairTracksSize = 109
+
+ nPairTracksSize = 117
+
+ nPairTracksSize = 104
+Begin processing the 27501st record. Run 210759, Event 573667805, LumiSection 561 at 06-Jun-2014 20:50:01.425 CDT
+
+ nPairTracksSize = 99
+Begin processing the 27601st record. Run 210759, Event 573834781, LumiSection 561 at 06-Jun-2014 20:50:01.663 CDT
+Begin processing the 27701st record. Run 210759, Event 574006789, LumiSection 561 at 06-Jun-2014 20:50:09.475 CDT
+
+ nPairTracksSize = 109
+
+ nPairTracksSize = 90
+
+ nPairTracksSize = 89
+Begin processing the 27801st record. Run 210759, Event 574152893, LumiSection 561 at 06-Jun-2014 20:50:09.805 CDT
+Begin processing the 27901st record. Run 210759, Event 574295773, LumiSection 561 at 06-Jun-2014 20:50:10.002 CDT
+
+ nPairTracksSize = 84
+Begin processing the 28001st record. Run 210759, Event 573613760, LumiSection 561 at 06-Jun-2014 20:50:13.802 CDT
+
+ nPairTracksSize = 83
+
+ nPairTracksSize = 79
+
+ nPairTracksSize = 107
+Begin processing the 28101st record. Run 210759, Event 573784360, LumiSection 561 at 06-Jun-2014 20:50:14.116 CDT
+
+ nPairTracksSize = 63
+Begin processing the 28201st record. Run 210759, Event 573940608, LumiSection 561 at 06-Jun-2014 20:50:17.725 CDT
+
+ nPairTracksSize = 109
+
+ nPairTracksSize = 82
+Begin processing the 28301st record. Run 210759, Event 574096720, LumiSection 561 at 06-Jun-2014 20:50:18.047 CDT
+
+ nPairTracksSize = 97
+
+ nPairTracksSize = 76
+Begin processing the 28401st record. Run 210759, Event 574271552, LumiSection 561 at 06-Jun-2014 20:50:22.086 CDT
+
+ nPairTracksSize = 131
+Begin processing the 28501st record. Run 210759, Event 573567051, LumiSection 561 at 06-Jun-2014 20:50:22.342 CDT
+Begin processing the 28601st record. Run 210759, Event 573727371, LumiSection 561 at 06-Jun-2014 20:50:22.593 CDT
+Begin processing the 28701st record. Run 210759, Event 573908707, LumiSection 561 at 06-Jun-2014 20:50:27.795 CDT
+
+ nPairTracksSize = 64
+
+ nPairTracksSize = 82
+
+ nPairTracksSize = 91
+
+ nPairTracksSize = 84
+Begin processing the 28801st record. Run 210759, Event 574063131, LumiSection 561 at 06-Jun-2014 20:50:28.076 CDT
+
+ nPairTracksSize = 93
+Begin processing the 28901st record. Run 210759, Event 574233427, LumiSection 561 at 06-Jun-2014 20:50:28.325 CDT
+
+ nPairTracksSize = 104
+
+ nPairTracksSize = 92
+
+ nPairTracksSize = 99
+
+ nPairTracksSize = 74
+Begin processing the 29001st record. Run 210759, Event 573564390, LumiSection 561 at 06-Jun-2014 20:50:33.562 CDT
+
+ nPairTracksSize = 95
+
+ nPairTracksSize = 124
+Begin processing the 29101st record. Run 210759, Event 573734246, LumiSection 561 at 06-Jun-2014 20:50:33.881 CDT
+
+ nPairTracksSize = 99
+
+ nPairTracksSize = 123
+
+ nPairTracksSize = 144
+Begin processing the 29201st record. Run 210759, Event 573888094, LumiSection 561 at 06-Jun-2014 20:50:43.115 CDT
+
+ nPairTracksSize = 94
+Begin processing the 29301st record. Run 210759, Event 574047782, LumiSection 561 at 06-Jun-2014 20:50:43.357 CDT
+
+ nPairTracksSize = 92
+
+ nPairTracksSize = 104
+Begin processing the 29401st record. Run 210759, Event 574182750, LumiSection 561 at 06-Jun-2014 20:50:47.907 CDT
+
+ nPairTracksSize = 83
+Begin processing the 29501st record. Run 210759, Event 573520748, LumiSection 561 at 06-Jun-2014 20:50:48.178 CDT
+
+ nPairTracksSize = 98
+Begin processing the 29601st record. Run 210759, Event 573669716, LumiSection 561 at 06-Jun-2014 20:50:51.401 CDT
+
+ nPairTracksSize = 99
+Begin processing the 29701st record. Run 210759, Event 573856412, LumiSection 561 at 06-Jun-2014 20:50:51.627 CDT
+
+ nPairTracksSize = 86
+
+ nPairTracksSize = 83
+
+ nPairTracksSize = 66
+Begin processing the 29801st record. Run 210759, Event 574011508, LumiSection 561 at 06-Jun-2014 20:50:51.949 CDT
+
+ nPairTracksSize = 80
+Begin processing the 29901st record. Run 210759, Event 574165204, LumiSection 561 at 06-Jun-2014 20:50:57.884 CDT
+
+ nPairTracksSize = 103
+
+ nPairTracksSize = 95
+Begin processing the 30001st record. Run 210759, Event 573487343, LumiSection 561 at 06-Jun-2014 20:50:58.144 CDT
+Begin processing the 30101st record. Run 210759, Event 573622111, LumiSection 561 at 06-Jun-2014 20:50:58.310 CDT
+
+ nPairTracksSize = 120
+
+ nPairTracksSize = 126
+
+ nPairTracksSize = 110
+
+ nPairTracksSize = 128
+Begin processing the 30201st record. Run 210759, Event 573809559, LumiSection 561 at 06-Jun-2014 20:51:05.217 CDT
+
+ nPairTracksSize = 125
+
+ nPairTracksSize = 107
+
+ nPairTracksSize = 117
+
+ nPairTracksSize = 99
+
+ nPairTracksSize = 103
+Begin processing the 30301st record. Run 210759, Event 574003503, LumiSection 561 at 06-Jun-2014 20:51:05.591 CDT
+
+ nPairTracksSize = 83
+Begin processing the 30401st record. Run 210759, Event 574149327, LumiSection 561 at 06-Jun-2014 20:51:47.661 CDT
+
+ nPairTracksSize = 115
+
+ nPairTracksSize = 77
+Begin processing the 30501st record. Run 210759, Event 573487777, LumiSection 561 at 06-Jun-2014 20:51:47.952 CDT
+
+ nPairTracksSize = 84
+
+ nPairTracksSize = 109
+Begin processing the 30601st record. Run 210759, Event 573594433, LumiSection 561 at 06-Jun-2014 20:51:50.765 CDT
+
+ nPairTracksSize = 94
+
+ nPairTracksSize = 63
+Begin processing the 30701st record. Run 210759, Event 573819257, LumiSection 561 at 06-Jun-2014 20:51:51.008 CDT
+
+ nPairTracksSize = 90
+
+ nPairTracksSize = 87
+
+ nPairTracksSize = 109
+Begin processing the 30801st record. Run 210759, Event 573963841, LumiSection 561 at 06-Jun-2014 20:51:51.321 CDT
+
+ nPairTracksSize = 104
+Begin processing the 30901st record. Run 210759, Event 574143225, LumiSection 561 at 06-Jun-2014 20:51:58.860 CDT
+
+ nPairTracksSize = 127
+
+ nPairTracksSize = 121
+Begin processing the 31001st record. Run 210759, Event 574302673, LumiSection 561 at 06-Jun-2014 20:51:59.146 CDT
+
+ nPairTracksSize = 108
+Begin processing the 31101st record. Run 210759, Event 573652358, LumiSection 561 at 06-Jun-2014 20:52:05.495 CDT
+
+ nPairTracksSize = 117
+
+ nPairTracksSize = 91
+
+ nPairTracksSize = 119
+Begin processing the 31201st record. Run 210759, Event 573819134, LumiSection 561 at 06-Jun-2014 20:52:05.814 CDT
+
+ nPairTracksSize = 85
+Begin processing the 31301st record. Run 210759, Event 573984118, LumiSection 561 at 06-Jun-2014 20:52:06.081 CDT
+
+ nPairTracksSize = 79
+
+ nPairTracksSize = 102
+
+ nPairTracksSize = 73
+
+ nPairTracksSize = 94
+Begin processing the 31401st record. Run 210759, Event 574147758, LumiSection 561 at 06-Jun-2014 20:52:08.139 CDT
+
+ nPairTracksSize = 98
+
+ nPairTracksSize = 94
+
+ nPairTracksSize = 139
+Begin processing the 31501st record. Run 210759, Event 574311302, LumiSection 561 at 06-Jun-2014 20:52:08.497 CDT
+
+ nPairTracksSize = 80
+
+ nPairTracksSize = 126
+Begin processing the 31601st record. Run 210759, Event 573672313, LumiSection 561 at 06-Jun-2014 20:52:15.628 CDT
+
+ nPairTracksSize = 77
+
+ nPairTracksSize = 83
+
+ nPairTracksSize = 110
+
+ nPairTracksSize = 88
+
+ nPairTracksSize = 79
+Begin processing the 31701st record. Run 210759, Event 573798873, LumiSection 561 at 06-Jun-2014 20:52:15.972 CDT
+
+ nPairTracksSize = 86
+
+ nPairTracksSize = 96
+Begin processing the 31801st record. Run 210759, Event 573957393, LumiSection 561 at 06-Jun-2014 20:52:18.719 CDT
+
+ nPairTracksSize = 100
+Begin processing the 31901st record. Run 210759, Event 574143977, LumiSection 561 at 06-Jun-2014 20:52:18.959 CDT
+
+ nPairTracksSize = 136
+Begin processing the 32001st record. Run 210759, Event 574292017, LumiSection 561 at 06-Jun-2014 20:52:23.291 CDT
+
+ nPairTracksSize = 102
+
+ nPairTracksSize = 66
+Begin processing the 32101st record. Run 210759, Event 573583899, LumiSection 561 at 06-Jun-2014 20:52:23.590 CDT
+
+ nPairTracksSize = 76
+Begin processing the 32201st record. Run 210759, Event 573738283, LumiSection 561 at 06-Jun-2014 20:52:23.891 CDT
+
+ nPairTracksSize = 82
+
+ nPairTracksSize = 115
+
+ nPairTracksSize = 157
+Begin processing the 32301st record. Run 210759, Event 573894851, LumiSection 561 at 06-Jun-2014 20:52:28.119 CDT
+
+ nPairTracksSize = 89
+
+ nPairTracksSize = 86
+Begin processing the 32401st record. Run 210759, Event 574037539, LumiSection 561 at 06-Jun-2014 20:52:28.414 CDT
+
+ nPairTracksSize = 102
+
+ nPairTracksSize = 109
+
+ nPairTracksSize = 145
+
+ nPairTracksSize = 98
+
+ nPairTracksSize = 101
+Begin processing the 32501st record. Run 210759, Event 574177827, LumiSection 561 at 06-Jun-2014 20:52:31.824 CDT
+
+ nPairTracksSize = 63
+Begin processing the 32601st record. Run 210759, Event 573499141, LumiSection 561 at 06-Jun-2014 20:52:32.070 CDT
+
+ nPairTracksSize = 72
+
+ nPairTracksSize = 69
+Begin processing the 32701st record. Run 210759, Event 573651245, LumiSection 561 at 06-Jun-2014 20:52:36.211 CDT
+
+ nPairTracksSize = 89
+
+ nPairTracksSize = 117
+
+ nPairTracksSize = 112
+Begin processing the 32801st record. Run 210759, Event 573808333, LumiSection 561 at 06-Jun-2014 20:52:36.519 CDT
+
+ nPairTracksSize = 89
+
+ nPairTracksSize = 88
+
+ nPairTracksSize = 127
+Begin processing the 32901st record. Run 210759, Event 573964309, LumiSection 561 at 06-Jun-2014 20:52:36.848 CDT
+
+ nPairTracksSize = 91
+Begin processing the 33001st record. Run 210759, Event 574105029, LumiSection 561 at 06-Jun-2014 20:52:38.801 CDT
+
+ nPairTracksSize = 115
+
+ nPairTracksSize = 116
+Begin processing the 33101st record. Run 210759, Event 574260189, LumiSection 561 at 06-Jun-2014 20:52:39.068 CDT
+06-Jun-2014 20:52:39 CDT  Closed file /store//hidata/HIRun2013/PAMinBiasUPC/RECO/PromptReco-v1/000/210/759/00000/4A433FF3-8968-E211-8E95-00237DDBE0E2.root
+
+
+ EcalFlowNTP::endJob() <I>  nevttotal_trg = 737,  nevttotal_ass = 737, totalEventsThisJob 3338
+
+ Will check the Z-vertex differences
+
+ Number of trigger events with at least one partner event = 737
+
+
+ EcalFlowNTP::endJob() <I>  Generator: nevttotal_trg = 737,  nevttotal_ass = 737
+
+--- RESULTS ---
+
+  Currently with pi0 mixed event entries = 89329,  mixed clusters examined 3022884,  events containing at least one cluster 737
+ Number of hot channel seed crystals that were discarded 271
+ Number of hot channel satellite crystals that were discarded 10
+ Maximum number of HI tracks for run 210759 is 395 at event 571708648
+ Maximum number clusters found for run 210759 is 143 at event 572071984
+ Maximum number crystals found for run 210759 is 788 at event 572071984
+ Total events this run = 3338 with accumulated events for all runs = 3338
+ Number of events with trigger particle (nevttotal_trg) = 737
+ Number of events with associated particle (nevttotal_ass) = 737
+ Number of background fills = 737
+ Total of takeAssociated events = 6741
+ Minimum number of associated events for any trigger event = 4
+ Number of generator background fills = 737
+ Total of generator takeAssociated events = 7360
+ Minimum number of generator associated events for any trigger event = 9
+ Number of fills for background histogram 0 = 0
+ Number of fills for background histogram 1 = 0
+ Number of fills for background histogram 2 = 0
+ Number of fills for background histogram 3 = 0
+ Number of fills for background histogram 4 = 0
+ Number of fills for background histogram 5 = 0
+ Number of fills for background histogram 6 = 0
+ Number of fills for background histogram 7 = 0
+ Number of fills for background histogram 8 = 0
+ Number of fills for background histogram 9 = 0
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 fileAction           -s file_close                             1        1
+    2 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 fileAction           PostEndRun                        
+    2 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+System                  3                   3

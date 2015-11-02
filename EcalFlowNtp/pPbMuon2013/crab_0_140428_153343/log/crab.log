@@ -1,0 +1,2060 @@
+2014-04-28 15:33:43,379 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -create
+
+2014-04-28 15:33:43,380 [INFO] 	Version 2.10.5_patch1 running on Mon Apr 28 15:33:43 2014 CST (20:33:43 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbMuon2013/crab_0_140428_153343/
+
+2014-04-28 15:33:43,380 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/allowed_releases.conf].
+2014-04-28 15:33:43,380 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x4d68e18>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x4d6b098>}, 'logger': <logging.Logger instance at 0x4d68e18>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:33:43,529 [INFO] 	error detecting glite version 
+2014-04-28 15:33:43,534 [INFO] 	error detecting glite version 
+2014-04-28 15:33:43,534 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x4d68e18>, 'conn': <httplib.HTTPSConnection instance at 0x4dfbe60>}, 'logger': <logging.Logger instance at 0x4d68e18>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:33:43,535 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x4d68e18>, 'conn': <httplib.HTTPSConnection instance at 0x4dfbef0>}, 'logger': <logging.Logger instance at 0x4d68e18>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:33:43,535 [DEBUG] 	Input whitelist: T2_US_Vanderbilt
+2014-04-28 15:33:43,535 [DEBUG] 	Input blacklist: 
+2014-04-28 15:33:43,580 [DEBUG] 	Converted whitelist: se3.accre.vanderbilt.edu, se1.accre.vanderbilt.edu
+2014-04-28 15:33:43,581 [DEBUG] 	Converted blacklist: 
+2014-04-28 15:33:43,581 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/myproxy_server.conf].
+2014-04-28 15:33:43,581 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x4d68e18>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x4ed6248>}, 'logger': <logging.Logger instance at 0x4d68e18>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:33:43,581 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-04-28 15:33:43,582 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x4d68e18>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x4ed6248>}, 'logger': <logging.Logger instance at 0x4d68e18>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:33:43,582 [DEBUG] 	Enforced black list: TAPE,srm-cms.cern.ch,cmssrm.fnal.gov,T1_ES,T1_FR,T1_RU,T1_TW,cmseos.fnal.gov,cmsdca2.fnal.gov,T2_PK_NCP,T3_US_Vanderbilt_EC2
+ 
+2014-04-28 15:33:46,941 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x4d68e18>, 'conn': <httplib.HTTPSConnection instance at 0x4ead368>}, 'logger': <logging.Logger instance at 0x4d68e18>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-04-28 15:33:47,687 [DEBUG] 	Linux vmps08.vampire 2.6.18-194.32.1.el5 #1 SMP Wed Jan 5 17:52:25 EST 2011 x86_64 x86_64 x86_64 GNU/Linux
+ 
+Used properties:
+Linux vmps08.vampire 2.6.18-194.32.1.el5 #1 SMP Wed Jan 5 17:52:25 EST 2011 x86_64 x86_64 x86_64 GNU/Linux
+ 
+Used properties:
+   CMSSW.datasetpath : /PAMuon/HIRun2013-PromptReco-v1/RECO
+   CMSSW.lumi_mask : pPbJSON.txt
+   CMSSW.lumis_per_job : 25
+   CMSSW.output_file : pPbMuon_S49-74_28April2014V1.root
+   CMSSW.pset : ecalflowntp_pPbMinBias_cfg.py
+   CMSSW.total_number_of_lumis : -1
+   CRAB.create : 
+   CRAB.jobtype : cmssw
+   CRAB.scheduler : remoteGlidein
+   CRAB.use_server : 0
+   GRID.se_white_list : T2_US_Vanderbilt
+   USER.check_user_remote_dir : 0
+   USER.copy_data : 1
+   USER.email : charles.f.maguire@vanderbilt.edu
+   USER.publish_data : 0
+   USER.storage_element : T2_US_Vanderbilt
+   USER.user_remote_dir : hiRun2013pPb
+End of used properties.
+
+2014-04-28 15:33:47,756 [DEBUG] 	CMSSW::__init__
+2014-04-28 15:33:47,757 [DEBUG] 	Scram::Scram() version is 2
+2014-04-28 15:33:47,757 [DEBUG] 	Scram::Scram() arch is slc5_amd64_gcc462
+2014-04-28 15:33:47,757 [DEBUG] 	Downloading file [https://cmssdt.cern.ch/SDT/cgi-bin] to [/home/maguirc/.cms_crab/ReleasesXML?anytype=1].
+2014-04-28 15:33:47,758 [DEBUG] 	Service initialised ({'endpoint': 'https://cmssdt.cern.ch/SDT/cgi-bin', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/SDT/cgi-bin/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'https://cmssdt.cern.ch/SDT/cgi-bin', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmssdt.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x4d68e18>, 'type': 'txt/csv', 'conn': <httplib.HTTPSConnection instance at 0x51c4368>}, 'logger': <logging.Logger instance at 0x4d68e18>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmssdt.cern.ch, basepath: /SDT/cgi-bin/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:33:47,810 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x4d68e18>, 'conn': <httplib.HTTPSConnection instance at 0x5096c68>}, 'logger': <logging.Logger instance at 0x4d68e18>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:33:47,810 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x4d68e18>, 'conn': <httplib.HTTPSConnection instance at 0x50967e8>}, 'logger': <logging.Logger instance at 0x4d68e18>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:33:47,811 [DEBUG] 	Input whitelist: 
+2014-04-28 15:33:47,811 [DEBUG] 	Input blacklist: 
+2014-04-28 15:33:47,811 [DEBUG] 	Converted whitelist: 
+2014-04-28 15:33:47,811 [DEBUG] 	Converted blacklist: 
+2014-04-28 15:33:47,838 [INFO] 	Contacting Data Discovery Services ...
+2014-04-28 15:33:47,838 [INFO] 	Accessing DBS at: https://cmsweb.cern.ch/dbs/prod/global/DBSReader
+2014-04-28 15:33:47,838 [INFO] 	Will do Data Discovery using  DBS3
+2014-04-28 15:34:10,204 [INFO] 	DBS3 lookup took 22.32 sec
+2014-04-28 15:34:10,402 [INFO] 	Datatype is data
+2014-04-28 15:34:10,640 [DEBUG] 	DLS interface: DLS_TYPE_PHEDEX Server https://cmsweb.cern.ch/phedex/datasvc/xml/prod/
+2014-04-28 15:34:12,567 [INFO] 	Requested (A)DS /PAMuon/HIRun2013-PromptReco-v1/RECO has 28 block(s).
+2014-04-28 15:34:12,567 [DEBUG] 	Job splitting method: LumiBased
+2014-04-28 15:34:12,567 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-04-28 15:34:12,568 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x4d68e18>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x6fa53f8>}, 'logger': <logging.Logger instance at 0x4d68e18>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:34:12,568 [DEBUG] 	Enforced black list: ['TAPE', 'srm-cms.cern.ch', 'cmssrm.fnal.gov', 'T1_ES', 'T1_FR', 'T1_RU', 'T1_TW', 'cmseos.fnal.gov', 'cmsdca2.fnal.gov', 'T2_PK_NCP', 'T3_US_Vanderbilt_EC2'] 
+2014-04-28 15:34:12,568 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x4d68e18>, 'conn': <httplib.HTTPSConnection instance at 0x7086ab8>}, 'logger': <logging.Logger instance at 0x4d68e18>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:34:12,569 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x4d68e18>, 'conn': <httplib.HTTPSConnection instance at 0x7086b48>}, 'logger': <logging.Logger instance at 0x4d68e18>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:34:12,569 [DEBUG] 	Input whitelist: T2_US_Vanderbilt
+2014-04-28 15:34:12,569 [DEBUG] 	Input blacklist: TAPE, srm-cms.cern.ch, cmssrm.fnal.gov, T1_ES, T1_FR, T1_RU, T1_TW, cmseos.fnal.gov, cmsdca2.fnal.gov, T2_PK_NCP, T3_US_Vanderbilt_EC2
+2014-04-28 15:34:13,100 [DEBUG] 	Converted whitelist: se3.accre.vanderbilt.edu, se1.accre.vanderbilt.edu
+2014-04-28 15:34:13,100 [DEBUG] 	Converted blacklist: pcncp22.ncp.edu.pk, brazil.accre.vanderbilt.edu, srm-cms-mss.jinr-t1.ru, srm-cms.cern.ch, cmssrm.fnal.gov, srm-cms.jinr-t1.ru, cmseos.fnal.gov, srmcms.pic.es, ccsrm.in2p3.fr, TAPE, cmsdca2.fnal.gov, srm2.grid.sinica.edu.tw
+2014-04-28 15:34:13,100 [INFO] 	SE black list applied to data location: ['TAPE', 'srm-cms.cern.ch', 'cmssrm.fnal.gov', 'T1_ES', 'T1_FR', 'T1_RU', 'T1_TW', 'cmseos.fnal.gov', 'cmsdca2.fnal.gov', 'T2_PK_NCP', 'T3_US_Vanderbilt_EC2']
+2014-04-28 15:34:13,100 [INFO] 	SE white list applied to data location: ['T2_US_Vanderbilt']
+2014-04-28 15:34:13,101 [DEBUG] 	List of blocks and used locations (SE):
+2014-04-28 15:34:13,108 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#a3355546-6c9a-11e2-9eda-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,109 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#7c2d512e-70c3-11e2-9eda-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,109 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#887d3994-6f2e-11e2-9eda-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,110 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#09f80038-647d-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,110 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#579b8eb0-6499-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,111 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#5c351106-668f-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,111 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#0c035bca-68ec-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,112 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#11d56772-6e65-11e2-9eda-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,112 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#73548bb8-69b5-11e2-9b6e-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,112 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#ed513b34-71dd-11e2-9eda-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,113 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#1e7edd32-6bd1-11e2-9eda-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,113 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#84198f14-5f08-11e2-93f3-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,114 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#78ac1168-72ab-11e2-9eda-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,114 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#189569f0-62de-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,115 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#4235b54a-7480-11e2-8d3d-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,115 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#c1227d52-6b07-11e2-9b6e-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,115 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#50e8fa36-6a38-11e2-9b6e-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,116 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#b439078a-6055-11e2-93f3-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,116 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#ab937e2a-6204-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,117 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#7c15f5aa-6822-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,117 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#1a33bb1a-74c0-11e2-8d3d-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,118 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#4345096c-6d97-11e2-9eda-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,118 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#1ee5dcec-7376-11e2-8d3d-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,118 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#4f8d97a6-6ffa-11e2-9eda-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,119 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#bb46dc64-6753-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,119 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#6a90b732-613a-11e2-8837-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,120 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#7c50958c-6563-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,120 [DEBUG] 	/PAMuon/HIRun2013-PromptReco-v1/RECO#bd587f38-63b3-11e2-9d3b-003048caaace : ['se1.accre.vanderbilt.edu']
+2014-04-28 15:34:13,120 [DEBUG] 	Splitting by Lumi
+2014-04-28 15:34:13,753 [DEBUG] 	Job 1 will run on 7 files and 26 lumis 
+2014-04-28 15:34:13,753 [DEBUG] 	Job 2 will run on 9 files and 27 lumis 
+2014-04-28 15:34:13,754 [DEBUG] 	Job 3 will run on 8 files and 27 lumis 
+2014-04-28 15:34:13,754 [DEBUG] 	Job 4 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,754 [DEBUG] 	Job 5 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,755 [DEBUG] 	Job 6 will run on 7 files and 25 lumis 
+2014-04-28 15:34:13,755 [DEBUG] 	Job 7 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,755 [DEBUG] 	Job 8 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,756 [DEBUG] 	Job 9 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,756 [DEBUG] 	Job 10 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,756 [DEBUG] 	Job 11 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,756 [DEBUG] 	Job 12 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,757 [DEBUG] 	Job 13 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,757 [DEBUG] 	Job 14 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,757 [DEBUG] 	Job 15 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,758 [DEBUG] 	Job 16 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,758 [DEBUG] 	Job 17 will run on 5 files and 28 lumis 
+2014-04-28 15:34:13,758 [DEBUG] 	Job 18 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,759 [DEBUG] 	Job 19 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,759 [DEBUG] 	Job 20 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,759 [DEBUG] 	Job 21 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,760 [DEBUG] 	Job 22 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,760 [DEBUG] 	Job 23 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,760 [DEBUG] 	Job 24 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,760 [DEBUG] 	Job 25 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,761 [DEBUG] 	Job 26 will run on 5 files and 32 lumis 
+2014-04-28 15:34:13,761 [DEBUG] 	Job 27 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,761 [DEBUG] 	Job 28 will run on 4 files and 26 lumis 
+2014-04-28 15:34:13,762 [DEBUG] 	Job 29 will run on 4 files and 30 lumis 
+2014-04-28 15:34:13,762 [DEBUG] 	Job 30 will run on 5 files and 28 lumis 
+2014-04-28 15:34:13,762 [DEBUG] 	Job 31 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,763 [DEBUG] 	Job 32 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,763 [DEBUG] 	Job 33 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,763 [DEBUG] 	Job 34 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,764 [DEBUG] 	Job 35 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,764 [DEBUG] 	Job 36 will run on 7 files and 26 lumis 
+2014-04-28 15:34:13,764 [DEBUG] 	Job 37 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,765 [DEBUG] 	Job 38 will run on 5 files and 27 lumis 
+2014-04-28 15:34:13,765 [DEBUG] 	Job 39 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,765 [DEBUG] 	Job 40 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,765 [DEBUG] 	Job 41 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,766 [DEBUG] 	Job 42 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,766 [DEBUG] 	Job 43 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,766 [DEBUG] 	Job 44 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,767 [DEBUG] 	Job 45 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,767 [DEBUG] 	Job 46 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,767 [DEBUG] 	Job 47 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,768 [DEBUG] 	Job 48 will run on 4 files and 31 lumis 
+2014-04-28 15:34:13,768 [DEBUG] 	Job 49 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,768 [DEBUG] 	Job 50 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,769 [DEBUG] 	Job 51 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,769 [DEBUG] 	Job 52 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,769 [DEBUG] 	Job 53 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,769 [DEBUG] 	Job 54 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,770 [DEBUG] 	Job 55 will run on 3 files and 26 lumis 
+2014-04-28 15:34:13,770 [DEBUG] 	Job 56 will run on 3 files and 30 lumis 
+2014-04-28 15:34:13,770 [DEBUG] 	Job 57 will run on 3 files and 30 lumis 
+2014-04-28 15:34:13,771 [DEBUG] 	Job 58 will run on 3 files and 30 lumis 
+2014-04-28 15:34:13,771 [DEBUG] 	Job 59 will run on 3 files and 30 lumis 
+2014-04-28 15:34:13,771 [DEBUG] 	Job 60 will run on 8 files and 25 lumis 
+2014-04-28 15:34:13,772 [DEBUG] 	Job 61 will run on 8 files and 27 lumis 
+2014-04-28 15:34:13,772 [DEBUG] 	Job 62 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,772 [DEBUG] 	Job 63 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,772 [DEBUG] 	Job 64 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,773 [DEBUG] 	Job 65 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,773 [DEBUG] 	Job 66 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,773 [DEBUG] 	Job 67 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,774 [DEBUG] 	Job 68 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,774 [DEBUG] 	Job 69 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,774 [DEBUG] 	Job 70 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,775 [DEBUG] 	Job 71 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,775 [DEBUG] 	Job 72 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,775 [DEBUG] 	Job 73 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,776 [DEBUG] 	Job 74 will run on 6 files and 30 lumis 
+2014-04-28 15:34:13,776 [DEBUG] 	Job 75 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,776 [DEBUG] 	Job 76 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,777 [DEBUG] 	Job 77 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,777 [DEBUG] 	Job 78 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,777 [DEBUG] 	Job 79 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,777 [DEBUG] 	Job 80 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,778 [DEBUG] 	Job 81 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,778 [DEBUG] 	Job 82 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,778 [DEBUG] 	Job 83 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,779 [DEBUG] 	Job 84 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,779 [DEBUG] 	Job 85 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,779 [DEBUG] 	Job 86 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,780 [DEBUG] 	Job 87 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,780 [DEBUG] 	Job 88 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,780 [DEBUG] 	Job 89 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,781 [DEBUG] 	Job 90 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,781 [DEBUG] 	Job 91 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,781 [DEBUG] 	Job 92 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,782 [DEBUG] 	Job 93 will run on 4 files and 31 lumis 
+2014-04-28 15:34:13,782 [DEBUG] 	Job 94 will run on 7 files and 27 lumis 
+2014-04-28 15:34:13,782 [DEBUG] 	Job 95 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,783 [DEBUG] 	Job 96 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,783 [DEBUG] 	Job 97 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,783 [DEBUG] 	Job 98 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,784 [DEBUG] 	Job 99 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,784 [DEBUG] 	Job 100 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,784 [DEBUG] 	Job 101 will run on 7 files and 30 lumis 
+2014-04-28 15:34:13,784 [DEBUG] 	Job 102 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,785 [DEBUG] 	Job 103 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,785 [DEBUG] 	Job 104 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,785 [DEBUG] 	Job 105 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,786 [DEBUG] 	Job 106 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,786 [DEBUG] 	Job 107 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,786 [DEBUG] 	Job 108 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,787 [DEBUG] 	Job 109 will run on 4 files and 28 lumis 
+2014-04-28 15:34:13,787 [DEBUG] 	Job 110 will run on 4 files and 30 lumis 
+2014-04-28 15:34:13,787 [DEBUG] 	Job 111 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,788 [DEBUG] 	Job 112 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,788 [DEBUG] 	Job 113 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,788 [DEBUG] 	Job 114 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,788 [DEBUG] 	Job 115 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,789 [DEBUG] 	Job 116 will run on 3 files and 30 lumis 
+2014-04-28 15:34:13,789 [DEBUG] 	Job 117 will run on 3 files and 30 lumis 
+2014-04-28 15:34:13,789 [DEBUG] 	Job 118 will run on 3 files and 30 lumis 
+2014-04-28 15:34:13,790 [DEBUG] 	Job 119 will run on 3 files and 30 lumis 
+2014-04-28 15:34:13,790 [DEBUG] 	Job 120 will run on 3 files and 30 lumis 
+2014-04-28 15:34:13,790 [DEBUG] 	Job 121 will run on 5 files and 28 lumis 
+2014-04-28 15:34:13,791 [DEBUG] 	Job 122 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,791 [DEBUG] 	Job 123 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,791 [DEBUG] 	Job 124 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,791 [DEBUG] 	Job 125 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,792 [DEBUG] 	Job 126 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,792 [DEBUG] 	Job 127 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,792 [DEBUG] 	Job 128 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,793 [DEBUG] 	Job 129 will run on 6 files and 30 lumis 
+2014-04-28 15:34:13,793 [DEBUG] 	Job 130 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,793 [DEBUG] 	Job 131 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,794 [DEBUG] 	Job 132 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,794 [DEBUG] 	Job 133 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,794 [DEBUG] 	Job 134 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,795 [DEBUG] 	Job 135 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,795 [DEBUG] 	Job 136 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,795 [DEBUG] 	Job 137 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,795 [DEBUG] 	Job 138 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,796 [DEBUG] 	Job 139 will run on 5 files and 32 lumis 
+2014-04-28 15:34:13,796 [DEBUG] 	Job 140 will run on 4 files and 30 lumis 
+2014-04-28 15:34:13,796 [DEBUG] 	Job 141 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,797 [DEBUG] 	Job 142 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,797 [DEBUG] 	Job 143 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,797 [DEBUG] 	Job 144 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,798 [DEBUG] 	Job 145 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,798 [DEBUG] 	Job 146 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,798 [DEBUG] 	Job 147 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,799 [DEBUG] 	Job 148 will run on 4 files and 34 lumis 
+2014-04-28 15:34:13,799 [DEBUG] 	Job 149 will run on 3 files and 30 lumis 
+2014-04-28 15:34:13,799 [DEBUG] 	Job 150 will run on 3 files and 30 lumis 
+2014-04-28 15:34:13,799 [DEBUG] 	Job 151 will run on 3 files and 30 lumis 
+2014-04-28 15:34:13,800 [DEBUG] 	Job 152 will run on 3 files and 30 lumis 
+2014-04-28 15:34:13,800 [DEBUG] 	Job 153 will run on 3 files and 32 lumis 
+2014-04-28 15:34:13,800 [DEBUG] 	Job 154 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,801 [DEBUG] 	Job 155 will run on 7 files and 27 lumis 
+2014-04-28 15:34:13,801 [DEBUG] 	Job 156 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,801 [DEBUG] 	Job 157 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,802 [DEBUG] 	Job 158 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,802 [DEBUG] 	Job 159 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,802 [DEBUG] 	Job 160 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,803 [DEBUG] 	Job 161 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,803 [DEBUG] 	Job 162 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,803 [DEBUG] 	Job 163 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,803 [DEBUG] 	Job 164 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,804 [DEBUG] 	Job 165 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,804 [DEBUG] 	Job 166 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,804 [DEBUG] 	Job 167 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,805 [DEBUG] 	Job 168 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,805 [DEBUG] 	Job 169 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,805 [DEBUG] 	Job 170 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,806 [DEBUG] 	Job 171 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,806 [DEBUG] 	Job 172 will run on 4 files and 30 lumis 
+2014-04-28 15:34:13,806 [DEBUG] 	Job 173 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,806 [DEBUG] 	Job 174 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,807 [DEBUG] 	Job 175 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,807 [DEBUG] 	Job 176 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,807 [DEBUG] 	Job 177 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,808 [DEBUG] 	Job 178 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,808 [DEBUG] 	Job 179 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,808 [DEBUG] 	Job 180 will run on 3 files and 28 lumis 
+2014-04-28 15:34:13,809 [DEBUG] 	Job 181 will run on 3 files and 30 lumis 
+2014-04-28 15:34:13,809 [DEBUG] 	Job 182 will run on 3 files and 30 lumis 
+2014-04-28 15:34:13,809 [DEBUG] 	Job 183 will run on 3 files and 30 lumis 
+2014-04-28 15:34:13,809 [DEBUG] 	Job 184 will run on 3 files and 30 lumis 
+2014-04-28 15:34:13,810 [DEBUG] 	Job 185 will run on 3 files and 37 lumis 
+2014-04-28 15:34:13,810 [DEBUG] 	Job 186 will run on 7 files and 26 lumis 
+2014-04-28 15:34:13,810 [DEBUG] 	Job 187 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,811 [DEBUG] 	Job 188 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,811 [DEBUG] 	Job 189 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,811 [DEBUG] 	Job 190 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,812 [DEBUG] 	Job 191 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,812 [DEBUG] 	Job 192 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,812 [DEBUG] 	Job 193 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,813 [DEBUG] 	Job 194 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,813 [DEBUG] 	Job 195 will run on 5 files and 26 lumis 
+2014-04-28 15:34:13,813 [DEBUG] 	Job 196 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,814 [DEBUG] 	Job 197 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,814 [DEBUG] 	Job 198 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,814 [DEBUG] 	Job 199 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,814 [DEBUG] 	Job 200 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,815 [DEBUG] 	Job 201 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,815 [DEBUG] 	Job 202 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,815 [DEBUG] 	Job 203 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,816 [DEBUG] 	Job 204 will run on 5 files and 32 lumis 
+2014-04-28 15:34:13,816 [DEBUG] 	Job 205 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,816 [DEBUG] 	Job 206 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,817 [DEBUG] 	Job 207 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,817 [DEBUG] 	Job 208 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,817 [DEBUG] 	Job 209 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,818 [DEBUG] 	Job 210 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,818 [DEBUG] 	Job 211 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,818 [DEBUG] 	Job 212 will run on 4 files and 34 lumis 
+2014-04-28 15:34:13,818 [DEBUG] 	Job 213 will run on 3 files and 30 lumis 
+2014-04-28 15:34:13,819 [DEBUG] 	Job 214 will run on 3 files and 30 lumis 
+2014-04-28 15:34:13,819 [DEBUG] 	Job 215 will run on 3 files and 30 lumis 
+2014-04-28 15:34:13,819 [DEBUG] 	Job 216 will run on 5 files and 27 lumis 
+2014-04-28 15:34:13,820 [DEBUG] 	Job 217 will run on 8 files and 26 lumis 
+2014-04-28 15:34:13,820 [DEBUG] 	Job 218 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,820 [DEBUG] 	Job 219 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,821 [DEBUG] 	Job 220 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,821 [DEBUG] 	Job 221 will run on 7 files and 27 lumis 
+2014-04-28 15:34:13,821 [DEBUG] 	Job 222 will run on 7 files and 27 lumis 
+2014-04-28 15:34:13,822 [DEBUG] 	Job 223 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,822 [DEBUG] 	Job 224 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,822 [DEBUG] 	Job 225 will run on 6 files and 25 lumis 
+2014-04-28 15:34:13,822 [DEBUG] 	Job 226 will run on 6 files and 27 lumis 
+2014-04-28 15:34:13,823 [DEBUG] 	Job 227 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,823 [DEBUG] 	Job 228 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,823 [DEBUG] 	Job 229 will run on 5 files and 28 lumis 
+2014-04-28 15:34:13,824 [DEBUG] 	Job 230 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,824 [DEBUG] 	Job 231 will run on 5 files and 29 lumis 
+2014-04-28 15:34:13,824 [DEBUG] 	Job 232 will run on 5 files and 29 lumis 
+2014-04-28 15:34:13,825 [DEBUG] 	Job 233 will run on 4 files and 26 lumis 
+2014-04-28 15:34:13,825 [DEBUG] 	Job 234 will run on 5 files and 29 lumis 
+2014-04-28 15:34:13,825 [DEBUG] 	Job 235 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,825 [DEBUG] 	Job 236 will run on 4 files and 26 lumis 
+2014-04-28 15:34:13,826 [DEBUG] 	Job 237 will run on 4 files and 28 lumis 
+2014-04-28 15:34:13,826 [DEBUG] 	Job 238 will run on 5 files and 29 lumis 
+2014-04-28 15:34:13,826 [DEBUG] 	Job 239 will run on 5 files and 29 lumis 
+2014-04-28 15:34:13,827 [DEBUG] 	Job 240 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,827 [DEBUG] 	Job 241 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,827 [DEBUG] 	Job 242 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,828 [DEBUG] 	Job 243 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,828 [DEBUG] 	Job 244 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,828 [DEBUG] 	Job 245 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,829 [DEBUG] 	Job 246 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,829 [DEBUG] 	Job 247 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,829 [DEBUG] 	Job 248 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,829 [DEBUG] 	Job 249 will run on 6 files and 26 lumis 
+2014-04-28 15:34:13,830 [DEBUG] 	Job 250 will run on 8 files and 25 lumis 
+2014-04-28 15:34:13,830 [DEBUG] 	Job 251 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,830 [DEBUG] 	Job 252 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,831 [DEBUG] 	Job 253 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,831 [DEBUG] 	Job 254 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,831 [DEBUG] 	Job 255 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,832 [DEBUG] 	Job 256 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,832 [DEBUG] 	Job 257 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,832 [DEBUG] 	Job 258 will run on 6 files and 26 lumis 
+2014-04-28 15:34:13,833 [DEBUG] 	Job 259 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,833 [DEBUG] 	Job 260 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,833 [DEBUG] 	Job 261 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,833 [DEBUG] 	Job 262 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,834 [DEBUG] 	Job 263 will run on 6 files and 30 lumis 
+2014-04-28 15:34:13,834 [DEBUG] 	Job 264 will run on 4 files and 27 lumis 
+2014-04-28 15:34:13,834 [DEBUG] 	Job 265 will run on 4 files and 28 lumis 
+2014-04-28 15:34:13,835 [DEBUG] 	Job 266 will run on 4 files and 28 lumis 
+2014-04-28 15:34:13,835 [DEBUG] 	Job 267 will run on 4 files and 28 lumis 
+2014-04-28 15:34:13,835 [DEBUG] 	Job 268 will run on 4 files and 28 lumis 
+2014-04-28 15:34:13,835 [DEBUG] 	Job 269 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,836 [DEBUG] 	Job 270 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,836 [DEBUG] 	Job 271 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,836 [DEBUG] 	Job 272 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,837 [DEBUG] 	Job 273 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,837 [DEBUG] 	Job 274 will run on 3 files and 26 lumis 
+2014-04-28 15:34:13,837 [DEBUG] 	Job 275 will run on 3 files and 27 lumis 
+2014-04-28 15:34:13,838 [DEBUG] 	Job 276 will run on 3 files and 26 lumis 
+2014-04-28 15:34:13,838 [DEBUG] 	Job 277 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,838 [DEBUG] 	Job 278 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,839 [DEBUG] 	Job 279 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,839 [DEBUG] 	Job 280 will run on 6 files and 26 lumis 
+2014-04-28 15:34:13,839 [DEBUG] 	Job 281 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,839 [DEBUG] 	Job 282 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,840 [DEBUG] 	Job 283 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,840 [DEBUG] 	Job 284 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,840 [DEBUG] 	Job 285 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,841 [DEBUG] 	Job 286 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,841 [DEBUG] 	Job 287 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,841 [DEBUG] 	Job 288 will run on 5 files and 28 lumis 
+2014-04-28 15:34:13,841 [DEBUG] 	Job 289 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,842 [DEBUG] 	Job 290 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,842 [DEBUG] 	Job 291 will run on 5 files and 29 lumis 
+2014-04-28 15:34:13,842 [DEBUG] 	Job 292 will run on 5 files and 27 lumis 
+2014-04-28 15:34:13,843 [DEBUG] 	Job 293 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,843 [DEBUG] 	Job 294 will run on 4 files and 28 lumis 
+2014-04-28 15:34:13,843 [DEBUG] 	Job 295 will run on 4 files and 27 lumis 
+2014-04-28 15:34:13,844 [DEBUG] 	Job 296 will run on 4 files and 28 lumis 
+2014-04-28 15:34:13,844 [DEBUG] 	Job 297 will run on 4 files and 28 lumis 
+2014-04-28 15:34:13,844 [DEBUG] 	Job 298 will run on 4 files and 28 lumis 
+2014-04-28 15:34:13,844 [DEBUG] 	Job 299 will run on 4 files and 28 lumis 
+2014-04-28 15:34:13,845 [DEBUG] 	Job 300 will run on 4 files and 31 lumis 
+2014-04-28 15:34:13,845 [DEBUG] 	Job 301 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,845 [DEBUG] 	Job 302 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,846 [DEBUG] 	Job 303 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,846 [DEBUG] 	Job 304 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,846 [DEBUG] 	Job 305 will run on 3 files and 26 lumis 
+2014-04-28 15:34:13,847 [DEBUG] 	Job 306 will run on 3 files and 27 lumis 
+2014-04-28 15:34:13,847 [DEBUG] 	Job 307 will run on 3 files and 27 lumis 
+2014-04-28 15:34:13,847 [DEBUG] 	Job 308 will run on 3 files and 27 lumis 
+2014-04-28 15:34:13,847 [DEBUG] 	Job 309 will run on 3 files and 27 lumis 
+2014-04-28 15:34:13,848 [DEBUG] 	Job 310 will run on 3 files and 27 lumis 
+2014-04-28 15:34:13,848 [DEBUG] 	Job 311 will run on 6 files and 26 lumis 
+2014-04-28 15:34:13,848 [DEBUG] 	Job 312 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,849 [DEBUG] 	Job 313 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,849 [DEBUG] 	Job 314 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,849 [DEBUG] 	Job 315 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,850 [DEBUG] 	Job 316 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,850 [DEBUG] 	Job 317 will run on 6 files and 28 lumis 
+2014-04-28 15:34:13,850 [DEBUG] 	Job 318 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,851 [DEBUG] 	Job 319 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,851 [DEBUG] 	Job 320 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,851 [DEBUG] 	Job 321 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,851 [DEBUG] 	Job 322 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,852 [DEBUG] 	Job 323 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,852 [DEBUG] 	Job 324 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,852 [DEBUG] 	Job 325 will run on 5 files and 29 lumis 
+2014-04-28 15:34:13,853 [DEBUG] 	Job 326 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,853 [DEBUG] 	Job 327 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,853 [DEBUG] 	Job 328 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,854 [DEBUG] 	Job 329 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,854 [DEBUG] 	Job 330 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,854 [DEBUG] 	Job 331 will run on 4 files and 25 lumis 
+2014-04-28 15:34:13,854 [DEBUG] 	Job 332 will run on 4 files and 28 lumis 
+2014-04-28 15:34:13,855 [DEBUG] 	Job 333 will run on 4 files and 28 lumis 
+2014-04-28 15:34:13,855 [DEBUG] 	Job 334 will run on 4 files and 28 lumis 
+2014-04-28 15:34:13,855 [DEBUG] 	Job 335 will run on 4 files and 28 lumis 
+2014-04-28 15:34:13,856 [DEBUG] 	Job 336 will run on 4 files and 28 lumis 
+2014-04-28 15:34:13,856 [DEBUG] 	Job 337 will run on 4 files and 29 lumis 
+2014-04-28 15:34:13,856 [DEBUG] 	Job 338 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,857 [DEBUG] 	Job 339 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,857 [DEBUG] 	Job 340 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,857 [DEBUG] 	Job 341 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,857 [DEBUG] 	Job 342 will run on 3 files and 25 lumis 
+2014-04-28 15:34:13,858 [DEBUG] 	Job 343 will run on 3 files and 26 lumis 
+2014-04-28 15:34:13,858 [DEBUG] 	Job 344 will run on 3 files and 27 lumis 
+2014-04-28 15:34:13,858 [DEBUG] 	Job 345 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,859 [DEBUG] 	Job 346 will run on 4 files and 32 lumis 
+2014-04-28 15:34:13,859 [DEBUG] 	Job 347 will run on 9 files and 26 lumis 
+2014-04-28 15:34:13,859 [DEBUG] 	Job 348 will run on 10 files and 25 lumis 
+2014-04-28 15:34:13,860 [DEBUG] 	Job 349 will run on 9 files and 27 lumis 
+2014-04-28 15:34:13,860 [DEBUG] 	Job 350 will run on 9 files and 27 lumis 
+2014-04-28 15:34:13,860 [DEBUG] 	Job 351 will run on 9 files and 27 lumis 
+2014-04-28 15:34:13,861 [DEBUG] 	Job 352 will run on 9 files and 27 lumis 
+2014-04-28 15:34:13,861 [DEBUG] 	Job 353 will run on 9 files and 27 lumis 
+2014-04-28 15:34:13,861 [DEBUG] 	Job 354 will run on 9 files and 27 lumis 
+2014-04-28 15:34:13,862 [DEBUG] 	Job 355 will run on 8 files and 25 lumis 
+2014-04-28 15:34:13,862 [DEBUG] 	Job 356 will run on 7 files and 25 lumis 
+2014-04-28 15:34:13,862 [DEBUG] 	Job 357 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,862 [DEBUG] 	Job 358 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,863 [DEBUG] 	Job 359 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,863 [DEBUG] 	Job 360 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,863 [DEBUG] 	Job 361 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,864 [DEBUG] 	Job 362 will run on 7 files and 28 lumis 
+2014-04-28 15:34:13,864 [DEBUG] 	Job 363 will run on 6 files and 29 lumis 
+2014-04-28 15:34:13,864 [DEBUG] 	Job 364 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,865 [DEBUG] 	Job 365 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,865 [DEBUG] 	Job 366 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,865 [DEBUG] 	Job 367 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,866 [DEBUG] 	Job 368 will run on 5 files and 25 lumis 
+2014-04-28 15:34:13,866 [DEBUG] 	Job 369 will run on 5 files and 26 lumis 
+2014-04-28 15:34:13,866 [DEBUG] 	Job 370 will run on 5 files and 29 lumis 
+2014-04-28 15:34:13,866 [DEBUG] 	Job 371 will run on 5 files and 30 lumis 
+2014-04-28 15:34:13,867 [DEBUG] 	Job 372 will run on 3 files and 17 lumis 
+2014-04-28 15:34:13,867 [INFO] 	372 jobs created to run on 10730 lumis
+2014-04-28 15:34:13,993 [DEBUG] 	PsetManipulator::__init__: PSet file = ecalflowntp_pPbMinBias_cfg.py
+2014-04-28 15:34:17,834 [DEBUG] 	Output from TFileService pPbMuon_S49-74_28April2014V1.root already in output files
+2014-04-28 15:34:17,860 [DEBUG] 	Exe /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_8_HI/bin/slc5_amd64_gcc462/cmsRun to be tarred
+2014-04-28 15:34:17,891 [DEBUG] 	lib /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/lib to be tarred
+2014-04-28 15:34:18,688 [DEBUG] 	data HeavyIonsAnalysis/Configuration/data to be tarred
+2014-04-28 15:34:18,708 [DEBUG] 	data RecoHI/HiCentralityAlgos/data to be tarred
+2014-04-28 15:34:18,822 [DEBUG] 	data CmsHi/JetAnalysis/data to be tarred
+2014-04-28 15:34:19,054 [DEBUG] 	data CmsHi/Analysis2010/data to be tarred
+2014-04-28 15:34:19,553 [DEBUG] 	Creator: JobType CMSSW created
+2014-04-28 15:34:19,553 [DEBUG] 	Creator: total # of jobs = 372
+2014-04-28 15:34:19,553 [DEBUG] 	Creator constructor finished
+2014-04-28 15:34:20,771 [DEBUG] 	Creator::run() called
+2014-04-28 15:34:20,771 [DEBUG] 	Scram::Scram() version is 2
+2014-04-28 15:34:20,771 [DEBUG] 	Scram::Scram() arch is slc5_amd64_gcc462
+2014-04-28 15:34:22,522 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x4d68e18>, 'conn': <httplib.HTTPSConnection instance at 0x8157ef0>}, 'logger': <logging.Logger instance at 0x4d68e18>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-04-28 15:34:24,352 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x4d68e18>, 'conn': <httplib.HTTPSConnection instance at 0x77f7758>}, 'logger': <logging.Logger instance at 0x4d68e18>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-04-28 15:34:27,284 [INFO] 	Creating 372 jobs, please wait...
+2014-04-28 15:34:27,284 [DEBUG] 	Creation Time: 6.51323795319
+2014-04-28 15:34:27,285 [INFO] 	Total of 372 jobs created.
+
+2014-04-28 15:34:41,363 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -submit 1
+
+2014-04-28 15:34:41,363 [INFO] 	Version 2.10.5_patch1 running on Mon Apr 28 15:34:41 2014 CST (20:34:41 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbMuon2013/crab_0_140428_153343/
+
+2014-04-28 15:34:41,364 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/allowed_releases.conf].
+2014-04-28 15:34:41,364 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1257ee18>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x12581098>}, 'logger': <logging.Logger instance at 0x1257ee18>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:34:41,484 [INFO] 	error detecting glite version 
+2014-04-28 15:34:41,489 [INFO] 	error detecting glite version 
+2014-04-28 15:34:41,489 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1257ee18>, 'conn': <httplib.HTTPSConnection instance at 0x125cfe60>}, 'logger': <logging.Logger instance at 0x1257ee18>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:34:41,490 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1257ee18>, 'conn': <httplib.HTTPSConnection instance at 0x125cfef0>}, 'logger': <logging.Logger instance at 0x1257ee18>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:34:41,490 [DEBUG] 	Input whitelist: T2_US_Vanderbilt
+2014-04-28 15:34:41,490 [DEBUG] 	Input blacklist: 
+2014-04-28 15:34:41,535 [DEBUG] 	Converted whitelist: se3.accre.vanderbilt.edu, se1.accre.vanderbilt.edu
+2014-04-28 15:34:41,535 [DEBUG] 	Converted blacklist: 
+2014-04-28 15:34:41,535 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/myproxy_server.conf].
+2014-04-28 15:34:41,535 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1257ee18>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x12701c68>}, 'logger': <logging.Logger instance at 0x1257ee18>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:34:41,536 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-04-28 15:34:41,536 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1257ee18>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x12701c68>}, 'logger': <logging.Logger instance at 0x1257ee18>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:34:41,536 [DEBUG] 	Enforced black list: TAPE,srm-cms.cern.ch,cmssrm.fnal.gov,T1_ES,T1_FR,T1_RU,T1_TW,cmseos.fnal.gov,cmsdca2.fnal.gov,T2_PK_NCP,T3_US_Vanderbilt_EC2
+ 
+2014-04-28 15:34:44,206 [DEBUG] 	parseRange_ 1
+2014-04-28 15:34:44,207 [DEBUG] 	Scram::Scram() version is 2
+2014-04-28 15:34:44,207 [DEBUG] 	Scram::Scram() arch is slc5_amd64_gcc462
+2014-04-28 15:34:44,408 [DEBUG] 	Submitter::run() called
+2014-04-28 15:34:44,602 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1257ee18>, 'conn': <httplib.HTTPSConnection instance at 0x1256b560>}, 'logger': <logging.Logger instance at 0x1257ee18>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:34:44,603 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1257ee18>, 'conn': <httplib.HTTPSConnection instance at 0x12603290>}, 'logger': <logging.Logger instance at 0x1257ee18>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:34:44,603 [DEBUG] 	Input whitelist: T2_US_Vanderbilt
+2014-04-28 15:34:44,603 [DEBUG] 	Input blacklist: 
+2014-04-28 15:34:44,647 [DEBUG] 	Converted whitelist: se3.accre.vanderbilt.edu, se1.accre.vanderbilt.edu
+2014-04-28 15:34:44,648 [DEBUG] 	Converted blacklist: 
+2014-04-28 15:34:44,648 [DEBUG] 	nsjobs 1
+2014-04-28 15:34:44,648 [DEBUG] 	Total jobs 372
+2014-04-28 15:34:44,790 [DEBUG] 	nj_list [1]
+2014-04-28 15:34:45,042 [DEBUG] 	GRIDNAME: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=maguire/CN=671063/CN=Charles Felix Maguire 
+2014-04-28 15:34:45,058 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1257ee18>, 'conn': <httplib.HTTPSConnection instance at 0x1273a320>}, 'logger': <logging.Logger instance at 0x1257ee18>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-04-28 15:34:45,617 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1257ee18>, 'conn': <httplib.HTTPSConnection instance at 0x1273af80>}, 'logger': <logging.Logger instance at 0x1257ee18>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-04-28 15:34:46,203 [DEBUG] 	Submission DashBoard Pre-Submission report: {'ApplicationVersion': 'CMSSW_5_3_8_HI_patch2', 'taskId': 'maguire_crab_0_140428_153343_u4p91o', 'resubmitter': 'user', 'tool': 'crab', 'vo': 'cms', 'tool_ui': 'vmps08.vampire', 'JSToolVersion': '2.10.5_patch1', 'user': 'maguire', 'scheduler': 'GLIDEIN', 'taskType': 'analysis', 'CMSUser': 'maguire', 'jobId': 'TaskMeta', 'datasetFull': '/PAMuon/HIRun2013-PromptReco-v1/RECO', 'exe': 'cmsRun', 'GridName': '/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=maguire/CN=671063/CN=Charles Felix Maguire', 'SubmissionType': 'direct'}
+2014-04-28 15:34:46,203 [INFO] 	Checking available resources...
+2014-04-28 15:34:46,452 [INFO] 	Found  compatible site(s) for job 1
+2014-04-28 15:34:46,453 [INFO] 	1 blocks of jobs will be submitted
+2014-04-28 15:34:46,453 [DEBUG] 	Delegating proxy 
+2014-04-28 15:34:46,453 [DEBUG] 	Submitting jobs [1]
+2014-04-28 15:34:46,665 [DEBUG] 	Calling ServerConfig default
+2014-04-28 15:34:46,665 [DEBUG] 	getting serverlist from web
+2014-04-28 15:34:46,666 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/AvailableServerList].
+2014-04-28 15:34:46,666 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1257ee18>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x12b197a0>}, 'logger': <logging.Logger instance at 0x1257ee18>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:34:46,666 [DEBUG] 	/home/maguirc/.cms_crab/0_GET_AvailableServerList expired, refreshing cache
+2014-04-28 15:34:46,666 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/AvailableServerList
+	data: {}
+2014-04-28 15:34:47,445 [DEBUG] 	All avaialble servers: [['cern_vocms83', '2.8.4-', 'remoteGlidein'], ['unl_hcc-crabserver', '2.8.4-', 'remoteGlidein'], ['unl_hcc-crabserver', '2.8.4-', 'remoteGlidein'], ['unl_hcc-crabserver', '2.8.4-', 'remoteGlidein'], ['ucsd_submit-4', '2.8.4-', 'remoteGlidein'], ['ucsd_submit-4', '2.8.4-', 'remoteGlidein'], ['ucsd_submit-4', '2.8.4-', 'remoteGlidein'], ['ucsd_submit-6', '2.8.4-', 'remoteGlidein'], ['ucsd_submit-6', '2.8.4-', 'remoteGlidein'], ['ucsd_submit-6', '2.8.4-', 'remoteGlidein']]
+2014-04-28 15:34:47,445 [DEBUG] 	All avaialble servers compatible with 2.10.5_patch1: ['cern_vocms83', 'unl_hcc-crabserver', 'unl_hcc-crabserver', 'unl_hcc-crabserver', 'ucsd_submit-4', 'ucsd_submit-4', 'ucsd_submit-4', 'ucsd_submit-6', 'ucsd_submit-6', 'ucsd_submit-6']
+2014-04-28 15:34:47,445 [DEBUG] 	Avaialble servers: ['cern_vocms83', 'unl_hcc-crabserver', 'unl_hcc-crabserver', 'unl_hcc-crabserver', 'ucsd_submit-4', 'ucsd_submit-4', 'ucsd_submit-4', 'ucsd_submit-6', 'ucsd_submit-6', 'ucsd_submit-6'] choosen: unl_hcc-crabserver
+2014-04-28 15:34:47,445 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/server_unl_hcc-crabserver.conf].
+2014-04-28 15:34:47,446 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1257ee18>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x12b19908>}, 'logger': <logging.Logger instance at 0x1257ee18>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:34:47,446 [DEBUG] 	/home/maguirc/.cms_crab/0_GET_server_unl_hcc-crabserver.conf expired, refreshing cache
+2014-04-28 15:34:47,446 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/server_unl_hcc-crabserver.conf
+	data: {}
+2014-04-28 15:34:47,789 [INFO] 	remotehost from Avail.List = hcc-crabserver.unl.edu
+2014-04-28 15:34:48,211 [DEBUG] 	Scram::Scram() version is 2
+2014-04-28 15:34:48,211 [DEBUG] 	Scram::Scram() arch is slc5_amd64_gcc462
+2014-04-28 15:34:48,230 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1257ee18>, 'conn': <httplib.HTTPSConnection instance at 0x12bebab8>}, 'logger': <logging.Logger instance at 0x1257ee18>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-04-28 15:34:49,326 [INFO] 	contacting remote host hcc-crabserver.unl.edu
+2014-04-28 15:34:49,355 [DEBUG] 	Execute command :
+gsissh  -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-hcc-crabserver.unl.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no hcc-crabserver.unl.edu  "sleep 3600"
+2014-04-28 15:34:49,360 [INFO] 	Establishing gsissh ControlPath. Wait 2 sec ...
+2014-04-28 15:34:51,361 [INFO] 	COPY FILES TO REMOTE HOST
+2014-04-28 15:34:51,361 [DEBUG] 	Execute command :
+gsissh -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-hcc-crabserver.unl.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no hcc-crabserver.unl.edu  mkdir -p maguire_crab_0_140428_153343_u4p91o
+2014-04-28 15:34:51,667 [DEBUG] 	Status,output= 0,
+2014-04-28 15:34:51,667 [DEBUG] 	Execute command :
+gsiscp -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-hcc-crabserver.unl.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbMuon2013/crab_0_140428_153343/share/default.tgz /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbMuon2013/crab_0_140428_153343/share/arguments.xml /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbMuon2013/crab_0_140428_153343/job/CMSSW.sh /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbMuon2013/crab_0_140428_153343/share//maguire_crab_0_140428_153343_u4p91o_job1.jdl /tmp/x509up_u28075 hcc-crabserver.unl.edu:maguire_crab_0_140428_153343_u4p91o
+2014-04-28 15:34:55,503 [DEBUG] 	Status,output= 0,
+2014-04-28 15:34:55,503 [INFO] 	SUBMIT TO REMOTE GLIDEIN FRONTEND
+2014-04-28 15:34:55,503 [DEBUG] 	Execute command :
+gsissh -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-hcc-crabserver.unl.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no hcc-crabserver.unl.edu "cd maguire_crab_0_140428_153343_u4p91o;  condor_submit  maguire_crab_0_140428_153343_u4p91o_job1.jdl; echo 'CONDOR_SUBMIT-EXIT-STATUS IS' \$?"
+2014-04-28 15:34:55,874 [DEBUG] 	Status,output= 0,Submitting job(s).
+1 job(s) submitted to cluster 114987.
+CONDOR_SUBMIT-EXIT-STATUS IS 0
+2014-04-28 15:34:55,875 [DEBUG] 	Returning {u'maguire_crab_0_140428_153343_u4p91o_job1': 'hcc-crabserver.unl.edu//140428//114987.0'}
+maguire_crab_0_140428_153343_u4p91o
+vmps08.vampire
+2014-04-28 15:34:56,188 [DEBUG] 	WMS : vmps08.vampire
+Collection ID : maguire_crab_0_140428_153343_u4p91o
+2014-04-28 15:34:56,190 [DEBUG] 	Submitted job # 1
+2014-04-28 15:34:56,238 [DEBUG] 	Updating [[1]] state SubSuccess
+2014-04-28 15:34:56,533 [DEBUG] 	GRIDNAME: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=maguire/CN=671063/CN=Charles Felix Maguire 
+2014-04-28 15:34:56,552 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1257ee18>, 'conn': <httplib.HTTPSConnection instance at 0x12be16c8>}, 'logger': <logging.Logger instance at 0x1257ee18>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-04-28 15:34:57,233 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1257ee18>, 'conn': <httplib.HTTPSConnection instance at 0x12be15f0>}, 'logger': <logging.Logger instance at 0x1257ee18>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-04-28 15:34:57,641 [DEBUG] 	Submission Time: 13.2332479954
+2014-04-28 15:34:57,641 [INFO] 	Total of 1 jobs submitted.
+2014-04-28 15:35:09,108 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+
+2014-04-28 15:35:09,109 [INFO] 	Version 2.10.5_patch1 running on Mon Apr 28 15:35:09 2014 CST (20:35:09 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbMuon2013/crab_0_140428_153343/
+
+2014-04-28 15:35:09,109 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/allowed_releases.conf].
+2014-04-28 15:35:09,110 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xdccfe18>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xdcd2098>}, 'logger': <logging.Logger instance at 0xdccfe18>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:35:09,288 [INFO] 	error detecting glite version 
+2014-04-28 15:35:09,293 [INFO] 	error detecting glite version 
+2014-04-28 15:35:09,294 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xdccfe18>, 'conn': <httplib.HTTPSConnection instance at 0xdd20e60>}, 'logger': <logging.Logger instance at 0xdccfe18>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:35:09,294 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xdccfe18>, 'conn': <httplib.HTTPSConnection instance at 0xdd20ef0>}, 'logger': <logging.Logger instance at 0xdccfe18>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:35:09,294 [DEBUG] 	Input whitelist: T2_US_Vanderbilt
+2014-04-28 15:35:09,295 [DEBUG] 	Input blacklist: 
+2014-04-28 15:35:09,340 [DEBUG] 	Converted whitelist: se3.accre.vanderbilt.edu, se1.accre.vanderbilt.edu
+2014-04-28 15:35:09,341 [DEBUG] 	Converted blacklist: 
+2014-04-28 15:35:09,341 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/myproxy_server.conf].
+2014-04-28 15:35:09,341 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xdccfe18>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xde52ab8>}, 'logger': <logging.Logger instance at 0xdccfe18>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:35:09,341 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-04-28 15:35:09,342 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xdccfe18>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xde52ab8>}, 'logger': <logging.Logger instance at 0xdccfe18>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:35:09,342 [DEBUG] 	Enforced black list: TAPE,srm-cms.cern.ch,cmssrm.fnal.gov,T1_ES,T1_FR,T1_RU,T1_TW,cmseos.fnal.gov,cmsdca2.fnal.gov,T2_PK_NCP,T3_US_Vanderbilt_EC2
+ 
+2014-04-28 15:35:12,626 [DEBUG] 	Status::run() called
+2014-04-28 15:35:12,626 [INFO] 	Checking the status of all jobs: please wait
+2014-04-28 15:35:13,042 [INFO] 	contacting remote host hcc-crabserver.unl.edu
+2014-04-28 15:35:13,079 [DEBUG] 	Execute command :
+gsiscp -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-hcc-crabserver.unl.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no /tmp/x509up_u28075 hcc-crabserver.unl.edu:maguire_crab_0_140428_153343_u4p91o
+2014-04-28 15:35:13,701 [DEBUG] 	Status,output= 0,
+2014-04-28 15:35:13,702 [DEBUG] 	Execute command :
+gsissh -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-hcc-crabserver.unl.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no hcc-crabserver.unl.edu  "condor_history -userlog maguire_crab_0_140428_153343_u4p91o/condor.log -xml"
+2014-04-28 15:35:14,254 [INFO] 	
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     N   Submitted         SubSuccess                           
+2     N   Created           Created                              
+3     N   Created           Created                              
+4     N   Created           Created                              
+5     N   Created           Created                              
+6     N   Created           Created                              
+7     N   Created           Created                              
+8     N   Created           Created                              
+9     N   Created           Created                              
+10    N   Created           Created                              
+--------------------------------------------------------------------------------
+11    N   Created           Created                              
+12    N   Created           Created                              
+13    N   Created           Created                              
+14    N   Created           Created                              
+15    N   Created           Created                              
+16    N   Created           Created                              
+17    N   Created           Created                              
+18    N   Created           Created                              
+19    N   Created           Created                              
+20    N   Created           Created                              
+--------------------------------------------------------------------------------
+21    N   Created           Created                              
+22    N   Created           Created                              
+23    N   Created           Created                              
+24    N   Created           Created                              
+25    N   Created           Created                              
+26    N   Created           Created                              
+27    N   Created           Created                              
+28    N   Created           Created                              
+29    N   Created           Created                              
+30    N   Created           Created                              
+--------------------------------------------------------------------------------
+31    N   Created           Created                              
+32    N   Created           Created                              
+33    N   Created           Created                              
+34    N   Created           Created                              
+35    N   Created           Created                              
+36    N   Created           Created                              
+37    N   Created           Created                              
+38    N   Created           Created                              
+39    N   Created           Created                              
+40    N   Created           Created                              
+--------------------------------------------------------------------------------
+41    N   Created           Created                              
+42    N   Created           Created                              
+43    N   Created           Created                              
+44    N   Created           Created                              
+45    N   Created           Created                              
+46    N   Created           Created                              
+47    N   Created           Created                              
+48    N   Created           Created                              
+49    N   Created           Created                              
+50    N   Created           Created                              
+--------------------------------------------------------------------------------
+51    N   Created           Created                              
+52    N   Created           Created                              
+53    N   Created           Created                              
+54    N   Created           Created                              
+55    N   Created           Created                              
+56    N   Created           Created                              
+57    N   Created           Created                              
+58    N   Created           Created                              
+59    N   Created           Created                              
+60    N   Created           Created                              
+--------------------------------------------------------------------------------
+61    N   Created           Created                              
+62    N   Created           Created                              
+63    N   Created           Created                              
+64    N   Created           Created                              
+65    N   Created           Created                              
+66    N   Created           Created                              
+67    N   Created           Created                              
+68    N   Created           Created                              
+69    N   Created           Created                              
+70    N   Created           Created                              
+--------------------------------------------------------------------------------
+71    N   Created           Created                              
+72    N   Created           Created                              
+73    N   Created           Created                              
+74    N   Created           Created                              
+75    N   Created           Created                              
+76    N   Created           Created                              
+77    N   Created           Created                              
+78    N   Created           Created                              
+79    N   Created           Created                              
+80    N   Created           Created                              
+--------------------------------------------------------------------------------
+81    N   Created           Created                              
+82    N   Created           Created                              
+83    N   Created           Created                              
+84    N   Created           Created                              
+85    N   Created           Created                              
+86    N   Created           Created                              
+87    N   Created           Created                              
+88    N   Created           Created                              
+89    N   Created           Created                              
+90    N   Created           Created                              
+--------------------------------------------------------------------------------
+91    N   Created           Created                              
+92    N   Created           Created                              
+93    N   Created           Created                              
+94    N   Created           Created                              
+95    N   Created           Created                              
+96    N   Created           Created                              
+97    N   Created           Created                              
+98    N   Created           Created                              
+99    N   Created           Created                              
+100   N   Created           Created                              
+--------------------------------------------------------------------------------
+101   N   Created           Created                              
+102   N   Created           Created                              
+103   N   Created           Created                              
+104   N   Created           Created                              
+105   N   Created           Created                              
+106   N   Created           Created                              
+107   N   Created           Created                              
+108   N   Created           Created                              
+109   N   Created           Created                              
+110   N   Created           Created                              
+--------------------------------------------------------------------------------
+111   N   Created           Created                              
+112   N   Created           Created                              
+113   N   Created           Created                              
+114   N   Created           Created                              
+115   N   Created           Created                              
+116   N   Created           Created                              
+117   N   Created           Created                              
+118   N   Created           Created                              
+119   N   Created           Created                              
+120   N   Created           Created                              
+--------------------------------------------------------------------------------
+121   N   Created           Created                              
+122   N   Created           Created                              
+123   N   Created           Created                              
+124   N   Created           Created                              
+125   N   Created           Created                              
+126   N   Created           Created                              
+127   N   Created           Created                              
+128   N   Created           Created                              
+129   N   Created           Created                              
+130   N   Created           Created                              
+--------------------------------------------------------------------------------
+131   N   Created           Created                              
+132   N   Created           Created                              
+133   N   Created           Created                              
+134   N   Created           Created                              
+135   N   Created           Created                              
+136   N   Created           Created                              
+137   N   Created           Created                              
+138   N   Created           Created                              
+139   N   Created           Created                              
+140   N   Created           Created                              
+--------------------------------------------------------------------------------
+141   N   Created           Created                              
+142   N   Created           Created                              
+143   N   Created           Created                              
+144   N   Created           Created                              
+145   N   Created           Created                              
+146   N   Created           Created                              
+147   N   Created           Created                              
+148   N   Created           Created                              
+149   N   Created           Created                              
+150   N   Created           Created                              
+--------------------------------------------------------------------------------
+151   N   Created           Created                              
+152   N   Created           Created                              
+153   N   Created           Created                              
+154   N   Created           Created                              
+155   N   Created           Created                              
+156   N   Created           Created                              
+157   N   Created           Created                              
+158   N   Created           Created                              
+159   N   Created           Created                              
+160   N   Created           Created                              
+--------------------------------------------------------------------------------
+161   N   Created           Created                              
+162   N   Created           Created                              
+163   N   Created           Created                              
+164   N   Created           Created                              
+165   N   Created           Created                              
+166   N   Created           Created                              
+167   N   Created           Created                              
+168   N   Created           Created                              
+169   N   Created           Created                              
+170   N   Created           Created                              
+--------------------------------------------------------------------------------
+171   N   Created           Created                              
+172   N   Created           Created                              
+173   N   Created           Created                              
+174   N   Created           Created                              
+175   N   Created           Created                              
+176   N   Created           Created                              
+177   N   Created           Created                              
+178   N   Created           Created                              
+179   N   Created           Created                              
+180   N   Created           Created                              
+--------------------------------------------------------------------------------
+181   N   Created           Created                              
+182   N   Created           Created                              
+183   N   Created           Created                              
+184   N   Created           Created                              
+185   N   Created           Created                              
+186   N   Created           Created                              
+187   N   Created           Created                              
+188   N   Created           Created                              
+189   N   Created           Created                              
+190   N   Created           Created                              
+--------------------------------------------------------------------------------
+191   N   Created           Created                              
+192   N   Created           Created                              
+193   N   Created           Created                              
+194   N   Created           Created                              
+195   N   Created           Created                              
+196   N   Created           Created                              
+197   N   Created           Created                              
+198   N   Created           Created                              
+199   N   Created           Created                              
+200   N   Created           Created                              
+--------------------------------------------------------------------------------
+201   N   Created           Created                              
+202   N   Created           Created                              
+203   N   Created           Created                              
+204   N   Created           Created                              
+205   N   Created           Created                              
+206   N   Created           Created                              
+207   N   Created           Created                              
+208   N   Created           Created                              
+209   N   Created           Created                              
+210   N   Created           Created                              
+--------------------------------------------------------------------------------
+211   N   Created           Created                              
+212   N   Created           Created                              
+213   N   Created           Created                              
+214   N   Created           Created                              
+215   N   Created           Created                              
+216   N   Created           Created                              
+217   N   Created           Created                              
+218   N   Created           Created                              
+219   N   Created           Created                              
+220   N   Created           Created                              
+--------------------------------------------------------------------------------
+221   N   Created           Created                              
+222   N   Created           Created                              
+223   N   Created           Created                              
+224   N   Created           Created                              
+225   N   Created           Created                              
+226   N   Created           Created                              
+227   N   Created           Created                              
+228   N   Created           Created                              
+229   N   Created           Created                              
+230   N   Created           Created                              
+--------------------------------------------------------------------------------
+231   N   Created           Created                              
+232   N   Created           Created                              
+233   N   Created           Created                              
+234   N   Created           Created                              
+235   N   Created           Created                              
+236   N   Created           Created                              
+237   N   Created           Created                              
+238   N   Created           Created                              
+239   N   Created           Created                              
+240   N   Created           Created                              
+--------------------------------------------------------------------------------
+241   N   Created           Created                              
+242   N   Created           Created                              
+243   N   Created           Created                              
+244   N   Created           Created                              
+245   N   Created           Created                              
+246   N   Created           Created                              
+247   N   Created           Created                              
+248   N   Created           Created                              
+249   N   Created           Created                              
+250   N   Created           Created                              
+--------------------------------------------------------------------------------
+251   N   Created           Created                              
+252   N   Created           Created                              
+253   N   Created           Created                              
+254   N   Created           Created                              
+255   N   Created           Created                              
+256   N   Created           Created                              
+257   N   Created           Created                              
+258   N   Created           Created                              
+259   N   Created           Created                              
+260   N   Created           Created                              
+--------------------------------------------------------------------------------
+261   N   Created           Created                              
+262   N   Created           Created                              
+263   N   Created           Created                              
+264   N   Created           Created                              
+265   N   Created           Created                              
+266   N   Created           Created                              
+267   N   Created           Created                              
+268   N   Created           Created                              
+269   N   Created           Created                              
+270   N   Created           Created                              
+--------------------------------------------------------------------------------
+271   N   Created           Created                              
+272   N   Created           Created                              
+273   N   Created           Created                              
+274   N   Created           Created                              
+275   N   Created           Created                              
+276   N   Created           Created                              
+277   N   Created           Created                              
+278   N   Created           Created                              
+279   N   Created           Created                              
+280   N   Created           Created                              
+--------------------------------------------------------------------------------
+281   N   Created           Created                              
+282   N   Created           Created                              
+283   N   Created           Created                              
+284   N   Created           Created                              
+285   N   Created           Created                              
+286   N   Created           Created                              
+287   N   Created           Created                              
+288   N   Created           Created                              
+289   N   Created           Created                              
+290   N   Created           Created                              
+--------------------------------------------------------------------------------
+291   N   Created           Created                              
+292   N   Created           Created                              
+293   N   Created           Created                              
+294   N   Created           Created                              
+295   N   Created           Created                              
+296   N   Created           Created                              
+297   N   Created           Created                              
+298   N   Created           Created                              
+299   N   Created           Created                              
+300   N   Created           Created                              
+--------------------------------------------------------------------------------
+301   N   Created           Created                              
+302   N   Created           Created                              
+303   N   Created           Created                              
+304   N   Created           Created                              
+305   N   Created           Created                              
+306   N   Created           Created                              
+307   N   Created           Created                              
+308   N   Created           Created                              
+309   N   Created           Created                              
+310   N   Created           Created                              
+--------------------------------------------------------------------------------
+311   N   Created           Created                              
+312   N   Created           Created                              
+313   N   Created           Created                              
+314   N   Created           Created                              
+315   N   Created           Created                              
+316   N   Created           Created                              
+317   N   Created           Created                              
+318   N   Created           Created                              
+319   N   Created           Created                              
+320   N   Created           Created                              
+--------------------------------------------------------------------------------
+321   N   Created           Created                              
+322   N   Created           Created                              
+323   N   Created           Created                              
+324   N   Created           Created                              
+325   N   Created           Created                              
+326   N   Created           Created                              
+327   N   Created           Created                              
+328   N   Created           Created                              
+329   N   Created           Created                              
+330   N   Created           Created                              
+--------------------------------------------------------------------------------
+331   N   Created           Created                              
+332   N   Created           Created                              
+333   N   Created           Created                              
+334   N   Created           Created                              
+335   N   Created           Created                              
+336   N   Created           Created                              
+337   N   Created           Created                              
+338   N   Created           Created                              
+339   N   Created           Created                              
+340   N   Created           Created                              
+--------------------------------------------------------------------------------
+341   N   Created           Created                              
+342   N   Created           Created                              
+343   N   Created           Created                              
+344   N   Created           Created                              
+345   N   Created           Created                              
+346   N   Created           Created                              
+347   N   Created           Created                              
+348   N   Created           Created                              
+349   N   Created           Created                              
+350   N   Created           Created                              
+--------------------------------------------------------------------------------
+351   N   Created           Created                              
+352   N   Created           Created                              
+353   N   Created           Created                              
+354   N   Created           Created                              
+355   N   Created           Created                              
+356   N   Created           Created                              
+357   N   Created           Created                              
+358   N   Created           Created                              
+359   N   Created           Created                              
+360   N   Created           Created                              
+--------------------------------------------------------------------------------
+361   N   Created           Created                              
+362   N   Created           Created                              
+363   N   Created           Created                              
+364   N   Created           Created                              
+365   N   Created           Created                              
+366   N   Created           Created                              
+367   N   Created           Created                              
+368   N   Created           Created                              
+369   N   Created           Created                              
+370   N   Created           Created                              
+--------------------------------------------------------------------------------
+371   N   Created           Created                              
+372   N   Created           Created                              
+
+2014-04-28 15:35:14,859 [INFO] 	 372 Total Jobs 
+ >>>>>>>>> 371 Jobs Created 
+ >>>>>>>>> 1 Jobs Submitted 
+	List of jobs Submitted: 1 
+
+2014-04-28 15:35:15,037 [INFO] 	You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=maguire_crab_0_140428_153343_u4p91o
+	Your task name is: maguire_crab_0_140428_153343_u4p91o 
+
+2014-04-28 15:35:15,038 [DEBUG] 	Status Time: 2.41119003296
+2014-04-28 15:40:48,167 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+
+2014-04-28 15:40:48,167 [INFO] 	Version 2.10.5_patch1 running on Mon Apr 28 15:40:48 2014 CST (20:40:48 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbMuon2013/crab_0_140428_153343/
+
+2014-04-28 15:40:48,169 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/allowed_releases.conf].
+2014-04-28 15:40:48,170 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1b4a6e18>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1b4a9098>}, 'logger': <logging.Logger instance at 0x1b4a6e18>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:40:48,348 [INFO] 	error detecting glite version 
+2014-04-28 15:40:48,352 [INFO] 	error detecting glite version 
+2014-04-28 15:40:48,353 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1b4a6e18>, 'conn': <httplib.HTTPSConnection instance at 0x1b4f7e60>}, 'logger': <logging.Logger instance at 0x1b4a6e18>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:40:48,353 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1b4a6e18>, 'conn': <httplib.HTTPSConnection instance at 0x1b4f7ef0>}, 'logger': <logging.Logger instance at 0x1b4a6e18>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:40:48,354 [DEBUG] 	Input whitelist: T2_US_Vanderbilt
+2014-04-28 15:40:48,354 [DEBUG] 	Input blacklist: 
+2014-04-28 15:40:48,399 [DEBUG] 	Converted whitelist: se3.accre.vanderbilt.edu, se1.accre.vanderbilt.edu
+2014-04-28 15:40:48,400 [DEBUG] 	Converted blacklist: 
+2014-04-28 15:40:48,400 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/myproxy_server.conf].
+2014-04-28 15:40:48,400 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1b4a6e18>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1b629cf8>}, 'logger': <logging.Logger instance at 0x1b4a6e18>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:40:48,400 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-04-28 15:40:48,401 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1b4a6e18>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1b629cf8>}, 'logger': <logging.Logger instance at 0x1b4a6e18>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:40:48,401 [DEBUG] 	Enforced black list: TAPE,srm-cms.cern.ch,cmssrm.fnal.gov,T1_ES,T1_FR,T1_RU,T1_TW,cmseos.fnal.gov,cmsdca2.fnal.gov,T2_PK_NCP,T3_US_Vanderbilt_EC2
+ 
+2014-04-28 15:40:51,739 [DEBUG] 	Status::run() called
+2014-04-28 15:40:51,740 [INFO] 	Checking the status of all jobs: please wait
+2014-04-28 15:40:52,169 [INFO] 	contacting remote host hcc-crabserver.unl.edu
+2014-04-28 15:40:52,204 [DEBUG] 	Execute command :
+gsiscp -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-hcc-crabserver.unl.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no /tmp/x509up_u28075 hcc-crabserver.unl.edu:maguire_crab_0_140428_153343_u4p91o
+2014-04-28 15:40:52,843 [DEBUG] 	Status,output= 0,
+2014-04-28 15:40:52,844 [DEBUG] 	Execute command :
+gsissh -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-hcc-crabserver.unl.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no hcc-crabserver.unl.edu  "condor_history -userlog maguire_crab_0_140428_153343_u4p91o/condor.log -xml"
+2014-04-28 15:40:53,289 [INFO] 	
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     N   Submitted         SubSuccess                           
+2     N   Created           Created                              
+3     N   Created           Created                              
+4     N   Created           Created                              
+5     N   Created           Created                              
+6     N   Created           Created                              
+7     N   Created           Created                              
+8     N   Created           Created                              
+9     N   Created           Created                              
+10    N   Created           Created                              
+--------------------------------------------------------------------------------
+11    N   Created           Created                              
+12    N   Created           Created                              
+13    N   Created           Created                              
+14    N   Created           Created                              
+15    N   Created           Created                              
+16    N   Created           Created                              
+17    N   Created           Created                              
+18    N   Created           Created                              
+19    N   Created           Created                              
+20    N   Created           Created                              
+--------------------------------------------------------------------------------
+21    N   Created           Created                              
+22    N   Created           Created                              
+23    N   Created           Created                              
+24    N   Created           Created                              
+25    N   Created           Created                              
+26    N   Created           Created                              
+27    N   Created           Created                              
+28    N   Created           Created                              
+29    N   Created           Created                              
+30    N   Created           Created                              
+--------------------------------------------------------------------------------
+31    N   Created           Created                              
+32    N   Created           Created                              
+33    N   Created           Created                              
+34    N   Created           Created                              
+35    N   Created           Created                              
+36    N   Created           Created                              
+37    N   Created           Created                              
+38    N   Created           Created                              
+39    N   Created           Created                              
+40    N   Created           Created                              
+--------------------------------------------------------------------------------
+41    N   Created           Created                              
+42    N   Created           Created                              
+43    N   Created           Created                              
+44    N   Created           Created                              
+45    N   Created           Created                              
+46    N   Created           Created                              
+47    N   Created           Created                              
+48    N   Created           Created                              
+49    N   Created           Created                              
+50    N   Created           Created                              
+--------------------------------------------------------------------------------
+51    N   Created           Created                              
+52    N   Created           Created                              
+53    N   Created           Created                              
+54    N   Created           Created                              
+55    N   Created           Created                              
+56    N   Created           Created                              
+57    N   Created           Created                              
+58    N   Created           Created                              
+59    N   Created           Created                              
+60    N   Created           Created                              
+--------------------------------------------------------------------------------
+61    N   Created           Created                              
+62    N   Created           Created                              
+63    N   Created           Created                              
+64    N   Created           Created                              
+65    N   Created           Created                              
+66    N   Created           Created                              
+67    N   Created           Created                              
+68    N   Created           Created                              
+69    N   Created           Created                              
+70    N   Created           Created                              
+--------------------------------------------------------------------------------
+71    N   Created           Created                              
+72    N   Created           Created                              
+73    N   Created           Created                              
+74    N   Created           Created                              
+75    N   Created           Created                              
+76    N   Created           Created                              
+77    N   Created           Created                              
+78    N   Created           Created                              
+79    N   Created           Created                              
+80    N   Created           Created                              
+--------------------------------------------------------------------------------
+81    N   Created           Created                              
+82    N   Created           Created                              
+83    N   Created           Created                              
+84    N   Created           Created                              
+85    N   Created           Created                              
+86    N   Created           Created                              
+87    N   Created           Created                              
+88    N   Created           Created                              
+89    N   Created           Created                              
+90    N   Created           Created                              
+--------------------------------------------------------------------------------
+91    N   Created           Created                              
+92    N   Created           Created                              
+93    N   Created           Created                              
+94    N   Created           Created                              
+95    N   Created           Created                              
+96    N   Created           Created                              
+97    N   Created           Created                              
+98    N   Created           Created                              
+99    N   Created           Created                              
+100   N   Created           Created                              
+--------------------------------------------------------------------------------
+101   N   Created           Created                              
+102   N   Created           Created                              
+103   N   Created           Created                              
+104   N   Created           Created                              
+105   N   Created           Created                              
+106   N   Created           Created                              
+107   N   Created           Created                              
+108   N   Created           Created                              
+109   N   Created           Created                              
+110   N   Created           Created                              
+--------------------------------------------------------------------------------
+111   N   Created           Created                              
+112   N   Created           Created                              
+113   N   Created           Created                              
+114   N   Created           Created                              
+115   N   Created           Created                              
+116   N   Created           Created                              
+117   N   Created           Created                              
+118   N   Created           Created                              
+119   N   Created           Created                              
+120   N   Created           Created                              
+--------------------------------------------------------------------------------
+121   N   Created           Created                              
+122   N   Created           Created                              
+123   N   Created           Created                              
+124   N   Created           Created                              
+125   N   Created           Created                              
+126   N   Created           Created                              
+127   N   Created           Created                              
+128   N   Created           Created                              
+129   N   Created           Created                              
+130   N   Created           Created                              
+--------------------------------------------------------------------------------
+131   N   Created           Created                              
+132   N   Created           Created                              
+133   N   Created           Created                              
+134   N   Created           Created                              
+135   N   Created           Created                              
+136   N   Created           Created                              
+137   N   Created           Created                              
+138   N   Created           Created                              
+139   N   Created           Created                              
+140   N   Created           Created                              
+--------------------------------------------------------------------------------
+141   N   Created           Created                              
+142   N   Created           Created                              
+143   N   Created           Created                              
+144   N   Created           Created                              
+145   N   Created           Created                              
+146   N   Created           Created                              
+147   N   Created           Created                              
+148   N   Created           Created                              
+149   N   Created           Created                              
+150   N   Created           Created                              
+--------------------------------------------------------------------------------
+151   N   Created           Created                              
+152   N   Created           Created                              
+153   N   Created           Created                              
+154   N   Created           Created                              
+155   N   Created           Created                              
+156   N   Created           Created                              
+157   N   Created           Created                              
+158   N   Created           Created                              
+159   N   Created           Created                              
+160   N   Created           Created                              
+--------------------------------------------------------------------------------
+161   N   Created           Created                              
+162   N   Created           Created                              
+163   N   Created           Created                              
+164   N   Created           Created                              
+165   N   Created           Created                              
+166   N   Created           Created                              
+167   N   Created           Created                              
+168   N   Created           Created                              
+169   N   Created           Created                              
+170   N   Created           Created                              
+--------------------------------------------------------------------------------
+171   N   Created           Created                              
+172   N   Created           Created                              
+173   N   Created           Created                              
+174   N   Created           Created                              
+175   N   Created           Created                              
+176   N   Created           Created                              
+177   N   Created           Created                              
+178   N   Created           Created                              
+179   N   Created           Created                              
+180   N   Created           Created                              
+--------------------------------------------------------------------------------
+181   N   Created           Created                              
+182   N   Created           Created                              
+183   N   Created           Created                              
+184   N   Created           Created                              
+185   N   Created           Created                              
+186   N   Created           Created                              
+187   N   Created           Created                              
+188   N   Created           Created                              
+189   N   Created           Created                              
+190   N   Created           Created                              
+--------------------------------------------------------------------------------
+191   N   Created           Created                              
+192   N   Created           Created                              
+193   N   Created           Created                              
+194   N   Created           Created                              
+195   N   Created           Created                              
+196   N   Created           Created                              
+197   N   Created           Created                              
+198   N   Created           Created                              
+199   N   Created           Created                              
+200   N   Created           Created                              
+--------------------------------------------------------------------------------
+201   N   Created           Created                              
+202   N   Created           Created                              
+203   N   Created           Created                              
+204   N   Created           Created                              
+205   N   Created           Created                              
+206   N   Created           Created                              
+207   N   Created           Created                              
+208   N   Created           Created                              
+209   N   Created           Created                              
+210   N   Created           Created                              
+--------------------------------------------------------------------------------
+211   N   Created           Created                              
+212   N   Created           Created                              
+213   N   Created           Created                              
+214   N   Created           Created                              
+215   N   Created           Created                              
+216   N   Created           Created                              
+217   N   Created           Created                              
+218   N   Created           Created                              
+219   N   Created           Created                              
+220   N   Created           Created                              
+--------------------------------------------------------------------------------
+221   N   Created           Created                              
+222   N   Created           Created                              
+223   N   Created           Created                              
+224   N   Created           Created                              
+225   N   Created           Created                              
+226   N   Created           Created                              
+227   N   Created           Created                              
+228   N   Created           Created                              
+229   N   Created           Created                              
+230   N   Created           Created                              
+--------------------------------------------------------------------------------
+231   N   Created           Created                              
+232   N   Created           Created                              
+233   N   Created           Created                              
+234   N   Created           Created                              
+235   N   Created           Created                              
+236   N   Created           Created                              
+237   N   Created           Created                              
+238   N   Created           Created                              
+239   N   Created           Created                              
+240   N   Created           Created                              
+--------------------------------------------------------------------------------
+241   N   Created           Created                              
+242   N   Created           Created                              
+243   N   Created           Created                              
+244   N   Created           Created                              
+245   N   Created           Created                              
+246   N   Created           Created                              
+247   N   Created           Created                              
+248   N   Created           Created                              
+249   N   Created           Created                              
+250   N   Created           Created                              
+--------------------------------------------------------------------------------
+251   N   Created           Created                              
+252   N   Created           Created                              
+253   N   Created           Created                              
+254   N   Created           Created                              
+255   N   Created           Created                              
+256   N   Created           Created                              
+257   N   Created           Created                              
+258   N   Created           Created                              
+259   N   Created           Created                              
+260   N   Created           Created                              
+--------------------------------------------------------------------------------
+261   N   Created           Created                              
+262   N   Created           Created                              
+263   N   Created           Created                              
+264   N   Created           Created                              
+265   N   Created           Created                              
+266   N   Created           Created                              
+267   N   Created           Created                              
+268   N   Created           Created                              
+269   N   Created           Created                              
+270   N   Created           Created                              
+--------------------------------------------------------------------------------
+271   N   Created           Created                              
+272   N   Created           Created                              
+273   N   Created           Created                              
+274   N   Created           Created                              
+275   N   Created           Created                              
+276   N   Created           Created                              
+277   N   Created           Created                              
+278   N   Created           Created                              
+279   N   Created           Created                              
+280   N   Created           Created                              
+--------------------------------------------------------------------------------
+281   N   Created           Created                              
+282   N   Created           Created                              
+283   N   Created           Created                              
+284   N   Created           Created                              
+285   N   Created           Created                              
+286   N   Created           Created                              
+287   N   Created           Created                              
+288   N   Created           Created                              
+289   N   Created           Created                              
+290   N   Created           Created                              
+--------------------------------------------------------------------------------
+291   N   Created           Created                              
+292   N   Created           Created                              
+293   N   Created           Created                              
+294   N   Created           Created                              
+295   N   Created           Created                              
+296   N   Created           Created                              
+297   N   Created           Created                              
+298   N   Created           Created                              
+299   N   Created           Created                              
+300   N   Created           Created                              
+--------------------------------------------------------------------------------
+301   N   Created           Created                              
+302   N   Created           Created                              
+303   N   Created           Created                              
+304   N   Created           Created                              
+305   N   Created           Created                              
+306   N   Created           Created                              
+307   N   Created           Created                              
+308   N   Created           Created                              
+309   N   Created           Created                              
+310   N   Created           Created                              
+--------------------------------------------------------------------------------
+311   N   Created           Created                              
+312   N   Created           Created                              
+313   N   Created           Created                              
+314   N   Created           Created                              
+315   N   Created           Created                              
+316   N   Created           Created                              
+317   N   Created           Created                              
+318   N   Created           Created                              
+319   N   Created           Created                              
+320   N   Created           Created                              
+--------------------------------------------------------------------------------
+321   N   Created           Created                              
+322   N   Created           Created                              
+323   N   Created           Created                              
+324   N   Created           Created                              
+325   N   Created           Created                              
+326   N   Created           Created                              
+327   N   Created           Created                              
+328   N   Created           Created                              
+329   N   Created           Created                              
+330   N   Created           Created                              
+--------------------------------------------------------------------------------
+331   N   Created           Created                              
+332   N   Created           Created                              
+333   N   Created           Created                              
+334   N   Created           Created                              
+335   N   Created           Created                              
+336   N   Created           Created                              
+337   N   Created           Created                              
+338   N   Created           Created                              
+339   N   Created           Created                              
+340   N   Created           Created                              
+--------------------------------------------------------------------------------
+341   N   Created           Created                              
+342   N   Created           Created                              
+343   N   Created           Created                              
+344   N   Created           Created                              
+345   N   Created           Created                              
+346   N   Created           Created                              
+347   N   Created           Created                              
+348   N   Created           Created                              
+349   N   Created           Created                              
+350   N   Created           Created                              
+--------------------------------------------------------------------------------
+351   N   Created           Created                              
+352   N   Created           Created                              
+353   N   Created           Created                              
+354   N   Created           Created                              
+355   N   Created           Created                              
+356   N   Created           Created                              
+357   N   Created           Created                              
+358   N   Created           Created                              
+359   N   Created           Created                              
+360   N   Created           Created                              
+--------------------------------------------------------------------------------
+361   N   Created           Created                              
+362   N   Created           Created                              
+363   N   Created           Created                              
+364   N   Created           Created                              
+365   N   Created           Created                              
+366   N   Created           Created                              
+367   N   Created           Created                              
+368   N   Created           Created                              
+369   N   Created           Created                              
+370   N   Created           Created                              
+--------------------------------------------------------------------------------
+371   N   Created           Created                              
+372   N   Created           Created                              
+
+2014-04-28 15:40:53,913 [INFO] 	 372 Total Jobs 
+ >>>>>>>>> 371 Jobs Created 
+ >>>>>>>>> 1 Jobs Submitted 
+	List of jobs Submitted: 1 
+
+2014-04-28 15:40:54,106 [INFO] 	You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=maguire_crab_0_140428_153343_u4p91o
+	Your task name is: maguire_crab_0_140428_153343_u4p91o 
+
+2014-04-28 15:40:54,106 [DEBUG] 	Status Time: 2.36663579941
+2014-04-28 15:41:23,267 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+
+2014-04-28 15:41:23,267 [INFO] 	Version 2.10.5_patch1 running on Mon Apr 28 15:41:23 2014 CST (20:41:23 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbMuon2013/crab_0_140428_153343/
+
+2014-04-28 15:41:23,268 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/allowed_releases.conf].
+2014-04-28 15:41:23,268 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x156ece18>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x156ef098>}, 'logger': <logging.Logger instance at 0x156ece18>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:41:23,392 [INFO] 	error detecting glite version 
+2014-04-28 15:41:23,396 [INFO] 	error detecting glite version 
+2014-04-28 15:41:23,397 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x156ece18>, 'conn': <httplib.HTTPSConnection instance at 0x1573de60>}, 'logger': <logging.Logger instance at 0x156ece18>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:41:23,397 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x156ece18>, 'conn': <httplib.HTTPSConnection instance at 0x1573def0>}, 'logger': <logging.Logger instance at 0x156ece18>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:41:23,397 [DEBUG] 	Input whitelist: T2_US_Vanderbilt
+2014-04-28 15:41:23,398 [DEBUG] 	Input blacklist: 
+2014-04-28 15:41:23,443 [DEBUG] 	Converted whitelist: se3.accre.vanderbilt.edu, se1.accre.vanderbilt.edu
+2014-04-28 15:41:23,444 [DEBUG] 	Converted blacklist: 
+2014-04-28 15:41:23,444 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/myproxy_server.conf].
+2014-04-28 15:41:23,444 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x156ece18>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x157b73f8>}, 'logger': <logging.Logger instance at 0x156ece18>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:41:23,444 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-04-28 15:41:23,445 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x156ece18>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x157b73f8>}, 'logger': <logging.Logger instance at 0x156ece18>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-04-28 15:41:23,445 [DEBUG] 	Enforced black list: TAPE,srm-cms.cern.ch,cmssrm.fnal.gov,T1_ES,T1_FR,T1_RU,T1_TW,cmseos.fnal.gov,cmsdca2.fnal.gov,T2_PK_NCP,T3_US_Vanderbilt_EC2
+ 
+2014-04-28 15:41:26,046 [DEBUG] 	Status::run() called
+2014-04-28 15:41:26,046 [INFO] 	Checking the status of all jobs: please wait
+2014-04-28 15:41:26,463 [INFO] 	contacting remote host hcc-crabserver.unl.edu
+2014-04-28 15:41:26,498 [DEBUG] 	Execute command :
+gsiscp -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-hcc-crabserver.unl.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no /tmp/x509up_u28075 hcc-crabserver.unl.edu:maguire_crab_0_140428_153343_u4p91o
+2014-04-28 15:41:27,125 [DEBUG] 	Status,output= 0,
+2014-04-28 15:41:27,125 [DEBUG] 	Execute command :
+gsissh -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-hcc-crabserver.unl.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no hcc-crabserver.unl.edu  "condor_history -userlog maguire_crab_0_140428_153343_u4p91o/condor.log -xml"
+2014-04-28 15:41:27,570 [INFO] 	
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     N   Submitted         SubSuccess                           
+2     N   Created           Created                              
+3     N   Created           Created                              
+4     N   Created           Created                              
+5     N   Created           Created                              
+6     N   Created           Created                              
+7     N   Created           Created                              
+8     N   Created           Created                              
+9     N   Created           Created                              
+10    N   Created           Created                              
+--------------------------------------------------------------------------------
+11    N   Created           Created                              
+12    N   Created           Created                              
+13    N   Created           Created                              
+14    N   Created           Created                              
+15    N   Created           Created                              
+16    N   Created           Created                              
+17    N   Created           Created                              
+18    N   Created           Created                              
+19    N   Created           Created                              
+20    N   Created           Created                              
+--------------------------------------------------------------------------------
+21    N   Created           Created                              
+22    N   Created           Created                              
+23    N   Created           Created                              
+24    N   Created           Created                              
+25    N   Created           Created                              
+26    N   Created           Created                              
+27    N   Created           Created                              
+28    N   Created           Created                              
+29    N   Created           Created                              
+30    N   Created           Created                              
+--------------------------------------------------------------------------------
+31    N   Created           Created                              
+32    N   Created           Created                              
+33    N   Created           Created                              
+34    N   Created           Created                              
+35    N   Created           Created                              
+36    N   Created           Created                              
+37    N   Created           Created                              
+38    N   Created           Created                              
+39    N   Created           Created                              
+40    N   Created           Created                              
+--------------------------------------------------------------------------------
+41    N   Created           Created                              
+42    N   Created           Created                              
+43    N   Created           Created                              
+44    N   Created           Created                              
+45    N   Created           Created                              
+46    N   Created           Created                              
+47    N   Created           Created                              
+48    N   Created           Created                              
+49    N   Created           Created                              
+50    N   Created           Created                              
+--------------------------------------------------------------------------------
+51    N   Created           Created                              
+52    N   Created           Created                              
+53    N   Created           Created                              
+54    N   Created           Created                              
+55    N   Created           Created                              
+56    N   Created           Created                              
+57    N   Created           Created                              
+58    N   Created           Created                              
+59    N   Created           Created                              
+60    N   Created           Created                              
+--------------------------------------------------------------------------------
+61    N   Created           Created                              
+62    N   Created           Created                              
+63    N   Created           Created                              
+64    N   Created           Created                              
+65    N   Created           Created                              
+66    N   Created           Created                              
+67    N   Created           Created                              
+68    N   Created           Created                              
+69    N   Created           Created                              
+70    N   Created           Created                              
+--------------------------------------------------------------------------------
+71    N   Created           Created                              
+72    N   Created           Created                              
+73    N   Created           Created                              
+74    N   Created           Created                              
+75    N   Created           Created                              
+76    N   Created           Created                              
+77    N   Created           Created                              
+78    N   Created           Created                              
+79    N   Created           Created                              
+80    N   Created           Created                              
+--------------------------------------------------------------------------------
+81    N   Created           Created                              
+82    N   Created           Created                              
+83    N   Created           Created                              
+84    N   Created           Created                              
+85    N   Created           Created                              
+86    N   Created           Created                              
+87    N   Created           Created                              
+88    N   Created           Created                              
+89    N   Created           Created                              
+90    N   Created           Created                              
+--------------------------------------------------------------------------------
+91    N   Created           Created                              
+92    N   Created           Created                              
+93    N   Created           Created                              
+94    N   Created           Created                              
+95    N   Created           Created                              
+96    N   Created           Created                              
+97    N   Created           Created                              
+98    N   Created           Created                              
+99    N   Created           Created                              
+100   N   Created           Created                              
+--------------------------------------------------------------------------------
+101   N   Created           Created                              
+102   N   Created           Created                              
+103   N   Created           Created                              
+104   N   Created           Created                              
+105   N   Created           Created                              
+106   N   Created           Created                              
+107   N   Created           Created                              
+108   N   Created           Created                              
+109   N   Created           Created                              
+110   N   Created           Created                              
+--------------------------------------------------------------------------------
+111   N   Created           Created                              
+112   N   Created           Created                              
+113   N   Created           Created                              
+114   N   Created           Created                              
+115   N   Created           Created                              
+116   N   Created           Created                              
+117   N   Created           Created                              
+118   N   Created           Created                              
+119   N   Created           Created                              
+120   N   Created           Created                              
+--------------------------------------------------------------------------------
+121   N   Created           Created                              
+122   N   Created           Created                              
+123   N   Created           Created                              
+124   N   Created           Created                              
+125   N   Created           Created                              
+126   N   Created           Created                              
+127   N   Created           Created                              
+128   N   Created           Created                              
+129   N   Created           Created                              
+130   N   Created           Created                              
+--------------------------------------------------------------------------------
+131   N   Created           Created                              
+132   N   Created           Created                              
+133   N   Created           Created                              
+134   N   Created           Created                              
+135   N   Created           Created                              
+136   N   Created           Created                              
+137   N   Created           Created                              
+138   N   Created           Created                              
+139   N   Created           Created                              
+140   N   Created           Created                              
+--------------------------------------------------------------------------------
+141   N   Created           Created                              
+142   N   Created           Created                              
+143   N   Created           Created                              
+144   N   Created           Created                              
+145   N   Created           Created                              
+146   N   Created           Created                              
+147   N   Created           Created                              
+148   N   Created           Created                              
+149   N   Created           Created                              
+150   N   Created           Created                              
+--------------------------------------------------------------------------------
+151   N   Created           Created                              
+152   N   Created           Created                              
+153   N   Created           Created                              
+154   N   Created           Created                              
+155   N   Created           Created                              
+156   N   Created           Created                              
+157   N   Created           Created                              
+158   N   Created           Created                              
+159   N   Created           Created                              
+160   N   Created           Created                              
+--------------------------------------------------------------------------------
+161   N   Created           Created                              
+162   N   Created           Created                              
+163   N   Created           Created                              
+164   N   Created           Created                              
+165   N   Created           Created                              
+166   N   Created           Created                              
+167   N   Created           Created                              
+168   N   Created           Created                              
+169   N   Created           Created                              
+170   N   Created           Created                              
+--------------------------------------------------------------------------------
+171   N   Created           Created                              
+172   N   Created           Created                              
+173   N   Created           Created                              
+174   N   Created           Created                              
+175   N   Created           Created                              
+176   N   Created           Created                              
+177   N   Created           Created                              
+178   N   Created           Created                              
+179   N   Created           Created                              
+180   N   Created           Created                              
+--------------------------------------------------------------------------------
+181   N   Created           Created                              
+182   N   Created           Created                              
+183   N   Created           Created                              
+184   N   Created           Created                              
+185   N   Created           Created                              
+186   N   Created           Created                              
+187   N   Created           Created                              
+188   N   Created           Created                              
+189   N   Created           Created                              
+190   N   Created           Created                              
+--------------------------------------------------------------------------------
+191   N   Created           Created                              
+192   N   Created           Created                              
+193   N   Created           Created                              
+194   N   Created           Created                              
+195   N   Created           Created                              
+196   N   Created           Created                              
+197   N   Created           Created                              
+198   N   Created           Created                              
+199   N   Created           Created                              
+200   N   Created           Created                              
+--------------------------------------------------------------------------------
+201   N   Created           Created                              
+202   N   Created           Created                              
+203   N   Created           Created                              
+204   N   Created           Created                              
+205   N   Created           Created                              
+206   N   Created           Created                              
+207   N   Created           Created                              
+208   N   Created           Created                              
+209   N   Created           Created                              
+210   N   Created           Created                              
+--------------------------------------------------------------------------------
+211   N   Created           Created                              
+212   N   Created           Created                              
+213   N   Created           Created                              
+214   N   Created           Created                              
+215   N   Created           Created                              
+216   N   Created           Created                              
+217   N   Created           Created                              
+218   N   Created           Created                              
+219   N   Created           Created                              
+220   N   Created           Created                              
+--------------------------------------------------------------------------------
+221   N   Created           Created                              
+222   N   Created           Created                              
+223   N   Created           Created                              
+224   N   Created           Created                              
+225   N   Created           Created                              
+226   N   Created           Created                              
+227   N   Created           Created                              
+228   N   Created           Created                              
+229   N   Created           Created                              
+230   N   Created           Created                              
+--------------------------------------------------------------------------------
+231   N   Created           Created                              
+232   N   Created           Created                              
+233   N   Created           Created                              
+234   N   Created           Created                              
+235   N   Created           Created                              
+236   N   Created           Created                              
+237   N   Created           Created                              
+238   N   Created           Created                              
+239   N   Created           Created                              
+240   N   Created           Created                              
+--------------------------------------------------------------------------------
+241   N   Created           Created                              
+242   N   Created           Created                              
+243   N   Created           Created                              
+244   N   Created           Created                              
+245   N   Created           Created                              
+246   N   Created           Created                              
+247   N   Created           Created                              
+248   N   Created           Created                              
+249   N   Created           Created                              
+250   N   Created           Created                              
+--------------------------------------------------------------------------------
+251   N   Created           Created                              
+252   N   Created           Created                              
+253   N   Created           Created                              
+254   N   Created           Created                              
+255   N   Created           Created                              
+256   N   Created           Created                              
+257   N   Created           Created                              
+258   N   Created           Created                              
+259   N   Created           Created                              
+260   N   Created           Created                              
+--------------------------------------------------------------------------------
+261   N   Created           Created                              
+262   N   Created           Created                              
+263   N   Created           Created                              
+264   N   Created           Created                              
+265   N   Created           Created                              
+266   N   Created           Created                              
+267   N   Created           Created                              
+268   N   Created           Created                              
+269   N   Created           Created                              
+270   N   Created           Created                              
+--------------------------------------------------------------------------------
+271   N   Created           Created                              
+272   N   Created           Created                              
+273   N   Created           Created                              
+274   N   Created           Created                              
+275   N   Created           Created                              
+276   N   Created           Created                              
+277   N   Created           Created                              
+278   N   Created           Created                              
+279   N   Created           Created                              
+280   N   Created           Created                              
+--------------------------------------------------------------------------------
+281   N   Created           Created                              
+282   N   Created           Created                              
+283   N   Created           Created                              
+284   N   Created           Created                              
+285   N   Created           Created                              
+286   N   Created           Created                              
+287   N   Created           Created                              
+288   N   Created           Created                              
+289   N   Created           Created                              
+290   N   Created           Created                              
+--------------------------------------------------------------------------------
+291   N   Created           Created                              
+292   N   Created           Created                              
+293   N   Created           Created                              
+294   N   Created           Created                              
+295   N   Created           Created                              
+296   N   Created           Created                              
+297   N   Created           Created                              
+298   N   Created           Created                              
+299   N   Created           Created                              
+300   N   Created           Created                              
+--------------------------------------------------------------------------------
+301   N   Created           Created                              
+302   N   Created           Created                              
+303   N   Created           Created                              
+304   N   Created           Created                              
+305   N   Created           Created                              
+306   N   Created           Created                              
+307   N   Created           Created                              
+308   N   Created           Created                              
+309   N   Created           Created                              
+310   N   Created           Created                              
+--------------------------------------------------------------------------------
+311   N   Created           Created                              
+312   N   Created           Created                              
+313   N   Created           Created                              
+314   N   Created           Created                              
+315   N   Created           Created                              
+316   N   Created           Created                              
+317   N   Created           Created                              
+318   N   Created           Created                              
+319   N   Created           Created                              
+320   N   Created           Created                              
+--------------------------------------------------------------------------------
+321   N   Created           Created                              
+322   N   Created           Created                              
+323   N   Created           Created                              
+324   N   Created           Created                              
+325   N   Created           Created                              
+326   N   Created           Created                              
+327   N   Created           Created                              
+328   N   Created           Created                              
+329   N   Created           Created                              
+330   N   Created           Created                              
+--------------------------------------------------------------------------------
+331   N   Created           Created                              
+332   N   Created           Created                              
+333   N   Created           Created                              
+334   N   Created           Created                              
+335   N   Created           Created                              
+336   N   Created           Created                              
+337   N   Created           Created                              
+338   N   Created           Created                              
+339   N   Created           Created                              
+340   N   Created           Created                              
+--------------------------------------------------------------------------------
+341   N   Created           Created                              
+342   N   Created           Created                              
+343   N   Created           Created                              
+344   N   Created           Created                              
+345   N   Created           Created                              
+346   N   Created           Created                              
+347   N   Created           Created                              
+348   N   Created           Created                              
+349   N   Created           Created                              
+350   N   Created           Created                              
+--------------------------------------------------------------------------------
+351   N   Created           Created                              
+352   N   Created           Created                              
+353   N   Created           Created                              
+354   N   Created           Created                              
+355   N   Created           Created                              
+356   N   Created           Created                              
+357   N   Created           Created                              
+358   N   Created           Created                              
+359   N   Created           Created                              
+360   N   Created           Created                              
+--------------------------------------------------------------------------------
+361   N   Created           Created                              
+362   N   Created           Created                              
+363   N   Created           Created                              
+364   N   Created           Created                              
+365   N   Created           Created                              
+366   N   Created           Created                              
+367   N   Created           Created                              
+368   N   Created           Created                              
+369   N   Created           Created                              
+370   N   Created           Created                              
+--------------------------------------------------------------------------------
+371   N   Created           Created                              
+372   N   Created           Created                              
+
+2014-04-28 15:41:28,193 [INFO] 	 372 Total Jobs 
+ >>>>>>>>> 371 Jobs Created 
+ >>>>>>>>> 1 Jobs Submitted 
+	List of jobs Submitted: 1 
+
+2014-04-28 15:41:28,313 [INFO] 	You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=maguire_crab_0_140428_153343_u4p91o
+	Your task name is: maguire_crab_0_140428_153343_u4p91o 
+
+2014-04-28 15:41:28,313 [DEBUG] 	Status Time: 2.26643586159

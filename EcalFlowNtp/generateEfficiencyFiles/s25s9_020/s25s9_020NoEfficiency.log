@@ -1,0 +1,241 @@
+  *******************************************
+  *                                         *
+  *        W E L C O M E  to  R O O T       *
+  *                                         *
+  *   Version   5.32/00   2 December 2011   *
+  *                                         *
+  *  You are welcome to visit our Web site  *
+  *          http://root.cern.ch            *
+  *                                         *
+  *******************************************
+
+ROOT 5.32/00 (branches/v5-32-00-patches@42372, Nov 19 2012, 10:56:00 on linuxx8664gcc)
+
+CINT/ROOT C/C++ Interpreter version 5.18.00, July 2, 2010
+Type ? for help. Commands must be C++ statements.
+Enclose multiple statements between { }.
+Loading FW Lite setup.
+Info in <TUnixSystem::ACLiC>: creating shared library /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/generateEfficiencyFiles/s25s9_020/./plotPi0_pPb2013_C.so
+
+ Date Wed Jun 25 15:59:43 2014
+
+ Using the pi0 mass window for the observed v2 region
+
+
+ Conversion checking requested, truth information from simTracks
+
+ Only same parent clusters will be combined for reco
+
+ The use of the pi0 efficiency table was not requested
+
+ The use of the charged particle efficiency table was not requested
+
+ Minimum Bias data sets are used
+
+
+ Found hTree in input file first.root
+ The tree contains 1328503 entries
+ The tree will be processed for 1328503 entries
+
+
+ using first pair of pT bins
+
+ Being hTree scan for iOption = 33 with first entry number 0, mixed-event background method will be used
+
+ The entry 0 with event 846643 has nClu = 28
+ The entry 1 with event 846644 has nClu = 52
+ The entry 2 with event 846645 has nClu = 28
+ The entry 3 with event 846653 has nClu = 35
+ The entry 4 with event 846654 has nClu = 46
+ The entry 5 with event 846656 has nClu = 30
+ The entry 6 with event 846657 has nClu = 38
+ The entry 7 with event 846659 has nClu = 26
+ The entry 8 with event 846660 has nClu = 25
+ The entry 9 with event 846666 has nClu = 63
+ The entry 132850 with event 4954053 has nClu = 33
+ The entry 265700 with event 3498441 has nClu = 53
+ The entry 398550 with event 3105767 has nClu = 25
+ The entry 531400 with event 2589538 has nClu = 42
+ The entry 664250 with event 626481 has nClu = 33
+ The entry 797100 with event 4848214 has nClu = 47
+ The entry 929950 with event 4512195 has nClu = 34
+ The entry 1062800 with event 1856637 has nClu = 28
+ The entry 1195650 with event 1052021 has nClu = 29
+ The entry 1328500 with event 1803583 has nClu = 59
+
+ max array size = 108
+ events failing Z-Vertex cut = 0
+ number of clusters = 11757629
+ number of clusters failing isolation cut = 0
+ number of same-event asymmetry cut = 0
+ number of mixed-event asymmetry cut = 0
+ number of unconverted photons from parent mesons not produced by resonance decays = 677205
+ number of unconverted photons from parent mesons produced by resonance decays = 3583215
+ number of converted photons = 7497209
+ number of track-matched clusters = 0
+ minimum separation same events = 0.0562229
+ minimum separation mixed events = 0.0500539
+ number of same event pairs failing separation cut = 0
+ number of mixed event pairs failing separation cut = 772
+ number of pair masses within the pi0 mass window = 128565
+ number of pair masses within resonance decay window = 0
+ number of true decay mesons = 0
+ number of tagged clusters 0
+ number of true decay photons 0
+ number of photons examined for shape cuts 2904576
+ number of photons failing shape cuts 0
+
+ FCN=75.2551 FROM MIGRAD    STATUS=CONVERGED      62 CALLS          63 TOTAL
+                     EDM=1.05839e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     1.89596e+03   1.89294e+01   6.16576e-02  -1.82567e-05
+   2  Mean         1.35652e-01   1.23348e-04   5.17232e-07  -2.90400e+00
+   3  Sigma        1.47958e-02   1.10533e-04   8.33686e-06  -1.08295e-01
+
+  Centroid = 0.135652,  Width = 0.0147958
+ Signal yield = 16590 +/- 129
+ FCN=62.1825 FROM MIGRAD    STATUS=CONVERGED      58 CALLS          59 TOTAL
+                     EDM=1.15773e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.31421e+03   2.17264e+01   6.52650e-02  -7.63256e-07
+   2  Mean         1.35077e-01   1.00222e-04   3.86747e-07   8.28055e-02
+   3  Sigma        1.31908e-02   8.48182e-05   6.53969e-06  -5.31416e-03
+
+  Centroid = 0.135077,  Width = 0.0131908
+ Signal yield = 18130 +/- 135
+ FCN=469.262 FROM MIGRAD    STATUS=CONVERGED      57 CALLS          58 TOTAL
+                     EDM=1.0719e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     6.33729e+03   3.80810e+01   3.05484e-01  -1.14982e-05
+   2  Mean         1.34493e-01   5.75049e-05   6.02883e-07   4.49799e+00
+   3  Sigma        1.22161e-02   5.02194e-05   1.09768e-05  -3.78122e-01
+
+  Centroid = 0.134493,  Width = 0.0122161
+ Signal yield = 45970 +/- 215
+ FCN=309.962 FROM MIGRAD    STATUS=CONVERGED      55 CALLS          56 TOTAL
+                     EDM=2.91813e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     3.04261e+03   2.73328e+01   1.75604e-01  -3.28884e-05
+   2  Mean         1.34801e-01   8.07685e-05   6.88072e-07   2.71523e+00
+   3  Sigma        1.17162e-02   7.25587e-05   1.31734e-05  -4.48914e-01
+
+  Centroid = 0.134801,  Width = 0.0117162
+ Signal yield = 21447 +/- 147
+Info in <TCanvas::Print>: pdf file pi0MassSameParentPt_Q1_489Files_Multiplicity120-260_S4To9_0.74_S25To9-0.2_Date20140625.pdf has been created
+Info in <TCanvas::SaveAs>: ROOT file pi0MassSameParentPt_Q1_489Files_Multiplicity120-260_S4To9_0.74_S25To9-0.2_Date20140625.root has been created
+
+ Date Wed Jun 25 16:10:11 2014
+
+ Using the pi0 mass window for the observed v2 region
+
+
+ Conversion checking requested, truth information from simTracks
+
+ Only same parent clusters will be combined for reco
+
+ The use of the pi0 efficiency table was not requested
+
+ The use of the charged particle efficiency table was not requested
+
+ Minimum Bias data sets are used
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+
+
+ Found hTree in input file first.root
+ The tree contains 1328503 entries
+ The tree will be processed for 1328503 entries
+
+
+ using third pair of pT bins
+
+ Being hTree scan for iOption = 33 with first entry number 0, mixed-event background method will be used
+
+ The entry 0 with event 846643 has nClu = 28
+ The entry 1 with event 846644 has nClu = 52
+ The entry 2 with event 846645 has nClu = 28
+ The entry 3 with event 846653 has nClu = 35
+ The entry 4 with event 846654 has nClu = 46
+ The entry 5 with event 846656 has nClu = 30
+ The entry 6 with event 846657 has nClu = 38
+ The entry 7 with event 846659 has nClu = 26
+ The entry 8 with event 846660 has nClu = 25
+ The entry 9 with event 846666 has nClu = 63
+ The entry 132850 with event 4954053 has nClu = 33
+ The entry 265700 with event 3498441 has nClu = 53
+ The entry 398550 with event 3105767 has nClu = 25
+ The entry 531400 with event 2589538 has nClu = 42
+ The entry 664250 with event 626481 has nClu = 33
+ The entry 797100 with event 4848214 has nClu = 47
+ The entry 929950 with event 4512195 has nClu = 34
+ The entry 1062800 with event 1856637 has nClu = 28
+ The entry 1195650 with event 1052021 has nClu = 29
+ The entry 1328500 with event 1803583 has nClu = 59
+
+ max array size = 108
+ events failing Z-Vertex cut = 0
+ number of clusters = 11757629
+ number of clusters failing isolation cut = 0
+ number of same-event asymmetry cut = 0
+ number of mixed-event asymmetry cut = 0
+ number of unconverted photons from parent mesons not produced by resonance decays = 677205
+ number of unconverted photons from parent mesons produced by resonance decays = 3583215
+ number of converted photons = 7497209
+ number of track-matched clusters = 0
+ minimum separation same events = 0.0562229
+ minimum separation mixed events = 0.0500539
+ number of same event pairs failing separation cut = 0
+ number of mixed event pairs failing separation cut = 772
+ number of pair masses within the pi0 mass window = 128565
+ number of pair masses within resonance decay window = 0
+ number of true decay mesons = 0
+ number of tagged clusters 0
+ number of true decay photons 0
+ number of photons examined for shape cuts 2904576
+ number of photons failing shape cuts 0
+
+ FCN=139.106 FROM MIGRAD    STATUS=CONVERGED      57 CALLS          58 TOTAL
+                     EDM=5.98639e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     1.37889e+03   1.83264e+01   7.89967e-02  -7.41376e-05
+   2  Mean         1.34497e-01   1.20045e-04   6.90200e-07   1.30561e-01
+   3  Sigma        1.18259e-02   1.08645e-04   1.31468e-05  -4.31396e-01
+
+  Centroid = 0.134497,  Width = 0.0118259
+ Signal yield = 9774 +/- 99
+ FCN=69.1705 FROM MIGRAD    STATUS=CONVERGED      59 CALLS          60 TOTAL
+                     EDM=2.40139e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     6.15013e+02   1.22390e+01   3.73597e-02  -2.13808e-05
+   2  Mean         1.34259e-01   1.79740e-04   7.30543e-07   2.63861e-01
+   3  Sigma        1.18091e-02   1.62201e-04   1.38945e-05  -5.84889e-02
+
+  Centroid = 0.134259,  Width = 0.0118091
+ Signal yield = 4261 +/- 66
+ FCN=29.8063 FROM MIGRAD    STATUS=CONVERGED      57 CALLS          58 TOTAL
+                     EDM=8.11442e-10    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     2.91501e+02   8.24314e+00   1.70096e-02  -1.27904e-06
+   2  Mean         1.35658e-01   2.66640e-04   7.05935e-07   1.49682e-01
+   3  Sigma        1.18606e-02   2.26467e-04   1.29786e-05  -3.42390e-03
+
+  Centroid = 0.135658,  Width = 0.0118606
+ Signal yield = 2088 +/- 46
+ FCN=59.5469 FROM MIGRAD    STATUS=CONVERGED      59 CALLS          60 TOTAL
+                     EDM=4.18521e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Constant     1.97377e+02   7.23596e+00   1.98643e-02  -1.64651e-04
+   2  Mean         1.36434e-01   3.28449e-04   1.18504e-06  -4.76585e-01
+   3  Sigma        1.15687e-02   3.04288e-04   2.32671e-05  -1.19638e-01
+
+  Centroid = 0.136434,  Width = 0.0115687
+ Signal yield = 1408 +/- 38
+Info in <TCanvas::Print>: pdf file pi0MassSameParentPt_Q3_489Files_Multiplicity120-260_S4To9_0.74_S25To9-0.2_Date20140625.pdf has been created
+Info in <TCanvas::SaveAs>: ROOT file pi0MassSameParentPt_Q3_489Files_Multiplicity120-260_S4To9_0.74_S25To9-0.2_Date20140625.root has been created

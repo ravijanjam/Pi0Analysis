@@ -1,0 +1,46 @@
+Universe  = vanilla
+Environment = CONDOR_ID=$(Cluster).$(Process);JobRunCount=$$([ ifThenElse(isUndefined(JobRunCount),0,JobRunCount) ]);GlideinMemory=$$([ ifThenElse(isUndefined(ImageSize_RAW),0,ImageSize_RAW) ]);Glidein_MonitorID=$$([ ifThenElse(isUndefined(Glidein_MonitorID),0,Glidein_MonitorID) ]) 
+since=(CurrentTime-EnteredCurrentStatus)
+Periodic_Remove = ((JobStatus == 2) && (((CurrentTime - JobCurrentStartDate) > (MaxWallTimeMins*60)) =?= True)) || (JobStatus==5 && $(since)>691200) || (JobStatus==1 && $(since)>691200)
+x509userproxy = x509up_u28075
+stream_output = false
+stream_error  = false
+notification  = never
+should_transfer_files   = YES
+when_to_transfer_output = ON_EXIT
+copy_to_spool           = false
++DESIRED_SEs = "se1.accre.vanderbilt.edu"
++DESIRED_CMSDataset ="/PAMinBiasUPC/HIRun2013-PromptReco-v1/RECO"
++DESIRED_CMSVersion ="CMSSW_5_3_8_HI_patch2"
++DESIRED_CMSVersionNr ="50308"
++DESIRED_CMSScramArch ="slc5_amd64_gcc462"
++DESIRED_OpSyses ="LINUX"
++DESIRED_OpSysMajorVers ="5,6"
++DESIRED_Archs ="X86_64"
++AccountingGroup ="maguire"
++Glidein_MonitorID = "https://vocms20.cern.ch//140606//$(Cluster).$(Process)"
++MaxWallTimeMins = 1315
+request_memory = 2000
+transfer_input_files = default.tgz,arguments.xml,CMSSW.sh
+Executable = CMSSW.sh
+log     = condor.log
+
++BLTaskID = "maguire_crab_0_140605_165445_2jg39r"
+Arguments  = 174 2
+output  = CMSSW_174.stdout
+error   = CMSSW_174.stderr
+transfer_output_remaps   = "CMSSW_174.stderr=/dev/null"
+transfer_output_files   = out_files_174.tgz,crab_fjr_174.xml
+Queue 1
+Arguments  = 249 2
+output  = CMSSW_249.stdout
+error   = CMSSW_249.stderr
+transfer_output_remaps   = "CMSSW_249.stderr=/dev/null"
+transfer_output_files   = out_files_249.tgz,crab_fjr_249.xml
+Queue 1
+Arguments  = 428 2
+output  = CMSSW_428.stdout
+error   = CMSSW_428.stderr
+transfer_output_remaps   = "CMSSW_428.stderr=/dev/null"
+transfer_output_files   = out_files_428.tgz,crab_fjr_428.xml
+Queue 1

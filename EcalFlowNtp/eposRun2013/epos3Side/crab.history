@@ -1,0 +1,5 @@
+140504_132505: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -create
+140504_132527: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -submit
+140504_163912: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+140504_163926: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -get
+140504_164842: /cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status

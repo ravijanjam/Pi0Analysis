@@ -1,0 +1,1636 @@
+2014-05-21 17:45:21,257 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -create
+
+2014-05-21 17:45:21,257 [INFO] 	Version 2.10.5_patch1 running on Wed May 21 17:45:21 2014 CST (22:45:21 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/
+
+2014-05-21 17:45:21,258 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/allowed_releases.conf].
+2014-05-21 17:45:21,258 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x125adf38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x125b71b8>}, 'logger': <logging.Logger instance at 0x125adf38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:45:21,385 [INFO] 	error detecting glite version 
+2014-05-21 17:45:21,389 [INFO] 	error detecting glite version 
+2014-05-21 17:45:21,390 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x125adf38>, 'conn': <httplib.HTTPSConnection instance at 0x1256af80>}, 'logger': <logging.Logger instance at 0x125adf38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:45:21,391 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x125adf38>, 'conn': <httplib.HTTPSConnection instance at 0x12545050>}, 'logger': <logging.Logger instance at 0x125adf38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:45:21,391 [DEBUG] 	Input whitelist: 
+2014-05-21 17:45:21,391 [DEBUG] 	Input blacklist: 
+2014-05-21 17:45:21,391 [DEBUG] 	Converted whitelist: 
+2014-05-21 17:45:21,391 [DEBUG] 	Converted blacklist: 
+2014-05-21 17:45:21,392 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/myproxy_server.conf].
+2014-05-21 17:45:21,392 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x125adf38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x12545128>}, 'logger': <logging.Logger instance at 0x125adf38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:45:21,392 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-05-21 17:45:21,393 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x125adf38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x12545128>}, 'logger': <logging.Logger instance at 0x125adf38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:45:21,393 [DEBUG] 	Enforced black list: TAPE,srm-cms.cern.ch,cmssrm.fnal.gov,T1_FR,T1_RU,T1_TW,cmseos.fnal.gov,cmsdca2.fnal.gov,T2_PK_NCP,T3_US_Vanderbilt_EC2
+ 
+2014-05-21 17:45:24,649 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x125adf38>, 'conn': <httplib.HTTPSConnection instance at 0x125451b8>}, 'logger': <logging.Logger instance at 0x125adf38>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-05-21 17:45:25,162 [DEBUG] 	Linux ce2.accre.vanderbilt.edu 2.6.18-348.18.1.el5 #1 SMP Thu Sep 26 15:01:07 EDT 2013 x86_64 x86_64 x86_64 GNU/Linux
+ 
+Used properties:
+Linux ce2.accre.vanderbilt.edu 2.6.18-348.18.1.el5 #1 SMP Thu Sep 26 15:01:07 EDT 2013 x86_64 x86_64 x86_64 GNU/Linux
+ 
+Used properties:
+   CMSSW.datasetpath : /EPOS_GEN-SIM_batch1/vzhukova-EPOS_RECO_batch1-b7d33bba7673cdb1ee6f4983c0800c79/USER
+   CMSSW.dbs_url : http://cmsdbsprod.cern.ch/cms_dbs_ph_analysis_01/servlet/DBSServlet
+   CMSSW.events_per_job : 3000
+   CMSSW.number_of_jobs : 500
+   CMSSW.output_file : pPb_EPOS_21May2014_TrueV1.root
+   CMSSW.pset : ecalflowntp_simMinBiasHighMass_cfg.py
+   CRAB.create : 
+   CRAB.jobtype : cmssw
+   CRAB.scheduler : remoteGlidein
+   CRAB.use_server : 0
+   USER.copy_data : 0
+   USER.email : charles.f.maguire@vanderbilt.edu
+   USER.publish_data : 0
+   USER.return_data : 1
+End of used properties.
+
+2014-05-21 17:45:25,229 [DEBUG] 	CMSSW::__init__
+2014-05-21 17:45:25,229 [DEBUG] 	Scram::Scram() version is 2
+2014-05-21 17:45:25,229 [DEBUG] 	Scram::Scram() arch is slc5_amd64_gcc462
+2014-05-21 17:45:25,230 [DEBUG] 	Downloading file [https://cmssdt.cern.ch/SDT/cgi-bin] to [/home/maguirc/.cms_crab/ReleasesXML?anytype=1].
+2014-05-21 17:45:25,230 [DEBUG] 	Service initialised ({'endpoint': 'https://cmssdt.cern.ch/SDT/cgi-bin', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/SDT/cgi-bin/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'https://cmssdt.cern.ch/SDT/cgi-bin', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmssdt.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x125adf38>, 'type': 'txt/csv', 'conn': <httplib.HTTPSConnection instance at 0x12935440>}, 'logger': <logging.Logger instance at 0x125adf38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmssdt.cern.ch, basepath: /SDT/cgi-bin/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:45:25,288 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x125adf38>, 'conn': <httplib.HTTPSConnection instance at 0x127e2d40>}, 'logger': <logging.Logger instance at 0x125adf38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:45:25,288 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x125adf38>, 'conn': <httplib.HTTPSConnection instance at 0x127e28c0>}, 'logger': <logging.Logger instance at 0x125adf38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:45:25,289 [DEBUG] 	Input whitelist: 
+2014-05-21 17:45:25,289 [DEBUG] 	Input blacklist: 
+2014-05-21 17:45:25,289 [DEBUG] 	Converted whitelist: 
+2014-05-21 17:45:25,289 [DEBUG] 	Converted blacklist: 
+2014-05-21 17:45:25,313 [INFO] 	Contacting Data Discovery Services ...
+2014-05-21 17:45:25,313 [INFO] 	Accessing DBS at: https://cmsweb.cern.ch/dbs/prod/phys01/DBSReader
+2014-05-21 17:45:25,313 [INFO] 	Will do Data Discovery using  DBS3
+2014-05-21 17:45:29,540 [INFO] 	DBS3 lookup took  4.17 sec
+2014-05-21 17:45:29,725 [INFO] 	Datatype is mc
+2014-05-21 17:45:30,744 [INFO] 	Requested dataset: /EPOS_GEN-SIM_batch1/vzhukova-EPOS_RECO_batch1-b7d33bba7673cdb1ee6f4983c0800c79/USER has 98550 events in 1 blocks.
+
+2014-05-21 17:45:30,745 [DEBUG] 	Job splitting method: EventBased
+2014-05-21 17:45:30,745 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-05-21 17:45:30,745 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x125adf38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x12731878>}, 'logger': <logging.Logger instance at 0x125adf38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:45:30,746 [DEBUG] 	Enforced black list: ['TAPE', 'srm-cms.cern.ch', 'cmssrm.fnal.gov', 'T1_FR', 'T1_RU', 'T1_TW', 'cmseos.fnal.gov', 'cmsdca2.fnal.gov', 'T2_PK_NCP', 'T3_US_Vanderbilt_EC2'] 
+2014-05-21 17:45:30,746 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x125adf38>, 'conn': <httplib.HTTPSConnection instance at 0x12731908>}, 'logger': <logging.Logger instance at 0x125adf38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:45:30,747 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x125adf38>, 'conn': <httplib.HTTPSConnection instance at 0x127319e0>}, 'logger': <logging.Logger instance at 0x125adf38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:45:30,747 [DEBUG] 	Input whitelist: 
+2014-05-21 17:45:30,747 [DEBUG] 	Input blacklist: TAPE, srm-cms.cern.ch, cmssrm.fnal.gov, T1_FR, T1_RU, T1_TW, cmseos.fnal.gov, cmsdca2.fnal.gov, T2_PK_NCP, T3_US_Vanderbilt_EC2
+2014-05-21 17:45:31,047 [DEBUG] 	Converted whitelist: 
+2014-05-21 17:45:31,047 [DEBUG] 	Converted blacklist: pcncp22.ncp.edu.pk, brazil.accre.vanderbilt.edu, srm-cms-mss.jinr-t1.ru, srm-cms.cern.ch, cmssrm.fnal.gov, srm-cms.jinr-t1.ru, cmseos.fnal.gov, ccsrm.in2p3.fr, TAPE, cmsdca2.fnal.gov, srm2.grid.sinica.edu.tw
+2014-05-21 17:45:31,047 [INFO] 	SE black list applied to data location: ['TAPE', 'srm-cms.cern.ch', 'cmssrm.fnal.gov', 'T1_FR', 'T1_RU', 'T1_TW', 'cmseos.fnal.gov', 'cmsdca2.fnal.gov', 'T2_PK_NCP', 'T3_US_Vanderbilt_EC2']
+2014-05-21 17:45:31,047 [DEBUG] 	List of blocks and used locations (SE):
+2014-05-21 17:45:31,051 [DEBUG] 	/EPOS_GEN-SIM_batch1/vzhukova-EPOS_RECO_batch1-b7d33bba7673cdb1ee6f4983c0800c79/USER#590f5dcb-302e-4af4-a2a6-69cf8b9cef86 : ['se01.cmsaf.mit.edu']
+2014-05-21 17:45:31,051 [INFO] 	Requested 0 events, but only 98550 events are available.
+2014-05-21 17:45:31,052 [INFO] 	May not create the exact number_of_jobs requested.
+2014-05-21 17:45:31,052 [DEBUG] 	Events in Block File 98550
+2014-05-21 17:45:31,348 [DEBUG] 	
+Job 1 can run over 3000 events.
+Job 1 Destination: ['T2_US_MIT']
+Job 2 can run over 3000 events.
+Job 2 Destination: ['T2_US_MIT']
+Job 3 can run over 3000 events.
+Job 3 Destination: ['T2_US_MIT']
+Job 4 can run over 3000 events.
+Job 4 Destination: ['T2_US_MIT']
+Job 5 can run over 3000 events.
+Job 5 Destination: ['T2_US_MIT']
+Job 6 can run over 3000 events.
+Job 6 Destination: ['T2_US_MIT']
+Job 7 can run over 3000 events.
+Job 7 Destination: ['T2_US_MIT']
+Job 8 can run over 3000 events.
+Job 8 Destination: ['T2_US_MIT']
+Job 9 can run over 3000 events.
+Job 9 Destination: ['T2_US_MIT']
+Job 10 can run over 3000 events.
+Job 10 Destination: ['T2_US_MIT']
+Job 11 can run over 3000 events.
+Job 11 Destination: ['T2_US_MIT']
+Job 12 can run over 3000 events.
+Job 12 Destination: ['T2_US_MIT']
+Job 13 can run over 3000 events.
+Job 13 Destination: ['T2_US_MIT']
+Job 14 can run over 3000 events.
+Job 14 Destination: ['T2_US_MIT']
+Job 15 can run over 3000 events.
+Job 15 Destination: ['T2_US_MIT']
+Job 16 can run over 3000 events.
+Job 16 Destination: ['T2_US_MIT']
+Job 17 can run over 3000 events.
+Job 17 Destination: ['T2_US_MIT']
+Job 18 can run over 3000 events.
+Job 18 Destination: ['T2_US_MIT']
+Job 19 can run over 3000 events.
+Job 19 Destination: ['T2_US_MIT']
+Job 20 can run over 3000 events.
+Job 20 Destination: ['T2_US_MIT']
+Job 21 can run over 3000 events.
+Job 21 Destination: ['T2_US_MIT']
+Job 22 can run over 3000 events.
+Job 22 Destination: ['T2_US_MIT']
+Job 23 can run over 3000 events.
+Job 23 Destination: ['T2_US_MIT']
+Job 24 can run over 3000 events.
+Job 24 Destination: ['T2_US_MIT']
+Job 25 can run over 3000 events.
+Job 25 Destination: ['T2_US_MIT']
+Job 26 can run over 3000 events.
+Job 26 Destination: ['T2_US_MIT']
+Job 27 can run over 3000 events.
+Job 27 Destination: ['T2_US_MIT']
+Job 28 can run over 3000 events.
+Job 28 Destination: ['T2_US_MIT']
+Job 29 can run over 3000 events.
+Job 29 Destination: ['T2_US_MIT']
+Job 30 can run over 3000 events.
+Job 30 Destination: ['T2_US_MIT']
+Job 31 can run over 3000 events.
+Job 31 Destination: ['T2_US_MIT']
+Job 32 can run over 3000 events.
+Job 32 Destination: ['T2_US_MIT']
+Job 33 can run over 2550 events.
+Job 33 Destination: ['T2_US_MIT']
+
+2014-05-21 17:45:31,349 [INFO] 	33 job(s) can run on 98550 events.
+
+2014-05-21 17:45:31,349 [DEBUG] 	Selected sites for block /EPOS_GEN-SIM_batch1/vzhukova-EPOS_RECO_batch1-b7d33bba7673cdb1ee6f4983c0800c79/USER#590f5dcb-302e-4af4-a2a6-69cf8b9cef86 via blacklist are se01.cmsaf.mit.edu.
+
+2014-05-21 17:45:31,349 [INFO] 	List of jobs and available destination sites:
+
+Block     1: jobs                 1-33: sites: T2_US_MIT
+
+2014-05-21 17:45:31,376 [DEBUG] 	PsetManipulator::__init__: PSet file = ecalflowntp_simMinBiasHighMass_cfg.py
+2014-05-21 17:45:34,873 [DEBUG] 	Output from TFileService pPb_EPOS_21May2014_TrueV1.root already in output files
+2014-05-21 17:45:34,880 [DEBUG] 	Exe /cvmfs/cms.cern.ch/slc5_amd64_gcc462/cms/cmssw/CMSSW_5_3_8_HI/bin/slc5_amd64_gcc462/cmsRun to be tarred
+2014-05-21 17:45:34,917 [DEBUG] 	lib /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/lib to be tarred
+2014-05-21 17:45:35,672 [DEBUG] 	data HeavyIonsAnalysis/Configuration/data to be tarred
+2014-05-21 17:45:35,691 [DEBUG] 	data RecoHI/HiCentralityAlgos/data to be tarred
+2014-05-21 17:45:35,831 [DEBUG] 	data CmsHi/JetAnalysis/data to be tarred
+2014-05-21 17:45:36,111 [DEBUG] 	data CmsHi/Analysis2010/data to be tarred
+2014-05-21 17:45:36,693 [DEBUG] 	Creator: JobType CMSSW created
+2014-05-21 17:45:36,693 [DEBUG] 	Creator: total # of jobs = 33
+2014-05-21 17:45:36,693 [DEBUG] 	Creator constructor finished
+2014-05-21 17:45:36,853 [DEBUG] 	Creator::run() called
+2014-05-21 17:45:36,853 [DEBUG] 	Scram::Scram() version is 2
+2014-05-21 17:45:36,853 [DEBUG] 	Scram::Scram() arch is slc5_amd64_gcc462
+2014-05-21 17:45:37,158 [INFO] 	Creating 33 jobs, please wait...
+2014-05-21 17:45:37,158 [DEBUG] 	Creation Time: 0.305256128311
+2014-05-21 17:45:37,158 [INFO] 	Total of 33 jobs created.
+
+2014-05-21 17:45:52,337 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -submit 1
+
+2014-05-21 17:45:52,337 [INFO] 	Version 2.10.5_patch1 running on Wed May 21 17:45:52 2014 CST (22:45:52 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/
+
+2014-05-21 17:45:52,337 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/allowed_releases.conf].
+2014-05-21 17:45:52,337 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x94f4f38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x94fb1b8>}, 'logger': <logging.Logger instance at 0x94f4f38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:45:52,422 [INFO] 	error detecting glite version 
+2014-05-21 17:45:52,426 [INFO] 	error detecting glite version 
+2014-05-21 17:45:52,426 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x94f4f38>, 'conn': <httplib.HTTPSConnection instance at 0x948bf80>}, 'logger': <logging.Logger instance at 0x94f4f38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:45:52,426 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x94f4f38>, 'conn': <httplib.HTTPSConnection instance at 0x9489050>}, 'logger': <logging.Logger instance at 0x94f4f38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:45:52,426 [DEBUG] 	Input whitelist: 
+2014-05-21 17:45:52,426 [DEBUG] 	Input blacklist: 
+2014-05-21 17:45:52,427 [DEBUG] 	Converted whitelist: 
+2014-05-21 17:45:52,427 [DEBUG] 	Converted blacklist: 
+2014-05-21 17:45:52,427 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/myproxy_server.conf].
+2014-05-21 17:45:52,427 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x94f4f38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x9489128>}, 'logger': <logging.Logger instance at 0x94f4f38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:45:52,427 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-05-21 17:45:52,427 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x94f4f38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x9489128>}, 'logger': <logging.Logger instance at 0x94f4f38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:45:52,428 [DEBUG] 	Enforced black list: TAPE,srm-cms.cern.ch,cmssrm.fnal.gov,T1_FR,T1_RU,T1_TW,cmseos.fnal.gov,cmsdca2.fnal.gov,T2_PK_NCP,T3_US_Vanderbilt_EC2
+ 
+2014-05-21 17:45:55,377 [DEBUG] 	parseRange_ 1
+2014-05-21 17:45:55,378 [DEBUG] 	Scram::Scram() version is 2
+2014-05-21 17:45:55,378 [DEBUG] 	Scram::Scram() arch is slc5_amd64_gcc462
+2014-05-21 17:45:55,396 [DEBUG] 	Submitter::run() called
+2014-05-21 17:45:55,408 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x94f4f38>, 'conn': <httplib.HTTPSConnection instance at 0x94b21b8>}, 'logger': <logging.Logger instance at 0x94f4f38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:45:55,408 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x94f4f38>, 'conn': <httplib.HTTPSConnection instance at 0x94b25a8>}, 'logger': <logging.Logger instance at 0x94f4f38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:45:55,408 [DEBUG] 	Input whitelist: 
+2014-05-21 17:45:55,408 [DEBUG] 	Input blacklist: 
+2014-05-21 17:45:55,408 [DEBUG] 	Converted whitelist: 
+2014-05-21 17:45:55,408 [DEBUG] 	Converted blacklist: 
+2014-05-21 17:45:55,408 [DEBUG] 	nsjobs 1
+2014-05-21 17:45:55,408 [DEBUG] 	Total jobs 33
+2014-05-21 17:45:55,420 [DEBUG] 	nj_list [1]
+2014-05-21 17:45:55,461 [DEBUG] 	GRIDNAME: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=maguire/CN=671063/CN=Charles Felix Maguire 
+2014-05-21 17:45:55,479 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x94f4f38>, 'conn': <httplib.HTTPSConnection instance at 0x94b2320>}, 'logger': <logging.Logger instance at 0x94f4f38>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-05-21 17:45:55,945 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x94f4f38>, 'conn': <httplib.HTTPSConnection instance at 0x98c6ea8>}, 'logger': <logging.Logger instance at 0x94f4f38>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-05-21 17:45:56,401 [DEBUG] 	Submission DashBoard Pre-Submission report: {'ApplicationVersion': 'CMSSW_5_3_8_HI_patch2', 'taskId': 'maguire_crab_0_140521_174521_v4g9w2', 'resubmitter': 'user', 'tool': 'crab', 'vo': 'cms', 'tool_ui': 'ce2.accre.vanderbilt.edu', 'JSToolVersion': '2.10.5_patch1', 'user': 'maguire', 'scheduler': 'GLIDEIN', 'taskType': 'analysis', 'CMSUser': 'maguire', 'jobId': 'TaskMeta', 'datasetFull': '/EPOS_GEN-SIM_batch1/vzhukova-EPOS_RECO_batch1-b7d33bba7673cdb1ee6f4983c0800c79/USER', 'exe': 'cmsRun', 'GridName': '/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=maguire/CN=671063/CN=Charles Felix Maguire', 'SubmissionType': 'direct'}
+2014-05-21 17:45:56,402 [INFO] 	Checking available resources...
+2014-05-21 17:45:56,425 [INFO] 	Found  compatible site(s) for job 1
+2014-05-21 17:45:56,426 [INFO] 	1 blocks of jobs will be submitted
+2014-05-21 17:45:56,426 [DEBUG] 	Delegating proxy 
+2014-05-21 17:45:56,427 [DEBUG] 	Submitting jobs [1]
+2014-05-21 17:45:56,470 [DEBUG] 	Calling ServerConfig default
+2014-05-21 17:45:56,470 [DEBUG] 	getting serverlist from web
+2014-05-21 17:45:56,470 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/AvailableServerList].
+2014-05-21 17:45:56,470 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x94f4f38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x94bea70>}, 'logger': <logging.Logger instance at 0x94f4f38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:45:56,471 [DEBUG] 	/home/maguirc/.cms_crab/0_GET_AvailableServerList expired, refreshing cache
+2014-05-21 17:45:56,472 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/AvailableServerList
+	data: {}
+2014-05-21 17:45:57,171 [DEBUG] 	All avaialble servers: [['cern_vocms20', '2.8.4-', 'remoteGlidein'], ['cern_vocms83', '2.8.4-', 'remoteGlidein'], ['unl_hcc-crabserver', '2.8.4-', 'remoteGlidein'], ['unl_hcc-crabserver', '2.8.4-', 'remoteGlidein'], ['unl_hcc-crabserver', '2.8.4-', 'remoteGlidein'], ['ucsd_submit-4', '2.8.4-', 'remoteGlidein'], ['ucsd_submit-4', '2.8.4-', 'remoteGlidein'], ['ucsd_submit-4', '2.8.4-', 'remoteGlidein'], ['ucsd_submit-6', '2.8.4-', 'remoteGlidein'], ['ucsd_submit-6', '2.8.4-', 'remoteGlidein'], ['ucsd_submit-6', '2.8.4-', 'remoteGlidein']]
+2014-05-21 17:45:57,172 [DEBUG] 	All avaialble servers compatible with 2.10.5_patch1: ['cern_vocms20', 'cern_vocms83', 'unl_hcc-crabserver', 'unl_hcc-crabserver', 'unl_hcc-crabserver', 'ucsd_submit-4', 'ucsd_submit-4', 'ucsd_submit-4', 'ucsd_submit-6', 'ucsd_submit-6', 'ucsd_submit-6']
+2014-05-21 17:45:57,172 [DEBUG] 	Avaialble servers: ['cern_vocms20', 'cern_vocms83', 'unl_hcc-crabserver', 'unl_hcc-crabserver', 'unl_hcc-crabserver', 'ucsd_submit-4', 'ucsd_submit-4', 'ucsd_submit-4', 'ucsd_submit-6', 'ucsd_submit-6', 'ucsd_submit-6'] choosen: ucsd_submit-4
+2014-05-21 17:45:57,172 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/server_ucsd_submit-4.conf].
+2014-05-21 17:45:57,173 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x94f4f38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x94bec20>}, 'logger': <logging.Logger instance at 0x94f4f38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:45:57,174 [DEBUG] 	/home/maguirc/.cms_crab/0_GET_server_ucsd_submit-4.conf expired, refreshing cache
+2014-05-21 17:45:57,174 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/server_ucsd_submit-4.conf
+	data: {}
+2014-05-21 17:46:00,488 [INFO] 	remotehost from Avail.List = submit-4.t2.ucsd.edu
+2014-05-21 17:46:00,543 [DEBUG] 	Scram::Scram() version is 2
+2014-05-21 17:46:00,544 [DEBUG] 	Scram::Scram() arch is slc5_amd64_gcc462
+2014-05-21 17:46:00,561 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x94f4f38>, 'conn': <httplib.HTTPSConnection instance at 0x9673f38>}, 'logger': <logging.Logger instance at 0x94f4f38>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-05-21 17:46:01,366 [INFO] 	contacting remote host submit-4.t2.ucsd.edu
+2014-05-21 17:46:01,403 [DEBUG] 	Execute command :
+gsissh  -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-submit-4.t2.ucsd.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no submit-4.t2.ucsd.edu  "sleep 3600"
+2014-05-21 17:46:01,409 [INFO] 	Establishing gsissh ControlPath. Wait 2 sec ...
+2014-05-21 17:46:03,411 [INFO] 	COPY FILES TO REMOTE HOST
+2014-05-21 17:46:03,412 [DEBUG] 	Execute command :
+gsissh -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-submit-4.t2.ucsd.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no submit-4.t2.ucsd.edu  mkdir -p maguire_crab_0_140521_174521_v4g9w2
+2014-05-21 17:46:03,594 [DEBUG] 	Status,output= 0,
+2014-05-21 17:46:03,595 [DEBUG] 	Execute command :
+gsiscp -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-submit-4.t2.ucsd.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/share/default.tgz /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/share/arguments.xml /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/job/CMSSW.sh /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/share//maguire_crab_0_140521_174521_v4g9w2_job1.jdl /tmp/x509up_u28075 submit-4.t2.ucsd.edu:maguire_crab_0_140521_174521_v4g9w2
+2014-05-21 17:46:06,369 [DEBUG] 	Status,output= 0,
+2014-05-21 17:46:06,369 [INFO] 	SUBMIT TO REMOTE GLIDEIN FRONTEND
+2014-05-21 17:46:06,369 [DEBUG] 	Execute command :
+gsissh -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-submit-4.t2.ucsd.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no submit-4.t2.ucsd.edu "cd maguire_crab_0_140521_174521_v4g9w2;  condor_submit  maguire_crab_0_140521_174521_v4g9w2_job1.jdl; echo 'CONDOR_SUBMIT-EXIT-STATUS IS' \$?"
+2014-05-21 17:46:06,902 [DEBUG] 	Status,output= 0,Submitting job(s).
+1 job(s) submitted to cluster 204294.
+CONDOR_SUBMIT-EXIT-STATUS IS 0
+2014-05-21 17:46:06,903 [DEBUG] 	Returning {u'maguire_crab_0_140521_174521_v4g9w2_job1': 'submit-4.t2.ucsd.edu//140521//204294.0'}
+maguire_crab_0_140521_174521_v4g9w2
+ce2.accre.vanderbilt.edu
+2014-05-21 17:46:06,921 [DEBUG] 	WMS : ce2.accre.vanderbilt.edu
+Collection ID : maguire_crab_0_140521_174521_v4g9w2
+2014-05-21 17:46:06,923 [DEBUG] 	Submitted job # 1
+2014-05-21 17:46:06,938 [DEBUG] 	Updating [[1]] state SubSuccess
+2014-05-21 17:46:07,001 [DEBUG] 	GRIDNAME: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=maguire/CN=671063/CN=Charles Felix Maguire 
+2014-05-21 17:46:07,020 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x94f4f38>, 'conn': <httplib.HTTPSConnection instance at 0x993eb90>}, 'logger': <logging.Logger instance at 0x94f4f38>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-05-21 17:46:07,489 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x94f4f38>, 'conn': <httplib.HTTPSConnection instance at 0x993e878>}, 'logger': <logging.Logger instance at 0x94f4f38>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-05-21 17:46:07,945 [DEBUG] 	Submission Time: 12.5486309528
+2014-05-21 17:46:07,945 [INFO] 	Total of 1 jobs submitted.
+2014-05-21 17:48:27,656 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+
+2014-05-21 17:48:27,656 [INFO] 	Version 2.10.5_patch1 running on Wed May 21 17:48:27 2014 CST (22:48:27 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/
+
+2014-05-21 17:48:27,657 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/allowed_releases.conf].
+2014-05-21 17:48:27,657 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x176b6f38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x176bd1b8>}, 'logger': <logging.Logger instance at 0x176b6f38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:48:27,800 [INFO] 	error detecting glite version 
+2014-05-21 17:48:27,804 [INFO] 	error detecting glite version 
+2014-05-21 17:48:27,805 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x176b6f38>, 'conn': <httplib.HTTPSConnection instance at 0x1764df80>}, 'logger': <logging.Logger instance at 0x176b6f38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:48:27,805 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x176b6f38>, 'conn': <httplib.HTTPSConnection instance at 0x1764b050>}, 'logger': <logging.Logger instance at 0x176b6f38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:48:27,805 [DEBUG] 	Input whitelist: 
+2014-05-21 17:48:27,805 [DEBUG] 	Input blacklist: 
+2014-05-21 17:48:27,806 [DEBUG] 	Converted whitelist: 
+2014-05-21 17:48:27,806 [DEBUG] 	Converted blacklist: 
+2014-05-21 17:48:27,806 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/myproxy_server.conf].
+2014-05-21 17:48:27,806 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x176b6f38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1764b128>}, 'logger': <logging.Logger instance at 0x176b6f38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:48:27,807 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-05-21 17:48:27,807 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x176b6f38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1764b128>}, 'logger': <logging.Logger instance at 0x176b6f38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:48:27,807 [DEBUG] 	Enforced black list: TAPE,srm-cms.cern.ch,cmssrm.fnal.gov,T1_FR,T1_RU,T1_TW,cmseos.fnal.gov,cmsdca2.fnal.gov,T2_PK_NCP,T3_US_Vanderbilt_EC2
+ 
+2014-05-21 17:48:31,194 [DEBUG] 	Status::run() called
+2014-05-21 17:48:31,194 [INFO] 	Checking the status of all jobs: please wait
+2014-05-21 17:48:31,321 [INFO] 	contacting remote host submit-4.t2.ucsd.edu
+2014-05-21 17:48:31,345 [DEBUG] 	Execute command :
+gsiscp -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-submit-4.t2.ucsd.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no /tmp/x509up_u28075 submit-4.t2.ucsd.edu:maguire_crab_0_140521_174521_v4g9w2
+2014-05-21 17:48:31,780 [DEBUG] 	Status,output= 0,
+2014-05-21 17:48:31,780 [DEBUG] 	Execute command :
+gsissh -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-submit-4.t2.ucsd.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no submit-4.t2.ucsd.edu  "condor_history -userlog maguire_crab_0_140521_174521_v4g9w2/condor.log -xml"
+2014-05-21 17:48:32,037 [INFO] 	
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     N   Submitted         SubSuccess                           
+2     N   Created           Created                              
+3     N   Created           Created                              
+4     N   Created           Created                              
+5     N   Created           Created                              
+6     N   Created           Created                              
+7     N   Created           Created                              
+8     N   Created           Created                              
+9     N   Created           Created                              
+10    N   Created           Created                              
+--------------------------------------------------------------------------------
+11    N   Created           Created                              
+12    N   Created           Created                              
+13    N   Created           Created                              
+14    N   Created           Created                              
+15    N   Created           Created                              
+16    N   Created           Created                              
+17    N   Created           Created                              
+18    N   Created           Created                              
+19    N   Created           Created                              
+20    N   Created           Created                              
+--------------------------------------------------------------------------------
+21    N   Created           Created                              
+22    N   Created           Created                              
+23    N   Created           Created                              
+24    N   Created           Created                              
+25    N   Created           Created                              
+26    N   Created           Created                              
+27    N   Created           Created                              
+28    N   Created           Created                              
+29    N   Created           Created                              
+30    N   Created           Created                              
+--------------------------------------------------------------------------------
+31    N   Created           Created                              
+32    N   Created           Created                              
+33    N   Created           Created                              
+
+2014-05-21 17:48:32,090 [INFO] 	 33 Total Jobs 
+ >>>>>>>>> 32 Jobs Created 
+ >>>>>>>>> 1 Jobs Submitted 
+	List of jobs Submitted: 1 
+
+2014-05-21 17:48:32,103 [INFO] 	You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=maguire_crab_0_140521_174521_v4g9w2
+	Your task name is: maguire_crab_0_140521_174521_v4g9w2 
+
+2014-05-21 17:48:32,103 [DEBUG] 	Status Time: 0.908675193787
+2014-05-21 17:57:57,743 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+
+2014-05-21 17:57:57,744 [INFO] 	Version 2.10.5_patch1 running on Wed May 21 17:57:57 2014 CST (22:57:57 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/
+
+2014-05-21 17:57:57,744 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/allowed_releases.conf].
+2014-05-21 17:57:57,744 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1c75af38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1c7611b8>}, 'logger': <logging.Logger instance at 0x1c75af38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:57:57,914 [INFO] 	error detecting glite version 
+2014-05-21 17:57:57,917 [INFO] 	error detecting glite version 
+2014-05-21 17:57:57,918 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1c75af38>, 'conn': <httplib.HTTPSConnection instance at 0x1c6f1f80>}, 'logger': <logging.Logger instance at 0x1c75af38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:57:57,918 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1c75af38>, 'conn': <httplib.HTTPSConnection instance at 0x1c6ef050>}, 'logger': <logging.Logger instance at 0x1c75af38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:57:57,918 [DEBUG] 	Input whitelist: 
+2014-05-21 17:57:57,918 [DEBUG] 	Input blacklist: 
+2014-05-21 17:57:57,918 [DEBUG] 	Converted whitelist: 
+2014-05-21 17:57:57,919 [DEBUG] 	Converted blacklist: 
+2014-05-21 17:57:57,919 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/myproxy_server.conf].
+2014-05-21 17:57:57,919 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1c75af38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1c6ef128>}, 'logger': <logging.Logger instance at 0x1c75af38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:57:57,919 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-05-21 17:57:57,919 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1c75af38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1c6ef128>}, 'logger': <logging.Logger instance at 0x1c75af38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 17:57:57,920 [DEBUG] 	Enforced black list: TAPE,srm-cms.cern.ch,cmssrm.fnal.gov,T1_FR,T1_RU,T1_TW,cmseos.fnal.gov,cmsdca2.fnal.gov,T2_PK_NCP,T3_US_Vanderbilt_EC2
+ 
+2014-05-21 17:58:01,578 [DEBUG] 	Status::run() called
+2014-05-21 17:58:01,578 [INFO] 	Checking the status of all jobs: please wait
+2014-05-21 17:58:01,677 [INFO] 	contacting remote host submit-4.t2.ucsd.edu
+2014-05-21 17:58:01,713 [DEBUG] 	Execute command :
+gsiscp -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-submit-4.t2.ucsd.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no /tmp/x509up_u28075 submit-4.t2.ucsd.edu:maguire_crab_0_140521_174521_v4g9w2
+2014-05-21 17:58:02,335 [DEBUG] 	Status,output= 0,
+2014-05-21 17:58:02,335 [DEBUG] 	Execute command :
+gsissh -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-submit-4.t2.ucsd.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no submit-4.t2.ucsd.edu  "condor_history -userlog maguire_crab_0_140521_174521_v4g9w2/condor.log -xml"
+2014-05-21 17:58:02,670 [INFO] 	
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     N   Running           SubSuccess                           ce02.cmsaf.mit.edu
+2     N   Created           Created                              
+3     N   Created           Created                              
+4     N   Created           Created                              
+5     N   Created           Created                              
+6     N   Created           Created                              
+7     N   Created           Created                              
+8     N   Created           Created                              
+9     N   Created           Created                              
+10    N   Created           Created                              
+--------------------------------------------------------------------------------
+11    N   Created           Created                              
+12    N   Created           Created                              
+13    N   Created           Created                              
+14    N   Created           Created                              
+15    N   Created           Created                              
+16    N   Created           Created                              
+17    N   Created           Created                              
+18    N   Created           Created                              
+19    N   Created           Created                              
+20    N   Created           Created                              
+--------------------------------------------------------------------------------
+21    N   Created           Created                              
+22    N   Created           Created                              
+23    N   Created           Created                              
+24    N   Created           Created                              
+25    N   Created           Created                              
+26    N   Created           Created                              
+27    N   Created           Created                              
+28    N   Created           Created                              
+29    N   Created           Created                              
+30    N   Created           Created                              
+--------------------------------------------------------------------------------
+31    N   Created           Created                              
+32    N   Created           Created                              
+33    N   Created           Created                              
+
+2014-05-21 17:58:02,723 [INFO] 	 33 Total Jobs 
+ >>>>>>>>> 32 Jobs Created 
+ >>>>>>>>> 1 Jobs Running 
+	List of jobs Running: 1 
+
+2014-05-21 17:58:02,735 [INFO] 	You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=maguire_crab_0_140521_174521_v4g9w2
+	Your task name is: maguire_crab_0_140521_174521_v4g9w2 
+
+2014-05-21 17:58:02,735 [DEBUG] 	Status Time: 1.1570289135
+2014-05-21 18:00:40,426 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+
+2014-05-21 18:00:40,426 [INFO] 	Version 2.10.5_patch1 running on Wed May 21 18:00:40 2014 CST (23:00:40 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/
+
+2014-05-21 18:00:40,427 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/allowed_releases.conf].
+2014-05-21 18:00:40,427 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xe380f38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xe3871b8>}, 'logger': <logging.Logger instance at 0xe380f38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:00:40,577 [INFO] 	error detecting glite version 
+2014-05-21 18:00:40,582 [INFO] 	error detecting glite version 
+2014-05-21 18:00:40,583 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xe380f38>, 'conn': <httplib.HTTPSConnection instance at 0xe317f80>}, 'logger': <logging.Logger instance at 0xe380f38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:00:40,583 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xe380f38>, 'conn': <httplib.HTTPSConnection instance at 0xe315050>}, 'logger': <logging.Logger instance at 0xe380f38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:00:40,583 [DEBUG] 	Input whitelist: 
+2014-05-21 18:00:40,583 [DEBUG] 	Input blacklist: 
+2014-05-21 18:00:40,583 [DEBUG] 	Converted whitelist: 
+2014-05-21 18:00:40,584 [DEBUG] 	Converted blacklist: 
+2014-05-21 18:00:40,584 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/myproxy_server.conf].
+2014-05-21 18:00:40,584 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xe380f38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xe315128>}, 'logger': <logging.Logger instance at 0xe380f38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:00:40,584 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-05-21 18:00:40,585 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xe380f38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xe315128>}, 'logger': <logging.Logger instance at 0xe380f38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:00:40,585 [DEBUG] 	Enforced black list: TAPE,srm-cms.cern.ch,cmssrm.fnal.gov,T1_FR,T1_RU,T1_TW,cmseos.fnal.gov,cmsdca2.fnal.gov,T2_PK_NCP,T3_US_Vanderbilt_EC2
+ 
+2014-05-21 18:00:43,286 [DEBUG] 	Status::run() called
+2014-05-21 18:00:43,286 [INFO] 	Checking the status of all jobs: please wait
+2014-05-21 18:00:43,353 [INFO] 	contacting remote host submit-4.t2.ucsd.edu
+2014-05-21 18:00:43,385 [DEBUG] 	Execute command :
+gsiscp -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-submit-4.t2.ucsd.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no /tmp/x509up_u28075 submit-4.t2.ucsd.edu:maguire_crab_0_140521_174521_v4g9w2
+2014-05-21 18:00:43,837 [DEBUG] 	Status,output= 0,
+2014-05-21 18:00:43,838 [DEBUG] 	Execute command :
+gsissh -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-submit-4.t2.ucsd.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no submit-4.t2.ucsd.edu  "condor_history -userlog maguire_crab_0_140521_174521_v4g9w2/condor.log -xml"
+2014-05-21 18:00:44,095 [INFO] 	
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     N   Running           SubSuccess                           ce02.cmsaf.mit.edu
+2     N   Created           Created                              
+3     N   Created           Created                              
+4     N   Created           Created                              
+5     N   Created           Created                              
+6     N   Created           Created                              
+7     N   Created           Created                              
+8     N   Created           Created                              
+9     N   Created           Created                              
+10    N   Created           Created                              
+--------------------------------------------------------------------------------
+11    N   Created           Created                              
+12    N   Created           Created                              
+13    N   Created           Created                              
+14    N   Created           Created                              
+15    N   Created           Created                              
+16    N   Created           Created                              
+17    N   Created           Created                              
+18    N   Created           Created                              
+19    N   Created           Created                              
+20    N   Created           Created                              
+--------------------------------------------------------------------------------
+21    N   Created           Created                              
+22    N   Created           Created                              
+23    N   Created           Created                              
+24    N   Created           Created                              
+25    N   Created           Created                              
+26    N   Created           Created                              
+27    N   Created           Created                              
+28    N   Created           Created                              
+29    N   Created           Created                              
+30    N   Created           Created                              
+--------------------------------------------------------------------------------
+31    N   Created           Created                              
+32    N   Created           Created                              
+33    N   Created           Created                              
+
+2014-05-21 18:00:44,145 [INFO] 	 33 Total Jobs 
+ >>>>>>>>> 32 Jobs Created 
+ >>>>>>>>> 1 Jobs Running 
+	List of jobs Running: 1 
+
+2014-05-21 18:00:44,156 [INFO] 	You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=maguire_crab_0_140521_174521_v4g9w2
+	Your task name is: maguire_crab_0_140521_174521_v4g9w2 
+
+2014-05-21 18:00:44,156 [DEBUG] 	Status Time: 0.870353937149
+2014-05-21 18:06:17,269 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+
+2014-05-21 18:06:17,270 [INFO] 	Version 2.10.5_patch1 running on Wed May 21 18:06:17 2014 CST (23:06:17 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/
+
+2014-05-21 18:06:17,270 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/allowed_releases.conf].
+2014-05-21 18:06:17,271 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x10395f38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1039c1b8>}, 'logger': <logging.Logger instance at 0x10395f38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:06:17,395 [INFO] 	error detecting glite version 
+2014-05-21 18:06:17,400 [INFO] 	error detecting glite version 
+2014-05-21 18:06:17,401 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x10395f38>, 'conn': <httplib.HTTPSConnection instance at 0x1032cf80>}, 'logger': <logging.Logger instance at 0x10395f38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:06:17,401 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x10395f38>, 'conn': <httplib.HTTPSConnection instance at 0x1032a050>}, 'logger': <logging.Logger instance at 0x10395f38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:06:17,401 [DEBUG] 	Input whitelist: 
+2014-05-21 18:06:17,401 [DEBUG] 	Input blacklist: 
+2014-05-21 18:06:17,401 [DEBUG] 	Converted whitelist: 
+2014-05-21 18:06:17,402 [DEBUG] 	Converted blacklist: 
+2014-05-21 18:06:17,402 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/myproxy_server.conf].
+2014-05-21 18:06:17,402 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x10395f38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1032a128>}, 'logger': <logging.Logger instance at 0x10395f38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:06:17,402 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-05-21 18:06:17,403 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x10395f38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1032a128>}, 'logger': <logging.Logger instance at 0x10395f38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:06:17,403 [DEBUG] 	Enforced black list: TAPE,srm-cms.cern.ch,cmssrm.fnal.gov,T1_FR,T1_RU,T1_TW,cmseos.fnal.gov,cmsdca2.fnal.gov,T2_PK_NCP,T3_US_Vanderbilt_EC2
+ 
+2014-05-21 18:06:20,950 [DEBUG] 	Status::run() called
+2014-05-21 18:06:20,951 [INFO] 	Checking the status of all jobs: please wait
+2014-05-21 18:06:21,021 [INFO] 	contacting remote host submit-4.t2.ucsd.edu
+2014-05-21 18:06:21,058 [DEBUG] 	Execute command :
+gsiscp -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-submit-4.t2.ucsd.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no /tmp/x509up_u28075 submit-4.t2.ucsd.edu:maguire_crab_0_140521_174521_v4g9w2
+2014-05-21 18:06:21,561 [DEBUG] 	Status,output= 0,
+2014-05-21 18:06:21,561 [DEBUG] 	Execute command :
+gsissh -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-submit-4.t2.ucsd.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no submit-4.t2.ucsd.edu  "condor_history -userlog maguire_crab_0_140521_174521_v4g9w2/condor.log -xml"
+2014-05-21 18:06:21,832 [DEBUG] 	Execute command :
+gsissh -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-submit-4.t2.ucsd.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no submit-4.t2.ucsd.edu "cd maguire_crab_0_140521_174521_v4g9w2; egrep -H WrapperExitCode\|ExeExitCode crab_fjr_*xml|tr '_.\t\"' ' '|awk '{print \$3\" \"\$7\" \"\$9}'"
+2014-05-21 18:06:22,052 [DEBUG] 	Status,output= 0
+1 0 WrapperExitCode
+1 0 ExeExitCode
+2014-05-21 18:06:22,146 [INFO] 	
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+2     N   Created           Created                              
+3     N   Created           Created                              
+4     N   Created           Created                              
+5     N   Created           Created                              
+6     N   Created           Created                              
+7     N   Created           Created                              
+8     N   Created           Created                              
+9     N   Created           Created                              
+10    N   Created           Created                              
+--------------------------------------------------------------------------------
+11    N   Created           Created                              
+12    N   Created           Created                              
+13    N   Created           Created                              
+14    N   Created           Created                              
+15    N   Created           Created                              
+16    N   Created           Created                              
+17    N   Created           Created                              
+18    N   Created           Created                              
+19    N   Created           Created                              
+20    N   Created           Created                              
+--------------------------------------------------------------------------------
+21    N   Created           Created                              
+22    N   Created           Created                              
+23    N   Created           Created                              
+24    N   Created           Created                              
+25    N   Created           Created                              
+26    N   Created           Created                              
+27    N   Created           Created                              
+28    N   Created           Created                              
+29    N   Created           Created                              
+30    N   Created           Created                              
+--------------------------------------------------------------------------------
+31    N   Created           Created                              
+32    N   Created           Created                              
+33    N   Created           Created                              
+
+2014-05-21 18:06:22,179 [INFO] 	ExitCodes Summary
+ >>>>>>>>> 1 Jobs with Wrapper Exit Code : 0 
+	 List of jobs: 1 
+	See https://twiki.cern.ch/twiki/bin/view/CMS/JobExitCodes for Exit Code meaning
+
+2014-05-21 18:06:22,198 [INFO] 	 33 Total Jobs 
+ >>>>>>>>> 32 Jobs Created 
+ >>>>>>>>> 1 Jobs Done
+	Jobs terminated: retrieve them with: crab -getoutput <List of jobs>
+	List of jobs: 1 
+
+2014-05-21 18:06:22,209 [INFO] 	You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=maguire_crab_0_140521_174521_v4g9w2
+	Your task name is: maguire_crab_0_140521_174521_v4g9w2 
+
+2014-05-21 18:06:22,210 [DEBUG] 	Status Time: 1.25878500938
+2014-05-21 18:06:29,536 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -get 1
+
+2014-05-21 18:06:29,536 [INFO] 	Version 2.10.5_patch1 running on Wed May 21 18:06:29 2014 CST (23:06:29 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/
+
+2014-05-21 18:06:29,536 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/allowed_releases.conf].
+2014-05-21 18:06:29,537 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1d8d1f38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1d8d81b8>}, 'logger': <logging.Logger instance at 0x1d8d1f38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:06:29,628 [INFO] 	error detecting glite version 
+2014-05-21 18:06:29,632 [INFO] 	error detecting glite version 
+2014-05-21 18:06:29,632 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1d8d1f38>, 'conn': <httplib.HTTPSConnection instance at 0x1d7eef80>}, 'logger': <logging.Logger instance at 0x1d8d1f38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:06:29,633 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1d8d1f38>, 'conn': <httplib.HTTPSConnection instance at 0x1d7e2050>}, 'logger': <logging.Logger instance at 0x1d8d1f38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:06:29,633 [DEBUG] 	Input whitelist: 
+2014-05-21 18:06:29,633 [DEBUG] 	Input blacklist: 
+2014-05-21 18:06:29,633 [DEBUG] 	Converted whitelist: 
+2014-05-21 18:06:29,633 [DEBUG] 	Converted blacklist: 
+2014-05-21 18:06:29,633 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/myproxy_server.conf].
+2014-05-21 18:06:29,634 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1d8d1f38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1d7e2128>}, 'logger': <logging.Logger instance at 0x1d8d1f38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:06:29,634 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-05-21 18:06:29,634 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1d8d1f38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1d7e2128>}, 'logger': <logging.Logger instance at 0x1d8d1f38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:06:29,634 [DEBUG] 	Enforced black list: TAPE,srm-cms.cern.ch,cmssrm.fnal.gov,T1_FR,T1_RU,T1_TW,cmseos.fnal.gov,cmsdca2.fnal.gov,T2_PK_NCP,T3_US_Vanderbilt_EC2
+ 
+2014-05-21 18:06:33,925 [DEBUG] 	parseRange_ 1
+2014-05-21 18:06:34,013 [DEBUG] 	GetOutput::run() called
+2014-05-21 18:06:34,061 [DEBUG] 	fs:'/gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/': Function not implemented
+Volume Name                    Quota       Used %Used   Partition
+ while checking AFS quota. Treat as check OK
+2014-05-21 18:06:34,067 [DEBUG] 	fs:'/gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/': Function not implemented
+Volume Name                  kbytes      used     avail %used
+ while checking partition. Treat as check OK
+2014-05-21 18:06:34,113 [INFO] 	contacting remote host submit-4.t2.ucsd.edu
+2014-05-21 18:06:34,149 [INFO] 	Preparing to rsync 2 files
+2014-05-21 18:07:17,318 [INFO] 	Results of Jobs # 1 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 18:07:20,708 [DEBUG] 	fs:'/gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/': Function not implemented
+Volume Name                    Quota       Used %Used   Partition
+ while checking AFS quota. Treat as check OK
+2014-05-21 18:07:20,717 [DEBUG] 	fs:'/gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/': Function not implemented
+Volume Name                  kbytes      used     avail %used
+ while checking partition. Treat as check OK
+2014-05-21 18:07:20,737 [DEBUG] 	GetOutput Time: 46.724011898
+2014-05-21 18:21:53,431 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+
+2014-05-21 18:21:53,431 [INFO] 	Version 2.10.5_patch1 running on Wed May 21 18:21:53 2014 CST (23:21:53 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/
+
+2014-05-21 18:21:53,432 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/allowed_releases.conf].
+2014-05-21 18:21:53,433 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1a57bf38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1a5821b8>}, 'logger': <logging.Logger instance at 0x1a57bf38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:21:53,433 [DEBUG] 	/home/maguirc/.cms_crab/0_GET_allowed_releases.conf expired, refreshing cache
+2014-05-21 18:21:53,433 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/allowed_releases.conf
+	data: {}
+2014-05-21 18:21:54,282 [INFO] 	error detecting glite version 
+2014-05-21 18:21:54,286 [INFO] 	error detecting glite version 
+2014-05-21 18:21:54,287 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1a57bf38>, 'conn': <httplib.HTTPSConnection instance at 0x1a490f80>}, 'logger': <logging.Logger instance at 0x1a57bf38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:21:54,287 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x1a57bf38>, 'conn': <httplib.HTTPSConnection instance at 0x1a48d050>}, 'logger': <logging.Logger instance at 0x1a57bf38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:21:54,288 [DEBUG] 	Input whitelist: 
+2014-05-21 18:21:54,288 [DEBUG] 	Input blacklist: 
+2014-05-21 18:21:54,288 [DEBUG] 	Converted whitelist: 
+2014-05-21 18:21:54,288 [DEBUG] 	Converted blacklist: 
+2014-05-21 18:21:54,288 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/myproxy_server.conf].
+2014-05-21 18:21:54,289 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1a57bf38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1a48d128>}, 'logger': <logging.Logger instance at 0x1a57bf38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:21:54,289 [DEBUG] 	/home/maguirc/.cms_crab/0_GET_myproxy_server.conf expired, refreshing cache
+2014-05-21 18:21:54,289 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/myproxy_server.conf
+	data: {}
+2014-05-21 18:21:54,587 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-05-21 18:21:54,588 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x1a57bf38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1a48d128>}, 'logger': <logging.Logger instance at 0x1a57bf38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:21:54,588 [DEBUG] 	/home/maguirc/.cms_crab/0_GET_site_black_list.conf expired, refreshing cache
+2014-05-21 18:21:54,588 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/site_black_list.conf
+	data: {}
+2014-05-21 18:21:54,886 [DEBUG] 	Enforced black list: TAPE,srm-cms.cern.ch,cmssrm.fnal.gov,T1_FR,T1_RU,T1_TW,cmseos.fnal.gov,cmsdca2.fnal.gov,T2_PK_NCP,T3_US_Vanderbilt_EC2
+ 
+2014-05-21 18:21:59,086 [DEBUG] 	Status::run() called
+2014-05-21 18:21:59,086 [INFO] 	Checking the status of all jobs: please wait
+2014-05-21 18:21:59,311 [INFO] 	
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+2     N   Created           Created                              
+3     N   Created           Created                              
+4     N   Created           Created                              
+5     N   Created           Created                              
+6     N   Created           Created                              
+7     N   Created           Created                              
+8     N   Created           Created                              
+9     N   Created           Created                              
+10    N   Created           Created                              
+--------------------------------------------------------------------------------
+11    N   Created           Created                              
+12    N   Created           Created                              
+13    N   Created           Created                              
+14    N   Created           Created                              
+15    N   Created           Created                              
+16    N   Created           Created                              
+17    N   Created           Created                              
+18    N   Created           Created                              
+19    N   Created           Created                              
+20    N   Created           Created                              
+--------------------------------------------------------------------------------
+21    N   Created           Created                              
+22    N   Created           Created                              
+23    N   Created           Created                              
+24    N   Created           Created                              
+25    N   Created           Created                              
+26    N   Created           Created                              
+27    N   Created           Created                              
+28    N   Created           Created                              
+29    N   Created           Created                              
+30    N   Created           Created                              
+--------------------------------------------------------------------------------
+31    N   Created           Created                              
+32    N   Created           Created                              
+33    N   Created           Created                              
+
+2014-05-21 18:21:59,346 [INFO] 	ExitCodes Summary
+ >>>>>>>>> 1 Jobs with Wrapper Exit Code : 0 
+	 List of jobs: 1 
+	See https://twiki.cern.ch/twiki/bin/view/CMS/JobExitCodes for Exit Code meaning
+
+2014-05-21 18:21:59,366 [INFO] 	 33 Total Jobs 
+ >>>>>>>>> 32 Jobs Created 
+ >>>>>>>>> 1 Jobs Retrieved 
+	List of jobs Retrieved: 1 
+
+2014-05-21 18:21:59,378 [INFO] 	You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=maguire_crab_0_140521_174521_v4g9w2
+	Your task name is: maguire_crab_0_140521_174521_v4g9w2 
+
+2014-05-21 18:21:59,378 [DEBUG] 	Status Time: 0.292653083801
+2014-05-21 18:22:08,414 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -submit 2-33
+
+2014-05-21 18:22:08,414 [INFO] 	Version 2.10.5_patch1 running on Wed May 21 18:22:08 2014 CST (23:22:08 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/
+
+2014-05-21 18:22:08,414 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/allowed_releases.conf].
+2014-05-21 18:22:08,415 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xaac5f38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xaaca1b8>}, 'logger': <logging.Logger instance at 0xaac5f38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:22:08,507 [INFO] 	error detecting glite version 
+2014-05-21 18:22:08,511 [INFO] 	error detecting glite version 
+2014-05-21 18:22:08,511 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xaac5f38>, 'conn': <httplib.HTTPSConnection instance at 0xab5bf80>}, 'logger': <logging.Logger instance at 0xaac5f38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:22:08,511 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xaac5f38>, 'conn': <httplib.HTTPSConnection instance at 0xab55050>}, 'logger': <logging.Logger instance at 0xaac5f38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:22:08,512 [DEBUG] 	Input whitelist: 
+2014-05-21 18:22:08,512 [DEBUG] 	Input blacklist: 
+2014-05-21 18:22:08,512 [DEBUG] 	Converted whitelist: 
+2014-05-21 18:22:08,512 [DEBUG] 	Converted blacklist: 
+2014-05-21 18:22:08,512 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/myproxy_server.conf].
+2014-05-21 18:22:08,512 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xaac5f38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xab55128>}, 'logger': <logging.Logger instance at 0xaac5f38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:22:08,513 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-05-21 18:22:08,513 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xaac5f38>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xab55128>}, 'logger': <logging.Logger instance at 0xaac5f38>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:22:08,513 [DEBUG] 	Enforced black list: TAPE,srm-cms.cern.ch,cmssrm.fnal.gov,T1_FR,T1_RU,T1_TW,cmseos.fnal.gov,cmsdca2.fnal.gov,T2_PK_NCP,T3_US_Vanderbilt_EC2
+ 
+2014-05-21 18:22:11,133 [DEBUG] 	parseRange_ 2-33
+2014-05-21 18:22:11,134 [DEBUG] 	Scram::Scram() version is 2
+2014-05-21 18:22:11,134 [DEBUG] 	Scram::Scram() arch is slc5_amd64_gcc462
+2014-05-21 18:22:11,151 [DEBUG] 	Submitter::run() called
+2014-05-21 18:22:11,163 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xaac5f38>, 'conn': <httplib.HTTPSConnection instance at 0xa9d6d40>}, 'logger': <logging.Logger instance at 0xaac5f38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:22:11,164 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xaac5f38>, 'conn': <httplib.HTTPSConnection instance at 0xab82248>}, 'logger': <logging.Logger instance at 0xaac5f38>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:22:11,164 [DEBUG] 	Input whitelist: 
+2014-05-21 18:22:11,164 [DEBUG] 	Input blacklist: 
+2014-05-21 18:22:11,164 [DEBUG] 	Converted whitelist: 
+2014-05-21 18:22:11,164 [DEBUG] 	Converted blacklist: 
+2014-05-21 18:22:11,164 [DEBUG] 	nsjobs 32
+2014-05-21 18:22:11,164 [DEBUG] 	Total jobs 33
+2014-05-21 18:22:11,177 [DEBUG] 	nj_list [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+2014-05-21 18:22:11,219 [DEBUG] 	GRIDNAME: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=maguire/CN=671063/CN=Charles Felix Maguire 
+2014-05-21 18:22:11,238 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xaac5f38>, 'conn': <httplib.HTTPSConnection instance at 0xa9d75f0>}, 'logger': <logging.Logger instance at 0xaac5f38>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-05-21 18:22:11,737 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xaac5f38>, 'conn': <httplib.HTTPSConnection instance at 0xaf58ef0>}, 'logger': <logging.Logger instance at 0xaac5f38>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-05-21 18:22:12,225 [DEBUG] 	Submission DashBoard Pre-Submission report: {'ApplicationVersion': 'CMSSW_5_3_8_HI_patch2', 'taskId': 'maguire_crab_0_140521_174521_v4g9w2', 'resubmitter': 'user', 'tool': 'crab', 'vo': 'cms', 'tool_ui': 'ce2.accre.vanderbilt.edu', 'JSToolVersion': '2.10.5_patch1', 'user': 'maguire', 'scheduler': 'GLIDEIN', 'taskType': 'analysis', 'CMSUser': 'maguire', 'jobId': 'TaskMeta', 'datasetFull': '/EPOS_GEN-SIM_batch1/vzhukova-EPOS_RECO_batch1-b7d33bba7673cdb1ee6f4983c0800c79/USER', 'exe': 'cmsRun', 'GridName': '/DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=maguire/CN=671063/CN=Charles Felix Maguire', 'SubmissionType': 'direct'}
+2014-05-21 18:22:12,225 [INFO] 	Checking available resources...
+2014-05-21 18:22:12,248 [INFO] 	Found  compatible site(s) for job 2
+2014-05-21 18:22:12,249 [INFO] 	1 blocks of jobs will be submitted
+2014-05-21 18:22:12,250 [DEBUG] 	Delegating proxy 
+2014-05-21 18:22:12,250 [DEBUG] 	Submitting jobs [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]
+2014-05-21 18:22:12,305 [INFO] 	serverName from Task DB is submit-4.t2.ucsd.edu
+2014-05-21 18:22:12,342 [DEBUG] 	Scram::Scram() version is 2
+2014-05-21 18:22:12,342 [DEBUG] 	Scram::Scram() arch is slc5_amd64_gcc462
+2014-05-21 18:22:12,361 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xaac5f38>, 'conn': <httplib.HTTPSConnection instance at 0xafd9cb0>}, 'logger': <logging.Logger instance at 0xaac5f38>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-05-21 18:22:12,867 [INFO] 	contacting remote host submit-4.t2.ucsd.edu
+2014-05-21 18:22:12,901 [DEBUG] 	Execute command :
+gsissh  -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-submit-4.t2.ucsd.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no submit-4.t2.ucsd.edu  "sleep 3600"
+2014-05-21 18:22:12,909 [INFO] 	COPY FILES TO REMOTE HOST
+2014-05-21 18:22:12,909 [DEBUG] 	Execute command :
+gsissh -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-submit-4.t2.ucsd.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no submit-4.t2.ucsd.edu  mkdir -p maguire_crab_0_140521_174521_v4g9w2
+2014-05-21 18:22:13,130 [DEBUG] 	Status,output= 0,
+2014-05-21 18:22:13,131 [DEBUG] 	Execute command :
+gsiscp -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-submit-4.t2.ucsd.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/share/default.tgz /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/share/arguments.xml /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/job/CMSSW.sh /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/share//maguire_crab_0_140521_174521_v4g9w2_job33.jdl /tmp/x509up_u28075 submit-4.t2.ucsd.edu:maguire_crab_0_140521_174521_v4g9w2
+2014-05-21 18:22:15,955 [DEBUG] 	Status,output= 0,
+2014-05-21 18:22:15,955 [INFO] 	SUBMIT TO REMOTE GLIDEIN FRONTEND
+2014-05-21 18:22:15,955 [DEBUG] 	Execute command :
+gsissh -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-submit-4.t2.ucsd.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no submit-4.t2.ucsd.edu "cd maguire_crab_0_140521_174521_v4g9w2;  condor_submit  maguire_crab_0_140521_174521_v4g9w2_job33.jdl; echo 'CONDOR_SUBMIT-EXIT-STATUS IS' \$?"
+2014-05-21 18:22:19,295 [DEBUG] 	Status,output= 0,Submitting job(s)................................
+32 job(s) submitted to cluster 204299.
+CONDOR_SUBMIT-EXIT-STATUS IS 0
+2014-05-21 18:22:19,296 [DEBUG] 	Returning {u'maguire_crab_0_140521_174521_v4g9w2_job33': 'submit-4.t2.ucsd.edu//140521//204299.31', u'maguire_crab_0_140521_174521_v4g9w2_job3': 'submit-4.t2.ucsd.edu//140521//204299.1', u'maguire_crab_0_140521_174521_v4g9w2_job2': 'submit-4.t2.ucsd.edu//140521//204299.0', u'maguire_crab_0_140521_174521_v4g9w2_job5': 'submit-4.t2.ucsd.edu//140521//204299.3', u'maguire_crab_0_140521_174521_v4g9w2_job4': 'submit-4.t2.ucsd.edu//140521//204299.2', u'maguire_crab_0_140521_174521_v4g9w2_job7': 'submit-4.t2.ucsd.edu//140521//204299.5', u'maguire_crab_0_140521_174521_v4g9w2_job6': 'submit-4.t2.ucsd.edu//140521//204299.4', u'maguire_crab_0_140521_174521_v4g9w2_job9': 'submit-4.t2.ucsd.edu//140521//204299.7', u'maguire_crab_0_140521_174521_v4g9w2_job8': 'submit-4.t2.ucsd.edu//140521//204299.6', u'maguire_crab_0_140521_174521_v4g9w2_job11': 'submit-4.t2.ucsd.edu//140521//204299.9', u'maguire_crab_0_140521_174521_v4g9w2_job10': 'submit-4.t2.ucsd.edu//140521//204299.8', u'maguire_crab_0_140521_174521_v4g9w2_job13': 'submit-4.t2.ucsd.edu//140521//204299.11', u'maguire_crab_0_140521_174521_v4g9w2_job12': 'submit-4.t2.ucsd.edu//140521//204299.10', u'maguire_crab_0_140521_174521_v4g9w2_job15': 'submit-4.t2.ucsd.edu//140521//204299.13', u'maguire_crab_0_140521_174521_v4g9w2_job14': 'submit-4.t2.ucsd.edu//140521//204299.12', u'maguire_crab_0_140521_174521_v4g9w2_job17': 'submit-4.t2.ucsd.edu//140521//204299.15', u'maguire_crab_0_140521_174521_v4g9w2_job16': 'submit-4.t2.ucsd.edu//140521//204299.14', u'maguire_crab_0_140521_174521_v4g9w2_job19': 'submit-4.t2.ucsd.edu//140521//204299.17', u'maguire_crab_0_140521_174521_v4g9w2_job18': 'submit-4.t2.ucsd.edu//140521//204299.16', u'maguire_crab_0_140521_174521_v4g9w2_job32': 'submit-4.t2.ucsd.edu//140521//204299.30', u'maguire_crab_0_140521_174521_v4g9w2_job31': 'submit-4.t2.ucsd.edu//140521//204299.29', u'maguire_crab_0_140521_174521_v4g9w2_job30': 'submit-4.t2.ucsd.edu//140521//204299.28', u'maguire_crab_0_140521_174521_v4g9w2_job28': 'submit-4.t2.ucsd.edu//140521//204299.26', u'maguire_crab_0_140521_174521_v4g9w2_job29': 'submit-4.t2.ucsd.edu//140521//204299.27', u'maguire_crab_0_140521_174521_v4g9w2_job20': 'submit-4.t2.ucsd.edu//140521//204299.18', u'maguire_crab_0_140521_174521_v4g9w2_job21': 'submit-4.t2.ucsd.edu//140521//204299.19', u'maguire_crab_0_140521_174521_v4g9w2_job22': 'submit-4.t2.ucsd.edu//140521//204299.20', u'maguire_crab_0_140521_174521_v4g9w2_job23': 'submit-4.t2.ucsd.edu//140521//204299.21', u'maguire_crab_0_140521_174521_v4g9w2_job24': 'submit-4.t2.ucsd.edu//140521//204299.22', u'maguire_crab_0_140521_174521_v4g9w2_job25': 'submit-4.t2.ucsd.edu//140521//204299.23', u'maguire_crab_0_140521_174521_v4g9w2_job26': 'submit-4.t2.ucsd.edu//140521//204299.24', u'maguire_crab_0_140521_174521_v4g9w2_job27': 'submit-4.t2.ucsd.edu//140521//204299.25'}
+maguire_crab_0_140521_174521_v4g9w2
+ce2.accre.vanderbilt.edu
+2014-05-21 18:22:19,350 [DEBUG] 	WMS : ce2.accre.vanderbilt.edu
+Collection ID : maguire_crab_0_140521_174521_v4g9w2
+2014-05-21 18:22:19,368 [DEBUG] 	Submitted job # 2
+2014-05-21 18:22:19,368 [DEBUG] 	Submitted job # 3
+2014-05-21 18:22:19,368 [DEBUG] 	Submitted job # 4
+2014-05-21 18:22:19,368 [DEBUG] 	Submitted job # 5
+2014-05-21 18:22:19,369 [DEBUG] 	Submitted job # 6
+2014-05-21 18:22:19,369 [DEBUG] 	Submitted job # 7
+2014-05-21 18:22:19,369 [DEBUG] 	Submitted job # 8
+2014-05-21 18:22:19,369 [DEBUG] 	Submitted job # 9
+2014-05-21 18:22:19,369 [DEBUG] 	Submitted job # 10
+2014-05-21 18:22:19,369 [DEBUG] 	Submitted job # 11
+2014-05-21 18:22:19,369 [DEBUG] 	Submitted job # 12
+2014-05-21 18:22:19,370 [DEBUG] 	Submitted job # 13
+2014-05-21 18:22:19,370 [DEBUG] 	Submitted job # 14
+2014-05-21 18:22:19,370 [DEBUG] 	Submitted job # 15
+2014-05-21 18:22:19,370 [DEBUG] 	Submitted job # 16
+2014-05-21 18:22:19,370 [DEBUG] 	Submitted job # 17
+2014-05-21 18:22:19,370 [DEBUG] 	Submitted job # 18
+2014-05-21 18:22:19,370 [DEBUG] 	Submitted job # 19
+2014-05-21 18:22:19,371 [DEBUG] 	Submitted job # 20
+2014-05-21 18:22:19,371 [DEBUG] 	Submitted job # 21
+2014-05-21 18:22:19,371 [DEBUG] 	Submitted job # 22
+2014-05-21 18:22:19,371 [DEBUG] 	Submitted job # 23
+2014-05-21 18:22:19,371 [DEBUG] 	Submitted job # 24
+2014-05-21 18:22:19,371 [DEBUG] 	Submitted job # 25
+2014-05-21 18:22:19,371 [DEBUG] 	Submitted job # 26
+2014-05-21 18:22:19,372 [DEBUG] 	Submitted job # 27
+2014-05-21 18:22:19,372 [DEBUG] 	Submitted job # 28
+2014-05-21 18:22:19,372 [DEBUG] 	Submitted job # 29
+2014-05-21 18:22:19,372 [DEBUG] 	Submitted job # 30
+2014-05-21 18:22:19,372 [DEBUG] 	Submitted job # 31
+2014-05-21 18:22:19,372 [DEBUG] 	Submitted job # 32
+2014-05-21 18:22:19,372 [DEBUG] 	Submitted job # 33
+2014-05-21 18:22:19,424 [DEBUG] 	Updating [[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]] state SubSuccess
+2014-05-21 18:22:19,525 [DEBUG] 	GRIDNAME: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=maguire/CN=671063/CN=Charles Felix Maguire 
+2014-05-21 18:22:19,544 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xaac5f38>, 'conn': <httplib.HTTPSConnection instance at 0xafb11b8>}, 'logger': <logging.Logger instance at 0xaac5f38>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-05-21 18:22:20,011 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'cacheduration': 24, 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xaac5f38>, 'conn': <httplib.HTTPSConnection instance at 0xadecd88>}, 'logger': <logging.Logger instance at 0xaac5f38>, 'cacheduration': 24, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 24 hours, max reuse 24.0 hours)
+2014-05-21 18:22:20,471 [DEBUG] 	Submission Time: 9.32066988945
+2014-05-21 18:22:20,472 [INFO] 	Total of 32 jobs submitted.
+2014-05-21 18:52:17,280 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+
+2014-05-21 18:52:17,280 [INFO] 	Version 2.10.5_patch1 running on Wed May 21 18:52:17 2014 CST (23:52:17 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/
+
+2014-05-21 18:52:17,280 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/allowed_releases.conf].
+2014-05-21 18:52:17,281 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x140e2ea8>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x140e9128>}, 'logger': <logging.Logger instance at 0x140e2ea8>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:52:17,281 [DEBUG] 	/home/maguirc/.cms_crab/0_GET_allowed_releases.conf expired, refreshing cache
+2014-05-21 18:52:17,281 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/allowed_releases.conf
+	data: {}
+2014-05-21 18:52:18,582 [INFO] 	error detecting glite version 
+2014-05-21 18:52:18,605 [INFO] 	error detecting glite version 
+2014-05-21 18:52:18,606 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x140e2ea8>, 'conn': <httplib.HTTPSConnection instance at 0x14051ef0>}, 'logger': <logging.Logger instance at 0x140e2ea8>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:52:18,611 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x140e2ea8>, 'conn': <httplib.HTTPSConnection instance at 0x14051f80>}, 'logger': <logging.Logger instance at 0x140e2ea8>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:52:18,612 [DEBUG] 	Input whitelist: 
+2014-05-21 18:52:18,612 [DEBUG] 	Input blacklist: 
+2014-05-21 18:52:18,612 [DEBUG] 	Converted whitelist: 
+2014-05-21 18:52:18,612 [DEBUG] 	Converted blacklist: 
+2014-05-21 18:52:18,612 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/myproxy_server.conf].
+2014-05-21 18:52:18,612 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x140e2ea8>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x14032098>}, 'logger': <logging.Logger instance at 0x140e2ea8>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:52:18,613 [DEBUG] 	/home/maguirc/.cms_crab/0_GET_myproxy_server.conf expired, refreshing cache
+2014-05-21 18:52:18,613 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/myproxy_server.conf
+	data: {}
+2014-05-21 18:52:21,912 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-05-21 18:52:21,912 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x140e2ea8>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x14032098>}, 'logger': <logging.Logger instance at 0x140e2ea8>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:52:21,912 [DEBUG] 	/home/maguirc/.cms_crab/0_GET_site_black_list.conf expired, refreshing cache
+2014-05-21 18:52:21,912 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/site_black_list.conf
+	data: {}
+2014-05-21 18:52:22,216 [DEBUG] 	Enforced black list: TAPE,srm-cms.cern.ch,cmssrm.fnal.gov,T1_FR,T1_RU,T1_TW,cmseos.fnal.gov,cmsdca2.fnal.gov,T2_PK_NCP,T3_US_Vanderbilt_EC2
+ 
+2014-05-21 18:52:26,624 [DEBUG] 	Status::run() called
+2014-05-21 18:52:26,625 [INFO] 	Checking the status of all jobs: please wait
+2014-05-21 18:52:26,860 [INFO] 	contacting remote host submit-4.t2.ucsd.edu
+2014-05-21 18:52:27,033 [DEBUG] 	Execute command :
+gsissh  -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-submit-4.t2.ucsd.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no submit-4.t2.ucsd.edu  "sleep 3600"
+2014-05-21 18:52:27,039 [DEBUG] 	Execute command :
+gsiscp -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-submit-4.t2.ucsd.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no /tmp/x509up_u28075 submit-4.t2.ucsd.edu:maguire_crab_0_140521_174521_v4g9w2
+2014-05-21 18:52:27,728 [DEBUG] 	Status,output= 0,
+2014-05-21 18:52:27,729 [DEBUG] 	Execute command :
+gsissh -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-submit-4.t2.ucsd.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no submit-4.t2.ucsd.edu  "condor_history -userlog maguire_crab_0_140521_174521_v4g9w2/condor.log -xml"
+2014-05-21 18:52:28,885 [DEBUG] 	Execute command :
+gsissh -o ControlMaster=auto -o ControlPath=/tmp/maguirc/.ssh/ssh-link--1336072526-submit-4.t2.ucsd.edu -o BatchMode=yes -o StrictHostKeyChecking=no -o ForwardX11=no submit-4.t2.ucsd.edu "cd maguire_crab_0_140521_174521_v4g9w2; egrep -H WrapperExitCode\|ExeExitCode crab_fjr_*xml|tr '_.\t\"' ' '|awk '{print \$3\" \"\$7\" \"\$9}'"
+2014-05-21 18:52:30,296 [DEBUG] 	Status,output= 0
+10 0 WrapperExitCode
+10 0 ExeExitCode
+11 0 WrapperExitCode
+11 0 ExeExitCode
+12 0 WrapperExitCode
+12 0 ExeExitCode
+13 0 WrapperExitCode
+13 0 ExeExitCode
+14 0 WrapperExitCode
+14 0 ExeExitCode
+15 0 WrapperExitCode
+15 0 ExeExitCode
+16 0 WrapperExitCode
+16 0 ExeExitCode
+17 0 WrapperExitCode
+17 0 ExeExitCode
+18 0 WrapperExitCode
+18 0 ExeExitCode
+19 0 WrapperExitCode
+19 0 ExeExitCode
+1 0 WrapperExitCode
+1 0 ExeExitCode
+20 0 WrapperExitCode
+20 0 ExeExitCode
+21 0 WrapperExitCode
+21 0 ExeExitCode
+22 0 WrapperExitCode
+22 0 ExeExitCode
+23 0 WrapperExitCode
+23 0 ExeExitCode
+24 0 WrapperExitCode
+24 0 ExeExitCode
+25 0 WrapperExitCode
+25 0 ExeExitCode
+26 0 WrapperExitCode
+26 0 ExeExitCode
+27 0 WrapperExitCode
+27 0 ExeExitCode
+28 0 WrapperExitCode
+28 0 ExeExitCode
+29 0 WrapperExitCode
+29 0 ExeExitCode
+2 0 WrapperExitCode
+2 0 ExeExitCode
+30 0 WrapperExitCode
+30 0 ExeExitCode
+31 0 WrapperExitCode
+31 0 ExeExitCode
+32 0 WrapperExitCode
+32 0 ExeExitCode
+33 0 WrapperExitCode
+33 0 ExeExitCode
+3 0 WrapperExitCode
+3 0 ExeExitCode
+4 0 WrapperExitCode
+4 0 ExeExitCode
+5 0 WrapperExitCode
+5 0 ExeExitCode
+6 0 WrapperExitCode
+6 0 ExeExitCode
+7 0 WrapperExitCode
+7 0 ExeExitCode
+8 0 WrapperExitCode
+8 0 ExeExitCode
+9 0 WrapperExitCode
+9 0 ExeExitCode
+2014-05-21 18:52:30,514 [INFO] 	
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+2     N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+3     N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+4     N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+5     N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+6     N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+7     N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+8     N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+9     N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+10    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+--------------------------------------------------------------------------------
+11    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+12    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+13    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+14    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+15    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+16    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+17    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+18    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+19    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+20    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+--------------------------------------------------------------------------------
+21    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+22    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+23    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+24    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+25    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+26    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+27    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+28    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+29    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+30    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+--------------------------------------------------------------------------------
+31    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+32    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+33    N   Done              Terminated    0          0           ce02.cmsaf.mit.edu
+
+2014-05-21 18:52:30,563 [INFO] 	ExitCodes Summary
+ >>>>>>>>> 33 Jobs with Wrapper Exit Code : 0 
+	 List of jobs: 1-33 
+	See https://twiki.cern.ch/twiki/bin/view/CMS/JobExitCodes for Exit Code meaning
+
+2014-05-21 18:52:30,563 [INFO] 	 33 Total Jobs 
+
+2014-05-21 18:52:30,573 [INFO] 	You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=maguire_crab_0_140521_174521_v4g9w2
+	Your task name is: maguire_crab_0_140521_174521_v4g9w2 
+
+2014-05-21 18:52:30,573 [DEBUG] 	Status Time: 3.94851613045
+2014-05-21 18:52:59,185 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -get 2-33
+
+2014-05-21 18:52:59,185 [INFO] 	Version 2.10.5_patch1 running on Wed May 21 18:52:59 2014 CST (23:52:59 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/
+
+2014-05-21 18:52:59,185 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/allowed_releases.conf].
+2014-05-21 18:52:59,186 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xc74bea8>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xc752128>}, 'logger': <logging.Logger instance at 0xc74bea8>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:52:59,480 [INFO] 	error detecting glite version 
+2014-05-21 18:52:59,485 [INFO] 	error detecting glite version 
+2014-05-21 18:52:59,485 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xc74bea8>, 'conn': <httplib.HTTPSConnection instance at 0xc6a0ef0>}, 'logger': <logging.Logger instance at 0xc74bea8>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:52:59,486 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xc74bea8>, 'conn': <httplib.HTTPSConnection instance at 0xc6a0f80>}, 'logger': <logging.Logger instance at 0xc74bea8>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:52:59,486 [DEBUG] 	Input whitelist: 
+2014-05-21 18:52:59,486 [DEBUG] 	Input blacklist: 
+2014-05-21 18:52:59,486 [DEBUG] 	Converted whitelist: 
+2014-05-21 18:52:59,486 [DEBUG] 	Converted blacklist: 
+2014-05-21 18:52:59,487 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/myproxy_server.conf].
+2014-05-21 18:52:59,487 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xc74bea8>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xc69c098>}, 'logger': <logging.Logger instance at 0xc74bea8>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:52:59,487 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-05-21 18:52:59,487 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xc74bea8>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xc69c098>}, 'logger': <logging.Logger instance at 0xc74bea8>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 18:52:59,488 [DEBUG] 	Enforced black list: TAPE,srm-cms.cern.ch,cmssrm.fnal.gov,T1_FR,T1_RU,T1_TW,cmseos.fnal.gov,cmsdca2.fnal.gov,T2_PK_NCP,T3_US_Vanderbilt_EC2
+ 
+2014-05-21 18:53:03,366 [DEBUG] 	parseRange_ 2-33
+2014-05-21 18:53:03,372 [DEBUG] 	GetOutput::run() called
+2014-05-21 18:53:03,396 [DEBUG] 	fs:'/gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/': Function not implemented
+Volume Name                    Quota       Used %Used   Partition
+ while checking AFS quota. Treat as check OK
+2014-05-21 18:53:03,402 [DEBUG] 	fs:'/gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/': Function not implemented
+Volume Name                  kbytes      used     avail %used
+ while checking partition. Treat as check OK
+2014-05-21 18:53:03,488 [INFO] 	contacting remote host submit-4.t2.ucsd.edu
+2014-05-21 18:53:03,527 [INFO] 	Preparing to rsync 2 files
+2014-05-21 19:14:09,992 [INFO] 	Results of Jobs # 2 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:14:13,514 [DEBUG] 	fs:'/gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/': Function not implemented
+Volume Name                    Quota       Used %Used   Partition
+ while checking AFS quota. Treat as check OK
+2014-05-21 19:14:13,522 [DEBUG] 	fs:'/gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/': Function not implemented
+Volume Name                  kbytes      used     avail %used
+ while checking partition. Treat as check OK
+2014-05-21 19:14:13,560 [INFO] 	contacting remote host submit-4.t2.ucsd.edu
+2014-05-21 19:14:13,607 [INFO] 	Preparing to rsync 62 files
+2014-05-21 19:31:50,314 [INFO] 	Results of Jobs # 3 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:31:54,441 [INFO] 	Results of Jobs # 4 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:31:58,544 [INFO] 	Results of Jobs # 5 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:32:02,867 [INFO] 	Results of Jobs # 6 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:32:06,848 [INFO] 	Results of Jobs # 7 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:32:10,877 [INFO] 	Results of Jobs # 8 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:32:14,936 [INFO] 	Results of Jobs # 9 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:32:18,971 [INFO] 	Results of Jobs # 10 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:32:22,975 [INFO] 	Results of Jobs # 11 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:32:27,038 [INFO] 	Results of Jobs # 12 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:32:31,115 [INFO] 	Results of Jobs # 13 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:32:35,275 [INFO] 	Results of Jobs # 14 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:32:39,360 [INFO] 	Results of Jobs # 15 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:32:43,572 [INFO] 	Results of Jobs # 16 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:32:47,563 [INFO] 	Results of Jobs # 17 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:32:51,605 [INFO] 	Results of Jobs # 18 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:32:55,723 [INFO] 	Results of Jobs # 19 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:33:00,031 [INFO] 	Results of Jobs # 20 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:33:04,095 [INFO] 	Results of Jobs # 21 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:33:08,183 [INFO] 	Results of Jobs # 22 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:33:12,256 [INFO] 	Results of Jobs # 23 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:33:16,442 [INFO] 	Results of Jobs # 24 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:33:20,607 [INFO] 	Results of Jobs # 25 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:33:24,696 [INFO] 	Results of Jobs # 26 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:33:28,726 [INFO] 	Results of Jobs # 27 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:33:32,803 [INFO] 	Results of Jobs # 28 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:33:36,937 [INFO] 	Results of Jobs # 29 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:33:41,091 [INFO] 	Results of Jobs # 30 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:33:45,255 [INFO] 	Results of Jobs # 31 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:33:49,551 [INFO] 	Results of Jobs # 32 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:33:53,713 [INFO] 	Results of Jobs # 33 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/res/
+2014-05-21 19:33:56,715 [DEBUG] 	GetOutput Time: 2453.34267211
+2014-05-21 23:01:17,534 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+
+2014-05-21 23:01:17,534 [INFO] 	Version 2.10.5_patch1 running on Wed May 21 23:01:17 2014 CST (04:01:17 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/
+
+2014-05-21 23:01:17,536 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/allowed_releases.conf].
+2014-05-21 23:01:17,536 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xce37ea8>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xce3e128>}, 'logger': <logging.Logger instance at 0xce37ea8>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:01:17,536 [DEBUG] 	/home/maguirc/.cms_crab/0_GET_allowed_releases.conf expired, refreshing cache
+2014-05-21 23:01:17,536 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/allowed_releases.conf
+	data: {}
+2014-05-21 23:01:18,390 [INFO] 	error detecting glite version 
+2014-05-21 23:01:18,394 [INFO] 	error detecting glite version 
+2014-05-21 23:01:18,395 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xce37ea8>, 'conn': <httplib.HTTPSConnection instance at 0xcda6ef0>}, 'logger': <logging.Logger instance at 0xce37ea8>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:01:18,395 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0xce37ea8>, 'conn': <httplib.HTTPSConnection instance at 0xcda6f80>}, 'logger': <logging.Logger instance at 0xce37ea8>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:01:18,396 [DEBUG] 	Input whitelist: 
+2014-05-21 23:01:18,396 [DEBUG] 	Input blacklist: 
+2014-05-21 23:01:18,396 [DEBUG] 	Converted whitelist: 
+2014-05-21 23:01:18,396 [DEBUG] 	Converted blacklist: 
+2014-05-21 23:01:18,396 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/myproxy_server.conf].
+2014-05-21 23:01:18,397 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xce37ea8>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xcd87098>}, 'logger': <logging.Logger instance at 0xce37ea8>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:01:18,397 [DEBUG] 	/home/maguirc/.cms_crab/0_GET_myproxy_server.conf expired, refreshing cache
+2014-05-21 23:01:18,397 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/myproxy_server.conf
+	data: {}
+2014-05-21 23:01:18,697 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-05-21 23:01:18,697 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0xce37ea8>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0xcd87098>}, 'logger': <logging.Logger instance at 0xce37ea8>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:01:18,698 [DEBUG] 	/home/maguirc/.cms_crab/0_GET_site_black_list.conf expired, refreshing cache
+2014-05-21 23:01:18,698 [DEBUG] 	getData: 
+	url: /cms/LCG/crab/config/site_black_list.conf
+	data: {}
+2014-05-21 23:01:18,995 [DEBUG] 	Enforced black list: TAPE,srm-cms.cern.ch,cmssrm.fnal.gov,T1_FR,T1_RU,T1_TW,cmseos.fnal.gov,cmsdca2.fnal.gov,T2_PK_NCP,T3_US_Vanderbilt_EC2
+ 
+2014-05-21 23:01:24,281 [DEBUG] 	Status::run() called
+2014-05-21 23:01:24,281 [INFO] 	Checking the status of all jobs: please wait
+2014-05-21 23:01:24,676 [INFO] 	
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+2     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+3     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+4     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+5     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+6     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+7     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+8     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+9     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+10    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+--------------------------------------------------------------------------------
+11    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+12    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+13    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+14    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+15    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+16    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+17    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+18    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+19    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+20    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+--------------------------------------------------------------------------------
+21    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+22    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+23    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+24    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+25    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+26    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+27    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+28    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+29    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+30    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+--------------------------------------------------------------------------------
+31    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+32    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+33    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+
+2014-05-21 23:01:24,711 [INFO] 	ExitCodes Summary
+ >>>>>>>>> 33 Jobs with Wrapper Exit Code : 0 
+	 List of jobs: 1-33 
+	See https://twiki.cern.ch/twiki/bin/view/CMS/JobExitCodes for Exit Code meaning
+
+2014-05-21 23:01:24,711 [INFO] 	 33 Total Jobs 
+
+2014-05-21 23:01:24,721 [INFO] 	You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=maguire_crab_0_140521_174521_v4g9w2
+	Your task name is: maguire_crab_0_140521_174521_v4g9w2 
+
+2014-05-21 23:01:24,721 [DEBUG] 	Status Time: 0.440436840057
+2014-05-21 23:04:34,507 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+
+2014-05-21 23:04:34,527 [INFO] 	Version 2.10.5_patch1 running on Wed May 21 23:04:34 2014 CST (04:04:34 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/
+
+2014-05-21 23:04:34,545 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/allowed_releases.conf].
+2014-05-21 23:04:34,545 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x24fedd0>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x2506050>}, 'logger': <logging.Logger instance at 0x24fedd0>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:04:35,110 [INFO] 	error detecting glite version 
+2014-05-21 23:04:35,116 [INFO] 	error detecting glite version 
+2014-05-21 23:04:35,122 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x24fedd0>, 'conn': <httplib.HTTPSConnection instance at 0x258ce18>}, 'logger': <logging.Logger instance at 0x24fedd0>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:04:35,122 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x24fedd0>, 'conn': <httplib.HTTPSConnection instance at 0x258cea8>}, 'logger': <logging.Logger instance at 0x24fedd0>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:04:35,122 [DEBUG] 	Input whitelist: 
+2014-05-21 23:04:35,123 [DEBUG] 	Input blacklist: 
+2014-05-21 23:04:35,123 [DEBUG] 	Converted whitelist: 
+2014-05-21 23:04:35,123 [DEBUG] 	Converted blacklist: 
+2014-05-21 23:04:35,123 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/myproxy_server.conf].
+2014-05-21 23:04:35,124 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x24fedd0>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x258cf80>}, 'logger': <logging.Logger instance at 0x24fedd0>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:04:35,128 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-05-21 23:04:35,128 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x24fedd0>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x258cf80>}, 'logger': <logging.Logger instance at 0x24fedd0>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:04:35,132 [DEBUG] 	Enforced black list: TAPE,srm-cms.cern.ch,cmssrm.fnal.gov,T1_FR,T1_RU,T1_TW,cmseos.fnal.gov,cmsdca2.fnal.gov,T2_PK_NCP,T3_US_Vanderbilt_EC2
+ 
+2014-05-21 23:04:57,165 [DEBUG] 	ERROR: Unable to create a valid proxy with command:
+voms-proxy-init -rfc -voms cms -valid 192:00
+
+
+2014-05-21 23:04:59,660 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+
+2014-05-21 23:04:59,660 [INFO] 	Version 2.10.5_patch1 running on Wed May 21 23:04:59 2014 CST (04:04:59 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/
+
+2014-05-21 23:04:59,660 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/allowed_releases.conf].
+2014-05-21 23:04:59,661 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x21d1dd0>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x21d9050>}, 'logger': <logging.Logger instance at 0x21d1dd0>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:04:59,819 [INFO] 	error detecting glite version 
+2014-05-21 23:04:59,826 [INFO] 	error detecting glite version 
+2014-05-21 23:04:59,828 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x21d1dd0>, 'conn': <httplib.HTTPSConnection instance at 0x225fe18>}, 'logger': <logging.Logger instance at 0x21d1dd0>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:04:59,828 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x21d1dd0>, 'conn': <httplib.HTTPSConnection instance at 0x225fea8>}, 'logger': <logging.Logger instance at 0x21d1dd0>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:04:59,829 [DEBUG] 	Input whitelist: 
+2014-05-21 23:04:59,829 [DEBUG] 	Input blacklist: 
+2014-05-21 23:04:59,829 [DEBUG] 	Converted whitelist: 
+2014-05-21 23:04:59,829 [DEBUG] 	Converted blacklist: 
+2014-05-21 23:04:59,830 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/myproxy_server.conf].
+2014-05-21 23:04:59,830 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x21d1dd0>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x225ff80>}, 'logger': <logging.Logger instance at 0x21d1dd0>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:04:59,830 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-05-21 23:04:59,831 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x21d1dd0>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x225ff80>}, 'logger': <logging.Logger instance at 0x21d1dd0>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:04:59,831 [DEBUG] 	Enforced black list: TAPE,srm-cms.cern.ch,cmssrm.fnal.gov,T1_FR,T1_RU,T1_TW,cmseos.fnal.gov,cmsdca2.fnal.gov,T2_PK_NCP,T3_US_Vanderbilt_EC2
+ 
+2014-05-21 23:05:06,020 [DEBUG] 	ERROR: Unable to create a valid proxy with command:
+voms-proxy-init -rfc -voms cms -valid 192:00
+
+
+2014-05-21 23:05:07,445 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+
+2014-05-21 23:05:07,445 [INFO] 	Version 2.10.5_patch1 running on Wed May 21 23:05:07 2014 CST (04:05:07 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/
+
+2014-05-21 23:05:07,446 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/allowed_releases.conf].
+2014-05-21 23:05:07,446 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x2075dd0>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x207d050>}, 'logger': <logging.Logger instance at 0x2075dd0>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:05:07,600 [INFO] 	error detecting glite version 
+2014-05-21 23:05:07,607 [INFO] 	error detecting glite version 
+2014-05-21 23:05:07,608 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x2075dd0>, 'conn': <httplib.HTTPSConnection instance at 0x2103e18>}, 'logger': <logging.Logger instance at 0x2075dd0>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:05:07,608 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x2075dd0>, 'conn': <httplib.HTTPSConnection instance at 0x2103ea8>}, 'logger': <logging.Logger instance at 0x2075dd0>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:05:07,609 [DEBUG] 	Input whitelist: 
+2014-05-21 23:05:07,609 [DEBUG] 	Input blacklist: 
+2014-05-21 23:05:07,609 [DEBUG] 	Converted whitelist: 
+2014-05-21 23:05:07,609 [DEBUG] 	Converted blacklist: 
+2014-05-21 23:05:07,610 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/myproxy_server.conf].
+2014-05-21 23:05:07,610 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x2075dd0>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x2103f80>}, 'logger': <logging.Logger instance at 0x2075dd0>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:05:07,611 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-05-21 23:05:07,611 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x2075dd0>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x2103f80>}, 'logger': <logging.Logger instance at 0x2075dd0>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:05:07,611 [DEBUG] 	Enforced black list: TAPE,srm-cms.cern.ch,cmssrm.fnal.gov,T1_FR,T1_RU,T1_TW,cmseos.fnal.gov,cmsdca2.fnal.gov,T2_PK_NCP,T3_US_Vanderbilt_EC2
+ 
+2014-05-21 23:05:18,472 [DEBUG] 	Status::run() called
+2014-05-21 23:05:18,472 [INFO] 	Checking the status of all jobs: please wait
+2014-05-21 23:05:18,751 [INFO] 	
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+2     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+3     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+4     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+5     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+6     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+7     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+8     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+9     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+10    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+--------------------------------------------------------------------------------
+11    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+12    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+13    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+14    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+15    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+16    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+17    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+18    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+19    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+20    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+--------------------------------------------------------------------------------
+21    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+22    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+23    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+24    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+25    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+26    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+27    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+28    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+29    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+30    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+--------------------------------------------------------------------------------
+31    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+32    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+33    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+
+2014-05-21 23:05:18,807 [INFO] 	ExitCodes Summary
+ >>>>>>>>> 33 Jobs with Wrapper Exit Code : 0 
+	 List of jobs: 1-33 
+	See https://twiki.cern.ch/twiki/bin/view/CMS/JobExitCodes for Exit Code meaning
+
+2014-05-21 23:05:18,808 [INFO] 	 33 Total Jobs 
+
+2014-05-21 23:05:18,826 [INFO] 	You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=maguire_crab_0_140521_174521_v4g9w2
+	Your task name is: maguire_crab_0_140521_174521_v4g9w2 
+
+2014-05-21 23:05:18,827 [DEBUG] 	Status Time: 0.354393005371
+2014-05-21 23:05:23,969 [DEBUG] 	/cvmfs/cms.cern.ch/crab/CRAB_2_10_5_patch1/python/crab.py -status
+
+2014-05-21 23:05:23,969 [INFO] 	Version 2.10.5_patch1 running on Wed May 21 23:05:23 2014 CST (04:05:23 UTC)
+
+crab. Working options:
+	scheduler           remoteGlidein
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/eposRun2013/epos1Peak/crab_0_140521_174521/
+
+2014-05-21 23:05:23,969 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/allowed_releases.conf].
+2014-05-21 23:05:23,970 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x193cdd0>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x1944050>}, 'logger': <logging.Logger instance at 0x193cdd0>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:05:24,118 [INFO] 	error detecting glite version 
+2014-05-21 23:05:24,125 [INFO] 	error detecting glite version 
+2014-05-21 23:05:24,126 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x193cdd0>, 'conn': <httplib.HTTPSConnection instance at 0x19cae18>}, 'logger': <logging.Logger instance at 0x193cdd0>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:05:24,126 [DEBUG] 	Service initialised ({'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'content_type': 'application/json', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_sitedbcache', 'basepath': '/sitedb/data/prod/', 'method': None, 'accept_type': 'application/json', 'timeout': 30, 'requests': {'endpoint': 'https://cmsweb.cern.ch/sitedb/data/prod/', 'cachepath': '/home/maguirc/.cms_sitedbcache', 'host': 'cmsweb.cern.ch', 'accept_type': 'application/json', 'content_type': 'application/json', 'logger': <logging.Logger instance at 0x193cdd0>, 'conn': <httplib.HTTPSConnection instance at 0x19caea8>}, 'logger': <logging.Logger instance at 0x193cdd0>, 'cacheduration': 0.5, 'inputdata': {}}):
+	 host: cmsweb.cern.ch, basepath: /sitedb/data/prod/ (application/json)
+	 cache: /home/maguirc/.cms_sitedbcache (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:05:24,126 [DEBUG] 	Input whitelist: 
+2014-05-21 23:05:24,126 [DEBUG] 	Input blacklist: 
+2014-05-21 23:05:24,127 [DEBUG] 	Converted whitelist: 
+2014-05-21 23:05:24,127 [DEBUG] 	Converted blacklist: 
+2014-05-21 23:05:24,127 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/myproxy_server.conf].
+2014-05-21 23:05:24,127 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x193cdd0>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x19caf80>}, 'logger': <logging.Logger instance at 0x193cdd0>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:05:24,128 [DEBUG] 	Downloading file [http://cmsdoc.cern.ch/cms/LCG/crab/config/] to [/home/maguirc/.cms_crab/site_black_list.conf].
+2014-05-21 23:05:24,128 [DEBUG] 	Service initialised ({'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'maxcachereuse': 24.0, 'cachepath': '/home/maguirc/.cms_crab', 'basepath': '/cms/LCG/crab/config/', 'method': None, 'timeout': 20, 'requests': {'endpoint': 'http://cmsdoc.cern.ch/cms/LCG/crab/config/', 'timeout': 20, 'cachepath': '/home/maguirc/.cms_crab', 'cacheduration': 0.5, 'host': 'cmsdoc.cern.ch', 'accept_type': 'text/html', 'content_type': 'application/x-www-form-urlencoded', 'logger': <logging.Logger instance at 0x193cdd0>, 'type': 'txt/csv', 'conn': <httplib.HTTPConnection instance at 0x19caf80>}, 'logger': <logging.Logger instance at 0x193cdd0>, 'cacheduration': 0.5, 'type': 'txt/csv', 'inputdata': {}}):
+	 host: cmsdoc.cern.ch, basepath: /cms/LCG/crab/config/ (text/html)
+	 cache: /home/maguirc/.cms_crab (duration 0.5 hours, max reuse 24.0 hours)
+2014-05-21 23:05:24,128 [DEBUG] 	Enforced black list: TAPE,srm-cms.cern.ch,cmssrm.fnal.gov,T1_FR,T1_RU,T1_TW,cmseos.fnal.gov,cmsdca2.fnal.gov,T2_PK_NCP,T3_US_Vanderbilt_EC2
+ 
+2014-05-21 23:05:26,034 [DEBUG] 	Status::run() called
+2014-05-21 23:05:26,035 [INFO] 	Checking the status of all jobs: please wait
+2014-05-21 23:05:26,140 [INFO] 	
+ID    END STATUS            ACTION       ExeExitCode JobExitCode E_HOST
+----- --- ----------------- ------------  ---------- ----------- ---------
+1     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+2     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+3     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+4     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+5     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+6     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+7     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+8     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+9     Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+10    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+--------------------------------------------------------------------------------
+11    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+12    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+13    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+14    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+15    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+16    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+17    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+18    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+19    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+20    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+--------------------------------------------------------------------------------
+21    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+22    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+23    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+24    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+25    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+26    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+27    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+28    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+29    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+30    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+--------------------------------------------------------------------------------
+31    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+32    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+33    Y   Retrieved         Cleared       0          0           ce02.cmsaf.mit.edu
+
+2014-05-21 23:05:26,195 [INFO] 	ExitCodes Summary
+ >>>>>>>>> 33 Jobs with Wrapper Exit Code : 0 
+	 List of jobs: 1-33 
+	See https://twiki.cern.ch/twiki/bin/view/CMS/JobExitCodes for Exit Code meaning
+
+2014-05-21 23:05:26,195 [INFO] 	 33 Total Jobs 
+
+2014-05-21 23:05:26,213 [INFO] 	You can also follow the status of this task on :
+	CMS Dashboard: http://dashb-cms-job-task.cern.ch/taskmon.html#task=maguire_crab_0_140521_174521_v4g9w2
+	Your task name is: maguire_crab_0_140521_174521_v4g9w2 
+
+2014-05-21 23:05:26,214 [DEBUG] 	Status Time: 0.178970098495

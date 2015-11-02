@@ -1,0 +1,465 @@
+  *******************************************
+  *                                         *
+  *        W E L C O M E  to  R O O T       *
+  *                                         *
+  *   Version   5.32/00   2 December 2011   *
+  *                                         *
+  *  You are welcome to visit our Web site  *
+  *          http://root.cern.ch            *
+  *                                         *
+  *******************************************
+
+ROOT 5.32/00 (branches/v5-32-00-patches@42372, Nov 19 2012, 10:56:00 on linuxx8664gcc)
+
+CINT/ROOT C/C++ Interpreter version 5.18.00, July 2, 2010
+Type ? for help. Commands must be C++ statements.
+Enclose multiple statements between { }.
+Loading FW Lite setup.
+Info in <TUnixSystem::ACLiC>: creating shared library /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/generateEfficiencyFiles/s25s9_020/./plotPi0_pPb2013_C.so
+
+ Date Wed Jun 25 16:12:19 2014
+
+ Using the pi0 mass window for the observed v2 region
+
+
+ Conversion checking was NOT requested
+
+ The use of the pi0 efficiency table was not requested
+
+ The use of the charged particle efficiency table was not requested
+
+ Minimum Bias data sets are used
+
+
+ Found hTree in input file first.root
+ The tree contains 1328503 entries
+ The tree will be processed for 1328503 entries
+
+
+ using first pair of pT bins
+
+ Being hTree scan for iOption = 33 with first entry number 0, mixed-event background method will be used
+
+ The entry 0 with event 846643 has nClu = 28
+ The entry 1 with event 846644 has nClu = 52
+ The entry 2 with event 846645 has nClu = 28
+ The entry 3 with event 846653 has nClu = 35
+ The entry 4 with event 846654 has nClu = 46
+ The entry 5 with event 846656 has nClu = 30
+ The entry 6 with event 846657 has nClu = 38
+ The entry 7 with event 846659 has nClu = 26
+ The entry 8 with event 846660 has nClu = 25
+ The entry 9 with event 846666 has nClu = 63
+ The entry 132850 with event 4954053 has nClu = 33
+ The entry 265700 with event 3498441 has nClu = 53
+ The entry 398550 with event 3105767 has nClu = 25
+ The entry 531400 with event 2589538 has nClu = 42
+ The entry 664250 with event 626481 has nClu = 33
+ The entry 797100 with event 4848214 has nClu = 47
+ The entry 929950 with event 4512195 has nClu = 34
+ The entry 1062800 with event 1856637 has nClu = 28
+ The entry 1195650 with event 1052021 has nClu = 29
+ The entry 1328500 with event 1803583 has nClu = 59
+
+ max array size = 108
+ events failing Z-Vertex cut = 0
+ number of clusters = 11757629
+ number of clusters failing isolation cut = 0
+ number of same-event asymmetry cut = 0
+ number of mixed-event asymmetry cut = 0
+ number of unconverted photons from parent mesons not produced by resonance decays = 0
+ number of unconverted photons from parent mesons produced by resonance decays = 0
+ number of converted photons = 0
+ number of track-matched clusters = 0
+ minimum separation same events = 0.0501828
+ minimum separation mixed events = 0.0500004
+ number of same event pairs failing separation cut = 5
+ number of mixed event pairs failing separation cut = 64773
+ number of pair masses within the pi0 mass window = 688505
+ number of pair masses within resonance decay window = 0
+ number of true decay mesons = 0
+ number of tagged clusters 0
+ number of true decay photons 0
+ number of photons examined for shape cuts 2904576
+ number of photons failing shape cuts 0
+
+
+ Second  normalizationFactor 0.556311
+ For pT bin 0 counts in same event normalization region = 177902,  counts in mixed event normalization region = 319789,  with normalization factor = 0.556311,  histogram rescale factor = 2.1
+ For pT bin 0 counts in same event double normalization region = 46980,  counts in mixed event double normalization region = 76179,  with double normalization factor = 0.616705
+
+ Second  normalizationFactor 0.600325
+ For pT bin 1 counts in same event normalization region = 71252,  counts in mixed event normalization region = 118689,  with normalization factor = 0.600325,  histogram rescale factor = 1.2
+ For pT bin 1 counts in same event double normalization region = 18313,  counts in mixed event double normalization region = 26905,  with double normalization factor = 0.680654
+
+ Second  normalizationFactor 0.670777
+ For pT bin 2 counts in same event normalization region = 183481,  counts in mixed event normalization region = 273535,  with normalization factor = 0.670777,  histogram rescale factor = 1.2
+ For pT bin 2 counts in same event double normalization region = 29499,  counts in mixed event double normalization region = 39681,  with double normalization factor = 0.743404
+ FCN=11.0047 FROM MIGRAD    STATUS=CONVERGED     108 CALLS         109 TOTAL
+                     EDM=8.07036e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Ampl         2.07662e+03   6.37819e+01   8.85899e-02  -1.97063e-05
+   2  Cent         1.33693e-01   4.67709e-04   7.88827e-07   1.66440e+00
+   3  Sigma        1.33130e-02   4.50655e-04   6.25118e-07  -1.29022e+00
+
+
+ Subtracted peak maximum value = 3639.58
+  summed yield = 16428.2 +/- 453.773
+  summed background = 118942 +/- 191.86
+
+
+ Second  normalizationFactor 0.735119
+ For pT bin 3 counts in same event normalization region = 52242,  counts in mixed event normalization region = 71066,  with normalization factor = 0.735119,  histogram rescale factor = 1.2
+ For pT bin 3 counts in same event double normalization region = 6176,  counts in mixed event double normalization region = 8867,  with double normalization factor = 0.696515
+ FCN=16.1895 FROM MIGRAD    STATUS=CONVERGED     144 CALLS         145 TOTAL
+                     EDM=2.42473e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Ampl         2.48459e+03   4.66228e+01   7.64214e-02  -2.18748e-06
+   2  Cent         1.33542e-01   2.64712e-04   5.34642e-07   1.43145e-01
+   3  Sigma       -1.28632e-02   2.58770e-04   4.23846e-07   1.01503e+00
+
+
+ Subtracted peak maximum value = 4386.15
+  summed yield = 19067.3 +/- 315.043
+  summed background = 48620.7 +/- 207.04
+
+Info in <TCanvas::Print>: pdf file pi0MassHighPt_Q1_489Files_Multiplicity120-260_S25Cut-0.2_Date20140625.pdf has been created
+Info in <TCanvas::SaveAs>: ROOT file pi0MassHighPt_Q1_489Files_Multiplicity120-260_S25Cut-0.2_Date20140625.root has been created
+
+ Date Wed Jun 25 16:22:36 2014
+
+ Using the pi0 mass window for the observed v2 region
+
+
+ Conversion checking was NOT requested
+
+ The use of the pi0 efficiency table was not requested
+
+ The use of the charged particle efficiency table was not requested
+
+ Minimum Bias data sets are used
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+
+
+ Found hTree in input file first.root
+ The tree contains 1328503 entries
+ The tree will be processed for 1328503 entries
+
+
+ using second pair of pT bins
+
+ Being hTree scan for iOption = 33 with first entry number 0, mixed-event background method will be used
+
+ The entry 0 with event 846643 has nClu = 28
+ The entry 1 with event 846644 has nClu = 52
+ The entry 2 with event 846645 has nClu = 28
+ The entry 3 with event 846653 has nClu = 35
+ The entry 4 with event 846654 has nClu = 46
+ The entry 5 with event 846656 has nClu = 30
+ The entry 6 with event 846657 has nClu = 38
+ The entry 7 with event 846659 has nClu = 26
+ The entry 8 with event 846660 has nClu = 25
+ The entry 9 with event 846666 has nClu = 63
+ The entry 132850 with event 4954053 has nClu = 33
+ The entry 265700 with event 3498441 has nClu = 53
+ The entry 398550 with event 3105767 has nClu = 25
+ The entry 531400 with event 2589538 has nClu = 42
+ The entry 664250 with event 626481 has nClu = 33
+ The entry 797100 with event 4848214 has nClu = 47
+ The entry 929950 with event 4512195 has nClu = 34
+ The entry 1062800 with event 1856637 has nClu = 28
+ The entry 1195650 with event 1052021 has nClu = 29
+ The entry 1328500 with event 1803583 has nClu = 59
+
+ max array size = 108
+ events failing Z-Vertex cut = 0
+ number of clusters = 11757629
+ number of clusters failing isolation cut = 0
+ number of same-event asymmetry cut = 0
+ number of mixed-event asymmetry cut = 0
+ number of unconverted photons from parent mesons not produced by resonance decays = 0
+ number of unconverted photons from parent mesons produced by resonance decays = 0
+ number of converted photons = 0
+ number of track-matched clusters = 0
+ minimum separation same events = 0.0501828
+ minimum separation mixed events = 0.0500004
+ number of same event pairs failing separation cut = 5
+ number of mixed event pairs failing separation cut = 64773
+ number of pair masses within the pi0 mass window = 688505
+ number of pair masses within resonance decay window = 0
+ number of true decay mesons = 0
+ number of tagged clusters 0
+ number of true decay photons 0
+ number of photons examined for shape cuts 2904576
+ number of photons failing shape cuts 0
+
+
+ Second  normalizationFactor 0.670777
+ For pT bin 0 counts in same event normalization region = 183481,  counts in mixed event normalization region = 273535,  with normalization factor = 0.670777,  histogram rescale factor = 2.1
+ For pT bin 0 counts in same event double normalization region = 29499,  counts in mixed event double normalization region = 39681,  with double normalization factor = 0.743404
+
+ Second  normalizationFactor 0.735119
+ For pT bin 1 counts in same event normalization region = 52242,  counts in mixed event normalization region = 71066,  with normalization factor = 0.735119,  histogram rescale factor = 1.2
+ For pT bin 1 counts in same event double normalization region = 6176,  counts in mixed event double normalization region = 8867,  with double normalization factor = 0.696515
+
+ Second  normalizationFactor 0.556311
+ For pT bin 2 counts in same event normalization region = 177902,  counts in mixed event normalization region = 319789,  with normalization factor = 0.556311,  histogram rescale factor = 1.2
+ For pT bin 2 counts in same event double normalization region = 46980,  counts in mixed event double normalization region = 76179,  with double normalization factor = 0.616705
+ FCN=94.2457 FROM MIGRAD    STATUS=CONVERGED     104 CALLS         105 TOTAL
+                     EDM=7.59244e-09    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   1.4 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Ampl         7.27245e+03   8.00987e+01   4.07443e-02  -2.25661e-06
+   2  Cent         1.32904e-01   1.45422e-04  -2.94701e-07   3.52631e-01
+   3  Sigma        1.26258e-02   1.55502e-04  -1.60327e-07  -1.22375e+00
+
+
+ Subtracted peak maximum value = 14140.2
+  summed yield = 54792.5 +/- 513.015
+  summed background = 121514 +/- 233.825
+
+
+ Second  normalizationFactor 0.600325
+ For pT bin 3 counts in same event normalization region = 71252,  counts in mixed event normalization region = 118689,  with normalization factor = 0.600325,  histogram rescale factor = 1.2
+ For pT bin 3 counts in same event double normalization region = 18313,  counts in mixed event double normalization region = 26905,  with double normalization factor = 0.680654
+ FCN=168.826 FROM MIGRAD    STATUS=CONVERGED     102 CALLS         103 TOTAL
+                     EDM=1.35813e-08    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   3.4 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Ampl         3.61450e+03   4.48624e+01   1.48903e+00   5.63051e-06
+   2  Cent         1.33416e-01   1.65518e-04   4.91018e-07  -6.44628e-01
+   3  Sigma        1.35580e-02   1.83972e-04  -6.47716e-06   1.19029e+00
+
+
+ Subtracted peak maximum value = 7104.84
+  summed yield = 28609.3 +/- 286.025
+  summed background = 31080.7 +/- 256.254
+
+Info in <TCanvas::Print>: pdf file pi0MassHighPt_Q2_489Files_Multiplicity120-260_S25Cut-0.2_Date20140625.pdf has been created
+Info in <TCanvas::SaveAs>: ROOT file pi0MassHighPt_Q2_489Files_Multiplicity120-260_S25Cut-0.2_Date20140625.root has been created
+
+ Date Wed Jun 25 16:33:15 2014
+
+ Using the pi0 mass window for the observed v2 region
+
+
+ Conversion checking was NOT requested
+
+ The use of the pi0 efficiency table was not requested
+
+ The use of the charged particle efficiency table was not requested
+
+ Minimum Bias data sets are used
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+
+
+ Found hTree in input file first.root
+ The tree contains 1328503 entries
+ The tree will be processed for 1328503 entries
+
+
+ using third pair of pT bins
+
+ Being hTree scan for iOption = 33 with first entry number 0, mixed-event background method will be used
+
+ The entry 0 with event 846643 has nClu = 28
+ The entry 1 with event 846644 has nClu = 52
+ The entry 2 with event 846645 has nClu = 28
+ The entry 3 with event 846653 has nClu = 35
+ The entry 4 with event 846654 has nClu = 46
+ The entry 5 with event 846656 has nClu = 30
+ The entry 6 with event 846657 has nClu = 38
+ The entry 7 with event 846659 has nClu = 26
+ The entry 8 with event 846660 has nClu = 25
+ The entry 9 with event 846666 has nClu = 63
+ The entry 132850 with event 4954053 has nClu = 33
+ The entry 265700 with event 3498441 has nClu = 53
+ The entry 398550 with event 3105767 has nClu = 25
+ The entry 531400 with event 2589538 has nClu = 42
+ The entry 664250 with event 626481 has nClu = 33
+ The entry 797100 with event 4848214 has nClu = 47
+ The entry 929950 with event 4512195 has nClu = 34
+ The entry 1062800 with event 1856637 has nClu = 28
+ The entry 1195650 with event 1052021 has nClu = 29
+ The entry 1328500 with event 1803583 has nClu = 59
+
+ max array size = 108
+ events failing Z-Vertex cut = 0
+ number of clusters = 11757629
+ number of clusters failing isolation cut = 0
+ number of same-event asymmetry cut = 0
+ number of mixed-event asymmetry cut = 0
+ number of unconverted photons from parent mesons not produced by resonance decays = 0
+ number of unconverted photons from parent mesons produced by resonance decays = 0
+ number of converted photons = 0
+ number of track-matched clusters = 0
+ minimum separation same events = 0.0501828
+ minimum separation mixed events = 0.0500004
+ number of same event pairs failing separation cut = 5
+ number of mixed event pairs failing separation cut = 64773
+ number of pair masses within the pi0 mass window = 688505
+ number of pair masses within resonance decay window = 0
+ number of true decay mesons = 0
+ number of tagged clusters 0
+ number of true decay photons 0
+ number of photons examined for shape cuts 2904576
+ number of photons failing shape cuts 0
+
+
+ Second  normalizationFactor 0.801543
+ For pT bin 0 counts in same event normalization region = 16935,  counts in mixed event normalization region = 21128,  with normalization factor = 0.801543,  histogram rescale factor = 2.1
+ For pT bin 0 counts in same event double normalization region = 1417,  counts in mixed event double normalization region = 2432,  with double normalization factor = 0.582648
+
+ Second  normalizationFactor 0.867354
+ For pT bin 1 counts in same event normalization region = 5970,  counts in mixed event normalization region = 6883,  with normalization factor = 0.867354,  histogram rescale factor = 1.2
+ For pT bin 1 counts in same event double normalization region = 278,  counts in mixed event double normalization region = 818,  with double normalization factor = 0.339853
+
+ Second  normalizationFactor 0.900039
+ For pT bin 2 counts in same event normalization region = 2287,  counts in mixed event normalization region = 2541,  with normalization factor = 0.900039,  histogram rescale factor = 1.2
+ For pT bin 2 counts in same event double normalization region = 65,  counts in mixed event double normalization region = 298,  with double normalization factor = 0.218121
+ FCN=107.924 FROM MIGRAD    STATUS=CONVERGED     114 CALLS         115 TOTAL
+                     EDM=1.39523e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Ampl         1.64756e+03   2.64275e+01   1.01062e-01  -9.87116e-07
+   2  Cent         1.33901e-01   2.06206e-04   1.04366e-06  -1.50172e+00
+   3  Sigma        1.35972e-02   2.26435e-04   8.62296e-07   1.94900e+00
+
+
+ Subtracted peak maximum value = 3316.99
+  summed yield = 13112.4 +/- 165.219
+  summed background = 8498.56 +/- 73.8924
+
+
+ Second  normalizationFactor 0.973172
+ For pT bin 3 counts in same event normalization region = 1451,  counts in mixed event normalization region = 1491,  with normalization factor = 0.973172,  histogram rescale factor = 1.2
+ For pT bin 3 counts in same event double normalization region = 23,  counts in mixed event double normalization region = 162,  with double normalization factor = 0.141975
+ FCN=89.6456 FROM MIGRAD    STATUS=CONVERGED      95 CALLS          96 TOTAL
+                     EDM=2.6969e-07    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   2.2 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Ampl         7.32806e+02   1.57782e+01   6.09027e-02   7.53185e-05
+   2  Cent         1.33210e-01   2.74504e-04   1.04313e-06   1.20980e+00
+   3  Sigma        1.41854e-02   3.00592e-04  -3.32211e-06   1.74969e+00
+
+
+ Subtracted peak maximum value = 1483.05
+  summed yield = 6181.82 +/- 99.4491
+  summed background = 2397.18 +/- 82.1694
+
+Info in <TCanvas::Print>: pdf file pi0MassHighPt_Q3_489Files_Multiplicity120-260_S25Cut-0.2_Date20140625.pdf has been created
+Info in <TCanvas::SaveAs>: ROOT file pi0MassHighPt_Q3_489Files_Multiplicity120-260_S25Cut-0.2_Date20140625.root has been created
+
+ Date Wed Jun 25 16:42:15 2014
+
+ Using the pi0 mass window for the observed v2 region
+
+
+ Conversion checking was NOT requested
+
+ The use of the pi0 efficiency table was not requested
+
+ The use of the charged particle efficiency table was not requested
+
+ Minimum Bias data sets are used
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+
+
+ Found hTree in input file first.root
+ The tree contains 1328503 entries
+ The tree will be processed for 1328503 entries
+
+
+ using fourth pair of pT bins
+
+ Being hTree scan for iOption = 33 with first entry number 0, mixed-event background method will be used
+
+ The entry 0 with event 846643 has nClu = 28
+ The entry 1 with event 846644 has nClu = 52
+ The entry 2 with event 846645 has nClu = 28
+ The entry 3 with event 846653 has nClu = 35
+ The entry 4 with event 846654 has nClu = 46
+ The entry 5 with event 846656 has nClu = 30
+ The entry 6 with event 846657 has nClu = 38
+ The entry 7 with event 846659 has nClu = 26
+ The entry 8 with event 846660 has nClu = 25
+ The entry 9 with event 846666 has nClu = 63
+ The entry 132850 with event 4954053 has nClu = 33
+ The entry 265700 with event 3498441 has nClu = 53
+ The entry 398550 with event 3105767 has nClu = 25
+ The entry 531400 with event 2589538 has nClu = 42
+ The entry 664250 with event 626481 has nClu = 33
+ The entry 797100 with event 4848214 has nClu = 47
+ The entry 929950 with event 4512195 has nClu = 34
+ The entry 1062800 with event 1856637 has nClu = 28
+ The entry 1195650 with event 1052021 has nClu = 29
+ The entry 1328500 with event 1803583 has nClu = 59
+
+ max array size = 108
+ events failing Z-Vertex cut = 0
+ number of clusters = 11757629
+ number of clusters failing isolation cut = 0
+ number of same-event asymmetry cut = 0
+ number of mixed-event asymmetry cut = 0
+ number of unconverted photons from parent mesons not produced by resonance decays = 0
+ number of unconverted photons from parent mesons produced by resonance decays = 0
+ number of converted photons = 0
+ number of track-matched clusters = 0
+ minimum separation same events = 0.0501828
+ minimum separation mixed events = 0.0500004
+ number of same event pairs failing separation cut = 5
+ number of mixed event pairs failing separation cut = 64773
+ number of pair masses within the pi0 mass window = 688505
+ number of pair masses within resonance decay window = 0
+ number of true decay mesons = 0
+ number of tagged clusters 0
+ number of true decay photons 0
+ number of photons examined for shape cuts 2904576
+ number of photons failing shape cuts 0
+
+
+ Second  normalizationFactor 0.900039
+ For pT bin 0 counts in same event normalization region = 2287,  counts in mixed event normalization region = 2541,  with normalization factor = 0.900039,  histogram rescale factor = 2.1
+ For pT bin 0 counts in same event double normalization region = 65,  counts in mixed event double normalization region = 298,  with double normalization factor = 0.218121
+
+ Second  normalizationFactor 0.973172
+ For pT bin 1 counts in same event normalization region = 1451,  counts in mixed event normalization region = 1491,  with normalization factor = 0.973172,  histogram rescale factor = 1.2
+ For pT bin 1 counts in same event double normalization region = 23,  counts in mixed event double normalization region = 162,  with double normalization factor = 0.141975
+
+ Second  normalizationFactor 0.801543
+ For pT bin 2 counts in same event normalization region = 16935,  counts in mixed event normalization region = 21128,  with normalization factor = 0.801543,  histogram rescale factor = 1.2
+ For pT bin 2 counts in same event double normalization region = 1417,  counts in mixed event double normalization region = 2432,  with double normalization factor = 0.582648
+ FCN=37.5877 FROM MIGRAD    STATUS=CONVERGED      90 CALLS          91 TOTAL
+                     EDM=4.78228e-08    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   2.5 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Ampl         3.47785e+02   9.93399e+00   4.84001e-03  -6.41873e-06
+   2  Cent         1.34925e-01   3.70156e-04  -1.56138e-06  -1.04653e+00
+   3  Sigma        1.41990e-02   3.77365e-04  -3.55229e-07  -1.50818e-01
+
+
+ Subtracted peak maximum value = 685.142
+  summed yield = 2965.48 +/- 64.8326
+  summed background = 823.522 +/- 25.8285
+
+
+ Second  normalizationFactor 0.867354
+ For pT bin 3 counts in same event normalization region = 5970,  counts in mixed event normalization region = 6883,  with normalization factor = 0.867354,  histogram rescale factor = 1.2
+ For pT bin 3 counts in same event double normalization region = 278,  counts in mixed event double normalization region = 818,  with double normalization factor = 0.339853
+ FCN=48.5977 FROM MIGRAD    STATUS=CONVERGED      86 CALLS          87 TOTAL
+                     EDM=1.29796e-09    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   1.7 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  Ampl         2.43985e+02   8.60440e+00   1.56792e-03   1.40099e-06
+   2  Cent         1.36573e-01   4.13541e-04  -4.77905e-08   7.18590e-02
+   3  Sigma        1.31623e-02   4.15043e-04  -3.26195e-07  -1.50050e-01
+
+
+ Subtracted peak maximum value = 475.452
+  summed yield = 1932.97 +/- 50.7998
+  summed background = 434.028 +/- 27.3748
+
+Info in <TCanvas::Print>: pdf file pi0MassHighPt_Q4_489Files_Multiplicity120-260_S25Cut-0.2_Date20140625.pdf has been created
+Info in <TCanvas::SaveAs>: ROOT file pi0MassHighPt_Q4_489Files_Multiplicity120-260_S25Cut-0.2_Date20140625.root has been created

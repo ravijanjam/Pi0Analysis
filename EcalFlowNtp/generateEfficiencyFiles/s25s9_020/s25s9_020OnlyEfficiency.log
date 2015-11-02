@@ -1,0 +1,91 @@
+  *******************************************
+  *                                         *
+  *        W E L C O M E  to  R O O T       *
+  *                                         *
+  *   Version   5.32/00   2 December 2011   *
+  *                                         *
+  *  You are welcome to visit our Web site  *
+  *          http://root.cern.ch            *
+  *                                         *
+  *******************************************
+
+ROOT 5.32/00 (branches/v5-32-00-patches@42372, Nov 19 2012, 10:56:00 on linuxx8664gcc)
+
+CINT/ROOT C/C++ Interpreter version 5.18.00, July 2, 2010
+Type ? for help. Commands must be C++ statements.
+Enclose multiple statements between { }.
+Loading FW Lite setup.
+Info in <TUnixSystem::ACLiC>: creating shared library /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/generateEfficiencyFiles/s25s9_020/./plotPi0_pPb2013_C.so
+
+ Date Tue Jun 24 14:22:37 2014
+
+ Using the pi0 mass window for the observed v2 region
+
+
+ Conversion checking requested, truth information from simTracks
+
+ Only same parent clusters will be combined for reco
+
+ The use of the pi0 efficiency table was not requested
+
+ The use of the charged particle efficiency table was not requested
+
+ Minimum Bias data sets are used
+
+
+ Found hTree in input file first.root
+ The tree contains 1328503 entries
+ The tree will be processed for 1328503 entries
+
+
+ using first pair of pT bins
+
+ Being hTree scan for iOption = 331 with first entry number 0, mixed-event background method will be used
+
+ The entry 0 with event 846643 has nClu = 28
+ The entry 1 with event 846644 has nClu = 52
+ The entry 2 with event 846645 has nClu = 28
+ The entry 3 with event 846653 has nClu = 35
+ The entry 4 with event 846654 has nClu = 46
+ The entry 5 with event 846656 has nClu = 30
+ The entry 6 with event 846657 has nClu = 38
+ The entry 7 with event 846659 has nClu = 26
+ The entry 8 with event 846660 has nClu = 25
+ The entry 9 with event 846666 has nClu = 63
+ The entry 132850 with event 4954053 has nClu = 33
+ The entry 265700 with event 3498441 has nClu = 53
+ The entry 398550 with event 3105767 has nClu = 25
+ The entry 531400 with event 2589538 has nClu = 42
+ The entry 664250 with event 626481 has nClu = 33
+ The entry 797100 with event 4848214 has nClu = 47
+ The entry 929950 with event 4512195 has nClu = 34
+ The entry 1062800 with event 1856637 has nClu = 28
+ The entry 1195650 with event 1052021 has nClu = 29
+ The entry 1328500 with event 1803583 has nClu = 59
+
+ max array size = 108
+ events failing Z-Vertex cut = 0
+ number of clusters = 11757629
+ number of clusters failing isolation cut = 0
+ number of same-event asymmetry cut = 0
+ number of mixed-event asymmetry cut = 0
+ number of unconverted photons from parent mesons not produced by resonance decays = 677205
+ number of unconverted photons from parent mesons produced by resonance decays = 3583215
+ number of converted photons = 7497209
+ number of track-matched clusters = 0
+ minimum separation same events = 0.0562229
+ minimum separation mixed events = 0.0500539
+ number of same event pairs failing separation cut = 0
+ number of mixed event pairs failing separation cut = 772
+ number of pair masses within the pi0 mass window = 128565
+ number of pair masses within resonance decay window = 0
+ number of true decay mesons = 0
+ number of tagged clusters 0
+ number of true decay photons 0
+ number of photons examined for shape cuts 2904576
+ number of photons failing shape cuts 0
+
+
+
+ Produced pi0 efficiency file with name pi0EfficiencyWidth0.030_HiPurity120-260_S4To9_0.74_S25To9_0.2_Date20140624.root
+

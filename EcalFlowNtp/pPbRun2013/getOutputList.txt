@@ -1,0 +1,34 @@
+crab:  Version 2.10.5_patch1 running on Wed May  7 19:49:20 2014 CST (00:49:20 UTC)
+
+crab. Working options:
+	scheduler           pbsv2
+	job type            CMSSW
+	server              OFF
+	working directory   /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/
+
+crab:  error detecting glite version 
+crab:  error detecting glite version 
+crab:  Your se_white_list is set to T2_US_Vanderbilt: only local dataset will be considered
+crab:   The default queue of local PBS configuration will be used
+crab:  Using a proxy
+crab:  Results of Jobs # 8 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/res/
+crab:  Results of Jobs # 9 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/res/
+crab:  Results of Jobs # 14 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/res/
+crab:  Results of Jobs # 15 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/res/
+crab:  Results of Jobs # 16 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/res/
+crab:  Results of Jobs # 17 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/res/
+crab:  Results of Jobs # 20 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/res/
+crab:  Results of Jobs # 21 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/res/
+crab:  Results of Jobs # 23 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/res/
+crab:  Results of Jobs # 25 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/res/
+crab:  Results of Jobs # 47 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/res/
+crab:  Results of Jobs # 54 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/res/
+crab:  Results of Jobs # 56 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/res/
+crab:  Results of Jobs # 68 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/res/
+crab:  Results of Jobs # 76 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/res/
+crab:  Results of Jobs # 88 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/res/
+crab:  Results of Jobs # 92 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/res/
+crab:  Results of Jobs # 93 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/res/
+crab:  Results of Jobs # 98 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/res/
+crab:  Results of Jobs # 123 are in /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/res/
+Log file is /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Pi0Analysis/EcalFlowNtp/pPbRun2013/crab_0_140507_175214/log/crab.log

@@ -1,0 +1,12 @@
+20-Jan-2014 16:57:11 CST  Initiating request to open file /store//data/Run2013A/PPMinBias/RECO/PromptReco-v1/000/211/792/00000/C810EC35-4077-E211-B710-E0CB4E553651.root
+20-Jan-2014 16:57:14 CST  Successfully opened file /store//data/Run2013A/PPMinBias/RECO/PromptReco-v1/000/211/792/00000/C810EC35-4077-E211-B710-E0CB4E553651.root
+20-Jan-2014 17:00:01 CST  Closed file /store//data/Run2013A/PPMinBias/RECO/PromptReco-v1/000/211/792/00000/C810EC35-4077-E211-B710-E0CB4E553651.root
+----- Begin Fatal Exception 20-Jan-2014 17:00:01 CST-----------------------
+An exception of category 'FileReadError' occurred while
+   [0] Constructing the EventProcessor
+   [1] Constructing input source of type PoolSource
+   [2] Reading branch EventAuxiliary
+Exception Message:
+Fatal Root Error: @SUB=TBranchElement::GetBasket
+File: ///store//data/Run2013A/PPMinBias/RECO/PromptReco-v1/000/211/792/00000/C810EC35-4077-E211-B710-E0CB4E553651.root at byte:0, branch:EventAuxiliary, entry:0, badread=1, nerrors=1, basketnumber=0
+----- End Fatal Exception -------------------------------------------------
