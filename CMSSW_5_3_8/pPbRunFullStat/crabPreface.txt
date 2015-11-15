@@ -1,0 +1,10 @@
+[CRAB]
+
+jobtype = cmssw
+scheduler = remoteGlidein
+use_server = 0
+
+[CMSSW]
+
+datasetpath=/PAMinBiasUPC/HIRun2013-PromptReco-v1/RECO
+pset=ecalflowntp_cfg.py

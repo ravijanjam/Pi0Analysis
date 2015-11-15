@@ -1,0 +1,16 @@
+#! /bin/tcsh
+#PBS -l nodes=1:ppn=1
+#PBS -o pi0V2Flow_1.log
+#PBS -l walltime=5:00:00
+#PBS -l mem=1000mb
+
+setenv SCRAM_ARCH slc5_amd64_gcc462
+source /gpfs21/grid/grid-app/cmssoft/cms/cmsset_default.csh
+eval `scramv1 runtime -csh`
+
+cd $PBS_O_WORKDIR
+pwd
+echo $PBS_NODEFILE
+echo $HOSTNAME
+
+root -l CMSpi0Analyzer.C > & test10.log &

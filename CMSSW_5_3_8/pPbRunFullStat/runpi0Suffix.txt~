@@ -1,0 +1,8 @@
+process.source = cms.Source("PoolSource",
+    fileNames = cms.untracked.vstring(
+
+#'/store/himc/Fall10/Hydjet_Bass_MinBias_2760GeV/GEN-SIM-RECODEBUG/START39_V7HI-v1/0000/707481DC-90FA-DF11-8B2F-00238BCE45FA.root'       
+'/store/hidata/HIRun2010/HIAllPhysics/RECO/ZS-v2/0018/E248A298-E743-E011-A951-003048F236F0.root'
+
+)
+)

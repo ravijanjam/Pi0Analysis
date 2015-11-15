@@ -1,0 +1,5 @@
+process.source = cms.Source("PoolSource",
+                            fileNames = cms.untracked.vstring(
+                                        '/store/hidata/HIRun2013/PAMinBiasUPC/RECO/PromptReco-v1/000/211/631/00000/FEEE9DFC-E774-E211-88E7-003048F01E88.root'
+                                                              )
+                            )

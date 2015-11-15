@@ -1,0 +1,5 @@
+process.source = cms.Source("PoolSource",
+                            fileNames = cms.untracked.vstring(
+                                        '/store/express/HIRun2013/ExpressPhysics/FEVT/Express-v1/000/210/498/00000/B65577A4-0E63-E211-B52C-BCAEC5329727.root'
+                                                              )
+                            )

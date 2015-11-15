@@ -1,0 +1,64 @@
+130120_145950: /usr/local/crab/latest/python/crab.py -create -submit
+130120_152253: /usr/local/crab/latest/python/crab.py -create -submit
+130120_152648: /usr/local/crab/latest/python/crab.py -status
+130120_152747: /usr/local/crab/latest/python/crab.py -status
+130120_153121: /usr/local/crab/latest/python/crab.py -status
+130121_074317: /usr/local/crab/latest/python/crab.py -status
+130121_081423: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -create -submit
+130121_081609: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130121_081819: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130121_082331: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130121_092053: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130121_092141: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -getoutput
+130121_101314: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -create -submit
+130121_101508: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130121_102930: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130121_103657: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130121_104529: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -getoutput 1
+130121_110004: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -getoutput 14
+130121_110357: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -getoutput 14
+130121_113414: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130121_113805: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -create -submit
+130121_113933: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130121_114353: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130121_114641: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130121_115022: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130122_031128: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130122_031256: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -getoutput
+130122_043958: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -create -submit
+130122_044111: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130122_044458: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -create -submit
+130122_044551: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130122_044929: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130122_050231: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130122_065313: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130122_071205: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -getoutput
+130125_034343: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -create -submit
+130125_034758: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130125_035858: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130125_040739: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130125_040754: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -getoutput 1
+130125_042719: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130125_042753: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -getoutput 2-10
+130125_043321: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130125_043353: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -create -submit
+130125_043551: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130125_044058: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -status
+130125_044304: /home/appelte1/newnewcrab/CRAB_2_8_5_pre2/python/crab.py -create -submit
+130125_044850: /home/maguirc/CRAB_2_8_5_pre3/python/crab.py -create -submit
+130125_050033: /home/maguirc/CRAB_2_8_5_pre3/python/crab.py -create -submit
+130125_063858: /home/maguirc/CRAB_2_8_5_pre3/python/crab.py -status
+130125_064732: /usr/local/crab/latest/python/crab.py -create -submit
+130125_065328: /home/maguirc/CRAB_2_8_5_pre3/python/crab.py -create -submit
+130125_065423: /home/maguirc/CRAB_2_8_5_pre3/python/crab.py -status
+130125_065608: /home/maguirc/CRAB_2_8_5_pre3/python/crab.py -status
+130125_065702: /home/maguirc/CRAB_2_8_5_pre3/python/crab.py -status
+130125_065924: /home/maguirc/CRAB_2_8_5_pre3/python/crab.py -status
+130125_070542: /home/maguirc/CRAB_2_8_5_pre3/python/crab.py -status
+130125_071610: /home/maguirc/CRAB_2_8_5_pre3/python/crab.py -status
+130125_071630: /home/maguirc/CRAB_2_8_5_pre3/python/crab.py -getoutput 10
+130125_090014: /home/maguirc/CRAB_2_8_5_pre3/python/crab.py -status
+130404_113452: /usr/local/crab/latest/python/crab.py -create -submit
+130404_114410: /usr/local/crab/latest/python/crab.py -status
+130404_115647: /usr/local/crab/latest/python/crab.py -status
+130404_121159: /usr/local/crab/latest/python/crab.py -status

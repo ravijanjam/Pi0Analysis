@@ -1,0 +1,12 @@
+[USER]
+
+publish_data = 0
+eMail = monika.sharma@vanderbilt.edu
+return_data = 0
+copy_data = 1
+storage_element = T2_US_Vanderbilt
+check_user_remote_dir = 0
+user_remote_dir = /PbRun2013-AprFullStat
+
+[GRID]
+se_white_list =T2_US_Vanderbilt

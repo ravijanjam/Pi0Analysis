@@ -1,0 +1,23 @@
+130626_162045: /usr/local/crab/latest/python/crab.py -create
+130626_162345: /usr/local/crab/latest/python/crab.py -submit
+130626_162524: /usr/local/crab/latest/python/crab.py -status -c crab_0_130626_162045
+130627_101743: /usr/local/crab/latest/python/crab.py -status -c crab_0_130626_162045
+130627_102014: /usr/local/crab/latest/python/crab.py -getoutput -c crab_0_130626_162045
+130627_112013: /usr/local/crab/latest/python/crab.py -create -submit -cfg crab.cfg
+130627_115224: /usr/local/crab/latest/python/crab.py -status -c crab_0_130627_112013
+130627_130228: /usr/local/crab/latest/python/crab.py -status -c crab_0_130627_112013
+130627_131343: /usr/local/crab/latest/python/crab.py -status -c crab_0_130627_112013
+130627_142535: /usr/local/crab/latest/python/crab.py -status -c crab_0_130627_112013
+130627_142958: /usr/local/crab/latest/python/crab.py -status -c crab_0_130627_112013
+130627_150406: /usr/local/crab/latest/python/crab.py -status -c crab_0_130627_112013
+130627_163703: /usr/local/crab/latest/python/crab.py -status -c crab_0_130627_112013
+130627_214617: /usr/local/crab/latest/python/crab.py -status -c crab_0_130627_112013/
+130627_214704: /usr/local/crab/latest/python/crab.py -getoutput -c crab_0_130627_112013/
+130628_112625: /usr/local/crab/latest/python/crab.py -status -c crab_0_130627_112013
+130628_115349: /usr/local/crab/latest/python/crab.py -create -submit -cfg crab.cfg
+130628_120003: /usr/local/crab/latest/python/crab.py -status -c crab_0_130628_115349
+130628_122258: /usr/local/crab/latest/python/crab.py -status -c crab_0_130628_115349
+130628_124218: /usr/local/crab/latest/python/crab.py -status -c crab_0_130628_115349
+130628_135931: /usr/local/crab/latest/python/crab.py -status -c crab_0_130628_115349
+130629_072151: /usr/local/crab/latest/python/crab.py -status -c crab_0_130628_115349/
+130629_072551: /usr/local/crab/latest/python/crab.py -getoutput -c crab_0_130628_115349/
