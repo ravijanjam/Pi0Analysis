@@ -1,0 +1,16 @@
+tmp/slc6_amd64_gcc472/src/RecoHI/HiTracking/src/RecoHIHiTracking/HICaloCompatibleTrackSelector.o: \
+ src/RecoHI/HiTracking/src/HICaloCompatibleTrackSelector.cc \
+ src/RecoHI/HiTracking/interface/HICaloCompatibleTrackSelector.h \
+
+tmp/slc6_amd64_gcc472/src/RecoHI/HiTracking/src/RecoHIHiTracking/HIPixelTrackFilter.o: \
+ src/RecoHI/HiTracking/src/HIPixelTrackFilter.cc \
+ src/RecoHI/HiTracking/interface/HIPixelTrackFilter.h \
+
+tmp/slc6_amd64_gcc472/src/RecoHI/HiTracking/src/RecoHIHiTracking/HIProtoTrackFilter.o: \
+ src/RecoHI/HiTracking/src/HIProtoTrackFilter.cc \
+ src/RecoHI/HiTracking/interface/HIProtoTrackFilter.h \
+
+tmp/slc6_amd64_gcc472/src/RecoHI/HiTracking/src/RecoHIHiTracking/SealModules.o: \
+ src/RecoHI/HiTracking/src/SealModules.cc \
+ src/RecoHI/HiTracking/interface/HICaloCompatibleTrackSelector.h \
+

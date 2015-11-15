@@ -1,0 +1,6 @@
+tmp/slc6_amd64_gcc472/src/RecoHI/HiCentralityAlgos/src/RecoHIHiCentralityAlgos/CentralityProvider.o: \
+ src/RecoHI/HiCentralityAlgos/src/CentralityProvider.cc \
+ src/RecoHI/HiCentralityAlgos/interface/CentralityProvider.h \
+ src/DataFormats/HeavyIonEvent/interface/Centrality.h \
+ src/DataFormats/HeavyIonEvent/interface/CentralityBins.h \
+

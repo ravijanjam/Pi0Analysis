@@ -1,0 +1,80 @@
+----------------------------------------------------------
+20-June-2014
+
+1. Added Code to EcalFlowNtpMerged.cc file 
+	193 particleFlow_ = ps.getParameter<edm::InputTag>("pfCandidatesTag");
+	doEffCorrections_ = ps.getParameter<bool>("doEffCorrections");
+   EcalFlowNtp Constructor - Comparison COMPLETED 
+   Generator Level - Monte Carlo Specific Keywords inside Charlie's EDM
+   	a. using namespace reco; - master keyword
+	b. isMC
+	c. Handle<GenParticleCollection> genParticles;
+	d. edm::Event& iEvent - remains the same both for Generator and Data
+	e. Handle<SimTrackContainer> simTracks_h;
+	f. SimTrackContainer* simTracks;
+	g. m_tree : Charlie possibly wants to add code for a tree. 
+	
+	
+2. Added Code to EcalFlowNtpMerged.cc "1013   void statusMessages(int i, double value);" - Implementation not done in the cc file 
+   To do because to run the code, python variables needs to be initialized. 
+
+3. Tagging counter variables with cLoop, cAssgn and so on. 
+4. Iterators, Dummy, Variables, Core Classes from CMSSW API 
+----------------------------------END : 20-June-2014 ------------------ 
+
+
+23-June-2014
+
+1. ecalflowntpPAHightPt_TimingCuts.py from Monika's CMSSW, python merging started  
+
+2. Name change from "EcalFlowNtp" to "EcalFlowNtpMerged" in *.py file 
+--------------------------------END : 23-June-2014 ------------------ 
+
+
+24-June-2014
+
+1.EcalFlowNtpMerged.cc renamed to EcalFlowNtp.cc because of potential
+conflicts with *.py file, instead renaming the CMSSW Package alone sufficies. 
+
+Added inside python with timing cuts copied from Monika CMSSW - Dummy values 
+
+2. lowInvMassCut = 0.99 
+3. highInvMassCut = 1.5 
+4. goodAngleMatch = 0.5
+5. goodPhiMatch = 0.5 
+6. goodThetaMatch = 0.5 
+7. suppressTrackMatchedClusters = false 
+8. makeOutputTree = false 
+9. recoTrackStore = false 
+10. clusterStore = false 
+11. clusterRecoTrackStore = false 
+12. crystalStore = false 
+13. mcParticleStore = false 
+14. simTrackStore = false 
+15. simSlimTrackStore = false  
+16. mergedTrackTruthStore = false 
+17. mergedTrackTruthPhotonOnly = false 
+18. genParticleStore = false  
+19. mesonStore = false 
+20. photonStore = false 
+21. chmesonStore = false 
+22. pairCorrTracksStore = false 
+23. minimumHITracksCut = 100
+24. maximumHITracksCut = 100
+
+--------------------------------END : 23-June-2014 ------------------ 
+
+25-June-2014
+
+1. Merging Charlie's python_cfg file to run the source file. 
+Added stuff 
+2.pfCandidatesTag = particleFlow
+3.process.EcalFlowNtp.doEffCorrections = cms.bool(True);
+4.process.EcalFlowNtp.cutByLeadingPhoton = cms.bool(False);
+5.process.EcalFlowNtp.leadingPhotonPtMin = cms.double(0.0)
+6.in .cc file commented out  clusterRecoTrackStore_ = ps.getParameter<bool> 
+7.process.EcalFlowNtp.mcParticleStore =  cms.bool(False) 
+
+
+----------------------------------END : 20-June-2014 ------------------ 
+

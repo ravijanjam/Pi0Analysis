@@ -1,0 +1,2 @@
+ALL_PACKAGES += $(patsubst src/%,%,src/HeavyIonsAnalysis/Configuration)
+subdirs_src_HeavyIonsAnalysis_Configuration := src_HeavyIonsAnalysis_Configuration_data src_HeavyIonsAnalysis_Configuration_doc src_HeavyIonsAnalysis_Configuration_python src_HeavyIonsAnalysis_Configuration_test

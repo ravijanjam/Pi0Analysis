@@ -1,0 +1,1064 @@
+
+// system include files
+#include <memory>
+
+// user include files
+#include "FWCore/Framework/interface/Frameworkfwd.h"
+#include "FWCore/Framework/interface/EDAnalyzer.h"
+#include "FWCore/Framework/interface/MakerMacros.h"
+#include "FWCore/Framework/interface/Event.h"
+#include "FWCore/Framework/interface/EventSetup.h"
+#include "FWCore/ParameterSet/interface/ParameterSet.h"
+#include "FWCore/ServiceRegistry/interface/Service.h"
+
+// DQM include files
+
+// #include "DQMServices/Core/interface/MonitorElement.h"
+
+// work on collections
+#include "DataFormats/EcalRecHit/interface/EcalRecHit.h"
+#include "DataFormats/EcalRecHit/interface/EcalRecHitCollections.h"
+#include "DataFormats/EcalDetId/interface/EBDetId.h"
+#include "DataFormats/HepMCCandidate/interface/GenParticle.h"
+
+//ES  stuff
+#include "Geometry/EcalAlgo/interface/EcalPreshowerGeometry.h"
+#include "Geometry/CaloTopology/interface/EcalPreshowerTopology.h"
+#include "DataFormats/EcalDetId/interface/EcalSubdetector.h"
+#include "DataFormats/EgammaReco/interface/PreshowerClusterFwd.h"
+
+#include "Pi0Analysis/EcalFlowNtp/src/EcalFlowNtp.h"
+
+#include "DataFormats/HeavyIonEvent/interface/CentralityProvider.h"
+#include "DataFormats/VertexReco/interface/Vertex.h"
+#include "DataFormats/VertexReco/interface/VertexFwd.h"
+//#include "DataFormats/HeavyIonEvent/interface/EvtPlane.h"
+//#include "CondFormats/DataRecord/interface/RPFlatParamsRcd.h"
+//#include "CondFormats/RPFlatParams/interface/RPFlatParams.h"
+
+#include "DataFormats/EgammaReco/interface/BasicCluster.h"
+#include "DataFormats/EcalRecHit/interface/EcalRecHitCollections.h"
+#include "DataFormats/EcalDetId/interface/EBDetId.h"
+#include "DataFormats/DetId/interface/DetId.h"
+#include "DataFormats/Math/interface/Point3D.h"
+
+#include "FWCore/Framework/interface/Event.h"
+#include "FWCore/Framework/interface/EventSetup.h"
+#include "DataFormats/Common/interface/Handle.h"
+#include "FWCore/Framework/interface/ESHandle.h"
+#include "FWCore/MessageLogger/interface/MessageLogger.h"
+
+#include "DataFormats/RecoCandidate/interface/RecoEcalCandidate.h"
+#include "DataFormats/RecoCandidate/interface/RecoEcalCandidateFwd.h"
+/// EgammaCoreTools
+//#include "RecoEcal/EgammaCoreTools/interface/PositionCalc.h"
+#include "RecoEcal/EgammaCoreTools/interface/EcalEtaPhiRegion.h"
+
+#include "TVector3.h"
+#include "assert.h"
+
+/// montecarlo
+#include "SimDataFormats/GeneratorProducts/interface/GenEventInfoProduct.h"
+#include "SimDataFormats/GeneratorProducts/interface/HepMCProduct.h" 
+#include "SimDataFormats/Track/interface/SimTrack.h"
+#include "SimDataFormats/Track/interface/SimTrackContainer.h"
+#include "SimDataFormats/Vertex/interface/SimVertex.h"
+#include "SimDataFormats/Vertex/interface/SimVertexContainer.h"
+
+
+#define TWOPI 6.283185308
+
+#include <iostream>
+#include <cmath>
+#include <fstream>
+
+using namespace std;
+using namespace edm;
+using namespace reco;
+
+static int iPrintEtaCorrection = 0;
+const int nPrintEtaCorrection = 10;
+
+const double rECal = 1.29;                         // radial distance of ECAL for eta correction	
+CentralityProvider * centrality_ = 0;
+
+//
+// constants, enums and typedefs
+//
+
+//
+// static data member definitions
+//
+
+//
+// constructors and destructor
+//
+EcalFlowNtp::EcalFlowNtp(const edm::ParameterSet& ps) :
+ eventCounter_(0)
+{
+
+  //dbe_ = Service<DQMStore>().operator->();
+  productMonitoredEBpi0_= ps.getUntrackedParameter<edm::InputTag>("AlCaStreamEBpi0Tag");
+  productMonitoredEBeta_= ps.getUntrackedParameter<edm::InputTag>("AlCaStreamEBetaTag");
+
+  MCTruthCollection_ = ps.getUntrackedParameter<edm::InputTag>("MCTruthCollection");
+
+  clusSeedThr_ = ps.getParameter<double> ("clusSeedThr");
+  clusEtaSize_ = ps.getParameter<int> ("clusEtaSize");
+  clusPhiSize_ = ps.getParameter<int> ("clusPhiSize");
+  if ( clusPhiSize_ % 2 == 0 ||  clusEtaSize_ % 2 == 0)
+    edm::LogError("AlCaPi0RecHitsProducerError") << "Size of eta/phi for simple clustering should be odd numbers";
+
+  seleXtalMinEnergy_ = ps.getParameter<double>("seleXtalMinEnergy");
+  
+  //for Pi0 barrel selection
+  selePtGamma_ = ps.getParameter<double> ("selePtGamma");  
+  selePtPi0_ = ps.getParameter<double> ("selePtPi0");  
+  seleMinvMaxPi0_ = ps.getParameter<double> ("seleMinvMaxPi0");  
+  seleMinvMinPi0_ = ps.getParameter<double> ("seleMinvMinPi0");  
+  seleS4S9Gamma_ = ps.getParameter<double> ("seleS4S9Gamma");  
+  selePi0Iso_ = ps.getParameter<double> ("selePi0Iso");  
+  ptMinForIsolation_ = ps.getParameter<double> ("ptMinForIsolation");
+  selePi0BeltDR_ = ps.getParameter<double> ("selePi0BeltDR");  
+  selePi0BeltDeta_ = ps.getParameter<double> ("selePi0BeltDeta");  
+  
+  //ParameterLogWeighted_ = ps.getParameter<bool> ("ParameterLogWeighted");
+  //ParameterX0_ = ps.getParameter<double> ("ParameterX0");
+  //ParameterT0_barl_ = ps.getParameter<double> ("ParameterT0_barl");
+  //ParameterT0_endc_ = ps.getParameter<double> ("ParameterT0_endc");
+  //ParameterT0_endcPresh_ = ps.getParameter<double> ("ParameterT0_endcPresh");
+  //ParameterW0_ = ps.getParameter<double> ("ParameterW0");
+
+  posCalculator_ = PositionCalc( ps.getParameter<edm::ParameterSet>("posCalcParameters") );
+ 
+  /// Ttree
+  m_outfilename = ps.getUntrackedParameter<string>("OutputFile","outputNtp.root");
+
+}
+
+
+EcalFlowNtp::~EcalFlowNtp()
+{
+ 
+   // do anything here that needs to be done at desctruction time
+   // (e.g. close files, deallocate resources etc.)
+
+}
+
+
+//
+// member functions
+//
+
+// ------------ method called to for each event  ------------
+void
+EcalFlowNtp::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
+{
+
+  eventCounter_++;
+  int thisRun = iEvent.id().run();
+  int thisEvent = iEvent.id().event();
+
+  edm::ESHandle<CaloTopology> theCaloTopology;
+  iSetup.get<CaloTopologyRecord>().get(theCaloTopology);
+
+  edm::Handle<EcalRecHitCollection> rhEBpi0;
+  edm::Handle<EcalRecHitCollection> rhEBeta;
+ 
+  iEvent.getByLabel(productMonitoredEBpi0_, rhEBpi0); 
+  iEvent.getByLabel(productMonitoredEBeta_, rhEBeta);
+
+  // Initialize the Position Calc
+  const CaloSubdetectorGeometry *geometry_p; 
+  const CaloSubdetectorGeometry *geometryEE_p;
+  const CaloSubdetectorGeometry *geometryES_p;
+  const CaloSubdetectorTopology *topology_p;
+  const CaloSubdetectorTopology *topology_ee;
+  
+  if(!centrality_) {
+    centrality_ = new CentralityProvider(iSetup);
+    totalEventsAllRuns = 0;
+  }
+
+  runn = iEvent.id().run();
+  eventn = iEvent.id().event();
+  ls = iEvent.luminosityBlock();
+
+  totalEventsThisRun++;
+  totalEventsAllRuns++;
+
+  centrality_->newEvent(iEvent,iSetup); // make sure you do this first in every event
+  centrality_val = centrality_->centralityValue();
+  centrality_bin = centrality_->getBin();
+
+  if(centrality_bin < lowCentralityCut || centrality_bin > highCentralityCut) {
+    eventsOutsideCentralityWindow++;
+    return;
+  }
+
+  eventsInsideCentralityWindow++;
+
+  //using reco::EvtPlaneCollection;
+  //Handle<reco::EvtPlaneCollection> evtPlanes;
+  //iEvent.getByLabel("hiEvtPlaneFlat","recoLevel",evtPlanes);
+  //iEvent.getByLabel("hiEvtPlane","recoLevel",evtPlanes); //This is for the unflattened collection
+  
+  //if(!evtPlanes.isValid()){
+  //  cout << "Error! Can't get hiEvtPlane product!" << endl;
+  //  return;
+  //}
+
+  PGAngle = -9.0;
+  PGsumSin = -9999.0;
+  PGsumCos = -9999.0;
+  NGAngle = -9.0;
+  NGsumSin = -9999.0;
+  NGsumCos = -9999.0;
+  HFAngle = -9.0;
+  HFsumSin = -9999.0;
+  HFsumCos = -9999.0;
+  etHFAngle = -9.0;
+  etHFsumSin = -9999.0;
+  etHFsumCos = -9999.0;
+
+  //for (EvtPlaneCollection::const_iterator rp = evtPlanes->begin();rp !=evtPlanes->end(); rp++) {
+  //    if(!rp->label().compare("EvtPTracksPosEtaGap")) {
+  //      PGAngle = rp->angle();
+  //      PGsumSin = rp->sumSin();
+  //      PGsumCos = rp->sumCos();
+  //    } else if(!rp->label().compare("EvtPTracksNegEtaGap")) {
+  //      NGAngle = rp->angle();
+  //      NGsumSin = rp->sumSin();
+  //      NGsumCos = rp->sumCos();
+  //    } else if(!rp->label().compare("HF")) {
+  //      HFAngle = rp->angle();
+  //      HFsumSin = rp->sumSin();
+  //      HFsumCos = rp->sumCos();
+  //    } else if(!rp->label().compare("etHF")) {
+  //      etHFAngle = rp->angle();
+  //      etHFsumSin = rp->sumSin();
+  //      etHFsumCos = rp->sumCos();
+  //    }
+  //}
+
+  edm::ESHandle<CaloGeometry> geoHandle;
+  iSetup.get<CaloGeometryRecord>().get(geoHandle);     
+  geometry_p = geoHandle->getSubdetectorGeometry(DetId::Ecal,EcalBarrel);
+  geometryEE_p = geoHandle->getSubdetectorGeometry(DetId::Ecal,EcalEndcap);
+  geometryES_p = geoHandle->getSubdetectorGeometry(DetId::Ecal, EcalPreshower);
+  topology_p = theCaloTopology->getSubdetectorTopology(DetId::Ecal,EcalBarrel);
+  topology_ee = theCaloTopology->getSubdetectorTopology(DetId::Ecal,EcalEndcap);
+  
+  CaloSubdetectorTopology *topology_es=0;
+  if (geometryES_p) topology_es  = new EcalPreshowerTopology(geoHandle);
+  
+  vector< vector<EcalRecHit> > RecHitsCluster;
+  vector< vector<EcalRecHit> > RecHitsCluster5x5;
+  vector<float> s4s9Clus;
+  vector<float> s9s25Clus;
+  nCry = 0;
+  nClu = 0;
+
+  if (rhEBpi0.isValid() && (rhEBpi0->size() > 0)){
+
+    //
+    // Get reconstructed vertices
+    //
+
+    edm::Handle<reco::VertexCollection> vertexCollection;
+    iEvent.getByLabel("hiSelectedVertex",vertexCollection);
+    const reco::VertexCollection * vertices = vertexCollection.product();
+    zVertexEvent = vertices->begin()->z();
+
+    edm::Handle<reco::VertexCollection> vertexCollectionSelected;
+    iEvent.getByLabel("hiSelectedVertex",vertexCollectionSelected);
+    const reco::VertexCollection * verticesSelected = vertexCollectionSelected.product();
+    zVertexEventSelected = verticesSelected->begin()->z();
+
+    Handle<reco::TrackCollection> tracks;
+    iEvent.getByLabel("hiSelectedTracks", tracks);
+    nHITracks = tracks->size();
+    if(nHITracks > maxTracksPerRun) {
+      maxTracksPerRun = nHITracks;
+      eventMaxTracksPerRun = thisEvent;
+      runMaxTracksPerRun = thisRun;
+    }
+
+    //Read collection
+
+    std::vector<EcalRecHit> seeds;
+    seeds.clear();
+    
+    vector<EBDetId> usedXtals;
+    usedXtals.clear();
+    
+    detIdEBRecHits.clear(); // EBDetId
+    EBRecHits.clear();  //EcalRecHit
+      
+    const EcalRecHitCollection *hitCollection_p = rhEBpi0.product();
+    float etot =0;
+    EcalRecHitCollection::const_iterator itb;
+
+    for(itb=rhEBpi0->begin(); itb!=rhEBpi0->end(); ++itb){
+
+      EBDetId id(itb->id());
+      double energy = itb->energy();
+      if( energy < seleXtalMinEnergy_) continue; 
+      
+      EBDetId det = itb->id();
+            
+      detIdEBRecHits.push_back(det);
+      EBRecHits.push_back(*itb);	  
+      if ( energy > clusSeedThr_ ) seeds.push_back(*itb);
+      
+      //htimeEB_->Fill(itb->time());	  
+      etot+= itb->energy();	 
+      
+    } // Eb rechits
+    
+    iso = 0;
+        
+    // Make own simple clusters (3x3, 5x5 or clusPhiSize_ x clusEtaSize_)
+    sort(seeds.begin(), seeds.end(), ecalRecHitLess());
+    
+    //int seedcount(0);
+
+    for (std::vector<EcalRecHit>::iterator itseed=seeds.begin(); itseed!=seeds.end(); itseed++) {
+      EBDetId seed_id = itseed->id();
+      std::vector<EBDetId>::const_iterator usedIds;
+      
+      int nCryinclu(0);
+      bool seedAlreadyUsed=false;
+      for(usedIds=usedXtals.begin(); usedIds!=usedXtals.end(); usedIds++){
+	if(*usedIds==seed_id){
+	  seedAlreadyUsed=true;
+	  //cout<< " Seed with energy "<<itseed->energy()<<" was used !"<<endl;
+	  break; 
+	}
+      }
+      if(nClu>=NCLUMAX) continue;
+      if(nCry>=NCRYMAX) continue;
+      //       seedcount++;
+      if(seedAlreadyUsed)continue;
+      std::vector<DetId> clus_v = topology_p->getWindow(seed_id,clusEtaSize_,clusPhiSize_);       
+      std::vector<std::pair<DetId,float> > clus_used;
+      //Reject the seed if not able to build the cluster around it correctly
+      //if(clus_v.size() < clusEtaSize_*clusPhiSize_){cout<<" Not enough RecHits "<<endl; continue;}
+      vector<EcalRecHit> RecHitsInWindow;
+      vector<EcalRecHit> RecHitsInWindow5x5;
+      
+      double simple_energy = 0;
+
+      for (std::vector<DetId >::iterator det=clus_v.begin(); det!=clus_v.end(); det++) {
+	EBDetId EBdet = *det;
+	//      cout<<" det "<< EBdet<<" ieta "<<EBdet.ieta()<<" iphi "<<EBdet.iphi()<<endl;
+	bool  HitAlreadyUsed=false;
+	for(usedIds=usedXtals.begin(); usedIds!=usedXtals.end(); usedIds++){
+	  if(*usedIds==*det){
+	    HitAlreadyUsed=true;
+	    break;
+	  }
+	}
+	if(HitAlreadyUsed)continue;
+	
+	std::vector<EBDetId>::iterator itdet = find( detIdEBRecHits.begin(),detIdEBRecHits.end(),EBdet);
+	if(itdet == detIdEBRecHits.end()) continue; 
+	
+	int nn = int(itdet - detIdEBRecHits.begin());
+	usedXtals.push_back(*det);
+	RecHitsInWindow.push_back(EBRecHits[nn]);
+	clus_used.push_back(std::make_pair(*det,1));
+	simple_energy = simple_energy + EBRecHits[nn].energy();
+	
+      }
+      
+      if(simple_energy <= 0) continue;
+
+      math::XYZPoint clus_pos = posCalculator_.Calculate_Location(clus_used,hitCollection_p,geometry_p,geometryES_p);
+      
+      float theta_s = 2. * atan(exp(-clus_pos.eta()));
+
+      // eta correction according to Z
+      double etaForZEqualsZero = clus_pos.eta();  // initial eta value of cluster without correcting for event Z-vertex;
+      double zCorrectedEta = etaForZEqualsZero; // placeholder for correction result
+      double zAtECal = 0.0;
+      double thetaForZEqualsZero = -1000.0;
+      if(etaForZEqualsZero != 0.0) {
+	thetaForZEqualsZero = 2.0*atan(exp(-etaForZEqualsZero));
+	zAtECal = rECal/tan(thetaForZEqualsZero);
+      } // check for non-zero value of uncorrected eta
+
+      //
+      // Correction for zVertex using the zVertexEventSelected value
+      //
+      double zCorrected = zAtECal - 0.01*zVertexEventSelected;  // convert to meters
+      double thetaCorrected = -1000.0;
+      if(zCorrected != 0.0) {
+
+	thetaCorrected = atan(rECal/zCorrected);
+	if(thetaCorrected < 0.0)
+	  thetaCorrected += TMath::Pi();  // convert to 0 to pi range for theta
+	
+	theta_s = thetaCorrected;  // corrected value of theta
+
+	zCorrectedEta = -log(tan(thetaCorrected/2.0));
+      }
+      else {
+	zCorrectedEta = 0.0;
+      } // check for non-zero value of Z baseline
+
+      if(iPrintEtaCorrection < nPrintEtaCorrection) {
+	cout << "\n First pass: zVertexEventSelected = " << 0.01*zVertexEventSelected;  // convert to meters
+	cout << ", zAtECal = " << zAtECal;
+	cout << ", zCorrected = " << zCorrected;
+	cout << ", thetaForZEqualsZero = " << thetaForZEqualsZero;
+	cout << ", thetaCorrected = " << thetaCorrected;
+	cout << ", zCorrectedEta = " << zCorrectedEta;
+	cout << ", uncorrected Eta = " << etaForZEqualsZero;
+
+	iPrintEtaCorrection++;
+	if(iPrintEtaCorrection >= nPrintEtaCorrection)
+	  cout << endl;
+
+      }
+
+      float et_s = simple_energy * sin(theta_s);
+
+      float s4s9_tmp[4];
+      for(int i=0;i<4;i++)s4s9_tmp[i]= 0;
+      
+      int seed_ieta = seed_id.ieta();
+      int seed_iphi = seed_id.iphi();
+      
+      convxtalid( seed_iphi,seed_ieta);
+      
+      float e3x3 = 0; 
+      float e5x5 = 0;
+      
+      for(unsigned int j=0; j<RecHitsInWindow.size();j++){
+	EBDetId det = (EBDetId)RecHitsInWindow[j].id(); 
+	
+	int ieta = det.ieta();
+	int iphi = det.iphi();
+	
+	convxtalid(iphi,ieta);
+	
+	float en = RecHitsInWindow[j].energy(); 
+	
+	int dx = diff_neta_s(seed_ieta,ieta);
+	int dy = diff_nphi_s(seed_iphi,iphi);//
+	
+	if(abs(dx)<=1 && abs(dy)<=1) {
+	  e3x3 += en; 
+	  if(dx <= 0 && dy <=0) s4s9_tmp[0] += en; 
+	  if(dx >= 0 && dy <=0) s4s9_tmp[1] += en; 
+	  if(dx <= 0 && dy >=0) s4s9_tmp[2] += en; 
+	  if(dx >= 0 && dy >=0) s4s9_tmp[3] += en; 
+	  if(nCry>=NCRYMAX) continue;
+	  eCry[nCry] = RecHitsInWindow[j].energy();
+	  ptCry[nCry] =  RecHitsInWindow[j].energy() * sin(2. * atan(exp(-geometry_p->getGeometry(det)->getPosition().eta())));
+	  timeCry[nCry] = RecHitsInWindow[j].time();
+	  flagCry[nCry] = RecHitsInWindow[j].recoFlag();
+	  ietaCry[nCry] = ieta;
+	  iphiCry[nCry] = iphi;
+	  iCry[nCry] = det.ic();
+	  iSM[nCry] = det.ism();
+	  etaCry[nCry] = geometry_p->getGeometry(det)->getPosition().eta();
+	  phiCry[nCry] = geometry_p->getGeometry(det)->getPosition().phi();
+	  indexCryClu[nClu][nCryinclu] = nCry;
+	  if(dx == 0 && dy == 0)  {
+	    S1Clu[nClu] = RecHitsInWindow[j].energy();
+	    timeClu[nClu] = RecHitsInWindow[j].time();
+	  }
+	  nCryinclu++;
+	  nCry++;      
+	}//
+      }
+      
+      if(e3x3 <= 0) continue;
+      
+      float s4s9_max = *max_element( s4s9_tmp,s4s9_tmp+4)/e3x3; 
+      
+      //calculate e5x5
+      std::vector<DetId> clus_v5x5 = topology_p->getWindow(seed_id,5,5); 
+      for( std::vector<DetId>::const_iterator idItr = clus_v5x5.begin(); idItr != clus_v5x5.end(); idItr++){
+	EBDetId det = *idItr;
+	
+	//inside collections
+	std::vector<EBDetId>::iterator itdet = find( detIdEBRecHits.begin(),detIdEBRecHits.end(),det);
+	if(itdet == detIdEBRecHits.end()) continue; 
+	
+	int nn = int(itdet - detIdEBRecHits.begin());
+	
+	RecHitsInWindow5x5.push_back(EBRecHits[nn]);
+	e5x5 += EBRecHits[nn].energy();
+      }
+
+      if(e5x5 <= 0) continue;
+      
+      RecHitsCluster.push_back(RecHitsInWindow);
+      RecHitsCluster5x5.push_back(RecHitsInWindow5x5);
+      
+      S9Clu[nClu] = e3x3;
+      ptClu[nClu] =  et_s;
+      // etaClu[nClu] = clus_pos.eta();
+      etaClu[nClu] = zCorrectedEta;
+      phiClu[nClu] = clus_pos.phi();
+      S4Clu[nClu] =  s4s9_max * simple_energy;
+      S25Clu[nClu] = e5x5;
+      nCryClu[nClu] = nCryinclu;
+      nClu++;
+      
+    } // loop over seeds
+    
+  }            // rhEBpi0.valid() ends
+
+
+  if(nClu > maxClustersPerRun) {
+    maxClustersPerRun = nClu;
+    eventMaxClustersPerRun = thisEvent;
+    runMaxClustersPerRun = thisRun;
+  }
+
+  if(nCry > maxCryPerRun) {
+    maxCryPerRun = nCry;
+    eventMaxCryPerRun = thisEvent;
+    runMaxCryPerRun = thisRun;
+  }
+
+  /// mc truth
+  isMC = !iEvent.isRealData();
+
+  // get MC info from hiGenParticleCandidates 
+  Handle<GenParticleCollection> hiGenParticles;
+  if(isMC) iEvent.getByLabel("hiGenParticles", hiGenParticles);
+
+  // get GEANT sim tracks and vertices (includes conversions)
+  Handle<SimTrackContainer> simTracks_h;
+  const SimTrackContainer* simTracks;
+  if( isMC ) iEvent.getByLabel("g4SimHits", simTracks_h);
+  simTracks = (simTracks_h.isValid()) ? simTracks_h.product() : 0;
+   
+  Handle<SimVertexContainer> simVert_h;
+  const SimVertexContainer* simVertices;
+  if( isMC ) iEvent.getByLabel("g4SimHits", simVert_h);
+  simVertices = (simVert_h.isValid()) ? simVert_h.product() : 0;
+
+  if( isMC ) {    
+      nMC = nSIM = 0;
+      int current_particle = -1;
+      set<int> mothers;
+      map<const GenParticle*, int> mapMC;
+      map<const GenParticle*, int>::iterator mapMC_it;
+      //int where_is_pi0_mother(0);  //debug
+      int p_count(0);
+      int motherIDMC_temp = -1;
+    
+      //cout << endl << "event" << endl;
+      for (GenParticleCollection::const_iterator p = hiGenParticles->begin(); p != hiGenParticles->end(); ++p, ++p_count) 
+	{
+	  // saving only photons and pi0s
+	           //if ( nMC >= (nMaxMC-1) ||
+		     //(p->pdgId() != kPhoton &&
+		     //fabs(p->pdgId()) != kElectron &&
+		     //p->pdgId() != kPi0 )) 
+		     //continue;
+	  
+	  if ( nMC >= (nMaxMC-1) ) continue;
+
+	  // looking for mother particle
+	  motherIDMC_temp = -1;
+	  //where_is_pi0_mother = -1; // debug
+	  if (p->numberOfMothers() > 0) 
+	    {
+	      const Candidate * mom = p->mother();
+	      for (size_t j = 0; j != hiGenParticles->size(); ++j) 
+		{
+		  const Candidate * ref = &((*hiGenParticles)[j]);
+		  if (mom==ref)
+		    {
+		      motherIDMC_temp = j; 
+		      //if(mom->pdgId()==kPi0)//debug
+		      //   where_is_pi0_mother = j; // debug
+		    }
+		}
+	    } 
+         
+	  // Neutral particles kept with >100 MeV 
+	  if ( p->status()==1  && p->pt()>0.100 )//|| (p->charge()!=0 && p->pt()>0.075)) ) 
+	    {
+	      pdgIdMC[nMC] = p->pdgId();
+	      statusMC[nMC] = p->status();
+	      ptMC[nMC] = p->pt();
+	      eMC[nMC] = p->energy();
+	      etaMC[nMC] = p->eta(); 
+	      phiMC[nMC] = p->phi(); 
+	      mapMC[&(*p)] = nMC;
+	      convertedMC[nMC] = false;
+	      motherIDMC[nMC] = -1; //((const hiGenParticle*)p->mother())->pdgId(); 
+	      motherIndexMC[nMC] = -1; //hic::check
+	      current_particle = nMC;
+	      ++nMC; 
+
+	      // if stable photon/electron, find parent
+	      if (p->status() == 1 && motherIDMC_temp != -1 && (p->pdgId() == kPhoton || fabs(p->pdgId()) == kElectron ) ) //|| p->pdgId() == 221)) // 221=eta0 
+		{
+		  const GenParticle *mom = (const GenParticle*)p->mother();
+		   
+		     //if(p->pdgId() == kPhoton ) // debug
+		     //{
+		     //cout << "cms_photon::" << p_count;
+		     //if( where_is_pi0_mother!=-1 )
+		     //cout << "  cms_pi0::" << where_is_pi0_mother <<endl;
+		     //else
+		     //cout << "  not from pi0" << endl;
+
+		     //cout << "*** my_photon::" << current_particle ;
+		     //}
+		  
+		  // saving the mother pdgId 
+		  motherIDMC[current_particle] = mom->pdgId();
+
+		  if ( mom->status() == 2 &&  (mom->pdgId()<81 || mom->pdgId()>100)) // avoid to store partons and MC internal
+		    {
+		      // if the mother particle is found for the first time
+		      if(mothers.find(motherIDMC_temp) == mothers.end())
+			{
+			  mothers.insert(motherIDMC_temp);
+			  if (nMC>=nMaxMC) continue;
+			  pdgIdMC[nMC] = mom->pdgId();
+			  statusMC[nMC] = mom->status();
+			  ptMC[nMC] = mom->pt();
+			  eMC[nMC] = mom->energy();
+			  etaMC[nMC] = mom->eta();
+			  phiMC[nMC] = mom->phi(); 
+			  mapMC[mom] = nMC;
+			  //motherIndexMC[nMC-1] = nMC;
+			  ++nMC;
+			}
+		      //else
+		      //{
+		      //motherIndexMC[nMC-1] = mapMC.find(mom)->second;
+		      //}
+		    }
+
+		  mapMC_it =  mapMC.find(mom);
+		  if(mapMC_it != mapMC.end())
+		    motherIndexMC[current_particle] = mapMC_it->second;
+		  //cout << "   my_pi0::" << motherIndexMC[current_particle] << endl;
+		} // stable particle has parents 
+	    } // particle selection
+	} // loop over particles
+      
+
+      //----- Figure out the particle decays in tracker volume  ------
+
+      // Vertices only return trackID of their parent SimTrack
+      // Figure out the mapping from trackID to SimTrack
+      map<unsigned int, const SimTrack*> trackMap;
+      for (SimTrackContainer::const_iterator iSim = simTracks->begin(); iSim != simTracks->end(); ++iSim) 
+	{
+	  if (!iSim->noVertex()) 
+	    {
+	      assert(trackMap.find(iSim->trackId())==trackMap.end());
+	      trackMap[iSim->trackId()] = &(*iSim);
+	    }
+	}
+
+
+      // Find all SimTracks that come from decays before the ECAL
+      // and find their parent SimTracks
+      map<const SimTrack*, const SimTrack*> promptParent; // daughter->mother
+      map<const SimTrack*, set<const SimTrack*> > promptDecays; // m->ds
+      map<const SimTrack*, const SimVertex*> promptVertex; // daughter->vertex
+      
+      for (SimTrackContainer::const_iterator iSim = simTracks->begin(); iSim != simTracks->end(); ++iSim) 
+	{
+	  if (!iSim->noVertex()) 
+	    {
+	      // Find the parent vertex and see if it classifies as an early decay
+	      // Exclude the primary vertex (noParent)
+	      SimVertex const& vtx = (*simVertices)[iSim->vertIndex()];
+	      if (!vtx.noParent() && vtx.position().Rho() < 129 && fabs(vtx.position().z()) < 304) 
+		{
+		  // Find parent SimParticle that produced this vertex
+		  // vtx->parentIndex is NOT a vector index :( so use trackMap
+		  assert(trackMap.find(vtx.parentIndex())!=trackMap.end());
+		  const SimTrack* p = trackMap[vtx.parentIndex()];
+		  promptParent[&(*iSim)] = p;
+		  promptDecays[p].insert(&(*iSim));
+		  promptVertex[&(*iSim)] = &vtx;
+		} // early decay
+	    } // has vertex
+	} // for simTracks
+      
+      // Find grandparent SimTracks all the way up the chain
+      map<const SimTrack*, const SimTrack*> chainParents;// g.daughter->grandma
+      map<const SimTrack*, set<const SimTrack*> > chainDecays; // gm->gds
+
+      for (map<const SimTrack*, const SimTrack*>::const_iterator iSim = promptParent.begin(); iSim != promptParent.end(); ++iSim) 
+	{
+	  // Check that the SimTrack has no daughters itself (=grandchild)
+	  if (promptDecays.find(iSim->first)==promptDecays.end())
+	    {
+	      // Find the first SimTrack in the parentage chain (=grandparent)
+	      const SimTrack *p = iSim->second;
+	      while (promptParent.find(p) != promptParent.end())
+		p = promptParent[p];
+	      chainParents[iSim->first] = p;
+	      chainDecays[p].insert(iSim->first);
+	    } // is grandchild
+	} // for promptParent
+      
+      // Associate grandParents to hiGenParticles
+      map<const GenParticle*, const SimTrack*> decayedSims;
+      map<const SimTrack*, const GenParticle*> decayedGens;
+
+      for (map<const SimTrack*, set<const SimTrack*> >::const_iterator iSim = chainDecays.begin(); iSim != chainDecays.end(); ++iSim) 
+	{
+	  if (iSim->first->noGenpart()) 
+	    continue;
+
+	  // Make sure the decay chain wasn't already pruned out
+	  if (promptDecays.find(iSim->first)!=promptDecays.end() && promptDecays[iSim->first].size()!=0) 
+	    {
+	      // NB: genpartIndex offset by 1
+	      const GenParticle* iGen =
+		&(*hiGenParticles)[iSim->first->genpartIndex()-1];
+	      assert(iGen->pdgId()==iSim->first->type());
+	      decayedSims[iGen] = iSim->first;
+	      decayedGens[iSim->first] = iGen;
+	    }
+	} // for chainParents 
+      
+      /// Save conversions 
+      //for (map<const GenParticle*, const SimTrack*>::const_iterator iGen = decayedSims.begin(); iGen != decayedSims.end(); ++iGen) 
+	//{
+	  //const GenParticle *p = iGen->first;
+
+	  /// if the photon comes from pi0 or eta
+	  //if (p->pdgId()==22 && p->mother()->status()==2 && p->mother()->pdgId()==111) 
+	  //if (p->pdgId()==22 && (p->mother()->pdgId()==111 ||  // pi0 
+          //                       p->mother()->pdgId()==221)) // eta
+	  //  {
+	      //find the mother gen-particle index in the gen-particle vector
+	  //    mapMC_it =  mapMC.find(p);
+	  //    int mother_gen_index = -1;
+	  //    if(mapMC_it != mapMC.end())mother_gen_index = mapMC_it->second;
+	  //    if(mother_gen_index > 0) convertedMC[mother_gen_index] = true;
+	      
+	      //save the decay chain
+	  //    bool saved = printChildren(decayedSims[p], promptDecays,  promptVertex, 0, true, mother_gen_index);
+
+	  //    if (saved && mapMC.find(p)!=mapMC.end()) {
+          //      statusMC[mapMC[p]] *= -1;
+	  //    }
+	  //  } // is primary photon
+	//} // for iGen 
+    } // if isMC 
+  else
+    {
+      nMC = 1;
+      pdgIdMC[0] = -99999;
+      statusMC[0] = -99999;
+      motherIndexMC[0] = -99999;
+      motherIDMC[0] = -99999;
+      ptMC[0] = -99999;
+      eMC[0] = -99999;
+      etaMC[0] = -99999;
+      phiMC[0] = -99999;
+      convertedMC[0] = 0;
+
+      nSIM = 1;
+      pdgIdSIM[0] = -99999;
+      statusSIM[0] = -99999;
+      motherGenIndexSIM[0] = -99999;
+      ptSIM[0] = -99999;
+      eSIM[0] = -99999;
+      etaSIM[0] = -99999;
+      phiSIM[0] = -99999;
+      rSIM[0] = -99999;
+      zSIM[0] = -99999;
+    }
+
+ 
+  m_tree->Fill();
+}
+
+
+
+
+// ------------ method called once each job just before starting event loop  ------------
+void 
+EcalFlowNtp::beginRun(const edm::Run& r, const EventSetup& context)
+{
+
+  m_file = TFile::Open(m_outfilename.c_str(),"RECREATE");
+  m_tree = new TTree("h1","AlCaPi0Eta Tree");
+  
+  // content
+  // xtal
+  // e, pt, time, eta, phi, flag, 
+  // 
+  // clus
+  // e, time, eta, phi, eta_cms, phi_cms, isolation, s1, s4, s9, indici 9 cristalli
+  // 
+  // pi0
+  // inv mass, e, pt, eta, phi, eta_cms, phi_cms, indice 2 clus
+
+  // GENERAL block branches
+  m_tree->Branch("Run",&runn,"Run/I");
+  m_tree->Branch("Event",&eventn,"Event/I");
+  m_tree->Branch("LumiSection",&ls,"LumiSection/I");
+
+  m_tree->Branch("cent_val",&centrality_val,"cent_val/D");
+  m_tree->Branch("cent_bin",&centrality_bin,"cent_bin/I");
+
+  m_tree->Branch("nHITracks",&nHITracks,"nHITracks/I");
+  m_tree->Branch("zVertEvt",&zVertexEvent,"zVertEvt/D");
+  m_tree->Branch("zVertEvtS",&zVertexEventSelected,"zVertEvtS/D");
+
+  m_tree->Branch("PGAngle",&PGAngle,"PGAngle/D");
+  m_tree->Branch("PGsumSin",&PGsumSin,"PGsumSin/D");
+  m_tree->Branch("PGsumCos",&PGsumCos,"PGsumCos/D");
+  m_tree->Branch("NGAngle",&NGAngle,"NGAngle/D");
+  m_tree->Branch("NGsumSin",&NGsumSin,"NGsumSin/D");
+  m_tree->Branch("NGsumCos",&NGsumCos,"NGsumCos/D");
+  m_tree->Branch("HFAngle",&HFAngle,"HFAngle/D");
+  m_tree->Branch("HFsumSin",&HFsumSin,"HFsumSin/D");
+  m_tree->Branch("HFsumCos",&HFsumCos,"HFsumCos/D");
+  m_tree->Branch("etHFAngle",&etHFAngle,"etHFAngle/D");
+  m_tree->Branch("etHFsumSin",&etHFsumSin,"etHFsumSin/D");
+  m_tree->Branch("etHFsumCos",&etHFsumCos,"etHFsumCos/D");
+
+  // crystal variables
+  m_tree->Branch("nCry",&nCry,"nCry/I");
+  m_tree->Branch("eCry",&eCry,"eCry[nCry]/F");
+  m_tree->Branch("ptCry",&ptCry,"ptCry[nCry]/F");
+  m_tree->Branch("timeCry",&timeCry,"timeCry[nCry]/F");
+  m_tree->Branch("flagCry",&flagCry,"flagCry[nCry]/I");
+  m_tree->Branch("ietaCry",&ietaCry,"ietaCry[nCry]/I");
+  m_tree->Branch("iphiCry",&iphiCry,"iphiCry[nCry]/I");
+  m_tree->Branch("iCry",&iCry,"iCry[nCry]/I");
+  m_tree->Branch("iSM",&iSM,"iSM[nCry]/I");
+  m_tree->Branch("etaCry",&etaCry,"etaCry/F");
+  m_tree->Branch("phiCry",&phiCry,"phiCry/F");
+ 
+  // cluster variables
+  m_tree->Branch("nClu",&nClu,"nClu/I");
+  m_tree->Branch("ptClu",&ptClu,"ptClu[nClu]/F");
+  m_tree->Branch("etaClu",&etaClu,"etaClu[nClu]/F");
+  m_tree->Branch("phiClu",&phiClu,"phiClu[nClu]/F");
+  m_tree->Branch("S1Clu",&S1Clu,"S1Clu[nClu]/F");
+  m_tree->Branch("S4Clu",&S4Clu,"S4Clu[nClu]/F");
+  m_tree->Branch("S9Clu",&S9Clu,"S9Clu[nClu]/F");
+  m_tree->Branch("S25Clu",&S25Clu,"S25Clu[nClu]/F");
+  m_tree->Branch("timeClu",&timeClu,"timeClu[nClu]/F");
+  m_tree->Branch("nCryClu",&nCryClu,"nCryClu[nClu]/I");
+  m_tree->Branch("indexCryClu",&indexCryClu,"indexCryClu[nClu][9]/I");
+
+  // mc truth
+  m_tree->Branch( "nMC",           &nMC,          "nMC/I");
+  m_tree->Branch( "pdgIdMC",       pdgIdMC,       "pdgIdMC[nMC]/I");
+  m_tree->Branch( "statusMC",      statusMC,      "statusMC[nMC]/I");
+  m_tree->Branch( "motherIDMC",    motherIDMC,    "motherIDMC[nMC]/I");
+  m_tree->Branch( "motherIndexMC", motherIndexMC, "motherIndexMC[nMC]/I");
+  m_tree->Branch( "ptMC",          ptMC,          "ptMC[nMC]/F");
+  m_tree->Branch( "eMC",           eMC,           "eMC[nMC]/F");
+  m_tree->Branch( "etaMC",         etaMC,         "etaMC[nMC]/F");
+  m_tree->Branch( "phiMC",         phiMC,         "phiMC[nMC]/F");
+  m_tree->Branch( "convertedMC",   convertedMC,   "convertedMC[nMC]/O");
+
+  m_tree->Branch("nSIM",&nSIM,"nSIM/I");
+  m_tree->Branch("pdgIdSIM",&pdgIdSIM,"pdgIdSIM[nSIM]/I");
+  m_tree->Branch("statusSIM",&statusSIM,"statusSIM[nSIM]/I");
+  m_tree->Branch("motherGenIndexSIM",&motherGenIndexSIM,"motherGenIndexSIM[nSIM]/I");
+  m_tree->Branch("ptSIM ",&ptSIM ,"ptSIM[nSIM]/F");
+  m_tree->Branch("eSIM  ",&eSIM  ,"eSIM[nSIM]/F");
+  m_tree->Branch("etaSIM",&etaSIM,"etaSIM[nSIM]/F");
+  m_tree->Branch("phiSIM",&phiSIM,"phiSIM[nSIM]/F");
+  m_tree->Branch("rSIM",&rSIM,"rSIM[nSIM]/F");
+  m_tree->Branch("zSIM",&zSIM,"zSIM[nSIM]/F");
+
+  maxTracksPerRun = -1;
+  maxClustersPerRun = -1;
+  maxCryPerRun = -1;
+  maxPi0PerRun = -1;
+
+  eventMaxTracksPerRun = -1;
+  eventMaxClustersPerRun = -1;
+  eventMaxCryPerRun = -1;
+  eventMaxPi0PerRun = -1;
+
+  runMaxTracksPerRun = -1;
+  runMaxClustersPerRun = -1;
+  runMaxCryPerRun = -1;
+  runMaxPi0PerRun = -1;
+
+  totalEventsThisRun = 0;
+
+  lowCentralityCut = 28;
+  highCentralityCut = 32;
+  eventsInsideCentralityWindow = 0;
+  eventsOutsideCentralityWindow = 0;
+
+}
+
+// ------------ method called once each job just after ending the event loop  ------------
+void 
+EcalFlowNtp::endRun(const Run& r, const EventSetup& context) {
+
+  std::cout << std::endl << "--- RESULTS ---" << std::endl;
+
+  std::cout << "\n Maximum number of HI tracks for run " << runMaxTracksPerRun << " is " << maxTracksPerRun << " at event " << eventMaxTracksPerRun;
+  std::cout << "\n Maximum number clusters found for run " << runMaxClustersPerRun << " is "  << maxClustersPerRun  << " at event " << eventMaxClustersPerRun;
+  std::cout << "\n Maximum number crystals found for run " << runMaxCryPerRun << " is " << maxCryPerRun << " at event " << eventMaxCryPerRun;
+  std::cout << "\n Total events this run = " << totalEventsThisRun << " with accumulated events for all runs = " << totalEventsAllRuns;
+
+  std::cout << endl;
+
+  m_file->Write();
+  m_file->Close();
+  m_file->Delete();
+}
+
+void EcalFlowNtp::convxtalid(Int_t &nphi,Int_t &neta)
+{
+  // Barrel only
+  // Output nphi 0...359; neta 0...84; nside=+1 (for eta>0), or 0 (for eta<0).
+  // neta will be [-85,-1] , or [0,84], the minus sign indicates the z<0 side.
+  
+  if(neta > 0) neta -= 1;
+  if(nphi > 359) nphi=nphi-360;
+  
+} //end of convxtalid
+
+int EcalFlowNtp::diff_neta_s(Int_t neta1, Int_t neta2){
+  Int_t mdiff;
+  mdiff=(neta1-neta2);
+  return mdiff;
+}
+
+// Calculate the distance in xtals taking into account the periodicity of the Barrel
+int EcalFlowNtp::diff_nphi_s(Int_t nphi1,Int_t nphi2) {
+  Int_t mdiff;
+  if(abs(nphi1-nphi2) < (360-abs(nphi1-nphi2))) {
+    mdiff=nphi1-nphi2;
+  }
+  else {
+    mdiff=360-abs(nphi1-nphi2);
+    if(nphi1>nphi2) mdiff=-mdiff;
+  }
+  return mdiff;
+}
+
+
+// Method for iterative printing of decay chains
+bool EcalFlowNtp::printChildren(const SimTrack* p, 
+				  map<const SimTrack*, set<const SimTrack*> > const& ptokids,
+				  map<const SimTrack*, const SimVertex*> const& ptovtx,
+				  int level, bool save, int motherGenIndex) {
+
+  // Print parent
+  bool hasvtx = (ptovtx.find(p) != ptovtx.end());
+  
+  bool hasKids = (ptokids.find(p) != ptokids.end());
+
+  // Save only SIM tracks not already in hiGenParticle list
+  bool saved = false;
+  if (save && level > 0 && nSIM < nMaxSIM) {
+    pdgIdSIM[nSIM] = p->type();
+    statusSIM[nSIM] = (hasKids ? 2 : 1);
+    ptSIM[nSIM] = p->momentum().pt();
+    eSIM[nSIM] = p->momentum().energy();
+    etaSIM[nSIM] = p->momentum().eta();
+    phiSIM[nSIM] = p->momentum().phi();
+    motherGenIndexSIM[nSIM] = motherGenIndex;
+    if (hasvtx) {
+      rSIM[nSIM] = ptovtx.find(p)->second->position().Rho();
+      zSIM[nSIM] = ptovtx.find(p)->second->position().z();
+    }
+    else {
+      rSIM[nSIM] = zSIM[nSIM] = 0.;
+      //assert(hasvtx);
+    }
+    
+    ++nSIM;
+    saved = true;
+  }
+
+  // Print children, if any
+  if (hasKids) {
+
+    set<const SimTrack*> const& kids = ptokids.find(p)->second;
+    for (set<const SimTrack*>::const_iterator iKid = kids.begin();
+	 iKid != kids.end(); ++iKid)
+      saved |= printChildren(*iKid, ptokids, ptovtx, level+1, save, motherGenIndex);
+  } // if kids
+
+  return saved;
+} // printChildren
+
+
+// Go down in chain and remove unwanted decays
+bool EcalFlowNtp::pruneKids(const SimTrack* p,
+			      map<const SimTrack*, set<const SimTrack*> > & decays,
+			      map<const SimTrack*, const SimTrack*> & parent,
+			      map<const SimTrack*, const SimVertex*> & vertex,
+			      int level) {
+
+  // No children, go one level back
+  if (decays.find(p)==decays.end()) return false;
+  
+  // Prune kids and see if there are any grandchildren left after pruning
+  set<const SimTrack*> const& kids = decays.find(p)->second;
+  bool hasGrandKids = false;
+  bool hasSameType = false;
+  unsigned int nPhotons = 0;
+  unsigned int nElectrons = 0;
+  for (set<const SimTrack*>::const_iterator iKid = kids.begin();
+       iKid != kids.end(); ++iKid) {
+
+    bool hasKids = pruneKids(*iKid, decays, parent, vertex, level+1);
+    hasGrandKids = hasGrandKids || hasKids;
+    hasSameType = hasSameType || (*iKid)->type()==p->type(); 
+    if ((*iKid)->type()==22) ++nPhotons;
+    if (abs((*iKid)->type())==11) ++nElectrons;
+  }
+  // if there are grandkids, don't prune kids as we need the whole chain
+  if (hasGrandKids) return true;
+
+  // See if we have some reason to prune the kids
+  double pt  = p->momentum().pt();
+  bool prune = (hasSameType && nPhotons==kids.size()-1) // bremsstrahlung
+    || (nElectrons==kids.size() && level!=0) // non-primary photon conversion
+    || (abs(p->type())==11 && nPhotons==kids.size()) // weird brem (no e)
+    || (abs(p->type())==11 && nPhotons==kids.size()-nElectrons) // ionization
+    || (p->type()==111 && pt<0.9 && nPhotons==kids.size()) // low pT pi0      <---important_selection
+    || (p->type()==22 && pt<0.9 && nElectrons==kids.size()); // low pT conv
+  // || (kids.size()==1); // not a real decay?
+  // (NB: electron brems can produce more than one photon)
+  // (NG: electrons can turn into a photon with much less pT?)
+  // (NB: photon conversions can produce only one electron)
+  // (NB: pizeros can produce only one photon with most of pT)
+  // (NB: pi+ decays seem to only produce a muon, no neutrinos) 
+
+  // Prune, i.e. remove the parent decay and all the kids from maps
+  if (prune) {
+
+    for (set<const SimTrack*>::const_iterator iKid = kids.begin();
+	 iKid != kids.end(); ++iKid) {
+      parent.erase(*iKid);
+      vertex.erase(*iKid);
+    } // for kids
+    decays.erase(p);
+
+    return false;
+  } // if prune
+  else // no pruning done
+    return true; 
+
+} // pruneKids
+
+//define this as a plug-in
+DEFINE_FWK_MODULE(EcalFlowNtp);

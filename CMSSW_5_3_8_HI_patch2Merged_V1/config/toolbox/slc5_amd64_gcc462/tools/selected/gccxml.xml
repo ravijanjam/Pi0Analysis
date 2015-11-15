@@ -1,0 +1,6 @@
+<tool name="gccxml" version="20110825">
+  <client>
+    <environment name="GCCXML_BASE" default="/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gccxml/20110825"/>
+  </client>
+  <runtime name="PATH" value="$GCCXML_BASE/bin" type="path"/>
+</tool>

@@ -1,0 +1,8 @@
+<tool name="openldap" version="2.3.39">
+  <client>
+    <environment name="OPENLDAP_BASE" default="/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/openldap/2.3.39"/>
+    <environment name="LIBDIR" default="$OPENLDAP_BASE/lib"/>
+  </client>
+  <use name="openssl"/>
+  <use name="db4"/>
+</tool>

@@ -1,0 +1,107 @@
+ompiling edm plugin /gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc 
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc: In constructor 'EcalFlowNtp::EcalFlowNtp(const edm::ParameterSet&)':
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:97:3: error: class 'EcalFlowNtp' does not have any field named 'clustS49Cut'
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:98:3: error: class 'EcalFlowNtp' does not have any field named 'clustPtCut'
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:128:3: error: class 'EcalFlowNtp' does not have any field named '_pi'
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:136:3: error: 'particleFlow_' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:145:3: error: 'doEffCorrections_' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:155:3: error: 'cutByLeadingPhotonPt_' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:159:3: error: 'timeThreshold_' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:160:3: error: 'avoidIeta85_' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc: In member function 'virtual void EcalFlowNtp::analyze(const edm::Event&, const edm::EventSetup&)':
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:421:23: error: 'particleFlow_' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:432:7: error: 'PFPhotonPt' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:516:8: error: 'tPt_trg_' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:517:8: error: 'tEta_trg_' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:518:8: error: 'tPhi_trg_' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:573:78: error: 'avoidIeta85_' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:575:2: error: 'Timing' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:622:2: error: 'TimingInClustering' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:943:48: error: 'clustPtCut' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:938:13: warning: unused variable 'clustrS49' [-Wunused-variable]
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:951:5: error: 'EventsLeadPhotonPt' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:953:9: error: 'cutByLeadingPhotonPt_' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:970:48: error: 'clustPtCut' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:974:2: error: 'PhotonClusterPt' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:978:7: error: 'ShowerShapeCut' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:980:48: error: 'clustPtCut' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:981:15: error: 'clustS49Cut' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1057:44: error: comparison between signed and unsigned integer expressions [-Werror=sign-compare]
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1176:22: error: 'effhisto_pi0' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1287:5: error: 'doEffCorrections_' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1288:52: error: 'efficiencyCorrections' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1289:18: error: 'effhisto_pi0' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1315:5: error: 'doEffCorrections_' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1316:46: error: 'efficiencyCorrections' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1318:11: error: 'effhisto_pi0' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1333:9: error: 'doEffCorrections_' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1333:44: error: 'effhisto' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1338:20: error: '_pi' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1339:21: error: '_pi' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1340:21: error: '_pi' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1362:54: error: '_pi' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1373:40: error: '_pi' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1405:8: error: 'nSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1587:2: error: 'nSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1588:2: error: 'pdgIdSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1589:2: error: 'statusSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1590:2: error: 'motherGenIndexSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1591:2: error: 'ptSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1592:2: error: 'eSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1593:2: error: 'etaSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1594:2: error: 'phiSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1595:2: error: 'rSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1596:2: error: 'zSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc: In member function 'virtual void EcalFlowNtp::beginJob()':
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1647:3: error: 'effhisto' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1652:3: error: 'effhisto_pi0' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc: In member function 'virtual void EcalFlowNtp::endJob()':
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1753:9: error: 'doEffCorrections_' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1754:52: error: 'efficiencyCorrections' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1755:17: error: 'effhisto_pi0' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1776:9: error: 'doEffCorrections_' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1776:44: error: 'effhisto' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1793:9: error: 'doEffCorrections_' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1794:60: error: 'efficiencyCorrections' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1795:25: error: 'effhisto_pi0' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1811:6: error: 'doEffCorrections_' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1811:41: error: 'effhisto' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1816:17: error: '_pi' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1817:18: error: '_pi' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1818:18: error: '_pi' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1836:55: error: '_pi' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1849:41: error: '_pi' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc: In member function 'void EcalFlowNtp::initHistos(const edm::Service<TFileService>&)':
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1905:3: error: 'tPt_trg_' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1908:3: error: 'tEta_trg_' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1911:3: error: 'tPhi_trg_' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1943:3: error: 'ShowerShapeCut' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1991:3: error: 'PhotonClusterPt' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1994:3: error: 'EventsLeadPhotonPt' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:1997:3: error: 'PFPhotonPt' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:2003:3: error: 'Timing' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:2006:3: error: 'TimingInClustering' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:2031:120: error: '_pi' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:2038:105: error: '_pi' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc: In member function 'bool EcalFlowNtp::printChildren(const SimTrack*, const std::map<const SimTrack*, std::set<const SimTrack*> >&, const std::map<const SimTrack*, const SimVertex*>&, int, bool, int)':
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:2123:28: error: 'nSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:2123:35: error: 'nMaxSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:2124:5: error: 'pdgIdSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:2125:5: error: 'statusSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:2126:5: error: 'ptSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:2127:5: error: 'eSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:2128:5: error: 'etaSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:2129:5: error: 'phiSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:2130:5: error: 'motherGenIndexSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:2132:7: error: 'rSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:2133:7: error: 'zSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:2136:7: error: 'rSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:2136:20: error: 'zSIM' was not declared in this scope
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc: At global scope:
+/gpfs22/home/janjamrk/CMSSW_5_3_8_HI_patch2Charlie/src/Pi0Analysis/EcalFlowNtp/src/EcalFlowNtpMonika.cc:2156:55: error: no 'float EcalFlowNtp::efficiencyCorrections(double)' member function declared in class 'EcalFlowNtp'
+/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/clhep/2.0.4.6/include/CLHEP/Units/PhysicalConstants.h:80:21: warning: 'CLHEP::electron_charge' defined but not used [-Wunused-variable]
+cc1plus: some warnings being treated as errors
+
+gmake: *** [tmp/slc5_amd64_gcc462/src/Pi0Analysis/EcalFlowNtp/src/Pi0AnalysisEcalFlowNtp/EcalFlowNtpMonika.o] Error 1
+gmake: *** [There are compilation/build errors. Please see the detail log above.] Error 2
+

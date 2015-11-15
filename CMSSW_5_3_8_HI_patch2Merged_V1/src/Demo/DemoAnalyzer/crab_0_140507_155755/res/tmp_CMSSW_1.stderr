@@ -1,0 +1,30 @@
++ cp /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Demo/DemoAnalyzer/crab_0_140507_155755/share/default.tgz /tmp/dc875654b4f749129459295efc738ecb-default.tgz
++ cp /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Demo/DemoAnalyzer/crab_0_140507_155755/share/arguments.xml /tmp/dc875654b4f749129459295efc738ecb-arguments.xml
++ cp /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Demo/DemoAnalyzer/crab_0_140507_155755/job/CMSSW.sh /tmp/dc875654b4f749129459295efc738ecb-CMSSW.sh
++ cp /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Demo/DemoAnalyzer/crab_0_140507_155755/res/proxy.cert /tmp/dc875654b4f749129459295efc738ecb-proxy.cert
++ pwd
++ ls -lah
++ echo '***BEGINNING' 'PBSV2***'
+++ pwd
++ CRAB2_OLD_DIRECTORY=/home/maguirc
++ CRAB2_PBS_WORKDIR=/tmp
++ cd /tmp
+++ pwd
++ CRAB2_WORKDIR=/tmp/CRAB2-4D9AED4B278B2A80E03FB25CAD1F8D5D
++ '[' '!' -d /tmp/CRAB2-4D9AED4B278B2A80E03FB25CAD1F8D5D ']'
++ mkdir -p /tmp/CRAB2-4D9AED4B278B2A80E03FB25CAD1F8D5D
++ cd /tmp/CRAB2-4D9AED4B278B2A80E03FB25CAD1F8D5D
++ ls -lah
++ mv /tmp/dc875654b4f749129459295efc738ecb-default.tgz /tmp/CRAB2-4D9AED4B278B2A80E03FB25CAD1F8D5D/default.tgz
++ mv /tmp/dc875654b4f749129459295efc738ecb-arguments.xml /tmp/CRAB2-4D9AED4B278B2A80E03FB25CAD1F8D5D/arguments.xml
++ mv /tmp/dc875654b4f749129459295efc738ecb-CMSSW.sh /tmp/CRAB2-4D9AED4B278B2A80E03FB25CAD1F8D5D/CMSSW.sh
++ mv /tmp/dc875654b4f749129459295efc738ecb-proxy.cert /tmp/CRAB2-4D9AED4B278B2A80E03FB25CAD1F8D5D/proxy.cert
++ export X509_USER_PROXY=/tmp/CRAB2-4D9AED4B278B2A80E03FB25CAD1F8D5D/proxy.cert
++ X509_USER_PROXY=/tmp/CRAB2-4D9AED4B278B2A80E03FB25CAD1F8D5D/proxy.cert
++ ./CMSSW.sh 1 1
++ mv /tmp/CRAB2-4D9AED4B278B2A80E03FB25CAD1F8D5D/out_files_1.tgz /tmp/dc875654b4f749129459295efc738ecb-out_files_1.tgz
++ mv /tmp/CRAB2-4D9AED4B278B2A80E03FB25CAD1F8D5D/crab_fjr_1.xml /tmp/dc875654b4f749129459295efc738ecb-crab_fjr_1.xml
++ mv -f /tmp/dc875654b4f749129459295efc738ecb-out_files_1.tgz /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Demo/DemoAnalyzer/crab_0_140507_155755/res/out_files_1.tgz
++ mv -f /tmp/dc875654b4f749129459295efc738ecb-crab_fjr_1.xml /gpfs22/home/maguirc/CMSSW_5_3_8_HI_patch2/src/Demo/DemoAnalyzer/crab_0_140507_155755/res/crab_fjr_1.xml
++ cd /home/maguirc
++ rm -rf /tmp/CRAB2-4D9AED4B278B2A80E03FB25CAD1F8D5D

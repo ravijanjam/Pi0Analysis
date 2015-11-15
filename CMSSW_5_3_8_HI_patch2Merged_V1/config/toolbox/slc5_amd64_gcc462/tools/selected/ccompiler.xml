@@ -1,0 +1,15 @@
+  <tool name="ccompiler" version="4.6.2" type="compiler">
+    <client>
+      <environment name="CCOMPILER_BASE" default="/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2"/>
+      <environment name="GCCBINDIR" value="$CCOMPILER_BASE/bin"/>
+      <environment name="CC" value="$GCCBINDIR/gcc"/>
+    </client>
+    <flags CDEBUGFLAG="-g"/>
+    <flags CSHAREDOBJECTFLAGS="-fPIC"/>
+    <flags CFLAGS="-pthread"/>
+    <flags CFLAGS="-O2"/>
+    <flags LDFLAGS="-Wl,-E -Wl,--hash-style=gnu"/>
+    <flags CSHAREDFLAGS="-shared -Wl,-E "/>
+    <flags SCRAM_COMPILER_NAME="gcc462"/>
+    <flags SCRAM_LANGUAGE_TYPE="C"/>
+  </tool>

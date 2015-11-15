@@ -1,0 +1,10 @@
+<tool name="qtdesigner" version="4.6.3">
+  <info url="http://www.trolltech.com/products/qt.html"/>
+  <lib name="QtDesigner"/>
+  <client>
+    <environment name="QTDESIGNER_BASE" default="/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/qt/4.6.3"/>
+    <environment name="INCLUDE" default="$QTDESIGNER_BASE/include/QtDesigner"/>
+  </client>
+  <use name="qtbase"/>
+  <use name="qt"/>
+</tool>

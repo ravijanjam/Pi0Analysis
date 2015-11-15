@@ -1,0 +1,8 @@
+11448	CmsHi
+16	CondFormats
+84	DataFormats
+1840	HeavyIonsAnalysis
+92992	Pi0Analysis
+1012	RecoHI
+40	cmaguire
+0	dusk_16Apr2014.txt

@@ -1,0 +1,10 @@
+<tool name="qt3support" version="4.6.3">
+  <info url="http://www.trolltech.com/products/qt.html"/>
+  <lib name="Qt3Support"/>
+  <client>
+    <environment name="QT3SUPPORT_BASE" default="/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/qt/4.6.3"/>
+    <environment name="INCLUDE" default="$QT3SUPPORT_BASE/include/Qt3Support"/>
+  </client>
+  <flags cppdefines="QT3_SUPPORT"/>
+  <use name="qtbase"/>
+</tool>

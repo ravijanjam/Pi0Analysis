@@ -1,0 +1,674 @@
+39,40d38
+< #include <math.h>
+< 
+46,48c44,45
+< const int bufferDepth = 3;                      // changed from #define use 
+< const int maximumNumberAcceptedCluster = 1000;  // changed from #define use
+< 
+---
+> #define bufferDepth 3 
+> #define maximumNumberAcceptedCluster 1000
+54c51
+<  public:
+---
+> public:
+60a58,60
+> 
+> 
+> 
+64,71c64,72
+< //
+< // The following were changed from the #define usage
+< //
+< const int NCRYMAX = 35000;
+< const int NCLUMAX = 10000;
+< const int NPI0MAX = 0;  // why is this variable needed?
+< const int NCONVMAX = 500;
+< const int NMAXTRACKS = 10000;
+---
+> 
+> //class DQMStore;
+> //class MonitorElement;
+> 
+> #define NCRYMAX 35000
+> #define NCLUMAX 10000
+> #define NPI0MAX 0
+> #define NCONVMAX 500
+> #define NMAXTRACKS 10000
+75c76
+<  public:
+---
+> public:
+80c81
+<  protected:
+---
+> protected:
+87c88
+<     const edm::EventSetup& context) ;
+---
+>                             const edm::EventSetup& context) ;
+89,90c90,91
+<     void endLuminosityBlock(const edm::LuminosityBlock& lumiSeg, 
+<     const edm::EventSetup& c);*/
+---
+>   void endLuminosityBlock(const edm::LuminosityBlock& lumiSeg, 
+>                           const edm::EventSetup& c);*/
+100,102c101,103
+<  private:
+<   // Added by Monika Sharma for reading tracks  
+<                                                                             
+---
+> private:
+>   // Added by Monika Sharma for reading tracks                                                                              
+> 
+106a108
+>   bool doEffCorrections_;
+107a110,111
+>   bool useClusterCrystalLimitLowPtOnly_;
+>   bool avoidIeta85_;
+112,113d115
+<   double etaCut_;
+< 
+118c120
+< 
+---
+>   double etaCut_;
+123,126c125,127
+< 
+<   double lowInvMassCut_;
+<   double highInvMassCut_;
+< 
+---
+>   double swissThreshold_;
+>   double timeThreshold_;
+>   double clusterCrystalLimitLowPtOnly_;
+129a131
+> 
+135a138,140
+>   TH1F *tPt_trg_;
+>   TH1F *tPhi_trg_;
+>   TH1F *tEta_trg_;
+148a154,155
+>   TH2F *effhisto;
+>   TH2D *effhisto_pi0;
+154a162,188
+>   TH1D *ShowerShapeCut;
+>   TH1D *PhotonClusterPt;
+>   TH1D *EventsLeadPhotonPt;
+>   TH1D *PFPhotonPt;
+>   TH1D *Timing;
+>   TH1D *TimingInClustering;
+>   TH1D *SwissCrossCut;
+>   TH3F *_pi0Spectrum;
+> 
+>   std::map<std::string,TH1D*> pi0MeanPt;
+>   std::map<std::string,TH1D*> pi0MassHistSameEventvsPt;
+>   std::map<std::string,TH1D*> pi0MassHistMixedEventvsPt;
+>   std::map<std::string,TH2D*> hSignal;
+>   std::map<std::string,TH2D*> hBackground;
+>   TH2D *hSignal1;
+>   TH2D *hBackground1;
+> 
+>   int aHit[NMAXTRACKS];
+>   double aPt[NMAXTRACKS];
+>   double aPhi[NMAXTRACKS];
+>   double aEta[NMAXTRACKS];
+> 
+>   std::string srcTracks_; 
+>   edm::InputTag vertexSrc_;
+>   edm::InputTag srcVertex_;
+>   edm::InputTag srcTowers_;
+>   edm::InputTag particleFlow_;
+161c195,196
+<   float clustS49Cut_;  // set in the python file as of April 30, 2014 
+---
+>   float clustS49Cut;
+>   float clustPtCut;
+180a216
+>   double cutByLeadingPhotonPt_;
+188,189c224,225
+<   float lowPtCut;
+<   float highPtCut;
+---
+>   //  float lowPtCut;
+>   // float highPtCut;
+203,206d238
+< 
+<   //
+<   // Parameters from Monika's EcalFlowNtp code
+<   //
+212,241c244
+<   bool doSwissThreshold_;
+<   double swissThreshold_;
+<   TH1D *SwissCrossCut;
+< 
+<   //
+<   // Histograms from Monika's code for EcalFlowNtp
+<   TH3F *_pi0Spectrum;
+< 
+<   std::map<std::string,TH1D*> pi0MeanPt;
+<   std::map<std::string,TH1D*> pi0MassHistSameEventvsPt;
+<   std::map<std::string,TH1D*> pi0MassHistMixedEventvsPt;
+<   std::map<std::string,TH2D*> hSignal;
+<   std::map<std::string,TH2D*> hBackground;
+<   std::map<std::string,TH2D*> hGenSignal;
+<   std::map<std::string,TH2D*> hGenBackground;
+< 
+<   TH2D *hSignal1;
+<   TH2D *hBackground1;
+<   TH2D *hGenSignal1;
+<   TH2D *hGenBackground1;
+< 
+<   int aHit[NMAXTRACKS];
+<   double aPt[NMAXTRACKS];
+<   double aPhi[NMAXTRACKS];
+<   double aEta[NMAXTRACKS];
+< 
+<   std::string srcTracks_; 
+<   edm::InputTag vertexSrc_;
+<   edm::InputTag srcVertex_;
+<   edm::InputTag srcTowers_;
+---
+>   //////////// Added for timing cuts ///////////////////
+247d249
+< 
+250,253d251
+<   TH1D *TimingBefore;
+<   TH2D *TimingBeforeEvsT;
+<   TH1D *TimingAfter;
+< 
+258d255
+<     unsigned int nCryClu;
+277,278d273
+<   std::vector<std::vector<TVector3>> pGenVectVect_trg;
+<   std::vector<std::vector<TVector3>> pGenVectVect_ass;
+288a284
+>   double _pi;
+291,293d286
+<   int minimumHITracksCut_;
+<   int maximumHITracksCut_;
+< 
+297,301c290,294
+<   // Method for iterative printing of decay chains 
+<   bool printChildren(const SimTrack* p, 
+< 		     std::map<const SimTrack*, std::set<const SimTrack*> > const& ptokids,
+< 		     std::map<const SimTrack*, const SimVertex*> const& ptovtx,
+< 		     int level, bool save, int motherGenIndex);
+---
+>    // Method for iterative printing of decay chains 
+>    bool printChildren(const SimTrack* p, 
+>         std::map<const SimTrack*, std::set<const SimTrack*> > const& ptokids,
+>         std::map<const SimTrack*, const SimVertex*> const& ptovtx,
+>         int level, bool save, int motherGenIndex);
+303,311c296,308
+<   // Remove unneeded SimTracks from tables
+<   bool pruneKids(const SimTrack* p,
+< 		 std::map<const SimTrack*, std::set<const SimTrack*> > & decays,
+< 		 std::map<const SimTrack*, const SimTrack*> & parent,
+< 		 std::map<const SimTrack*, const SimVertex*> & vertex,
+< 		 int level);
+< 
+<   // Energy recalibration function
+<   float crystalCorrectionFunction(int indexCrystal, float ecalEnergy);
+---
+>    // Remove unneeded SimTracks from tables
+>     bool pruneKids(const SimTrack* p,
+>          std::map<const SimTrack*, std::set<const SimTrack*> > & decays,
+>          std::map<const SimTrack*, const SimTrack*> & parent,
+>          std::map<const SimTrack*, const SimVertex*> & vertex,
+>          int level);
+> 
+>     // Energy recalibration function                                                                                       
+>     float crystalCorrectionFunction(int indexCrystal, float ecalEnergy);
+>     float efficiencyCorrections(double pTtrig);
+>     bool useClusterCrystalLimit_;
+>     int lowCrystalLimit_;
+>     int highCrystalLimit_;
+313,318c310,311
+<   bool useClusterCrystalLimitLowPtOnly_;
+<   double clusterCrystalLimitLowPtOnly_;
+< 
+<   bool useClusterCrystalLimit_;
+<   int lowCrystalLimit_;
+<   int highCrystalLimit_;
+---
+>     // energy recalibration                                                                                                  
+>     bool doEnergyRecalibration_;
+321,322c314
+<   int eventCounter_;
+<   int countPairContributors_;
+---
+>   int eventCounter_;      
+350c342
+<   /// object to monitor
+---
+>  /// object to monitor
+354c346
+<   /// object to monitor
+---
+>  /// object to monitor
+358c350
+<   /// conversions
+---
+>  /// conversions
+361c353
+<   /// mc truth
+---
+> /// mc truth
+374,402d365
+<   double goodPhiMatch_;
+<   double goodThetaMatch_;
+<   double goodAngleMatch_;
+< 
+<   // energy recalibration
+<   bool doEnergyRecalibration_;
+< 
+<   // charged track matching suppression
+<   bool suppressTrackMatchedClusters_;
+< 
+<   // generating an output tree
+<   bool makeOutputTree_;
+< 
+<   // logical controls storing for m_tree contents
+<   bool recoTrackStore_;
+<   bool clusterStore_;
+<   bool clusterRecoTrackStore_;
+<   bool crystalStore_;
+<   bool mcParticleStore_;
+<   bool simTrackStore_;
+<   bool simSlimTrackStore_;
+<   bool mergedTrackTruthStore_;
+<   bool mergedTrackTruthPhotonOnly_;
+<   bool genParticleStore_;
+<   bool photonStore_;
+<   bool mesonStore_;
+<   bool chmesonStore_;
+<   bool pairCorrTracksStore_;
+< 
+405,425c368,388
+<   //// for pi0->gg barrel 
+<   double selePtGamma_;
+<   double selePtPi0_;
+<   double seleMinvMaxPi0_;
+<   double seleMinvMinPi0_;
+<   double seleS4S9Gamma_;
+<   double selePi0BeltDR_;
+<   double selePi0BeltDeta_;
+<   double selePi0Iso_;
+<   double ptMinForIsolation_; 
+< 
+<   ///for pi0->gg endcap
+<   double selePtGammaEndCap_;
+<   double selePtPi0EndCap_;
+<   double seleMinvMaxPi0EndCap_;
+<   double seleMinvMinPi0EndCap_;
+<   double seleS4S9GammaEndCap_;
+<   double selePi0IsoEndCap_;
+<   double selePi0BeltDREndCap_;
+<   double selePi0BeltDetaEndCap_;
+<   double ptMinForIsolationEndCap_; 
+---
+>       //// for pi0->gg barrel 
+>       double selePtGamma_;
+>       double selePtPi0_;
+>       double seleMinvMaxPi0_;
+>       double seleMinvMinPi0_;
+>       double seleS4S9Gamma_;
+>       double selePi0BeltDR_;
+>       double selePi0BeltDeta_;
+>       double selePi0Iso_;
+>       double ptMinForIsolation_; 
+> 
+>       ///for pi0->gg endcap
+>       double selePtGammaEndCap_;
+>       double selePtPi0EndCap_;
+>       double seleMinvMaxPi0EndCap_;
+>       double seleMinvMinPi0EndCap_;
+>       double seleS4S9GammaEndCap_;
+>       double selePi0IsoEndCap_;
+>       double selePi0BeltDREndCap_;
+>       double selePi0BeltDetaEndCap_;
+>       double ptMinForIsolationEndCap_; 
+436,458c399,421
+<   ///for eta->gg barrel
+<   double selePtGammaEta_;
+<   double selePtEta_;
+<   double seleS4S9GammaEta_; 
+<   double seleS9S25GammaEta_; 
+<   double seleMinvMaxEta_; 
+<   double seleMinvMinEta_; 
+<   double ptMinForIsolationEta_; 
+<   double seleEtaIso_; 
+<   double seleEtaBeltDR_; 
+<   double seleEtaBeltDeta_; 
+< 
+<   ///for eta->gg endcap
+<   double selePtGammaEtaEndCap_;
+<   double seleS4S9GammaEtaEndCap_;
+<   double seleS9S25GammaEtaEndCap_;
+<   double selePtEtaEndCap_;
+<   double seleMinvMaxEtaEndCap_;
+<   double seleMinvMinEtaEndCap_;
+<   double ptMinForIsolationEtaEndCap_;
+<   double seleEtaIsoEndCap_;
+<   double seleEtaBeltDREndCap_;
+<   double seleEtaBeltDetaEndCap_;
+---
+>       ///for eta->gg barrel
+>       double selePtGammaEta_;
+>       double selePtEta_;
+>       double seleS4S9GammaEta_; 
+>       double seleS9S25GammaEta_; 
+>       double seleMinvMaxEta_; 
+>       double seleMinvMinEta_; 
+>       double ptMinForIsolationEta_; 
+>       double seleEtaIso_; 
+>       double seleEtaBeltDR_; 
+>       double seleEtaBeltDeta_; 
+> 
+>       ///for eta->gg endcap
+>       double selePtGammaEtaEndCap_;
+>       double seleS4S9GammaEtaEndCap_;
+>       double seleS9S25GammaEtaEndCap_;
+>       double selePtEtaEndCap_;
+>       double seleMinvMaxEtaEndCap_;
+>       double seleMinvMinEtaEndCap_;
+>       double ptMinForIsolationEtaEndCap_;
+>       double seleEtaIsoEndCap_;
+>       double seleEtaBeltDREndCap_;
+>       double seleEtaBeltDetaEndCap_;
+494a458
+> 
+530a495,496
+> 
+>     
+538a505,513
+>   
+>   // trigger variables
+> /*
+>   std::vector<int>* myL1Seeds_;      // trigger bits
+>   std::vector<std::string>* myL1SeedNames_; // description of the trigger bits
+>   int nSeeds_;      // total number of trigger bits 
+>   int nPhysSeeds_;  // number of physics triggers
+>   int nTechSeeds_;  // number of technical triggers
+> */
+552,555c527
+<   float           xPrimaryVertex;
+<   float           yPrimaryVertex;
+<   float           rPrimaryVertex;
+<   float           zPrimaryVertex;
+---
+> 
+561,563d532
+<   size_t genSize;
+<   size_t simTracksSize;
+< 
+567,568d535
+<   int nSimTracks;
+<   int nHighPurityTracks;
+600,601d566
+<   int hotChannelSeedsDiscarded;
+<   int hotChannelSatellitesDiscarded;
+607c572,574
+<   
+---
+>   int hotChannelSeedsDiscarded;
+>   int hotChannelSatellitesDiscarded;
+> 
+609d575
+<   Int_t kCry[NCRYMAX];
+620,621c586
+<   Int_t indexCluCry[NCRYMAX]; 
+< 
+---
+>  
+623d587
+<   Int_t kClu[NCLUMAX];
+632a597,598
+>   Float_t seedTimeClu[NCLUMAX];
+>   Float_t weightedTimeClu[NCLUMAX];
+636,690d601
+<   Int_t nGoodRecoMatches[NCLUMAX];
+<   Int_t indexBestRecoMatch[NCLUMAX];
+<   Float_t valueBestAngleMatch[NCLUMAX];
+<   Float_t momentumBestTrackMatch[NCLUMAX];
+<   Float_t dxyVertexBestTrackMatch[NCLUMAX];
+<   Float_t dzVertexBestTrackMatch[NCLUMAX];
+<   Float_t sdxyVertexBestTrackMatch[NCLUMAX];
+<   Float_t sdzVertexBestTrackMatch[NCLUMAX];
+<   Float_t dPhiBestAngleMatch[NCLUMAX];
+<   Float_t dThetaBestAngleMatch[NCLUMAX];
+<   Float_t outerRadiusTrackMatch[NCLUMAX];
+<   Float_t outerPtTrackMatch[NCLUMAX];
+< 
+<   Int_t bestNoConvertSimIndexEcal[NCLUMAX];
+<   Int_t countNoConvertSimMatchEcal[NCLUMAX];
+<   Float_t bestNoConvertSimAngleEcal[NCLUMAX];
+<   Float_t seedTimeClu[NCLUMAX];
+<   Float_t seedEnergyClu[NCLUMAX];
+<   Float_t recEnergySum[NCLUMAX];
+<   Float_t weightedTimeClu[NCLUMAX];
+<   Float_t s9WidthX[NCLUMAX];
+<   Float_t s9WidthY[NCLUMAX];
+<   Float_t s25WidthX[NCLUMAX];
+<   Float_t s25WidthY[NCLUMAX];
+< 
+<   // reconstructed tracks partial information for output to tree, used for pairs correlations
+<   Int_t nPairTracksSize;
+<   Int_t pairTrack[NMAXTRACKS];
+<   Float_t recoPairPtTrack[NMAXTRACKS];
+<   Float_t recoPairEtaTrack[NMAXTRACKS];
+<   Float_t recoPairPhiTrack[NMAXTRACKS];
+< 
+<   // reconstructed tracks complete information for output to tree
+<   Int_t nTracksSize;
+<   Int_t mTrack[NMAXTRACKS];
+<   Int_t recoPurityTrack[NMAXTRACKS];
+<   Float_t recoPhiDTrack[NMAXTRACKS];
+<   Float_t recoPtTrack[NMAXTRACKS];
+<   Float_t recoEtaTrack[NMAXTRACKS];
+<   Float_t recoThetaTrack[NMAXTRACKS];
+<   Float_t recoPhiTrack[NMAXTRACKS];
+<   Float_t recoVxTrack[NMAXTRACKS];
+<   Float_t recoVyTrack[NMAXTRACKS];
+<   Float_t recoVzTrack[NMAXTRACKS];
+<   Float_t recoDxyTrack[NMAXTRACKS];
+<   Float_t recoDzTrack[NMAXTRACKS];
+<   Float_t recoSdxyTrack[NMAXTRACKS];
+<   Float_t recoSdzTrack[NMAXTRACKS];
+<   Float_t recoOxTrack[NMAXTRACKS];
+<   Float_t recoOyTrack[NMAXTRACKS];
+<   Float_t recoOzTrack[NMAXTRACKS];
+<   Int_t recoChargeTrack[NMAXTRACKS];
+<   Int_t recoEcalTrack[NMAXTRACKS];
+<   Int_t recoNMatchTrack[NMAXTRACKS];
+<   Float_t recoOuterPtTrack[NMAXTRACKS];
+691a603,614
+>  /* Int_t nPi0;
+>   Float_t ePi0[NPI0MAX];
+>   Float_t massPi0[NPI0MAX];
+>   Float_t ptPi0[NPI0MAX];
+>   Float_t etaPi0[NPI0MAX];
+>   Float_t phiPi0[NPI0MAX];
+>   Float_t isoPi0[NPI0MAX];
+>   Int_t ietaTTPi0[NPI0MAX];
+>   Int_t iphiTTPi0[NPI0MAX];
+>   Int_t indexClu1Pi0[NPI0MAX];
+>   Int_t indexClu2Pi0[NPI0MAX];*/
+>   
+693c616
+<   static const int nMaxMC = 5000;
+---
+>   static const int nMaxMC = 350;
+699d621
+<   Int_t   kMC[nMaxMC];
+710,743c632
+<   // merged track truth
+<   static const int mergedTrackTruthMax = 10000;
+<   Int_t mergedTrackTruthSize;
+<   Int_t kMerge[mergedTrackTruthMax];
+<   Int_t numberDecayVerticesMerge[mergedTrackTruthMax];
+<   Int_t numberEarlyDecayMerge[mergedTrackTruthMax];
+<   Int_t pdgIdMerge[mergedTrackTruthMax];
+<   Int_t primaryTrackMerge[mergedTrackTruthMax];
+<   Float_t xParentVertexMerge[mergedTrackTruthMax]; 
+<   Float_t yParentVertexMerge[mergedTrackTruthMax]; 
+<   Float_t zParentVertexMerge[mergedTrackTruthMax]; 
+<   Float_t rParentVertexMerge[mergedTrackTruthMax]; 
+<   Float_t ptMerge[mergedTrackTruthMax];
+<   Float_t etaMerge[mergedTrackTruthMax];
+<   Float_t phiMerge[mergedTrackTruthMax];
+<   Float_t xDecayVertexMerge[mergedTrackTruthMax];
+<   Float_t yDecayVertexMerge[mergedTrackTruthMax];
+<   Float_t rDecayVertexMerge[mergedTrackTruthMax];
+<   Float_t zDecayVertexMerge[mergedTrackTruthMax];
+<   Float_t bestAngleMatchMerge[mergedTrackTruthMax];
+<   Float_t bestPtMatchMerge[mergedTrackTruthMax];
+<   Float_t bestEtaMatchMerge[mergedTrackTruthMax];
+<   Float_t bestPhiMatchMerge[mergedTrackTruthMax];
+<   Int_t bestPdgIdMatchMerge[mergedTrackTruthMax];
+<   Int_t bestGenIndexMatchMerge[mergedTrackTruthMax];
+<   Int_t bestEcalIndexMatch[mergedTrackTruthMax];
+<   Float_t bestEcalAngleMatch[mergedTrackTruthMax];
+<   Float_t bestEcalSeedTimeMatch[mergedTrackTruthMax];
+<   Float_t bestEcalPhiMatch[mergedTrackTruthMax];
+<   Float_t bestEcalDPhiMatch[mergedTrackTruthMax];
+<   Float_t bestEcalDEtaMatch[mergedTrackTruthMax];
+<   Float_t bestEcalPtMatch[mergedTrackTruthMax];
+< 
+<   // Sim particles (those not already in MC particles list)
+---
+>   // SIM particles (those not already in MC particles list)
+745a635,646
+>   static const int nMaxSIM = 350;
+>   Int_t nSIM;
+>   Int_t pdgIdSIM[nMaxSIM];
+>   Int_t statusSIM[nMaxSIM];
+>   //Int_t motherIDSIM[nMaxSIM]; 
+>   Int_t motherGenIndexSIM[nMaxSIM]; 
+>   Float_t ptSIM[nMaxSIM];
+>   Float_t eSIM[nMaxSIM];
+>   Float_t etaSIM[nMaxSIM];
+>   Float_t phiSIM[nMaxSIM];
+>   Float_t rSIM[nMaxSIM];
+>   Float_t zSIM[nMaxSIM];
+747,859c648
+<   static const int nMaxSim = 10000; 
+< 
+<   bool storeThisSimTrack[nMaxSim];
+<   Int_t nSim;
+<   Int_t njSim;
+<   Int_t lowestDaughterSimTrack;
+<   Int_t highestMatchedGenSimTrack;  // kSim > -1, bestAngleMatchGenSim < 0.01, rSim < 1.0, abs(zSim) < 30.0, genPartSimIndex > -1
+< 
+<   Int_t kSim[nMaxSim];
+<   Int_t noVertexSim[nMaxSim];
+<   Int_t pdgIdSim[nMaxSim];
+<   Float_t ptSim[nMaxSim];
+<   Float_t eSim[nMaxSim];
+<   Float_t etaSim[nMaxSim];
+<   Float_t phiSim[nMaxSim];
+<   Int_t trackIdSim[nMaxSim];
+<   Int_t parentIdSim[nMaxSim];          // variable originally named noParentSim with a value of either 0 or 1; change to more useful function of parent PDG ID
+<   Int_t parentTrackSim[nMaxSim];       // new variable to contain the simulation track number of the parent
+<   Int_t parentKSim[nMaxSim];           // new variable to contain the kSim index number of the parent
+<   Int_t gParentIdSim[nMaxSim];         // new variable to contain the grandparent PDG ID number
+<   Int_t gParentTrackSim[nMaxSim];      // new variable to contain the simulation track number of the grandparent
+<   Int_t gParentKSim[nMaxSim];          // new variable to contain the kSim index number of the grandparent
+<   Int_t nDaughtersSim[nMaxSim];        // number of daughter particles for the current particle
+<   Int_t kDaughtersSim[nMaxSim][3];     // index to kSim of the daughter particles of the current particle (allow for 3 daughters)
+<   Float_t rSim[nMaxSim];               // radial position of the vertex of this particle
+<   Float_t zSim[nMaxSim];               // longitudinal position of the vertex of this particle
+< 
+<   Int_t genPartIndexSim[nMaxSim];
+<   Int_t genPartPdgIdSim[nMaxSim];         // the value obtained here appears to be incorrect (disagrees with pdgIdSim for primary particles?)
+< 
+<   Float_t bestAngleMatchGenSim[nMaxSim];
+<   Float_t bestPtMatchGenSim[nMaxSim];
+<   Float_t bestEtaMatchGenSim[nMaxSim];
+<   Float_t bestPhiMatchGenSim[nMaxSim];
+< 
+<   Int_t motherGenIdSim[nMaxSim];
+<   Int_t gMotherGenIdSim[nMaxSim];
+<   Int_t motherGenIndexSim[nMaxSim]; 
+< 
+<   Int_t bestNoConvertEcalIndexSim[nMaxSim];
+<   Float_t bestNoConvertEcalAngleSim[nMaxSim];
+<   Float_t bestNoConvertEcalPtSim[nMaxSim];
+< 
+<   // generator and reconstructed photon truth
+<   static const int PHOTONMAXSIZE = 2000;
+<   Int_t nPhotonSize;
+<   Int_t kPhotonGen[PHOTONMAXSIZE];
+<   Int_t motherPdgIdPhotonGen[PHOTONMAXSIZE];
+<   Float_t ptMotherPhotonGen[PHOTONMAXSIZE];
+<   Float_t ptPhotonGen[PHOTONMAXSIZE];
+<   Float_t etaPhotonGen[PHOTONMAXSIZE];
+<   Float_t phiPhotonGen[PHOTONMAXSIZE];
+<   Int_t mergeIndexPhotonGen[PHOTONMAXSIZE];
+<   Int_t clusterIndexPhotonGen[PHOTONMAXSIZE];
+<   Int_t convertPhotonGen[PHOTONMAXSIZE];
+<   Float_t angleRecoPhotonGen[PHOTONMAXSIZE];
+<   Float_t ptRecoPhotonGen[PHOTONMAXSIZE];
+<   Float_t etaRecoPhotonGen[PHOTONMAXSIZE];
+<   Float_t phiRecoPhotonGen[PHOTONMAXSIZE];
+< 
+<   // generator charged particle truth
+<   static const int CHMESONMAXSIZE = 5000;
+<   Int_t nChMesonSize;
+<   Int_t kChMeson[CHMESONMAXSIZE];
+<   Int_t pdgIdChMeson[CHMESONMAXSIZE];
+<   Int_t statusChMeson[CHMESONMAXSIZE];
+<   Int_t genPartIndexChMeson[CHMESONMAXSIZE];
+<   Int_t motherIdChMeson[CHMESONMAXSIZE]; 
+<   Float_t ptChMeson[CHMESONMAXSIZE];
+<   Float_t etaChMeson[CHMESONMAXSIZE];
+<   Float_t phiChMeson[CHMESONMAXSIZE];
+< 
+<   // generator and reconstructed neutral meson truth
+<   static const int MESONMAXSIZE = 5000;
+<   Int_t nMesonSize;
+<   Int_t kMeson[MESONMAXSIZE];
+<   Int_t pdgIdMeson[MESONMAXSIZE];
+<   Int_t statusMeson[MESONMAXSIZE];
+<   Int_t genPartIndexMeson[MESONMAXSIZE];
+<   Int_t motherIdMeson[MESONMAXSIZE]; 
+<   Float_t ptMeson[MESONMAXSIZE];
+<   Float_t etaMeson[MESONMAXSIZE];
+<   Float_t phiMeson[MESONMAXSIZE];
+<   Int_t daughtersFromMeson[MESONMAXSIZE];
+<   Int_t pdgIdDecay1Meson[MESONMAXSIZE];
+<   Float_t ptDecay1Meson[MESONMAXSIZE];
+<   Float_t etaDecay1Meson[MESONMAXSIZE];
+<   Float_t phiDecay1Meson[MESONMAXSIZE];
+<   Int_t mergeDecay1Meson[MESONMAXSIZE];
+<   Int_t convertDecay1Meson[MESONMAXSIZE];
+<   Float_t mergeDecay1Angle[MESONMAXSIZE];
+<   Float_t mergeDecay1Time[MESONMAXSIZE];
+<   Int_t pdgIdDecay2Meson[MESONMAXSIZE];
+<   Float_t ptDecay2Meson[MESONMAXSIZE];
+<   Float_t etaDecay2Meson[MESONMAXSIZE];
+<   Float_t phiDecay2Meson[MESONMAXSIZE];
+<   Int_t mergeDecay2Meson[MESONMAXSIZE];
+<   Int_t convertDecay2Meson[MESONMAXSIZE];
+<   Float_t mergeDecay2Angle[MESONMAXSIZE];
+<   Float_t mergeDecay2Time[MESONMAXSIZE];
+<   Int_t pdgIdDecay3Meson[MESONMAXSIZE];
+<   Float_t ptDecay3Meson[MESONMAXSIZE];
+<   Float_t etaDecay3Meson[MESONMAXSIZE];
+<   Float_t phiDecay3Meson[MESONMAXSIZE];
+<   Int_t mergeDecay3Meson[MESONMAXSIZE];
+<   Int_t convertDecay3Meson[MESONMAXSIZE];
+<   Float_t mergeDecay3Angle[MESONMAXSIZE];
+<   Float_t massRecoMeson[MESONMAXSIZE];
+<   Float_t ptRecoMeson[MESONMAXSIZE];
+<   Float_t etaRecoMeson[MESONMAXSIZE];
+<   Float_t phiRecoMeson[MESONMAXSIZE];
+< 
+<   // Reconstructed photon conversions
+---
+> // Reconstructed photon conversions
+919a709
+> 
+947a738
+> 

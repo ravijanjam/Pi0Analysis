@@ -1,0 +1,13 @@
+<tool name="rootcint" version="5.32.00-cms21">
+  <info url="http://root.cern.ch/root/"/>
+  <lib name="Core"/>
+  <lib name="Cint"/>
+  <client>
+    <environment name="ROOTCINT_BASE" default="/cvmfs/cms.cern.ch/slc5_amd64_gcc462/lcg/root/5.32.00-cms21"/>
+    <environment name="INCLUDE"       default="$ROOTCINT_BASE/cint"/>
+  </client>
+  <use name="root_interface"/>
+  <use name="sockets"/>
+  <use name="pcre"/>
+  <use name="zlib"/>
+</tool>

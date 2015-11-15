@@ -1,0 +1,7 @@
+<tool name="tcmalloc" version="1.6">
+  <lib name="tcmalloc"/>
+  <client>
+    <environment name="TCMALLOC_BASE" default="/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/google-perftools/1.6"/>
+    <environment name="LIBDIR"        default="$TCMALLOC_BASE/lib"/>
+  </client>
+</tool>

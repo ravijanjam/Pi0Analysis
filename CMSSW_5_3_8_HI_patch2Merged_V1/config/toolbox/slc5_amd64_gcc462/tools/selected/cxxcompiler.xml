@@ -1,0 +1,26 @@
+  <tool name="cxxcompiler" version="4.6.2" type="compiler">
+    <client>
+      <environment name="CXXCOMPILER_BASE" default="/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2"/>
+      <environment name="GCCBINDIR" default="$CXXCOMPILER_BASE/bin"/>
+      <environment name="CXX" value="$GCCBINDIR/c++"/>
+    </client>
+    <flags SCRAM_COMPILER_NAME="gcc462"/>
+    <flags CCCOMPILER="gcc4"/>
+    <flags MODULEFLAGS="-shared -Wl,-E "/>
+    <flags CXXDEBUGFLAG="-g"/>
+    <flags CPPDEFINES="GNU_GCC"/>
+    <flags CPPDEFINES="_GNU_SOURCE"/>
+    <flags CXXSHAREDOBJECTFLAGS="-fPIC"/>
+    <flags CXXFLAGS="-O2 -pedantic -ansi -pthread -pipe -Wno-vla"/>
+    <flags CXXFLAGS="-Werror=overflow  -Wstrict-overflow -std=c++0x -msse3 -ftree-vectorize -Wno-strict-overflow -Werror=array-bounds -Werror=format-contains-nul -Werror=type-limits -fvisibility-inlines-hidden"/>
+    <flags CXXFLAGS="-felide-constructors -fmessage-length=0 -ftemplate-depth-300"/>
+    <flags CXXFLAGS="-Wall -Wno-non-template-friend -Wno-long-long -Wreturn-type -Wunused -Wparentheses -Wno-deprecated -Werror=return-type -Werror=missing-braces -Werror=unused-value -Werror=address -Werror=format -Werror=sign-compare -Werror=write-strings -fdiagnostics-show-option"/>
+    <flags LDFLAGS="-Wl,-E -Wl,--hash-style=gnu"/>
+    <flags CXXSHAREDFLAGS="-shared -Wl,-E "/>
+    <flags SHAREDSUFFIX="so"/>
+    <flags LD_UNIT=" -r -m elf_x86_64"/>
+    <flags SCRAM_LANGUAGE_TYPE="C++"/>
+    <runtime name="LD_LIBRARY_PATH" value="$CXXCOMPILER_BASE/lib64" type="path"/>
+    <runtime name="LD_LIBRARY_PATH" value="$CXXCOMPILER_BASE/lib" type="path"/>
+    <runtime name="PATH" value="$CXXCOMPILER_BASE/bin" type="path"/>
+  </tool>

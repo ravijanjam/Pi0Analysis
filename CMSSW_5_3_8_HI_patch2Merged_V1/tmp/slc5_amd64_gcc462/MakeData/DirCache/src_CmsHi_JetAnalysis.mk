@@ -1,0 +1,2 @@
+ALL_PACKAGES += $(patsubst src/%,%,src/CmsHi/JetAnalysis)
+subdirs_src_CmsHi_JetAnalysis := src_CmsHi_JetAnalysis_bin src_CmsHi_JetAnalysis_data src_CmsHi_JetAnalysis_extras src_CmsHi_JetAnalysis_interface src_CmsHi_JetAnalysis_macros src_CmsHi_JetAnalysis_modifiedFiles src_CmsHi_JetAnalysis_python src_CmsHi_JetAnalysis_scripts src_CmsHi_JetAnalysis_src src_CmsHi_JetAnalysis_test

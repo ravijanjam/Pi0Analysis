@@ -1,0 +1,3 @@
+tmp/slc6_amd64_gcc472/src/RecoHI/HiEgammaAlgos/test/RecoHIHiEgammaAlgos_testAnalyzers/patTest/PATHIPhotonTestModule.o: \
+ src/RecoHI/HiEgammaAlgos/test/patTest/PATHIPhotonTestModule.cc \
+

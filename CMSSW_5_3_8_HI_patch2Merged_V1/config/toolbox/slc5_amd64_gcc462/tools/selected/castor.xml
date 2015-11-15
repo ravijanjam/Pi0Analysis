@@ -1,0 +1,12 @@
+<tool name="castor" version="2.1.13.6">
+  <lib name="shift"/>
+  <lib name="castorrfio"/>
+  <lib name="castorclient"/>
+  <lib name="castorcommon"/>
+  <client>
+    <environment name="CASTOR_BASE" default="/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/castor/2.1.13.6"/>
+    <environment name="LIBDIR" default="$CASTOR_BASE/lib"/>
+  </client>
+  <use name="castor_header"/>
+  <use name="uuid"/>
+</tool>

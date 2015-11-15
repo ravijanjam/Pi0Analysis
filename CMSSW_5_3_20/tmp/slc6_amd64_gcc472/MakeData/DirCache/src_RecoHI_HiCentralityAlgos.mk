@@ -1,0 +1,2 @@
+ALL_PACKAGES += $(patsubst src/%,%,src/RecoHI/HiCentralityAlgos)
+subdirs_src_RecoHI_HiCentralityAlgos := src_RecoHI_HiCentralityAlgos_data src_RecoHI_HiCentralityAlgos_plugins src_RecoHI_HiCentralityAlgos_python src_RecoHI_HiCentralityAlgos_src src_RecoHI_HiCentralityAlgos_test

@@ -1,0 +1,2 @@
+01:/bin/rm -f lib/slc5_amd64_gcc462/pluginDataFormatsHeavyIonEventCapabilities.so lib/slc5_amd64_gcc462/DataFormatsHeavyIonEventCapabilities.edmplugin
+90:edmPluginRefresh lib/slc5_amd64_gcc462

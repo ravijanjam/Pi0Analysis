@@ -1,0 +1,20 @@
+f77compiler             := f77compiler
+ALL_TOOLS      += f77compiler
+f77compiler_LOC_LIB := gfortran m
+f77compiler_EX_LIB  := $(f77compiler_LOC_LIB)
+f77compiler_LOC_FLAGS_FFLAGS  := -fno-second-underscore -Wunused -Wuninitialized -O2 -cpp
+f77compiler_EX_FLAGS_FFLAGS   := $(f77compiler_LOC_FLAGS_FFLAGS)
+f77compiler_LOC_FLAGS_SCRAM_COMPILER_NAME  := gcc462
+f77compiler_EX_FLAGS_SCRAM_COMPILER_NAME   := $(f77compiler_LOC_FLAGS_SCRAM_COMPILER_NAME)
+f77compiler_LOC_FLAGS_FCSHAREDOBJECTFLAGS  := -fPIC
+f77compiler_EX_FLAGS_FCSHAREDOBJECTFLAGS   := $(f77compiler_LOC_FLAGS_FCSHAREDOBJECTFLAGS)
+f77compiler_LOC_FLAGS_FCO2FLAG  := -O2
+f77compiler_EX_FLAGS_FCO2FLAG   := $(f77compiler_LOC_FLAGS_FCO2FLAG)
+f77compiler_LOC_FLAGS_FCOPTIMISED  := -O2
+f77compiler_EX_FLAGS_FCOPTIMISED   := $(f77compiler_LOC_FLAGS_FCOPTIMISED)
+f77compiler_LOC_FLAGS_SCRAM_LANGUAGE_TYPE  := FORTRAN
+f77compiler_EX_FLAGS_SCRAM_LANGUAGE_TYPE   := $(f77compiler_LOC_FLAGS_SCRAM_LANGUAGE_TYPE)
+f77compiler_LOC_FLAGS_FCDEBUGFLAG  := -g
+f77compiler_EX_FLAGS_FCDEBUGFLAG   := $(f77compiler_LOC_FLAGS_FCDEBUGFLAG)
+f77compiler_INIT_FUNC := $$(eval $$(call ProductCommonVars,f77compiler,,,f77compiler))
+

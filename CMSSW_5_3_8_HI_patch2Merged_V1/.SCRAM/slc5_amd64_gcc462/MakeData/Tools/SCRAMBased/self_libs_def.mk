@@ -1,0 +1,13 @@
+ConfigurationSkimming_PACKAGE := self/src/Configuration/Skimming/src
+DPGAnalysisSiStripTools_PACKAGE := self/src/DPGAnalysis/SiStripTools/src
+CondToolsHcal_PACKAGE := self/src/CondTools/Hcal/src
+DPGAnalysisSkims_PACKAGE := self/src/DPGAnalysis/Skims/src
+FastSimulationMuonsPlugins_PACKAGE := self/src/FastSimulation/Muons/plugins
+corrResps_PACKAGE := self/src/CondTools/Hcal/bin
+scaleGains_PACKAGE := self/src/CondTools/Hcal/bin
+modGains_PACKAGE := self/src/CondTools/Hcal/bin
+corrGains_PACKAGE := self/src/CondTools/Hcal/bin
+HcalRawIdToReadable_PACKAGE := self/src/CondTools/Hcal/bin
+DPGAnalysisSiStripToolsPlugins_PACKAGE := self/src/DPGAnalysis/SiStripTools/plugins
+CondToolsHcalPlugin_PACKAGE := self/src/CondTools/Hcal/plugins
+FWCoreVersion_PACKAGE := self/src/FWCore/Version/src

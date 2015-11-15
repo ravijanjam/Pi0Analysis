@@ -1,0 +1,30 @@
+tmp/slc6_amd64_gcc472/src/RecoHI/HiTracking/plugins/RecoHIHiTrackingPlugins/HIBestVertexProducer.o: \
+ src/RecoHI/HiTracking/plugins/HIBestVertexProducer.cc \
+ src/RecoHI/HiTracking/interface/HIBestVertexProducer.h \
+
+tmp/slc6_amd64_gcc472/src/RecoHI/HiTracking/plugins/RecoHIHiTrackingPlugins/HIBestVertexSelector.o: \
+ src/RecoHI/HiTracking/plugins/HIBestVertexSelector.cc \
+ src/RecoHI/HiTracking/interface/BestVertexComparator.h \
+
+tmp/slc6_amd64_gcc472/src/RecoHI/HiTracking/plugins/RecoHIHiTrackingPlugins/HIPixelClusterVtxProducer.o: \
+ src/RecoHI/HiTracking/plugins/HIPixelClusterVtxProducer.cc \
+ src/RecoHI/HiTracking/plugins/HIPixelClusterVtxProducer.h \
+
+tmp/slc6_amd64_gcc472/src/RecoHI/HiTracking/plugins/RecoHIHiTrackingPlugins/HIPixelMedianVtxProducer.o: \
+ src/RecoHI/HiTracking/plugins/HIPixelMedianVtxProducer.cc \
+ src/RecoHI/HiTracking/plugins/HIPixelMedianVtxProducer.h \
+
+tmp/slc6_amd64_gcc472/src/RecoHI/HiTracking/plugins/RecoHIHiTrackingPlugins/HIProtoTrackSelector.o: \
+ src/RecoHI/HiTracking/plugins/HIProtoTrackSelector.cc \
+ src/RecoHI/HiTracking/plugins/HIProtoTrackSelector.h \
+
+tmp/slc6_amd64_gcc472/src/RecoHI/HiTracking/plugins/RecoHIHiTrackingPlugins/modules.o: \
+ src/RecoHI/HiTracking/plugins/modules.cc \
+ src/RecoHI/HiTracking/plugins/HIPixelClusterVtxProducer.h \
+ src/RecoHI/HiTracking/plugins/HIPixelMedianVtxProducer.h \
+ src/RecoHI/HiTracking/interface/HIBestVertexProducer.h \
+ src/RecoHI/HiTracking/plugins/HITrackingRegionProducer.h \
+ src/RecoHI/HiTracking/plugins/HITrackingRegionForPrimaryVtxProducer.h \
+ src/RecoHI/HiTracking/interface/HIPixelTrackFilter.h \
+ src/RecoHI/HiTracking/interface/HIProtoTrackFilter.h
+

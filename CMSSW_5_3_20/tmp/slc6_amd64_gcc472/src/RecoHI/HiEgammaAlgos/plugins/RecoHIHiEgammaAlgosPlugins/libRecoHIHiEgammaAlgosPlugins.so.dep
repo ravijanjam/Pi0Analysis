@@ -1,0 +1,20 @@
+tmp/slc6_amd64_gcc472/src/RecoHI/HiEgammaAlgos/plugins/RecoHIHiEgammaAlgosPlugins/HiEgammaIsolationProducer.o: \
+ src/RecoHI/HiEgammaAlgos/plugins/HiEgammaIsolationProducer.cc \
+ src/RecoHI/HiEgammaAlgos/interface/CxCalculator.h \
+ src/RecoHI/HiEgammaAlgos/interface/RxCalculator.h \
+ src/RecoHI/HiEgammaAlgos/interface/TxyCalculator.h \
+ src/RecoHI/HiEgammaAlgos/interface/dRxyCalculator.h
+
+tmp/slc6_amd64_gcc472/src/RecoHI/HiEgammaAlgos/plugins/RecoHIHiEgammaAlgosPlugins/HiEgammaSCCorrectionMaker.o: \
+ src/RecoHI/HiEgammaAlgos/plugins/HiEgammaSCCorrectionMaker.cc \
+ src/RecoHI/HiEgammaAlgos/plugins/HiEgammaSCCorrectionMaker.h \
+ src/RecoHI/HiEgammaAlgos/interface/HiEgammaSCEnergyCorrectionAlgo.h \
+
+tmp/slc6_amd64_gcc472/src/RecoHI/HiEgammaAlgos/plugins/RecoHIHiEgammaAlgosPlugins/HiSpikeCleaner.o: \
+ src/RecoHI/HiEgammaAlgos/plugins/HiSpikeCleaner.cc \
+
+tmp/slc6_amd64_gcc472/src/RecoHI/HiEgammaAlgos/plugins/RecoHIHiEgammaAlgosPlugins/HiSuperClusterProducer.o: \
+ src/RecoHI/HiEgammaAlgos/plugins/HiSuperClusterProducer.cc \
+ src/RecoHI/HiEgammaAlgos/plugins/HiSuperClusterProducer.h \
+ src/RecoHI/HiEgammaAlgos/interface/HiBremRecoveryClusterAlgo.h \
+

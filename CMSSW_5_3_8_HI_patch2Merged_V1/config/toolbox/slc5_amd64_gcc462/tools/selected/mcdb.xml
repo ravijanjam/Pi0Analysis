@@ -1,0 +1,9 @@
+<tool name="mcdb" version="1.0.2">
+  <lib name="mcdb"/>
+  <client>
+    <environment name="MCDB_BASE" default="/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/mcdb/1.0.2"/>
+    <environment name="LIBDIR" default="$MCDB_BASE/lib"/>
+    <environment name="INCLUDE" default="$MCDB_BASE/interface"/>
+  </client>
+  <use name="xerces-c"/>
+</tool>

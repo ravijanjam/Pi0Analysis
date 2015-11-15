@@ -1,0 +1,16 @@
+  <tool name="f77compiler" version="4.6.2" type="compiler">
+    <lib name="gfortran"/>
+    <lib name="m"/>
+    <client>
+      <environment name="F77COMPILER_BASE" default="/cvmfs/cms.cern.ch/slc5_amd64_gcc462/external/gcc/4.6.2"/>
+      <environment name="FC" default="$F77COMPILER_BASE/bin/gfortran"/>
+      
+    </client>
+    <flags SCRAM_COMPILER_NAME="gcc462"/>
+    <flags FFLAGS="-fno-second-underscore -Wunused -Wuninitialized -O2 -cpp"/>
+    <flags FCO2FLAG="-O2"/>
+    <flags FCOPTIMISED="-O2"/>
+    <flags FCDEBUGFLAG="-g"/>
+    <flags FCSHAREDOBJECTFLAGS="-fPIC"/>
+    <flags SCRAM_LANGUAGE_TYPE="FORTRAN"/>
+  </tool>
